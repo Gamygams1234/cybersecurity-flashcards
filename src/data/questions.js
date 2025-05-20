@@ -1,4 +1,3 @@
-// src/data/questions.js
 const questions = {
   "Security Principles": {
     CIA: [
@@ -122,10 +121,10 @@ const questions = {
         id: 12,
         question: "Which of the following best describes 'Utility' from the Parkerian Hexad?",
         options: [
-          "A file that’s available but encrypted without a key.",
+          "A file that\u2019s available but encrypted without a key.",
           "A backup copy of a file.",
           "A file that's shared with unauthorized users.",
-          "A file that’s stored on an external drive.",
+          "A file that\u2019s stored on an external drive.",
         ],
         answerIndex: 0,
       },
@@ -230,7 +229,7 @@ const questions = {
       },
       {
         id: 5,
-        question: "What is the core idea behind the Biba Model’s 'no write up' rule?",
+        question: "What is the core idea behind the Biba Model\u2019s 'no write up' rule?",
         options: [
           "Low integrity users should not write to high integrity data",
           "Low clearance users must write everything",
@@ -298,7 +297,6 @@ const questions = {
         answerIndex: 1,
       },
     ],
-
     "ISO/IEC 19249": [
       {
         id: 1,
@@ -380,7 +378,6 @@ const questions = {
         answerIndex: 1,
       },
     ],
-
     "Zero Trust versus Trust but Verify": [
       {
         id: 1,
@@ -797,6 +794,702 @@ const questions = {
         answerIndex: 2,
       },
     ],
+    "Privacy and Data Protection": [
+      {
+        id: 1,
+        question: "What does GDPR primarily aim to protect?",
+        options: [
+          "User login credentials",
+          "Credit card PINs",
+          "Personal data of individuals",
+          "Company financial reports",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which of the following is considered personal data under GDPR?",
+        options: [
+          "Company revenue reports",
+          "Anonymous survey results",
+          "Any data that can identify a person directly or indirectly",
+          "Encrypted backup files",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which business entities must comply with GDPR?",
+        options: [
+          "Only companies based in the EU",
+          "All businesses worldwide handling EU residents' data",
+          "Only financial institutions",
+          "Only online marketplaces",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What is the maximum fine for a Tier 1 GDPR violation?",
+        options: [
+          "\u20ac10 million or 2% of annual revenue",
+          "\u20ac15 million or 3% of annual revenue",
+          "\u20ac20 million or 4% of annual revenue",
+          "\u20ac5 million or 1% of annual revenue",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is a key requirement of PCI DSS?",
+        options: [
+          "Open-source transaction software",
+          "Limiting physical access to office spaces",
+          "Restricting and monitoring access to cardholder data",
+          "Using blockchain for payments",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Which companies created PCI DSS?",
+        options: ["Visa, Mastercard, and American Express", "Amazon and PayPal", "EU regulators", "The World Bank"],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "Which of the following practices is encouraged under PCI DSS?",
+        options: [
+          "Allowing guest checkout without verification",
+          "Using default admin credentials",
+          "Encrypting cardholder data and using firewalls",
+          "Sharing data across payment platforms",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "NIST Special Publications": [
+      {
+        id: 1,
+        question: "What is the main purpose of NIST 800-53?",
+        options: [
+          "To guide organizations in setting up cloud storage systems.",
+          "To provide security and privacy controls for protecting information systems.",
+          "To create encryption algorithms for financial data.",
+          "To assess hardware integrity in government facilities.",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which of the following is a Strategic Control under NIST 800-53?",
+        options: [
+          "Contingency Planning (CP)",
+          "Identification and Authentication (IA)",
+          "Personnel Security (PS)",
+          "Planning (PL)",
+        ],
+        answerIndex: 3,
+      },
+      {
+        id: 3,
+        question: "Which control family under NIST 800-53 includes 'System Inventory' and 'Risk Management Strategy'?",
+        options: ["Administrative Control", "Program Management", "Technical Controls", "Strategic Controls"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What is the focus of NIST 800-63B?",
+        options: [
+          "Cloud infrastructure development",
+          "Cyber incident reporting",
+          "Digital identity practices",
+          "Firewall configuration",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which of the following is considered a best practice for NIST 800-53 compliance?",
+        options: [
+          "Ignore user feedback during audits.",
+          "Focus only on password updates.",
+          "Create a governance structure and allocate duties.",
+          "Manually process all sensitive data.",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Which is an example of a Physical Control in the NIST 800-53 family?",
+        options: [
+          "System and Communications Protection (SC)",
+          "Access Control (AC)",
+          "Personnel Security (PS)",
+          "Program Management (PM)",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What does the 'Manage' step in the NIST 800-53 compliance best practices emphasize?",
+        options: [
+          "Implementing multi-factor authentication",
+          "Handling user requests",
+          "Controlling implementation and maintenance procedures",
+          "Encrypting stored data",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following is NOT a subcontrol of Program Management?",
+        options: [
+          "Measures of performance",
+          "Automated threat sharing",
+          "Data governance body",
+          "Antivirus software configuration",
+        ],
+        answerIndex: 3,
+      },
+    ],
+    "Information Security Management and Compliance": [
+      {
+        id: 1,
+        question: "What is the primary purpose of ISO/IEC 27001?",
+        options: [
+          "To monitor firewall logs only",
+          "To plan, develop, run, and update an information security management system (ISMS)",
+          "To assess GDPR compliance",
+          "To certify software licenses",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which of the following is NOT a core component of ISO 27001?",
+        options: ["Scope definition", "Internal audit", "Security patching tools", "Statement of Applicability (SoA)"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What is the main purpose of SOC 2 audits?",
+        options: [
+          "To improve sales performance",
+          "To ensure third-party service providers store and process data securely",
+          "To optimize cloud pricing",
+          "To automate patching processes",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which of the following is NOT one of the SOC 2 trust principles?",
+        options: ["Availability", "Security", "Scalability", "Confidentiality"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "During a SOC 2 audit, which step comes immediately after choosing a suitable auditor?",
+        options: ["Plan the audit", "Receive the audit report", "Prepare for the audit", "Determine the scope"],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question: "Which component of ISO 27001 involves evaluating the effectiveness of ISMS regularly?",
+        options: ["Management review", "Risk treatment", "Policy enforcement", "Encryption planning"],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "What does the Statement of Applicability (SoA) specify in ISO 27001?",
+        options: [
+          "The audit timeline and budget",
+          "Which controls are applicable from the standard",
+          "Third-party compliance checklists",
+          "The user\u2019s data storage quota",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which benefit is commonly associated with ISO 27001 implementation?",
+        options: [
+          "Increased power consumption",
+          "Competitive edge due to recognized standard",
+          "Delayed customer feedback",
+          "Shorter work hours",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "What is the purpose of conducting a risk assessment in ISO 27001?",
+        options: [
+          "To track staff performance",
+          "To identify and evaluate risks to confidentiality, integrity, and availability",
+          "To design company branding",
+          "To verify financial statements",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "Which control area does SOC 2 focus on for protecting personal information?",
+        options: ["Marketing effectiveness", "Privacy", "Graphics rendering", "Data formatting"],
+        answerIndex: 1,
+      },
+      {
+        id: 11,
+        question: "Why is regular monitoring important in SOC 2?",
+        options: [
+          "To entertain clients",
+          "To measure workplace satisfaction",
+          "To safeguard systems and data",
+          "To build new products",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 12,
+        question: "What is the final step in a SOC 2 audit process?",
+        options: ["Prepare for the audit", "Receive the audit report", "Plan the audit", "Determine the scope"],
+        answerIndex: 1,
+      },
+    ],
+  },
+  "Cyber Kill Chain": {
+    Reconnaissance: [
+      {
+        id: 1,
+        question: "What does the reconnaissance phase focus on?",
+        options: [
+          "Developing malware",
+          "Delivering a payload",
+          "Gathering information on the target",
+          "Establishing command and control",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which tool is commonly used for email harvesting?",
+        options: ["Metasploit", "theHarvester", "Nmap", "Shodan"],
+        answerIndex: 1,
+      },
+    ],
+    Weaponization: [
+      {
+        id: 1,
+        question: "What is typically combined during the weaponization phase?",
+        options: ["Exploit and payload", "Email and browser", "Firewall and antivirus", "Scanner and sniffer"],
+        answerIndex: 0,
+      },
+      {
+        id: 2,
+        question: "Which type of software is used to damage or gain unauthorized access?",
+        options: ["Patch", "Malware", "Firewall", "Proxy"],
+        answerIndex: 1,
+      },
+    ],
+    Delivery: [
+      {
+        id: 1,
+        question: "Which method is used in the delivery phase to transmit the malware?",
+        options: ["DNS sinkhole", "Zero trust policy", "Phishing email", "Access control list"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What type of attack tricks users into visiting a compromised site?",
+        options: ["Drive-by download", "Social engineering", "SQL Injection", "Watering hole"],
+        answerIndex: 3,
+      },
+    ],
+    Exploitation: [
+      {
+        id: 1,
+        question: "What happens during the exploitation phase?",
+        options: [
+          "User training is conducted",
+          "The malware is deleted",
+          "A vulnerability is used to gain access",
+          "Data is encrypted for backup",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which term describes an unknown vulnerability with no patch?",
+        options: ["Exploit kit", "Backdoor", "Zero-day exploit", "Lateral movement"],
+        answerIndex: 2,
+      },
+    ],
+    Installation: [
+      {
+        id: 1,
+        question: "What does an attacker install during the installation phase?",
+        options: ["Firewall rules", "Security updates", "Persistent backdoor", "Certificate authority"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What is the purpose of timestomping?",
+        options: [
+          "To update software",
+          "To detect intrusions",
+          "To modify file timestamps to avoid detection",
+          "To increase performance",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Command & Control": [
+      {
+        id: 1,
+        question: "What does C2 stand for in the cyber kill chain?",
+        options: ["Click and Control", "Connect and Copy", "Command and Control", "Collect and Communicate"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which protocol is commonly used for C2 traffic?",
+        options: ["SMTP", "FTP", "HTTP/HTTPS", "NTP"],
+        answerIndex: 2,
+      },
+    ],
+    "Actions on Objectives (Exfiltration)": [
+      {
+        id: 1,
+        question: "What is a typical goal in the final stage of the cyber kill chain?",
+        options: ["Run backups", "Reboot systems", "Exfiltrate data", "Update software"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which of the following is an attacker action in the last phase?",
+        options: ["Privilege escalation", "System audit", "Running diagnostics", "Installing updates"],
+        answerIndex: 0,
+      },
+    ],
+  },
+  "Common Attacts": {
+   "Social Engineering": [
+  {
+    id: 1,
+    question: "What is the primary focus of social engineering attacks?",
+    options: [
+      "Exploiting hardware vulnerabilities",
+      "Exploiting human behavior",
+      "Targeting software updates",
+      "Attacking Wi-Fi networks"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 2,
+    question: "Which of the following is NOT a typical method used in social engineering?",
+    options: [
+      "Brute-force password cracking",
+      "Phishing emails",
+      "USB drop attacks",
+      "Pretexting over the phone"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 3,
+    question: "What makes social engineering attacks especially dangerous?",
+    options: [
+      "They only affect outdated systems",
+      "They are easily detected",
+      "They can escalate through multiple stages",
+      "They rely on expensive tools"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 4,
+    question: "What tactic is commonly used in USB drop attacks?",
+    options: [
+      "Installing antivirus software",
+      "Sending suspicious emails",
+      "Leaving malicious USB devices in public",
+      "Changing browser settings"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 5,
+    question: "Why is it often difficult to recognize a social engineering attack?",
+    options: [
+      "They are always delivered via email",
+      "They involve advanced AI algorithms",
+      "They mimic trusted sources and appear legitimate",
+      "They only affect mobile devices"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 6,
+    question: "What is one key way to protect against social engineering?",
+    options: [
+      "Disable your antivirus software",
+      "Use a shared password manager",
+      "Avoid using email for communication",
+      "Enable multi-factor authentication and stay cautious"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 7,
+    question: "What should you be suspicious of in a phone call from a company representative?",
+    options: [
+      "A polite tone",
+      "Request for feedback",
+      "Request for your security answers or login info",
+      "Mention of your last purchase"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 8,
+    question: "Which of the following best describes the ‘snowball effect’ in social engineering?",
+    options: [
+      "Sending phishing emails in waves",
+      "Exploiting vulnerabilities in system updates",
+      "Gaining small bits of information to gain larger access",
+      "Only targeting financial institutions"
+    ],
+    answerIndex: 2
+  }
+],
+
+  "Social Engineering (Phishing)": [
+  {
+    "id": 1,
+    "question": "What is the primary goal of phishing?",
+    "options": [
+      "To entertain users",
+      "To provide software updates",
+      "To trick individuals into revealing personal or sensitive information",
+      "To advertise antivirus software"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "What makes spearphishing more dangerous than generic phishing?",
+    "options": [
+      "It targets everyone on social media",
+      "It uses humor to lure victims",
+      "It is highly targeted to a specific individual or organization",
+      "It is limited to email only"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is an example of whaling?",
+    "options": [
+      "Targeting HR interns for credentials",
+      "Sending malware to technical support",
+      "Impersonating the CEO to extract financial data",
+      "Sending coupons through email blasts"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "What is a common sign of a phishing email?",
+    "options": [
+      "Sent from a verified address",
+      "Contains poor grammar and urgent language",
+      "Attached images only",
+      "It’s addressed to a close friend"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Which delivery method is used in smishing?",
+    "options": [
+      "Phone call",
+      "Social media ad",
+      "Text message",
+      "Email"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "What is vishing?",
+    "options": [
+      "Using malware in attachments",
+      "Voice phishing done via phone calls",
+      "Phishing using visual cues on websites",
+      "Using virtual machines to phish users"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "What should you do if you receive a suspicious email asking for your login?",
+    "options": [
+      "Reply and ask for verification",
+      "Click the link to see where it goes",
+      "Ignore it and report to IT/security",
+      "Forward it to a friend"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Why are phishing attacks still so effective today?",
+    "options": [
+      "They are untraceable",
+      "They exploit human emotions like fear and urgency",
+      "They require no internet connection",
+      "They always target outdated systems"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a common phishing tactic?",
+    "options": [
+      "Using VPN tunneling",
+      "Pretending to be a trusted contact",
+      "Implementing security updates",
+      "Scanning systems for open ports"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "What is a landing page in a phishing attack?",
+    "options": [
+      "A government report",
+      "A cloned site used to steal credentials",
+      "A browser error page",
+      "A VPN login portal"
+    ],
+    "answerIndex": 1
+  }
+],
+"Malware and Ransomware": [
+  {
+    "id": 1,
+    "question": "What is malware?",
+    "options": [
+      "A legitimate software update",
+      "A malicious software intended to harm or exploit systems",
+      "A tool for system optimization",
+      "A secure communication protocol"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "What is the main goal of ransomware?",
+    "options": [
+      "To secure private user data",
+      "To boost system performance",
+      "To encrypt user data and demand a ransom for access",
+      "To track marketing campaigns"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT a form of malware?",
+    "options": [
+      "Virus",
+      "Trojan horse",
+      "Firewall",
+      "Worm"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "What type of malware disguises itself as legitimate software?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Trojan horse",
+      "Rootkit"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "How is ransomware typically delivered?",
+    "options": [
+      "Through software updates",
+      "Via phishing emails or malicious attachments",
+      "From antivirus software",
+      "Via a secured Wi-Fi network"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "What action does spyware perform on an infected system?",
+    "options": [
+      "Prevents booting",
+      "Encrypts files",
+      "Monitors and records user activity",
+      "Speeds up processing"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "What is a worm capable of doing without user interaction?",
+    "options": [
+      "Creating backups",
+      "Self-replicating and spreading across networks",
+      "Decrypting files",
+      "Blocking browser content"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Which best describes a rootkit?",
+    "options": [
+      "A firewall rule set",
+      "A virus removal tool",
+      "A hidden program granting persistent admin-level access",
+      "A password reset application"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "What should you do if your device is infected with ransomware?",
+    "options": [
+      "Pay the ransom immediately",
+      "Shut down the system to stop the attack",
+      "Disconnect from the network and contact IT/security",
+      "Try guessing the decryption key"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "What is one common characteristic of ransomware notes?",
+    "options": [
+      "They offer free antivirus tools",
+      "They include detailed information about the company",
+      "They demand payment in cryptocurrency",
+      "They are always written in legal jargon"
+    ],
+    "answerIndex": 2
+  }
+]
+
   },
 };
 

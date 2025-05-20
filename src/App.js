@@ -56,7 +56,7 @@ function App() {
   }
 
   if (!subtopic) {
-    return <SubtopicSelector subtopics={Object.keys(questions[topic])} setSubtopic={setSubtopic} />;
+    return <SubtopicSelector subtopics={Object.keys(questions[topic])} setSubtopic={setSubtopic} restart={restart} />;
   }
 
   if (showSummary) {
@@ -72,7 +72,7 @@ function App() {
   }
 
   return (
-    <QuizCard question={currentQuestion} onAnswer={handleAnswer} />
+    <QuizCard question={currentQuestion} onAnswer={handleAnswer} restart={restart} />
   );
 }
 

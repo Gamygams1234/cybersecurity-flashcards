@@ -1,7 +1,7 @@
 // components/SubtopicSelector.js
-import React from 'react';
+import React from "react";
 
-function SubtopicSelector({ subtopics, setSubtopic }) {
+function SubtopicSelector({ subtopics, setSubtopic, restart }) {
   return (
     <div className="selector">
       <h2>Select a Subtopic</h2>
@@ -10,6 +10,10 @@ function SubtopicSelector({ subtopics, setSubtopic }) {
           {sub}
         </button>
       ))}
+
+      <button class="back-button" onClick={restart}>
+        Back To Home
+      </button>
     </div>
   );
 }

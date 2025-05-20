@@ -9,7 +9,7 @@ function normalize(str) {
   return str.trim().toLowerCase();
 }
 
-function QuizCard({ question, onAnswer }) {
+function QuizCard({ question, onAnswer ,restart}) {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [shuffledOptions, setShuffledOptions] = useState([]);
@@ -66,6 +66,7 @@ function QuizCard({ question, onAnswer }) {
       ) : (
         <button onClick={handleNext}>Next</button>
       )}
+            <button class="back-button" onClick={restart}>Back To Home</button>
     </div>
   );
 }
