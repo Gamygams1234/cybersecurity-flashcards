@@ -1174,322 +1174,934 @@ const questions = {
     ],
   },
   "Common Attacts": {
-   "Social Engineering": [
-  {
-    id: 1,
-    question: "What is the primary focus of social engineering attacks?",
-    options: [
-      "Exploiting hardware vulnerabilities",
-      "Exploiting human behavior",
-      "Targeting software updates",
-      "Attacking Wi-Fi networks"
+    "Social Engineering": [
+      {
+        id: 1,
+        question: "What is the primary focus of social engineering attacks?",
+        options: [
+          "Exploiting hardware vulnerabilities",
+          "Exploiting human behavior",
+          "Targeting software updates",
+          "Attacking Wi-Fi networks",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which of the following is NOT a typical method used in social engineering?",
+        options: ["Brute-force password cracking", "Phishing emails", "USB drop attacks", "Pretexting over the phone"],
+        answerIndex: 0,
+      },
+      {
+        id: 3,
+        question: "What makes social engineering attacks especially dangerous?",
+        options: [
+          "They only affect outdated systems",
+          "They are easily detected",
+          "They can escalate through multiple stages",
+          "They rely on expensive tools",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What tactic is commonly used in USB drop attacks?",
+        options: [
+          "Installing antivirus software",
+          "Sending suspicious emails",
+          "Leaving malicious USB devices in public",
+          "Changing browser settings",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Why is it often difficult to recognize a social engineering attack?",
+        options: [
+          "They are always delivered via email",
+          "They involve advanced AI algorithms",
+          "They mimic trusted sources and appear legitimate",
+          "They only affect mobile devices",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is one key way to protect against social engineering?",
+        options: [
+          "Disable your antivirus software",
+          "Use a shared password manager",
+          "Avoid using email for communication",
+          "Enable multi-factor authentication and stay cautious",
+        ],
+        answerIndex: 3,
+      },
+      {
+        id: 7,
+        question: "What should you be suspicious of in a phone call from a company representative?",
+        options: [
+          "A polite tone",
+          "Request for feedback",
+          "Request for your security answers or login info",
+          "Mention of your last purchase",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following best describes the ‘snowball effect’ in social engineering?",
+        options: [
+          "Sending phishing emails in waves",
+          "Exploiting vulnerabilities in system updates",
+          "Gaining small bits of information to gain larger access",
+          "Only targeting financial institutions",
+        ],
+        answerIndex: 2,
+      },
     ],
-    answerIndex: 1
-  },
-  {
-    id: 2,
-    question: "Which of the following is NOT a typical method used in social engineering?",
-    options: [
-      "Brute-force password cracking",
-      "Phishing emails",
-      "USB drop attacks",
-      "Pretexting over the phone"
-    ],
-    answerIndex: 0
-  },
-  {
-    id: 3,
-    question: "What makes social engineering attacks especially dangerous?",
-    options: [
-      "They only affect outdated systems",
-      "They are easily detected",
-      "They can escalate through multiple stages",
-      "They rely on expensive tools"
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 4,
-    question: "What tactic is commonly used in USB drop attacks?",
-    options: [
-      "Installing antivirus software",
-      "Sending suspicious emails",
-      "Leaving malicious USB devices in public",
-      "Changing browser settings"
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 5,
-    question: "Why is it often difficult to recognize a social engineering attack?",
-    options: [
-      "They are always delivered via email",
-      "They involve advanced AI algorithms",
-      "They mimic trusted sources and appear legitimate",
-      "They only affect mobile devices"
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 6,
-    question: "What is one key way to protect against social engineering?",
-    options: [
-      "Disable your antivirus software",
-      "Use a shared password manager",
-      "Avoid using email for communication",
-      "Enable multi-factor authentication and stay cautious"
-    ],
-    answerIndex: 3
-  },
-  {
-    id: 7,
-    question: "What should you be suspicious of in a phone call from a company representative?",
-    options: [
-      "A polite tone",
-      "Request for feedback",
-      "Request for your security answers or login info",
-      "Mention of your last purchase"
-    ],
-    answerIndex: 2
-  },
-  {
-    id: 8,
-    question: "Which of the following best describes the ‘snowball effect’ in social engineering?",
-    options: [
-      "Sending phishing emails in waves",
-      "Exploiting vulnerabilities in system updates",
-      "Gaining small bits of information to gain larger access",
-      "Only targeting financial institutions"
-    ],
-    answerIndex: 2
-  }
-],
 
-  "Social Engineering (Phishing)": [
-  {
-    "id": 1,
-    "question": "What is the primary goal of phishing?",
-    "options": [
-      "To entertain users",
-      "To provide software updates",
-      "To trick individuals into revealing personal or sensitive information",
-      "To advertise antivirus software"
+    "Social Engineering (Phishing)": [
+      {
+        id: 1,
+        question: "What is the primary goal of phishing?",
+        options: [
+          "To entertain users",
+          "To provide software updates",
+          "To trick individuals into revealing personal or sensitive information",
+          "To advertise antivirus software",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What makes spearphishing more dangerous than generic phishing?",
+        options: [
+          "It targets everyone on social media",
+          "It uses humor to lure victims",
+          "It is highly targeted to a specific individual or organization",
+          "It is limited to email only",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which of the following is an example of whaling?",
+        options: [
+          "Targeting HR interns for credentials",
+          "Sending malware to technical support",
+          "Impersonating the CEO to extract financial data",
+          "Sending coupons through email blasts",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What is a common sign of a phishing email?",
+        options: [
+          "Sent from a verified address",
+          "Contains poor grammar and urgent language",
+          "Attached images only",
+          "It’s addressed to a close friend",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "Which delivery method is used in smishing?",
+        options: ["Phone call", "Social media ad", "Text message", "Email"],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is vishing?",
+        options: [
+          "Using malware in attachments",
+          "Voice phishing done via phone calls",
+          "Phishing using visual cues on websites",
+          "Using virtual machines to phish users",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "What should you do if you receive a suspicious email asking for your login?",
+        options: [
+          "Reply and ask for verification",
+          "Click the link to see where it goes",
+          "Ignore it and report to IT/security",
+          "Forward it to a friend",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Why are phishing attacks still so effective today?",
+        options: [
+          "They are untraceable",
+          "They exploit human emotions like fear and urgency",
+          "They require no internet connection",
+          "They always target outdated systems",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "Which of the following is a common phishing tactic?",
+        options: [
+          "Using VPN tunneling",
+          "Pretending to be a trusted contact",
+          "Implementing security updates",
+          "Scanning systems for open ports",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What is a landing page in a phishing attack?",
+        options: [
+          "A government report",
+          "A cloned site used to steal credentials",
+          "A browser error page",
+          "A VPN login portal",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
+    "Malware and Ransomware": [
+      {
+        id: 1,
+        question: "What is malware?",
+        options: [
+          "A legitimate software update",
+          "A malicious software intended to harm or exploit systems",
+          "A tool for system optimization",
+          "A secure communication protocol",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What is the main goal of ransomware?",
+        options: [
+          "To secure private user data",
+          "To boost system performance",
+          "To encrypt user data and demand a ransom for access",
+          "To track marketing campaigns",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which of the following is NOT a form of malware?",
+        options: ["Virus", "Trojan horse", "Firewall", "Worm"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What type of malware disguises itself as legitimate software?",
+        options: ["Spyware", "Worm", "Trojan horse", "Rootkit"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "How is ransomware typically delivered?",
+        options: [
+          "Through software updates",
+          "Via phishing emails or malicious attachments",
+          "From antivirus software",
+          "Via a secured Wi-Fi network",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "What action does spyware perform on an infected system?",
+        options: ["Prevents booting", "Encrypts files", "Monitors and records user activity", "Speeds up processing"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is a worm capable of doing without user interaction?",
+        options: [
+          "Creating backups",
+          "Self-replicating and spreading across networks",
+          "Decrypting files",
+          "Blocking browser content",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which best describes a rootkit?",
+        options: [
+          "A firewall rule set",
+          "A virus removal tool",
+          "A hidden program granting persistent admin-level access",
+          "A password reset application",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What should you do if your device is infected with ransomware?",
+        options: [
+          "Pay the ransom immediately",
+          "Shut down the system to stop the attack",
+          "Disconnect from the network and contact IT/security",
+          "Try guessing the decryption key",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What is one common characteristic of ransomware notes?",
+        options: [
+          "They offer free antivirus tools",
+          "They include detailed information about the company",
+          "They demand payment in cryptocurrency",
+          "They are always written in legal jargon",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Passwords and Authentication": [
+      {
+        id: 1,
+        question: "Why is using the same password across multiple accounts dangerous?",
+        options: [
+          "It makes it easier to remember",
+          "It helps password managers function better",
+          "If one gets exposed, all accounts are vulnerable",
+          "It improves login speed",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What is currently considered most important in a strong password?",
+        options: [
+          "The number of symbols used",
+          "Password length",
+          "Use of capital letters",
+          "Including a personal date",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "What is a characteristic of a weak password?",
+        options: [
+          "Completely random characters",
+          "A long passphrase",
+          "Name and year combination",
+          "A quote from a book",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Which of the following best describes credential stuffing?",
+        options: [
+          "Sending phishing emails to users",
+          "Guessing passwords using AI",
+          "Using leaked username and password pairs on multiple sites",
+          "Tricking users into reusing passwords",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What tool allows users to check if their email appeared in a data breach?",
+        options: ["Shodan", "Hashcat", "Have I Been Pwned?", "LastPass"],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Why are random, long passwords preferred?",
+        options: [
+          "They’re easier to type",
+          "They cannot be guessed using social engineering",
+          "They’re easier to memorize",
+          "They require fewer updates",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "What is a hybrid password attack?",
+        options: [
+          "An attack using only dictionary words",
+          "An attack combining dictionary words with mutations",
+          "A brute-force attack using only lowercase letters",
+          "An attack based on email headers",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What is the danger of storing a password visibly on a whiteboard?",
+        options: [
+          "It might get erased",
+          "It’s hard to read from a distance",
+          "It can be seen via cameras or visitors",
+          "It can be copied incorrectly",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "Which of the following is true about exposed passwords?",
+        options: [
+          "They are encrypted and always secure",
+          "They can be leaked and used in credential stuffing attacks",
+          "They are stored in a user’s local system only",
+          "They are irrelevant if changed monthly",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What does a password manager help you do?",
+        options: [
+          "Guess other people's passwords",
+          "Store passwords securely and generate strong ones",
+          "Monitor server logs",
+          "Reset passwords automatically every hour",
+        ],
+        answerIndex: 1,
+      },
+    ],
+    "Multi-Factor Authentication and Password Managers": [
+      {
+        id: 1,
+        question: "What does Multi-Factor Authentication (MFA) require?",
+        options: [
+          "Only a strong password",
+          "Biometric verification only",
+          "More than one type of authentication factor",
+          "Changing passwords monthly",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What is TOTP in the context of MFA?",
+        options: [
+          "Temporary Online Token Policy",
+          "Time-based One Time Password",
+          "Trusted Offline Token Protocol",
+          "Two-factor Offline Token Password",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why is SMS-based TOTP considered less secure?",
+        options: [
+          "Because SMS cannot be read on most devices",
+          "Because attackers can intercept text messages",
+          "Because it requires Wi-Fi",
+          "Because it is encrypted end-to-end",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What advantage do authenticator apps like Authy or Google Authenticator offer?",
+        options: [
+          "They rely on SMS for easier access",
+          "They generate TOTP codes without internet access",
+          "They require no setup",
+          "They use facial recognition only",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What is a master password used for in password managers?",
+        options: [
+          "To reset all saved passwords",
+          "To access the encrypted vault of saved passwords",
+          "To login to websites automatically",
+          "To track biometric data",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "Which of the following is NOT a feature commonly offered by password managers?",
+        options: [
+          "Secure password generation",
+          "Auto-filling login fields",
+          "Phishing detection",
+          "Storing other types of data like files",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is a key benefit of using a password manager?",
+        options: [
+          "You can reuse the same password safely",
+          "It allows you to bypass login pages",
+          "You only need to remember one strong master password",
+          "It replaces the need for two-factor authentication",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following is a recommended best practice when using password managers?",
+        options: [
+          "Use the same password manager account across multiple people",
+          "Write your master password down near your computer",
+          "Choose a strong master password or use biometric login",
+          "Avoid storing passwords for financial accounts",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What is a potential downside of password managers?",
+        options: [
+          "They make passwords too complex",
+          "All security depends on the strength of the master password",
+          "They slow down your browser",
+          "They can’t be accessed from mobile devices",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "Which of the following is an example of a password manager?",
+        options: ["Google Drive", "Bitwarden", "Spotify", "Cloudflare"],
+        answerIndex: 1,
+      },
+    ],
+    Backups: [
+      {
+        id: 1,
+        question: "Why are backups considered one of the most important defensive measures?",
+        options: [
+          "They prevent hacking attempts entirely",
+          "They help automate login processes",
+          "They ensure data can be recovered even after severe damage",
+          "They eliminate the need for passwords",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What does the '3' in the 3,2,1 backup rule refer to?",
+        options: [
+          "Keep three backups on separate cloud services",
+          "Store backups for at least three weeks",
+          "Have three up-to-date copies of your data",
+          "Back up your data every three days",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What does the '2' in the 3,2,1 backup rule refer to?",
+        options: [
+          "Use two encryption tools for backup data",
+          "Back up to two external hard drives",
+          "Store data on at least two different types of storage media",
+          "Create two accounts for backup storage",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What does the '1' in the 3,2,1 backup rule refer to?",
+        options: [
+          "Keep one backup stored off-site",
+          "Only keep one backup version at a time",
+          "Make one backup per week",
+          "Keep one password for all backup files",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question: "Which of the following is an example of an off-site backup?",
+        options: [
+          "A USB drive plugged into your laptop",
+          "A folder on your desktop",
+          "A document saved on Google Drive",
+          "A backup on your external monitor",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Why is backup frequency important?",
+        options: [
+          "Frequent backups make your system faster",
+          "Backups must match the rate of data changes to stay useful",
+          "It’s a legal requirement to back up daily",
+          "Old backups automatically delete themselves",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "How might a home user’s backup routine differ from a large corporation’s?",
+        options: [
+          "They don’t need to back up at all",
+          "They may back up only once a month",
+          "They may back up once or twice a week instead of multiple times a day",
+          "They only use USB drives for backup",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following would violate the 3,2,1 rule?",
+        options: [
+          "Keeping one backup on an external hard drive and another on the cloud",
+          "Saving three backups on the same USB stick",
+          "Using both a USB and a cloud service for backup",
+          "Keeping one original copy and two backups on different media",
+        ],
+        answerIndex: 1,
+      },
+    ],
+    "Updates and Patches": [
+      {
+        id: 1,
+        question: "What is the primary reason for applying software updates?",
+        options: [
+          "To redesign the user interface",
+          "To increase RAM usage",
+          "To fix vulnerabilities and patch security issues",
+          "To uninstall unused features",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What is the term used to describe a software update that addresses security flaws?",
+        options: ["Extension", "Patch", "Plugin", "Addon"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why are operating system updates particularly important?",
+        options: [
+          "They allow you to install more games",
+          "They protect against critical vulnerabilities",
+          "They make your screen brighter",
+          "They are only needed for new computers",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What does EOL (End Of Life) mean in the context of software?",
+        options: [
+          "The software becomes open-source",
+          "The software stops receiving support and updates",
+          "The software runs faster",
+          "The software becomes free to use",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What should you do if a piece of software has reached EOL but cannot be replaced?",
+        options: [
+          "Use it more frequently",
+          "Run it without antivirus",
+          "Segregate it from the rest of the network",
+          "Install extra RAM",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is the purpose of antivirus signature updates?",
+        options: [
+          "To increase performance",
+          "To identify new malware threats",
+          "To access cloud backups",
+          "To remove browser history",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "What happens if antivirus software is not updated regularly?",
+        options: [
+          "It will improve performance",
+          "It may fail to detect newly discovered malware",
+          "It will remove all existing threats",
+          "It will be able to block all traffic",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Why is it important to allow antivirus software to update itself?",
+        options: [
+          "It increases system startup time",
+          "It enables screen recording",
+          "It ensures protection against the latest known malware",
+          "It boosts internet speed",
+        ],
+        answerIndex: 2,
+      },
+    ],
   },
-  {
-    "id": 2,
-    "question": "What makes spearphishing more dangerous than generic phishing?",
-    "options": [
-      "It targets everyone on social media",
-      "It uses humor to lure victims",
-      "It is highly targeted to a specific individual or organization",
-      "It is limited to email only"
+  "What is Networking?": {
+    "What is Networking?": [
+      {
+        id: 1,
+        question: "What is the core idea behind networking?",
+        options: [
+          "Using the internet to browse websites",
+          "Connecting devices to power sources",
+          "Connecting things together to access and share resources",
+          "Communicating only through email",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which of the following is NOT an example of a network in daily life?",
+        options: [
+          "A city's public transportation system",
+          "A national power grid",
+          "A microwave oven",
+          "Postal systems for mail delivery",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What is a computing network made up of?",
+        options: [
+          "Only smartphones",
+          "Billions of isolated applications",
+          "Connected technological devices like laptops, phones, and cameras",
+          "Data stored on USB drives",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Why is networking important in cybersecurity?",
+        options: [
+          "Because computers only function in a network",
+          "Because it's needed for coding websites",
+          "Because many cybersecurity threats exploit networks",
+          "Because it helps design operating systems",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "In the example diagram, what have Alice, Bob, and Jim done?",
+        options: [
+          "Created strong passwords",
+          "Formed a computing network",
+          "Developed an operating system",
+          "Designed a user interface",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "Which of the following is an example of whaling?",
-    "options": [
-      "Targeting HR interns for credentials",
-      "Sending malware to technical support",
-      "Impersonating the CEO to extract financial data",
-      "Sending coupons through email blasts"
+    "What is the Internet?": [
+      {
+        id: 1,
+        question: "What is the Internet primarily composed of?",
+        options: [
+          "A single massive computer",
+          "A giant cable connecting all users",
+          "Many small networks connected together",
+          "A central government database",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "In the example with Alice, Zayn, and Toby, why did Alice act as a messenger?",
+        options: [
+          "She was the fastest typer",
+          "She had the most storage",
+          "She was the only one who spoke both languages",
+          "She was closest to the Wi-Fi router",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What is a public network in the context of the Internet?",
+        options: [
+          "A network only accessible to local devices",
+          "A network isolated from the Internet",
+          "A network used by one person only",
+          "A network that connects private networks to form the Internet",
+        ],
+        answerIndex: 3,
+      },
+      {
+        id: 4,
+        question: "When was the Internet (as we know it) invented?",
+        options: ["1960", "1975", "1989", "2001"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Who created the World Wide Web?",
+        options: ["Bill Gates", "Tim Berners-Lee", "Steve Jobs", "Alan Turing"],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "What did the ARPANET project contribute to?",
+        options: [
+          "The invention of mobile phones",
+          "The first documented computer network",
+          "The first video game network",
+          "The Bluetooth standard",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "What is a common sign of a phishing email?",
-    "options": [
-      "Sent from a verified address",
-      "Contains poor grammar and urgent language",
-      "Attached images only",
-      "It’s addressed to a close friend"
+    "Identifying Devices on a Network": [
+      {
+        id: 1,
+        question: "What are the two main identifiers for devices on a network?",
+        options: [
+          "Username and password",
+          "IP address and MAC address",
+          "Hostname and fingerprint",
+          "Email and password",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What does an IP address help identify?",
+        options: [
+          "The device's MAC address",
+          "The device's model and make",
+          "A device on a network for a period of time",
+          "The physical location of a device",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What makes up an IP address?",
+        options: [
+          "Sixteen digits in hexadecimal format",
+          "Four octets of numbers ranging from 0–255",
+          "Binary numbers only",
+          "Two hexadecimal pairs",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What is the difference between a public and private IP address?",
+        options: [
+          "Public IP addresses are used in offices; private ones at home",
+          "Private IPs identify devices on the internet; public IPs identify devices within a local network",
+          "Public IPs identify devices on the internet; private IPs identify devices within a local network",
+          "There is no difference",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which of the following statements about MAC addresses is true?",
+        options: [
+          "They can be changed easily by anyone",
+          "They are temporary device identifiers",
+          "They are unique hardware addresses set at the factory",
+          "They are longer than IPv6 addresses",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Why might a MAC address be spoofed?",
+        options: [
+          "To access a restricted network pretending to be a trusted device",
+          "To speed up internet connections",
+          "To improve Wi-Fi signal strength",
+          "To save battery life on the device",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "Which protocol version supports more IP addresses?",
+        options: ["IPv4", "MAC", "ARP", "IPv6"],
+        answerIndex: 3,
+      },
+      {
+        id: 8,
+        question: "What does the first half of a MAC address typically represent?",
+        options: [
+          "The user’s ID",
+          "The device’s country of manufacture",
+          "The manufacturer of the network interface",
+          "The local network address",
+        ],
+        answerIndex: 2,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 5,
-    "question": "Which delivery method is used in smishing?",
-    "options": [
-      "Phone call",
-      "Social media ad",
-      "Text message",
-      "Email"
+    "Ping (ICMP)": [
+      {
+        id: 1,
+        question: "What protocol does the ping command use?",
+        options: ["TCP", "UDP", "HTTP", "ICMP"],
+        answerIndex: 3,
+      },
+      {
+        id: 2,
+        question: "What does a successful ping test indicate?",
+        options: [
+          "The device is running a web server",
+          "There is an active connection and ICMP reply",
+          "The target device is not on the same network",
+          "The ping command failed",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Which of the following is a valid reason to use the ping command?",
+        options: [
+          "To change your MAC address",
+          "To test connectivity between devices",
+          "To open a firewall port",
+          "To trace the IP path of a website",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What does the average time in a ping result represent?",
+        options: [
+          "The time taken to open a webpage",
+          "The time difference between IP assignments",
+          "The average round-trip time for ICMP packets",
+          "The time to load DNS records",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is the format of a typical ping command?",
+        options: ["ping -i address", "ping [IP address or domain]", "connect [IP address]", "ping port 80"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "What is vishing?",
-    "options": [
-      "Using malware in attachments",
-      "Voice phishing done via phone calls",
-      "Phishing using visual cues on websites",
-      "Using virtual machines to phish users"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 7,
-    "question": "What should you do if you receive a suspicious email asking for your login?",
-    "options": [
-      "Reply and ask for verification",
-      "Click the link to see where it goes",
-      "Ignore it and report to IT/security",
-      "Forward it to a friend"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 8,
-    "question": "Why are phishing attacks still so effective today?",
-    "options": [
-      "They are untraceable",
-      "They exploit human emotions like fear and urgency",
-      "They require no internet connection",
-      "They always target outdated systems"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 9,
-    "question": "Which of the following is a common phishing tactic?",
-    "options": [
-      "Using VPN tunneling",
-      "Pretending to be a trusted contact",
-      "Implementing security updates",
-      "Scanning systems for open ports"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 10,
-    "question": "What is a landing page in a phishing attack?",
-    "options": [
-      "A government report",
-      "A cloned site used to steal credentials",
-      "A browser error page",
-      "A VPN login portal"
-    ],
-    "answerIndex": 1
-  }
-],
-"Malware and Ransomware": [
-  {
-    "id": 1,
-    "question": "What is malware?",
-    "options": [
-      "A legitimate software update",
-      "A malicious software intended to harm or exploit systems",
-      "A tool for system optimization",
-      "A secure communication protocol"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "What is the main goal of ransomware?",
-    "options": [
-      "To secure private user data",
-      "To boost system performance",
-      "To encrypt user data and demand a ransom for access",
-      "To track marketing campaigns"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "Which of the following is NOT a form of malware?",
-    "options": [
-      "Virus",
-      "Trojan horse",
-      "Firewall",
-      "Worm"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "What type of malware disguises itself as legitimate software?",
-    "options": [
-      "Spyware",
-      "Worm",
-      "Trojan horse",
-      "Rootkit"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 5,
-    "question": "How is ransomware typically delivered?",
-    "options": [
-      "Through software updates",
-      "Via phishing emails or malicious attachments",
-      "From antivirus software",
-      "Via a secured Wi-Fi network"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 6,
-    "question": "What action does spyware perform on an infected system?",
-    "options": [
-      "Prevents booting",
-      "Encrypts files",
-      "Monitors and records user activity",
-      "Speeds up processing"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 7,
-    "question": "What is a worm capable of doing without user interaction?",
-    "options": [
-      "Creating backups",
-      "Self-replicating and spreading across networks",
-      "Decrypting files",
-      "Blocking browser content"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Which best describes a rootkit?",
-    "options": [
-      "A firewall rule set",
-      "A virus removal tool",
-      "A hidden program granting persistent admin-level access",
-      "A password reset application"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 9,
-    "question": "What should you do if your device is infected with ransomware?",
-    "options": [
-      "Pay the ransom immediately",
-      "Shut down the system to stop the attack",
-      "Disconnect from the network and contact IT/security",
-      "Try guessing the decryption key"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 10,
-    "question": "What is one common characteristic of ransomware notes?",
-    "options": [
-      "They offer free antivirus tools",
-      "They include detailed information about the company",
-      "They demand payment in cryptocurrency",
-      "They are always written in legal jargon"
-    ],
-    "answerIndex": 2
-  }
-]
-
   },
 };
 
