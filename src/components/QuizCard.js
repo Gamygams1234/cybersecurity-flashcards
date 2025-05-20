@@ -47,7 +47,7 @@ function QuizCard({ question, onAnswer ,restart}) {
             key={idx}
             className={clsx({
                 // going to try this for a to see if this will help me read a bit better
-              correct: isSubmitted && idx === correctIndex  && idx === correctIndex,
+              correct: isSubmitted && idx === correctIndex  && idx === selectedIndex,
               wrong: isSubmitted && idx === selectedIndex && idx !== correctIndex,
               selected: !isSubmitted && idx === selectedIndex,
             })}
