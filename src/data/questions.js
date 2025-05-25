@@ -2103,6 +2103,1474 @@ const questions = {
       },
     ],
   },
+
+  "W3 CyberSecurity": {
+    "Cyber Crime": [
+      {
+        id: 1,
+        question: "Which of the following is considered a form of cyber crime?",
+        options: ["Shoplifting", "Identity theft", "Speeding", "Breaking and entering"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Why is cyber crime on the rise?",
+        options: [
+          "It is easy to accomplish with low risk and high rewards",
+          "Internet speed is faster",
+          "Police are better trained",
+          "Cryptocurrency is illegal",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 3,
+        question: "What is a 'tumbler' in the context of cyber crime?",
+        options: [
+          "A hacker group",
+          "A tool to clean malware",
+          "A service to mix and obfuscate cryptocurrency transactions",
+          "A social media site",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Which of the following is NOT a typical cyber criminal mentioned?",
+        options: [
+          "State-sponsored groups",
+          "Hacking groups demanding ransom",
+          "Undercover journalists",
+          "Teenagers hacking from home",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What makes catching cyber criminals so difficult?",
+        options: [
+          "Cyber criminals always use public Wi-Fi",
+          "They can easily remain anonymous and use systems in different countries",
+          "They leave physical evidence behind",
+          "They use their real identities online",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "How do law enforcement agencies typically catch cyber criminals?",
+        options: [
+          "Through social media accounts",
+          "By tracking cryptocurrency mining",
+          "Often due to mistakes made by the attackers",
+          "By scanning malware signatures",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Money Making Threats": [
+      {
+        id: 1,
+        question: "What is the goal of a ransomware attack?",
+        options: [
+          "To gain administrator access to networks",
+          "To spy on employees remotely",
+          "To encrypt files and demand money for their release",
+          "To delete all system data permanently",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What does a cryptocurrency miner do when installed by attackers?",
+        options: [
+          "Deletes system logs",
+          "Uses the CPU to mine cryptocurrency for the attacker",
+          "Backs up system data to the cloud",
+          "Infects printers with malware",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "What does 'BEC' stand for in cybersecurity?",
+        options: [
+          "Backdoor Exploit Code",
+          "Business Email Compromise",
+          "Browser Extension Control",
+          "Banking Encryption Circuit",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which of the following is NOT mentioned as a form of making money in cyber crime?",
+        options: [
+          "Hijacking online banking sessions",
+          "Mining for precious metals",
+          "Installing crypto miners on victim machines",
+          "Selling sensitive business data",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "How can bandwidth be misused by attackers for financial gain?",
+        options: [
+          "To install larger malware files",
+          "To host gaming servers",
+          "To launch DDOS attacks for extortion",
+          "To download media content faster",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What type of personal attack may involve coercion based on sensitive images or videos?",
+        options: ["Credential stuffing", "Phishing", "Social extortion", "Ransomware"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "Why do cyber criminals often succeed in extortion scams?",
+        options: [
+          "They are physically nearby",
+          "They use strong passwords",
+          "They manipulate victims into providing compromising material",
+          "They offer discounts to businesses",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Dark Web": [
+      {
+        id: 1,
+        question: "What is the Dark Web also commonly known as?",
+        options: ["Private Cloud", "The Tor Network", "Virtual LAN", "Incognito Mode"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which browser is commonly used to access the Dark Web?",
+        options: ["Google Chrome", "Microsoft Edge", "Opera GX", "Tor Browser"],
+        answerIndex: 3,
+      },
+      {
+        id: 3,
+        question: "What is a unique feature of Dark Web URLs?",
+        options: ["They end with .org", "They end with .onion", "They require a VPN", "They only work on mobile"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What does the Tor Browser provide to its users?",
+        options: [
+          "Faster internet speeds",
+          "Automatic ad-blocking",
+          "Built-in VPN and malware protection",
+          "Anonymity and encrypted traffic routing",
+        ],
+        answerIndex: 3,
+      },
+      {
+        id: 5,
+        question: "Which of the following is a legitimate site available on the Dark Web?",
+        options: ["Instagram", "Facebook", "Snapchat", "Reddit"],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "Why is the Dark Web attractive for criminal activity?",
+        options: [
+          "It offers better customer support",
+          "It allows unlimited downloads",
+          "It provides anonymity and encryption",
+          "It’s accessible on mobile networks only",
+        ],
+        answerIndex: 2,
+      },
+    ],
+  },
+  "W3 Networking": {
+    "Networking Basics": [
+      {
+        id: 1,
+        question: "What does the OSI model help us understand in networking?",
+        options: [
+          "Data storage systems",
+          "User interface design",
+          "The layers involved in computer communication",
+          "Cyber crime investigation",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which layer in the OSI model handles application-level interactions for users?",
+        options: ["Layer 4 - Transport", "Layer 7 - Application", "Layer 2 - Data Link", "Layer 6 - Presentation"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Which of the following protocols operates at the Transport Layer (Layer 4)?",
+        options: ["TCP and UDP", "HTTP and FTP", "Ethernet and Wi-Fi", "ICMP and IPSec"],
+        answerIndex: 0,
+      },
+      {
+        id: 4,
+        question: "What is the role of the Presentation Layer in the OSI Model?",
+        options: [
+          "Encrypting and formatting data for the application",
+          "Routing packets between networks",
+          "Managing sessions and connections",
+          "Handling radio and electrical signals",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question: "Which layer is responsible for physically transmitting data over a network?",
+        options: ["Application Layer", "Data Link Layer", "Transport Layer", "Physical Layer"],
+        answerIndex: 3,
+      },
+      {
+        id: 6,
+        question: "What protocol is commonly used at the Network Layer for routing packets?",
+        options: ["TCP", "Ethernet", "IP", "SSL"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is Software Defined Networking (SDN) best known for?",
+        options: [
+          "Improving wireless signal strength",
+          "Allowing more network layers to be controlled via software",
+          "Securing websites via SSL",
+          "Boosting TCP performance",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which OSI layer is typically responsible for session management?",
+        options: ["Layer 5", "Layer 4", "Layer 3", "Layer 6"],
+        answerIndex: 0,
+      },
+      {
+        id: 9,
+        question: "Which protocol is part of Layer 2 (Link Layer) and used to connect wirelessly?",
+        options: ["UDP", "NDP", "Wi-Fi", "QUIC"],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What is a key responsibility of the Data Link Layer?",
+        options: [
+          "Storing user credentials",
+          "Choosing the best internet provider",
+          "Moving packets to the correct physical device",
+          "Encrypting the files for transmission",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "In-Depth Network Layer": [
+      {
+        id: 1,
+        question: "What is the primary purpose of the Internet Protocol (IP)?",
+        options: [
+          "To compress data for transmission",
+          "To route packets between networks",
+          "To encrypt all network traffic",
+          "To assign MAC addresses to devices",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which IP address is used for localhost communication?",
+        options: ["192.168.1.1", "10.0.0.1", "127.0.0.1", "0.0.0.0"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What does the 'netmask' define in an IP network?",
+        options: [
+          "The DNS server location",
+          "The encryption protocol",
+          "The size and boundary of a network",
+          "The time-to-live value",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What is the purpose of the 'broadcast address'?",
+        options: [
+          "To send data to a specific device only",
+          "To communicate with routers",
+          "To send data to all devices on a network segment",
+          "To change the default gateway",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is NAT primarily used for?",
+        options: [
+          "Encrypting DNS traffic",
+          "Assigning MAC addresses",
+          "Translating internal IP addresses to a public IP",
+          "Resolving domain names",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Which protocol replaces IPv4 and uses 128-bit addresses?",
+        options: ["ICMP", "IPv6", "DHCP", "QUIC"],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "What does ICMP help perform in networking?",
+        options: [
+          "Change port numbers",
+          "Install firewalls",
+          "Send diagnostic messages like Ping",
+          "Encrypt wireless traffic",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "What command is used on Windows to view IP configuration details?",
+        options: ["ip addr show", "ping", "tracert", "ipconfig"],
+        answerIndex: 3,
+      },
+      {
+        id: 9,
+        question: "Which protocol assigns IP addresses and network settings to devices?",
+        options: ["DNS", "DHCP", "ICMP", "TLS"],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What is the purpose of DNS in networking?",
+        options: [
+          "Assigning MAC addresses to devices",
+          "Encrypting network traffic",
+          "Mapping domain names to IP addresses",
+          "Managing VPN connections",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 11,
+        question: "Which command helps trace the route a packet takes to reach a destination?",
+        options: ["ping", "ipconfig", "nslookup", "tracert"],
+        answerIndex: 3,
+      },
+      {
+        id: 12,
+        question: "What does a VPN primarily offer in a cybersecurity context?",
+        options: [
+          "Fast Internet access",
+          "Encrypted network traffic and remote access",
+          "Free Wi-Fi services",
+          "Dynamic IP switching every second",
+        ],
+        answerIndex: 1,
+      },
+    ],
+    "Network Transport": [
+      {
+        id: 1,
+        question: "What do TCP and UDP use to determine which network service should handle data?",
+        options: ["MAC addresses", "IP addresses", "Ports", "Encryption keys"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "What is the purpose of TCP's three-way handshake?",
+        options: [
+          "To encrypt all data before sending",
+          "To ensure both parties want to communicate",
+          "To compress data packets",
+          "To reroute traffic through a proxy",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why is UDP considered less secure than TCP?",
+        options: [
+          "It only works on Wi-Fi networks",
+          "It lacks features like the 3-way handshake",
+          "It requires more bandwidth",
+          "It cannot be used with IP",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What tool is commonly used to inspect network packets and view the TCP handshake?",
+        options: ["PuTTY", "Traceroute", "Wireshark", "Nmap"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What makes TCP more resilient to spoofing than UDP?",
+        options: [
+          "It uses port forwarding",
+          "It requires encryption keys",
+          "It includes random sequence numbers in the handshake",
+          "It only works on private networks",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What kind of privileges does an attacker usually need to spoof packets?",
+        options: ["Read-only privileges", "VPN access", "Root or system-level privileges", "Email server access"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What addressing system is used by switches to forward traffic?",
+        options: ["IP addresses", "MAC addresses", "Hostnames", "Domain names"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What does the first three octets of a MAC address represent?",
+        options: [
+          "A random number",
+          "The switch model number",
+          "The organization that manufactured the device",
+          "The device’s serial number",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What protocol maps IP addresses to MAC addresses on a local network?",
+        options: ["ICMP", "DNS", "ARP", "DHCP"],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What is a VLAN used for?",
+        options: [
+          "To provide remote VPN access",
+          "To encrypt all network traffic",
+          "To isolate devices on a network using virtual segmentation",
+          "To dynamically assign IP addresses",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    Firewalls: [
+      {
+        id: 1,
+        question: "What layer does a traditional firewall primarily operate on?",
+        options: ["Layer 2", "Layer 4", "Layer 6", "Layer 7"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What does 'ingress traffic' refer to in a network?",
+        options: [
+          "Traffic leaving the network",
+          "Traffic being monitored",
+          "Traffic entering the network",
+          "Traffic moving internally only",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which feature is unique to Next-Generation Firewalls (NGFW)?",
+        options: [
+          "Simple routing",
+          "IP address filtering only",
+          "Application awareness and control",
+          "MAC address assignment",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "How do NGFWs often determine whether to allow or block web content?",
+        options: ["DNS records", "IP addresses only", "URL filtering and domain categorization", "Time of day"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is the primary role of a sandbox in firewall security?",
+        options: [
+          "Encrypt user traffic",
+          "Store backup files",
+          "Execute and analyze suspicious files in isolation",
+          "Monitor internet usage",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is the term for traffic that the firewall cannot classify?",
+        options: ["Open traffic", "Filtered traffic", "Blocked traffic", "Unknown traffic"],
+        answerIndex: 3,
+      },
+      {
+        id: 7,
+        question: "What feature allows firewalls to inspect encrypted traffic?",
+        options: ["Tokenization", "Decryption using trusted certificates", "Hashing", "VPN pass-through"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "How does segmentation improve firewall security?",
+        options: [
+          "By disabling ports automatically",
+          "By grouping all systems into one open network",
+          "By controlling communication between different zones",
+          "By connecting directly to the public internet",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "Which of the following is a benefit of connecting the firewall to an organization’s user directory?",
+        options: [
+          "Better network speed",
+          "Automatic virus removal",
+          "User-based policy control",
+          "Cloud-based backups",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What is one function of a Web Application Firewall (WAF)?",
+        options: [
+          "Encrypting email traffic",
+          "Blocking malware from USB drives",
+          "Specialized HTTP traffic inspection and protection",
+          "Controlling internet bandwidth",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Web Applications": [
+      {
+        id: 1,
+        question: "What protocol is primarily used to deliver web content like HTML and CSS?",
+        options: ["FTP", "HTTP", "SMTP", "SSH"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "In a URL, what does the '?' character signify?",
+        options: [
+          "A switch to FTP",
+          "A break in encryption",
+          "The start of query parameters",
+          "The beginning of the hostname",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which HTTP header is responsible for telling the server which website was visited prior?",
+        options: ["User-Agent", "Host", "Referer", "Cookie"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Which HTTP verb is typically used to send data to a web server?",
+        options: ["GET", "POST", "DELETE", "HEAD"],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What does the HTTP response code 403 indicate?",
+        options: ["Resource not found", "Temporary redirect", "Unauthorized access attempt", "Successful request"],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Which protocol ensures encrypted communication over HTTP?",
+        options: ["UDP", "FTP", "TLS", "ICMP"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What does the HTTP 'Host' header define?",
+        options: ["Browser version", "Client IP address", "The target service on a server", "Encryption protocol"],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following stores client session data for web applications?",
+        options: ["Referrer", "User-Agent", "Cookies", "Host header"],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What is the main purpose of Virtual Hosts (VHosts)?",
+        options: [
+          "Speed up network packets",
+          "Run multiple applications on different servers",
+          "Allow one server to host multiple web apps",
+          "Encrypt all requests automatically",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What is URL encoding used for?",
+        options: [
+          "Encrypt traffic using JavaScript",
+          "Compress large responses",
+          "Safely transfer special characters in URLs",
+          "Identify virtual hosts",
+        ],
+        answerIndex: 2,
+      },
+    ],
+  },
+  "W3 Cyber Attacks": {
+    "Network Mapping & Port Scanning": [
+      {
+        id: 1,
+        question: "What is the primary goal of network mapping?",
+        options: [
+          "Encrypt network traffic",
+          "Identify which systems are live on a network",
+          "Install antivirus software",
+          "Monitor employee behavior",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which tool is widely used for network mapping and port scanning?",
+        options: ["Wireshark", "Metasploit", "Nmap", "Burp Suite"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Why is ARP scanning limited to LAN environments?",
+        options: [
+          "It uses the DNS protocol",
+          "It requires admin privileges",
+          "ARP only works within the local broadcast domain",
+          "Routers block ARP requests by default",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Which Nmap option disables host discovery and assumes all hosts are up?",
+        options: ["-O", "-sS", "-Pn", "--top-ports"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which of the following accurately describes a TCP SYN scan?",
+        options: [
+          "It floods the network with UDP packets",
+          "It completes the 3-way handshake",
+          "It sends a SYN and listens for SYN/ACK responses",
+          "It requires encryption to succeed",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Why is UDP port scanning more difficult than TCP?",
+        options: [
+          "UDP is slower",
+          "UDP packets always bounce",
+          "UDP services don’t respond unless the request is correct",
+          "UDP is blocked by all firewalls",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "Which of the following Nmap flags enables version detection?",
+        options: ["-sS", "-sV", "-Pn", "-T4"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What does the Nmap -A flag do?",
+        options: [
+          "Performs ARP scanning only",
+          "Avoids detection by using stealth mode",
+          "Enables OS detection, version detection, and scripts",
+          "Only scans IPv6 hosts",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "Which scan timing option is the slowest and avoids detection the most?",
+        options: ["T0 - Paranoid", "T2 - Polite", "T4 - Aggressive", "T5 - Insane"],
+        answerIndex: 0,
+      },
+      {
+        id: 10,
+        question: "What is the main benefit of using Nmap's -sC flag?",
+        options: [
+          "It runs aggressive denial-of-service tests",
+          "It enables safe script scanning",
+          "It performs encryption cracking",
+          "It disables host discovery",
+        ],
+        answerIndex: 1,
+      },
+    ],
+    "Network Attacks": [
+      {
+        id: 1,
+        question: "What does RCE stand for in cybersecurity?",
+        options: [
+          "Remote Code Execution",
+          "Random Code Emission",
+          "Registered Cyber Exploit",
+          "Remote Control Engagement",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 2,
+        question: "What is the main cause of buffer overflow vulnerabilities?",
+        options: [
+          "Lack of encryption",
+          "Improper password policies",
+          "Unrestricted memory access from user input",
+          "Weak firewall settings",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What happens when an attacker overwrites the return pointer in a buffer overflow attack?",
+        options: [
+          "They cause a system crash",
+          "They can control where the CPU executes next",
+          "They change the MAC address of the system",
+          "They bypass antivirus protections",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What is the purpose of a vulnerability scanner?",
+        options: [
+          "To exploit systems using zero-day attacks",
+          "To identify known vulnerabilities and misconfigurations",
+          "To scan websites for SEO optimization",
+          "To back up system data regularly",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What is a reverse shell?",
+        options: [
+          "A shell opened in safe mode",
+          "A shell that runs only in admin mode",
+          "A connection from victim to attacker for remote control",
+          "A recovery mode tool",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is the primary goal of a C2 (Command and Control) server?",
+        options: [
+          "To host websites",
+          "To monitor network bandwidth",
+          "To allow attackers to control compromised systems",
+          "To patch vulnerabilities automatically",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is a common indicator of a beaconing C2 connection?",
+        options: [
+          "A single burst of high traffic",
+          "Long, consistent connection intervals",
+          "Frequent DNS lookup failures",
+          "Sudden reboots of the victim system",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What is lateral movement?",
+        options: [
+          "Encrypting data for safe transit",
+          "Blocking traffic between networks",
+          "Spreading access from one compromised system to another",
+          "Changing IP addresses of compromised systems",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "Why are SMB communications between clients often suspicious?",
+        options: [
+          "SMB should only be used for file backups",
+          "Clients are not supposed to communicate directly over SMB",
+          "SMB is obsolete and shouldn't be used",
+          "It causes network slowdowns",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What is the function of a payload in an exploit?",
+        options: [
+          "To scan the network",
+          "To identify vulnerabilities",
+          "To execute the attacker’s desired action on the target",
+          "To block malware from spreading",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Web Application Attacks": [
+      {
+        id: 1,
+        question: "What does IDOR stand for?",
+        options: [
+          "Internal Data Operation Request",
+          "Insecure Direct Object Reference",
+          "Input Data Override Rule",
+          "Identified Document Output Resource",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What is the primary reason IDOR vulnerabilities occur?",
+        options: [
+          "Improper input encoding",
+          "Lack of authorization checks on object access",
+          "Unpatched database systems",
+          "Outdated programming languages",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why are GUIDs or UUIDs recommended over numeric IDs?",
+        options: [
+          "They are easier to remember",
+          "They are faster to process",
+          "They are harder to enumerate",
+          "They are used only in SQL",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What causes SQL Injection vulnerabilities?",
+        options: [
+          "Lack of data sanitization",
+          "Too many database connections",
+          "Overuse of GUIDs",
+          "Use of HTTPS instead of HTTP",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question: "Which of the following is a common SQL Injection attack string?",
+        options: ["SELECT * FROM userTable", "1000' OR '1'='1", "getUser();", "password=admin123"],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "What is the recommended defense against SQL Injection?",
+        options: ["HTML encoding", "CSP headers", "Parameterized queries", "Cookies"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is the key difference between Reflected and Stored XSS?",
+        options: [
+          "Stored XSS does not use JavaScript",
+          "Reflected XSS affects the server directly",
+          "Stored XSS is saved on the server and affects every visitor",
+          "Reflected XSS runs only on mobile browsers",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "What is a common consequence of a successful XSS attack?",
+        options: [
+          "Brute-force of passwords",
+          "Stealing user cookies",
+          "Injecting SQL into forms",
+          "Redirecting to HTTPS",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "Which HTTP header helps mitigate the effects of XSS?",
+        options: ["User-Agent", "Host", "Content-Security-Policy", "Accept-Encoding"],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "What does a web application scanner typically focus on?",
+        options: [
+          "Zero-day vulnerabilities only",
+          "Network firewall rules",
+          "Web-specific vulnerabilities like SQLi and XSS",
+          "Port scanning services",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Wi-Fi Attacks": [
+      {
+        id: 1,
+        question: "What protocol is most commonly associated with Wi-Fi networks?",
+        options: ["IEEE 802.3", "IEEE 802.11", "IEEE 802.15", "IEEE 802.1X"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What does SSID stand for?",
+        options: [
+          "Secure Set Internet Directory",
+          "Service Set Identifier",
+          "Standard Signal Input Device",
+          "Signal Source Internal Device",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "What feature allows a Wi-Fi adapter to capture packets not addressed to it?",
+        options: ["WEP Mode", "Bridge Mode", "Monitor Mode", "Client Mode"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Why is using an open Wi-Fi network a security risk?",
+        options: [
+          "It has limited range",
+          "It costs more to operate",
+          "Traffic is unencrypted and visible to nearby attackers",
+          "It doesn't support VPNs",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Why is MAC address filtering not a reliable security measure?",
+        options: [
+          "Attackers can sniff valid MAC addresses and spoof them",
+          "MAC addresses change every time you connect",
+          "MAC filtering only works for USB devices",
+          "Most routers don't support MAC filtering",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question: "What is the role of WPA in Wi-Fi security?",
+        options: [
+          "To monitor web traffic",
+          "To provide password-based encryption for Wi-Fi",
+          "To connect to cellular networks",
+          "To manage email access protocols",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "What does a fake access point (Fake AP) aim to do?",
+        options: [
+          "Extend the Wi-Fi signal range",
+          "Increase download speeds",
+          "Trick users into connecting so attackers can sniff or modify traffic",
+          "Block DNS requests",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "What is a key advantage of Enterprise Wi-Fi authentication over PSK?",
+        options: [
+          "It’s easier to remember",
+          "It allows all users to share the same password",
+          "It uses centralized credentials and better key management",
+          "It disables encryption for faster access",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What is one requirement to perform a Wi-Fi password cracking attack on WPA?",
+        options: [
+          "The SSID must be hidden",
+          "The access point must be using WEP",
+          "The attacker must capture a handshake",
+          "The MAC address must be spoofed first",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "Which tool is commonly used for cracking Wi-Fi passwords?",
+        options: ["Wireshark", "Aircrack-ng", "Burp Suite", "Metasploit"],
+        answerIndex: 1,
+      },
+    ],
+    Passwords: [
+      {
+        id: 1,
+        question: "What is a major drawback of using passwords like Tr0ub4dor&3?",
+        options: [
+          "They are too long to crack",
+          "They are based on random symbols",
+          "They are hard to remember, type, and have low entropy",
+          "They are not accepted by login forms",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Why is a passphrase like 'CorrectHorseBatteryStaple' considered better?",
+        options: [
+          "It uses numbers and symbols",
+          "It's easier to type, remember, and has higher entropy",
+          "It fits into 8 characters",
+          "It requires no special characters",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why are password managers considered safer than reusing passwords?",
+        options: [
+          "They allow you to share passwords",
+          "They create a backup of your passwords on paper",
+          "They generate and store strong, unique passwords",
+          "They prevent websites from requiring passwords",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Which of the following is an example of a passwordless authentication method?",
+        options: [
+          "Using a longer password",
+          "Asking a security question",
+          "Using a fingerprint or face scan",
+          "Using a CAPTCHA",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is the primary benefit of Multi-Factor Authentication (MFA)?",
+        options: [
+          "It replaces passwords entirely",
+          "It ensures only administrators can log in",
+          "It adds an additional layer of verification beyond a password",
+          "It removes the need for encryption",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is a potential reason to trigger MFA selectively using DAC?",
+        options: [
+          "When a user logs in from the same browser",
+          "When a user logs in during business hours",
+          "When a user performs a sensitive action or logs in from a new device",
+          "When a user updates their email preferences",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is the difference between password guessing and password cracking?",
+        options: [
+          "Guessing is local and cracking is remote",
+          "Guessing is online and cracking is offline using stolen hashes",
+          "Cracking requires no tools",
+          "Guessing uses rainbow tables",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What makes credential stuffing so effective?",
+        options: [
+          "Users use passwords only once",
+          "Leaked databases have encrypted passwords",
+          "Many users reuse the same password across services",
+          "It only targets local systems",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What does a password hash represent?",
+        options: [
+          "A two-way encrypted password",
+          "A user’s login token",
+          "A one-way function output of a password",
+          "A scrambled password file",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "Which tool is commonly used to extract credentials from Windows systems?",
+        options: ["Hydra", "Aircrack-ng", "Metasploit", "Mimikatz"],
+        answerIndex: 3,
+      },
+    ],
+    "Penetration Testing & Social Engineering": [
+      {
+        id: 1,
+        question: "What is the primary goal of penetration testing?",
+        options: [
+          "To crash the system",
+          "To test internet speed",
+          "To identify vulnerabilities before real attackers do",
+          "To redesign the company network",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which of the following is NOT typically included in a penetration test scope?",
+        options: ["ICS/SCADA systems", "Mobile applications", "Employee salary negotiations", "Wireless networks"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "What is a 'black-box' penetration test?",
+        options: [
+          "A test done using only open-source tools",
+          "A test with full internal knowledge",
+          "A test where testers have no prior knowledge of the system",
+          "A test focused on mobile apps",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What risk does a stolen laptop pose if the hard drive is not encrypted?",
+        options: [
+          "It becomes unbootable",
+          "It may allow attackers to extract data and credentials",
+          "It deletes all files automatically",
+          "It turns off the wireless connection",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What is social engineering?",
+        options: [
+          "Coding malicious scripts",
+          "Tricking people into performing actions or giving information",
+          "Installing antivirus software",
+          "Scanning wireless networks",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question:
+          "In the scenario where Eve drops USB sticks labeled 'Salary Information' around an office, what principle is being exploited?",
+        options: ["Politeness", "Fear", "Curiosity", "Reciprocation"],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is tailgating?",
+        options: [
+          "Following someone into a building without proper access",
+          "Scanning the wireless network",
+          "Driving behind someone closely",
+          "Cloning someone's access badge",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 8,
+        question: "Which type of phishing involves a phone call?",
+        options: ["Email phishing", "Smishing", "Vishing", "Whaling"],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What’s the purpose of a phishing campaign in penetration testing?",
+        options: [
+          "To get people fired",
+          "To prove users fall for scams",
+          "To test spam filters and show the impact of user mistakes",
+          "To steal money from the company",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "Why might a company choose a white-box penetration test?",
+        options: [
+          "It’s more challenging for the testers",
+          "It provides less realistic scenarios",
+          "It gives testers full knowledge for deeper vulnerability discovery",
+          "It hides the internal network from the testers",
+        ],
+        answerIndex: 2,
+      },
+    ],
+  }," W3 Cyber Defence":{
+"Security Operations": [
+  {
+    "id": 1,
+    "question": "What is the main responsibility of a Security Operations Center (SOC)?",
+    "options": [
+      "Install software updates",
+      "Detect and respond to threats in the environment",
+      "Build websites for the company",
+      "Train employees on customer service"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "What does SIEM stand for?",
+    "options": [
+      "Security Information and Event Management",
+      "Software Incident and Event Monitoring",
+      "System Integrity and Endpoint Management",
+      "Secure Internet Event Monitoring"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Which type of event typically provides the most useful security context for a SOC?",
+    "options": [
+      "Network events",
+      "Host events",
+      "Application events",
+      "Firewall logs"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "What is the primary role of a Level 1 SOC Analyst?",
+    "options": [
+      "Design security architecture",
+      "Investigate and escalate alerts",
+      "Lead the SOC team",
+      "Create new applications"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "What is Purple Teaming?",
+    "options": [
+      "When two SOC teams compete to find threats",
+      "When developers and testers work together",
+      "Merging offensive and defensive security teams for collaboration",
+      "Using AI to monitor traffic"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "In incident response, what does 'criticality' refer to?",
+    "options": [
+      "The time the incident occurred",
+      "The difficulty of fixing the issue",
+      "How serious the incident is and how quickly it must be addressed",
+      "The type of malware used"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of SOAR in a SOC environment?",
+    "options": [
+      "To block all internet access",
+      "To automate responses and orchestrate actions to threats",
+      "To install antivirus software",
+      "To monitor employee productivity"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is the hardest for attackers to change and therefore the most useful for detection?",
+    "options": [
+      "File hashes",
+      "IP addresses",
+      "Domain names",
+      "Tactics, Techniques, and Procedures (TTPs)"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 9,
+    "question": "What should a SOC use to determine who to notify for different incidents?",
+    "options": [
+      "Alert color codes",
+      "Random selection",
+      "Escalation chains",
+      "Antivirus logs"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Why might a SIEM require customization for application logs?",
+    "options": [
+      "SIEMs never support application logs",
+      "Application logs are always encrypted",
+      "Many applications are proprietary and require manual parsing rules",
+      "They’re not written in English"
+    ],
+    "answerIndex": 2
+  }
+], "Incident Response": [
+  {
+    "id": 1,
+    "question": "What is the main goal of a Cyber Security Incident Response Team (IRT)?",
+    "options": [
+      "To install antivirus software",
+      "To increase website traffic",
+      "To handle incidents and reduce organizational harm",
+      "To reset employee passwords"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "Which methodology is commonly used for structuring incident response processes?",
+    "options": [
+      "CIA Triad",
+      "OWASP Top 10",
+      "PICERL",
+      "TCP/IP Stack"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is the first phase in the PICERL methodology?",
+    "options": [
+      "Containment",
+      "Preparation",
+      "Identification",
+      "Eradication"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "During which phase is evidence such as hard drive and memory images collected?",
+    "options": [
+      "Identification",
+      "Recovery",
+      "Containment",
+      "Lessons Learned"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "What is the goal of the eradication phase in incident response?",
+    "options": [
+      "Build new systems",
+      "Change all employee passwords",
+      "Remove attacker artifacts and restore clean systems",
+      "Monitor employees' emails"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "What is typically done during the recovery phase?",
+    "options": [
+      "Backup compromised systems",
+      "Return systems to normal operations and monitor for reinfection",
+      "Remove malicious files",
+      "Train new employees"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "Which phase involves documenting improvements and reviewing team performance?",
+    "options": [
+      "Recovery",
+      "Containment",
+      "Lessons Learned",
+      "Preparation"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is a common question during the identification phase?",
+    "options": [
+      "What was the weather at the time of the attack?",
+      "Can we trace the attackers’ VPN provider?",
+      "What systems and users are involved?",
+      "How long has the company been operating?"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "What role might HR or Legal play in incident response?",
+    "options": [
+      "They set firewall rules",
+      "They help respond to phishing emails",
+      "They assist with communication, policy, or regulatory needs",
+      "They provide penetration testing tools"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": "Which of the following would NOT typically occur during the preparation phase?",
+    "options": [
+      "Creating incident response playbooks",
+      "Training the response team",
+      "Blocking malicious IPs in the firewall",
+      "Setting up secure communication channels"
+    ],
+    "answerIndex": 2
+  }
+]
+
+
+  }
 };
 
 export default questions;
