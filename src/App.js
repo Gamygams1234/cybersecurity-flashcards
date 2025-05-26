@@ -18,7 +18,9 @@ function App() {
     if (topic && subtopic) {
       const questionSet = questions[topic][subtopic];
       setShuffledQuestions(shuffleArray(questionSet));
-      setQuestionIndex(0); // Reset index each time
+      setQuestionIndex(0);
+      setScore(0);
+      setShowSummary(false);
     }
   }, [topic, subtopic]);
 
@@ -34,8 +36,7 @@ function App() {
   const handleAnswer = (isCorrect) => {
     if (isCorrect) setScore((prev) => prev + 1);
 
-    const currentSet = questions[topic][subtopic];
-    if (questionIndex + 1 < currentSet.length) {
+    if (questionIndex + 1 < shuffledQuestions.length) {
       setQuestionIndex((prev) => prev + 1);
     } else {
       setShowSummary(true);
@@ -48,31 +49,37 @@ function App() {
     setShowSummary(false);
     setTopic('');
     setSubtopic('');
+    setShuffledQuestions([]);
   };
 
-
-  if (!topic) {
-    return <TopicSelector topics={Object.keys(questions)} setTopic={setTopic} />;
-  }
-
-  if (!subtopic) {
-    return <SubtopicSelector subtopics={Object.keys(questions[topic])} setSubtopic={setSubtopic} restart={restart} />;
-  }
-
-  if (showSummary) {
-    return <ScoreSummary score={score} total={shuffledQuestions.length} restart={restart} />
-    ;
-  }
-
-
-    
   const currentQuestion = shuffledQuestions[questionIndex];
-  if (!currentQuestion) {
-    return <div>Loading question...</div>; // or a custom loader/spinner
-  }
 
   return (
-    <QuizCard question={currentQuestion} onAnswer={handleAnswer} restart={restart} />
+    <div className="app">
+      {!topic && (
+        <TopicSelector topics={Object.keys(questions)} setTopic={setTopic} />
+      )}
+
+      {topic && !subtopic && (
+        <SubtopicSelector
+          subtopics={Object.keys(questions[topic])}
+          setSubtopic={setSubtopic}
+          restart={restart}
+        />
+      )}
+
+      {topic && subtopic && showSummary && (
+        <ScoreSummary score={score} total={shuffledQuestions.length} restart={restart} />
+      )}
+
+      {topic && subtopic && !showSummary && currentQuestion && (
+        <QuizCard question={currentQuestion} onAnswer={handleAnswer} restart={restart} />
+      )}
+
+      {topic && subtopic && !showSummary && !currentQuestion && (
+        <div>Loading question...</div>
+      )}
+    </div>
   );
 }
 

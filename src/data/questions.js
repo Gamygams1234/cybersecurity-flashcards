@@ -2292,88 +2292,158 @@ const questions = {
     ],
   },
   "W3 Networking": {
-    "Networking Basics": [
-      {
-        id: 1,
-        question: "What does the OSI model help us understand in networking?",
-        options: [
-          "Data storage systems",
-          "User interface design",
-          "The layers involved in computer communication",
-          "Cyber crime investigation",
-        ],
-        answerIndex: 2,
-      },
-      {
-        id: 2,
-        question: "Which layer in the OSI model handles application-level interactions for users?",
-        options: ["Layer 4 - Transport", "Layer 7 - Application", "Layer 2 - Data Link", "Layer 6 - Presentation"],
-        answerIndex: 1,
-      },
-      {
-        id: 3,
-        question: "Which of the following protocols operates at the Transport Layer (Layer 4)?",
-        options: ["TCP and UDP", "HTTP and FTP", "Ethernet and Wi-Fi", "ICMP and IPSec"],
-        answerIndex: 0,
-      },
-      {
-        id: 4,
-        question: "What is the role of the Presentation Layer in the OSI Model?",
-        options: [
-          "Encrypting and formatting data for the application",
-          "Routing packets between networks",
-          "Managing sessions and connections",
-          "Handling radio and electrical signals",
-        ],
-        answerIndex: 0,
-      },
-      {
-        id: 5,
-        question: "Which layer is responsible for physically transmitting data over a network?",
-        options: ["Application Layer", "Data Link Layer", "Transport Layer", "Physical Layer"],
-        answerIndex: 3,
-      },
-      {
-        id: 6,
-        question: "What protocol is commonly used at the Network Layer for routing packets?",
-        options: ["TCP", "Ethernet", "IP", "SSL"],
-        answerIndex: 2,
-      },
-      {
-        id: 7,
-        question: "What is Software Defined Networking (SDN) best known for?",
-        options: [
-          "Improving wireless signal strength",
-          "Allowing more network layers to be controlled via software",
-          "Securing websites via SSL",
-          "Boosting TCP performance",
-        ],
-        answerIndex: 1,
-      },
-      {
-        id: 8,
-        question: "Which OSI layer is typically responsible for session management?",
-        options: ["Layer 5", "Layer 4", "Layer 3", "Layer 6"],
-        answerIndex: 0,
-      },
-      {
-        id: 9,
-        question: "Which protocol is part of Layer 2 (Link Layer) and used to connect wirelessly?",
-        options: ["UDP", "NDP", "Wi-Fi", "QUIC"],
-        answerIndex: 2,
-      },
-      {
-        id: 10,
-        question: "What is a key responsibility of the Data Link Layer?",
-        options: [
-          "Storing user credentials",
-          "Choosing the best internet provider",
-          "Moving packets to the correct physical device",
-          "Encrypting the files for transmission",
-        ],
-        answerIndex: 2,
-      },
-    ],
+   "Networking Basics": [
+    {
+      "id": 1,
+      "question": "What does the OSI model help us understand in networking?",
+      "options": ["Data storage systems", "User interface design", "The layers involved in computer communication", "Cyber crime investigation"],
+      "answerIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "Which OSI layer is responsible for physically transmitting data over a medium?",
+      "options": ["Transport Layer", "Physical Layer", "Data Link Layer", "Network Layer"],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "What protocol is commonly used at the Physical Layer?",
+      "options": ["Ethernet Physical Layer", "TCP", "SSL", "IP"],
+      "answerIndex": 0
+    },
+    {
+      "id": 4,
+      "question": "Which OSI layer handles MAC addressing and packet delivery between physical devices?",
+      "options": ["Data Link Layer", "Session Layer", "Presentation Layer", "Transport Layer"],
+      "answerIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which protocol operates at the Data Link Layer for wireless communication?",
+      "options": ["Wi-Fi", "UDP", "QUIC", "NetBIOS"],
+      "answerIndex": 0
+    },
+    {
+      "id": 6,
+      "question": "What is the main purpose of the Network Layer?",
+      "options": ["Routing packets", "Encrypting messages", "Managing sessions", "Compressing data"],
+      "answerIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Which of these protocols is part of the Network Layer?",
+      "options": ["IP", "SSL", "FTP", "SOCKS"],
+      "answerIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "Which OSI layer is responsible for choosing the packet path?",
+      "options": ["Transport Layer", "Network Layer", "Application Layer", "Session Layer"],
+      "answerIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "Which protocol is commonly used for diagnostics at Layer 3?",
+      "options": ["ICMP", "QUIC", "TLS", "Ethernet"],
+      "answerIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "What is the primary role of the Transport Layer?",
+      "options": ["Packet switching", "Reliable delivery of data", "User authentication", "IP addressing"],
+      "answerIndex": 1
+    },
+    {
+      "id": 11,
+      "question": "Which protocols operate at the Transport Layer?",
+      "options": ["TCP and UDP", "HTTP and HTTPS", "IP and ICMP", "FTP and SNMP"],
+      "answerIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "Which transport layer protocol ensures reliable communication?",
+      "options": ["TCP", "UDP", "ICMP", "IP"],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "Which OSI layer is responsible for managing connections between applications?",
+      "options": ["Transport", "Session", "Application", "Network"],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is a Session Layer protocol?",
+      "options": ["SOCKS", "QUIC", "SSL", "NDP"],
+      "answerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "What does the Presentation Layer do?",
+      "options": ["Routes data", "Encrypts and formats data", "Establishes sessions", "Handles physical signals"],
+      "answerIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "Which of these is NOT a Presentation Layer function?",
+      "options": ["Encoding", "Encryption", "Compression", "Routing"],
+      "answerIndex": 3
+    },
+    {
+      "id": 17,
+      "question": "Which OSI layer uses SSL and TLS?",
+      "options": ["Transport", "Application", "Presentation", "Data Link"],
+      "answerIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "Which layer do most developers interact with directly?",
+      "options": ["Network Layer", "Application Layer", "Session Layer", "Data Link Layer"],
+      "answerIndex": 1
+    },
+    {
+      "id": 19,
+      "question": "Which protocol is used on the Application Layer for web traffic?",
+      "options": ["HTTP", "ICMP", "IP", "TCP"],
+      "answerIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "What does SNMP do at the Application Layer?",
+      "options": ["Transfer files", "Encrypt messages", "Manage network devices", "Route packets"],
+      "answerIndex": 2
+    },
+    {
+      "id": 21,
+      "question": "Which OSI layer is associated with IP address routing?",
+      "options": ["Network", "Session", "Transport", "Presentation"],
+      "answerIndex": 0
+    },
+    {
+      "id": 22,
+      "question": "Which OSI layer does QUIC operate on?",
+      "options": ["Application", "Session", "Transport", "Data Link"],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "question": "What does the term 'software-defined networking' refer to?",
+      "options": ["Encoding user data", "Replacing MAC addresses", "Controlling network layers via software", "Encrypting Wi-Fi signals"],
+      "answerIndex": 2
+    },
+    {
+      "id": 24,
+      "question": "What kind of protocols typically operate at Layer 2?",
+      "options": ["Wi-Fi and Ethernet", "HTTP and FTP", "UDP and TCP", "SSH and SSL"],
+      "answerIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Which OSI layer is responsible for handling the bits and bytes over a cable?",
+      "options": ["Application", "Data Link", "Network", "Physical"],
+      "answerIndex": 3
+    }
+  ],
     "In-Depth Network Layer": [
       {
         id: 1,
