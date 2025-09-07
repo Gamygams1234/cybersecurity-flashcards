@@ -3885,7 +3885,7 @@ const questions = {
     "id": 20,
     "question": "In the AAA framework, which comes first?",
     "options": ["Authorization", "Authentication", "Identification", "Accounting"],
-    "answerIndex": 2
+    "answerIndex": 1
   }
 ]
 ,
