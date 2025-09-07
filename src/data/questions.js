@@ -3676,6 +3676,220 @@ const questions = {
         answerIndex: 1,
       },
     ],
+    "Non-Repudiation and Integrity (PM)": [
+  {
+    "id": 1,
+    "question": "What does non-repudiation ensure in cybersecurity?",
+    "options": [
+      "Data cannot be modified",
+      "You cannot deny an action or communication",
+      "The system is always available",
+      "The message is encrypted"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an example of non-repudiation in practice?",
+    "options": [
+      "Using a firewall",
+      "Signing a contract with your signature",
+      "Encrypting a hard drive",
+      "Hashing a password"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "In cryptography, non-repudiation provides:",
+    "options": [
+      "Proof of confidentiality and secrecy",
+      "Proof of integrity and proof of origin",
+      "Proof that data is anonymized",
+      "Proof that data is backed up"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "What happens if a single character in a file changes when using hashing?",
+    "options": [
+      "The file becomes encrypted",
+      "The hash remains the same",
+      "The hash completely changes",
+      "The file becomes unreadable"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Which cryptographic tool is primarily used to verify data integrity?",
+    "options": [
+      "Hashing",
+      "Encryption",
+      "Firewall rules",
+      "Digital certificates"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "What does proof of origin in cryptography validate?",
+    "options": [
+      "The message has not changed and comes from the claimed sender",
+      "The system is protected by antivirus software",
+      "Only authorized users can log in",
+      "The file has been compressed"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "Which key is used to sign a digital signature?",
+    "options": [
+      "Public key",
+      "Private key",
+      "Symmetric key",
+      "Session key"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Which key is used to verify a digital signature?",
+    "options": [
+      "Private key",
+      "Public key",
+      "Root key",
+      "Hash key"
+    ],
+    "answerIndex": 1
+  }
+],  "AAA Framework": [
+  {
+    "id": 1,
+    "question": "What does the first 'A' in AAA stand for, and what is its purpose?",
+    "options": ["Authentication – proving identity", "Authorization – granting access", "Identification – claiming an identity", "Accounting – tracking user actions"],
+    "answerIndex": 0
+  },
+
+  {
+    "id": 2,
+    "question": "Which AAA process requires proof like a password or fingerprint?",
+    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
+    "answerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "What does authorization decide?",
+    "options": ["Who you claim to be", "What resources you can access", "When you logged out", "Your username"],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "Which AAA process tracks resources used, such as login time and data transferred?",
+    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
+    "answerIndex": 3
+  },
+  {
+    "id": 5,
+    "question": "What is the primary purpose of identification?",
+    "options": ["To prove your identity", "To claim an identity", "To log system activity", "To assign privileges"],
+    "answerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "In a VPN setup, which AAA function verifies credentials before granting access?",
+    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
+    "answerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "Which method can authenticate systems that cannot type a password?",
+    "options": ["PIN code", "Digitally signed certificate", "One-time password", "Security questions"],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Why is direct user-to-resource authorization not scalable?",
+    "options": ["It is insecure", "It is difficult to manage with many users", "It prevents authentication", "It requires strong passwords"],
+    "answerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Which model defines access by attributes, roles, or organizations?",
+    "options": ["Discretionary Access Control", "Role-based authorization model", "Mandatory Access Control", "No authorization model"],
+    "answerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "What is one advantage of using an authorization model?",
+    "options": ["Adds complexity", "Reduces scalability", "Streamlines administration", "Prevents identification"],
+    "answerIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "Which AAA component logs when a user logs in, what data they accessed, and when they logged out?",
+    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
+    "answerIndex": 3
+  },
+  {
+    "id": 12,
+    "question": "What is the weakness of having no authorization model?",
+    "options": ["It’s too complex", "It does not scale and is hard to understand", "It prevents authentication from working", "It breaks encryption"],
+    "answerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "How does certificate-based authentication help validate devices?",
+    "options": ["By using usernames", "By using shared passwords", "By assigning digitally signed certificates", "By logging activity"],
+    "answerIndex": 2
+  },
+  {
+    "id": 14,
+    "question": "In certificate-based authentication, which entity issues the trusted certificates?",
+    "options": ["Device owner", "Root Certificate Authority (CA)", "VPN concentrator", "Authentication server"],
+    "answerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "Which of the following best describes authorization?",
+    "options": ["Proof of identity", "Claiming who you are", "Determining what resources you may access", "Tracking resource usage"],
+    "answerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Which AAA process is often implemented with role-based access control (RBAC)?",
+    "options": ["Authentication", "Authorization", "Identification", "Accounting"],
+    "answerIndex": 1
+  },
+  {
+    "id": 17,
+    "question": "What is a practical example of accounting in AAA?",
+    "options": ["A log file showing user login and logout times", "Entering a username to claim identity", "Verifying a fingerprint at login", "Assigning permissions to a role"],
+    "answerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "What type of AAA model supports assigning rights based on job role?",
+    "options": ["Role-Based Access Control (RBAC)", "Mandatory Access Control (MAC)", "Discretionary Access Control (DAC)", "Attribute-Based Access Control (ABAC)"],
+    "answerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "What does authentication validate that identification alone does not?",
+    "options": ["What access rights the user has", "That the user truly is who they claim to be", "The resources the user accessed", "The user’s login/logout times"],
+    "answerIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "In the AAA framework, which comes first?",
+    "options": ["Authorization", "Authentication", "Identification", "Accounting"],
+    "answerIndex": 2
+  }
+]
+,
+
 
     "DAD Triad (Threats)": [
       {
