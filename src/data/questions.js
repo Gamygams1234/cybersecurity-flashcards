@@ -3765,7 +3765,7 @@ const questions = {
     ],
     "answerIndex": 1
   }
-],  "AAA Framework": [
+],  "AAA Framework, (PM)": [
   {
     "id": 1,
     "question": "What does the first 'A' in AAA stand for, and what is its purpose?",
@@ -3888,7 +3888,173 @@ const questions = {
     "answerIndex": 1
   }
 ]
-,
+,  "Gap Analysis & Frameworks, (PM)": [
+  {
+    "id": 1,
+    "question": "What does a gap analysis compare in cybersecurity?",
+    "options": [
+      "Threat actors and vulnerabilities",
+      "Where you are now vs. where you want to be",
+      "Different vendor products",
+      "Employee performance evaluations"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "What is the 'gap' in a gap analysis?",
+    "options": [
+      "The difference between threats and vulnerabilities",
+      "The difference between existing controls and best practices",
+      "The difference between current and desired security posture",
+      "The difference between budgets and expenses"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Why can gap analysis take weeks or months?",
+    "options": [
+      "It requires software development",
+      "It needs approvals from regulators",
+      "It involves data gathering, technical research, and multiple participants",
+      "It can only be performed once a year"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of establishing a baseline in framework selection?",
+    "options": [
+      "To avoid compliance audits",
+      "To have an internal or external standard to measure against",
+      "To reduce the number of employees involved",
+      "To guarantee ISO certification"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "Which framework focuses on protecting Controlled Unclassified Information (CUI) in nonfederal systems?",
+    "options": [
+      "ISO/IEC 27001",
+      "PCI DSS",
+      "NIST SP 800-171",
+      "COBIT"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "ISO/IEC 27001 is primarily used for:",
+    "options": [
+      "Information security management systems",
+      "Physical building security",
+      "Cryptographic algorithms",
+      "Data privacy for healthcare"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "When evaluating employees in a gap analysis, what should you assess?",
+    "options": [
+      "Job titles only",
+      "Formal experience, training, and policy knowledge",
+      "Vacation history",
+      "Salary levels"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is part of examining current processes?",
+    "options": [
+      "Replacing outdated staff",
+      "Researching IT systems and reviewing security policies",
+      "Checking financial reports",
+      "Purchasing new servers"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "During compare and contrast, what is the goal?",
+    "options": [
+      "To decide which vendor to use",
+      "To evaluate systems, identify weaknesses, and conduct detailed analysis",
+      "To generate financial savings",
+      "To prepare only for compliance audits"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "What is often the output of mapping access control requirements?",
+    "options": [
+      "Employee termination list",
+      "A chart connecting security requirements to controls",
+      "Vendor purchase agreements",
+      "Penetration test results"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "In the NIST SP 800-171 access control mapping, AC-2 corresponds to:",
+    "options": [
+      "Audit logs",
+      "Account Management",
+      "System Maintenance",
+      "Encryption Policies"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "What does the final gap analysis report include?",
+    "options": [
+      "Only a list of vulnerabilities",
+      "Detailed baseline objectives, current state, and recommendations",
+      "Financial projections for IT purchases",
+      "Employee satisfaction scores"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Why is change control important in moving from the current state to the goal?",
+    "options": [
+      "It avoids involving management",
+      "It ensures security changes are managed, documented, and approved",
+      "It eliminates the need for user training",
+      "It reduces the number of policies required"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Which of the following best describes the purpose of comparing existing systems during gap analysis?",
+    "options": [
+      "To identify cost savings",
+      "To identify weaknesses and effective processes",
+      "To check compliance with HIPAA",
+      "To eliminate redundant employees"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "What is the ultimate goal of a gap analysis?",
+    "options": [
+      "To eliminate compliance audits",
+      "To bridge the difference between current security posture and desired security goals",
+      "To replace all employees with automation",
+      "To document employee productivity"
+    ],
+    "answerIndex": 1
+  }
+],
 
 
     "DAD Triad (Threats)": [
