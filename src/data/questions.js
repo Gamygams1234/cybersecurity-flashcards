@@ -2292,158 +2292,168 @@ const questions = {
     ],
   },
   "W3 Networking": {
-   "Networking Basics": [
-    {
-      "id": 1,
-      "question": "What does the OSI model help us understand in networking?",
-      "options": ["Data storage systems", "User interface design", "The layers involved in computer communication", "Cyber crime investigation"],
-      "answerIndex": 2
-    },
-    {
-      "id": 2,
-      "question": "Which OSI layer is responsible for physically transmitting data over a medium?",
-      "options": ["Transport Layer", "Physical Layer", "Data Link Layer", "Network Layer"],
-      "answerIndex": 1
-    },
-    {
-      "id": 3,
-      "question": "What protocol is commonly used at the Physical Layer?",
-      "options": ["Ethernet Physical Layer", "TCP", "SSL", "IP"],
-      "answerIndex": 0
-    },
-    {
-      "id": 4,
-      "question": "Which OSI layer handles MAC addressing and packet delivery between physical devices?",
-      "options": ["Data Link Layer", "Session Layer", "Presentation Layer", "Transport Layer"],
-      "answerIndex": 0
-    },
-    {
-      "id": 5,
-      "question": "Which protocol operates at the Data Link Layer for wireless communication?",
-      "options": ["Wi-Fi", "UDP", "QUIC", "NetBIOS"],
-      "answerIndex": 0
-    },
-    {
-      "id": 6,
-      "question": "What is the main purpose of the Network Layer?",
-      "options": ["Routing packets", "Encrypting messages", "Managing sessions", "Compressing data"],
-      "answerIndex": 0
-    },
-    {
-      "id": 7,
-      "question": "Which of these protocols is part of the Network Layer?",
-      "options": ["IP", "SSL", "FTP", "SOCKS"],
-      "answerIndex": 0
-    },
-    {
-      "id": 8,
-      "question": "Which OSI layer is responsible for choosing the packet path?",
-      "options": ["Transport Layer", "Network Layer", "Application Layer", "Session Layer"],
-      "answerIndex": 1
-    },
-    {
-      "id": 9,
-      "question": "Which protocol is commonly used for diagnostics at Layer 3?",
-      "options": ["ICMP", "QUIC", "TLS", "Ethernet"],
-      "answerIndex": 0
-    },
-    {
-      "id": 10,
-      "question": "What is the primary role of the Transport Layer?",
-      "options": ["Packet switching", "Reliable delivery of data", "User authentication", "IP addressing"],
-      "answerIndex": 1
-    },
-    {
-      "id": 11,
-      "question": "Which protocols operate at the Transport Layer?",
-      "options": ["TCP and UDP", "HTTP and HTTPS", "IP and ICMP", "FTP and SNMP"],
-      "answerIndex": 0
-    },
-    {
-      "id": 12,
-      "question": "Which transport layer protocol ensures reliable communication?",
-      "options": ["TCP", "UDP", "ICMP", "IP"],
-      "answerIndex": 0
-    },
-    {
-      "id": 13,
-      "question": "Which OSI layer is responsible for managing connections between applications?",
-      "options": ["Transport", "Session", "Application", "Network"],
-      "answerIndex": 1
-    },
-    {
-      "id": 14,
-      "question": "Which of the following is a Session Layer protocol?",
-      "options": ["SOCKS", "QUIC", "SSL", "NDP"],
-      "answerIndex": 0
-    },
-    {
-      "id": 15,
-      "question": "What does the Presentation Layer do?",
-      "options": ["Routes data", "Encrypts and formats data", "Establishes sessions", "Handles physical signals"],
-      "answerIndex": 1
-    },
-    {
-      "id": 16,
-      "question": "Which of these is NOT a Presentation Layer function?",
-      "options": ["Encoding", "Encryption", "Compression", "Routing"],
-      "answerIndex": 3
-    },
-    {
-      "id": 17,
-      "question": "Which OSI layer uses SSL and TLS?",
-      "options": ["Transport", "Application", "Presentation", "Data Link"],
-      "answerIndex": 2
-    },
-    {
-      "id": 18,
-      "question": "Which layer do most developers interact with directly?",
-      "options": ["Network Layer", "Application Layer", "Session Layer", "Data Link Layer"],
-      "answerIndex": 1
-    },
-    {
-      "id": 19,
-      "question": "Which protocol is used on the Application Layer for web traffic?",
-      "options": ["HTTP", "ICMP", "IP", "TCP"],
-      "answerIndex": 0
-    },
-    {
-      "id": 20,
-      "question": "What does SNMP do at the Application Layer?",
-      "options": ["Transfer files", "Encrypt messages", "Manage network devices", "Route packets"],
-      "answerIndex": 2
-    },
-    {
-      "id": 21,
-      "question": "Which OSI layer is associated with IP address routing?",
-      "options": ["Network", "Session", "Transport", "Presentation"],
-      "answerIndex": 0
-    },
-    {
-      "id": 22,
-      "question": "Which OSI layer does QUIC operate on?",
-      "options": ["Application", "Session", "Transport", "Data Link"],
-      "answerIndex": 2
-    },
-    {
-      "id": 23,
-      "question": "What does the term 'software-defined networking' refer to?",
-      "options": ["Encoding user data", "Replacing MAC addresses", "Controlling network layers via software", "Encrypting Wi-Fi signals"],
-      "answerIndex": 2
-    },
-    {
-      "id": 24,
-      "question": "What kind of protocols typically operate at Layer 2?",
-      "options": ["Wi-Fi and Ethernet", "HTTP and FTP", "UDP and TCP", "SSH and SSL"],
-      "answerIndex": 0
-    },
-    {
-      "id": 25,
-      "question": "Which OSI layer is responsible for handling the bits and bytes over a cable?",
-      "options": ["Application", "Data Link", "Network", "Physical"],
-      "answerIndex": 3
-    }
-  ],
+    "Networking Basics": [
+      {
+        id: 1,
+        question: "What does the OSI model help us understand in networking?",
+        options: [
+          "Data storage systems",
+          "User interface design",
+          "The layers involved in computer communication",
+          "Cyber crime investigation",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which OSI layer is responsible for physically transmitting data over a medium?",
+        options: ["Transport Layer", "Physical Layer", "Data Link Layer", "Network Layer"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "What protocol is commonly used at the Physical Layer?",
+        options: ["Ethernet Physical Layer", "TCP", "SSL", "IP"],
+        answerIndex: 0,
+      },
+      {
+        id: 4,
+        question: "Which OSI layer handles MAC addressing and packet delivery between physical devices?",
+        options: ["Data Link Layer", "Session Layer", "Presentation Layer", "Transport Layer"],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question: "Which protocol operates at the Data Link Layer for wireless communication?",
+        options: ["Wi-Fi", "UDP", "QUIC", "NetBIOS"],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question: "What is the main purpose of the Network Layer?",
+        options: ["Routing packets", "Encrypting messages", "Managing sessions", "Compressing data"],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "Which of these protocols is part of the Network Layer?",
+        options: ["IP", "SSL", "FTP", "SOCKS"],
+        answerIndex: 0,
+      },
+      {
+        id: 8,
+        question: "Which OSI layer is responsible for choosing the packet path?",
+        options: ["Transport Layer", "Network Layer", "Application Layer", "Session Layer"],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "Which protocol is commonly used for diagnostics at Layer 3?",
+        options: ["ICMP", "QUIC", "TLS", "Ethernet"],
+        answerIndex: 0,
+      },
+      {
+        id: 10,
+        question: "What is the primary role of the Transport Layer?",
+        options: ["Packet switching", "Reliable delivery of data", "User authentication", "IP addressing"],
+        answerIndex: 1,
+      },
+      {
+        id: 11,
+        question: "Which protocols operate at the Transport Layer?",
+        options: ["TCP and UDP", "HTTP and HTTPS", "IP and ICMP", "FTP and SNMP"],
+        answerIndex: 0,
+      },
+      {
+        id: 12,
+        question: "Which transport layer protocol ensures reliable communication?",
+        options: ["TCP", "UDP", "ICMP", "IP"],
+        answerIndex: 0,
+      },
+      {
+        id: 13,
+        question: "Which OSI layer is responsible for managing connections between applications?",
+        options: ["Transport", "Session", "Application", "Network"],
+        answerIndex: 1,
+      },
+      {
+        id: 14,
+        question: "Which of the following is a Session Layer protocol?",
+        options: ["SOCKS", "QUIC", "SSL", "NDP"],
+        answerIndex: 0,
+      },
+      {
+        id: 15,
+        question: "What does the Presentation Layer do?",
+        options: ["Routes data", "Encrypts and formats data", "Establishes sessions", "Handles physical signals"],
+        answerIndex: 1,
+      },
+      {
+        id: 16,
+        question: "Which of these is NOT a Presentation Layer function?",
+        options: ["Encoding", "Encryption", "Compression", "Routing"],
+        answerIndex: 3,
+      },
+      {
+        id: 17,
+        question: "Which OSI layer uses SSL and TLS?",
+        options: ["Transport", "Application", "Presentation", "Data Link"],
+        answerIndex: 2,
+      },
+      {
+        id: 18,
+        question: "Which layer do most developers interact with directly?",
+        options: ["Network Layer", "Application Layer", "Session Layer", "Data Link Layer"],
+        answerIndex: 1,
+      },
+      {
+        id: 19,
+        question: "Which protocol is used on the Application Layer for web traffic?",
+        options: ["HTTP", "ICMP", "IP", "TCP"],
+        answerIndex: 0,
+      },
+      {
+        id: 20,
+        question: "What does SNMP do at the Application Layer?",
+        options: ["Transfer files", "Encrypt messages", "Manage network devices", "Route packets"],
+        answerIndex: 2,
+      },
+      {
+        id: 21,
+        question: "Which OSI layer is associated with IP address routing?",
+        options: ["Network", "Session", "Transport", "Presentation"],
+        answerIndex: 0,
+      },
+      {
+        id: 22,
+        question: "Which OSI layer does QUIC operate on?",
+        options: ["Application", "Session", "Transport", "Data Link"],
+        answerIndex: 2,
+      },
+      {
+        id: 23,
+        question: "What does the term 'software-defined networking' refer to?",
+        options: [
+          "Encoding user data",
+          "Replacing MAC addresses",
+          "Controlling network layers via software",
+          "Encrypting Wi-Fi signals",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 24,
+        question: "What kind of protocols typically operate at Layer 2?",
+        options: ["Wi-Fi and Ethernet", "HTTP and FTP", "UDP and TCP", "SSH and SSL"],
+        answerIndex: 0,
+      },
+      {
+        id: 25,
+        question: "Which OSI layer is responsible for handling the bits and bytes over a cable?",
+        options: ["Application", "Data Link", "Network", "Physical"],
+        answerIndex: 3,
+      },
+    ],
     "In-Depth Network Layer": [
       {
         id: 1,
@@ -3414,940 +3424,1025 @@ const questions = {
         answerIndex: 2,
       },
     ],
-  }," W3 Cyber Defence":{
-"Security Operations": [
-  {
-    "id": 1,
-    "question": "What is the main responsibility of a Security Operations Center (SOC)?",
-    "options": [
-      "Install software updates",
-      "Detect and respond to threats in the environment",
-      "Build websites for the company",
-      "Train employees on customer service"
-    ],
-    "answerIndex": 1
   },
-  {
-    "id": 2,
-    "question": "What does SIEM stand for?",
-    "options": [
-      "Security Information and Event Management",
-      "Software Incident and Event Monitoring",
-      "System Integrity and Endpoint Management",
-      "Secure Internet Event Monitoring"
+  " W3 Cyber Defence": {
+    "Security Operations": [
+      {
+        id: 1,
+        question: "What is the main responsibility of a Security Operations Center (SOC)?",
+        options: [
+          "Install software updates",
+          "Detect and respond to threats in the environment",
+          "Build websites for the company",
+          "Train employees on customer service",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What does SIEM stand for?",
+        options: [
+          "Security Information and Event Management",
+          "Software Incident and Event Monitoring",
+          "System Integrity and Endpoint Management",
+          "Secure Internet Event Monitoring",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 3,
+        question: "Which type of event typically provides the most useful security context for a SOC?",
+        options: ["Network events", "Host events", "Application events", "Firewall logs"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What is the primary role of a Level 1 SOC Analyst?",
+        options: [
+          "Design security architecture",
+          "Investigate and escalate alerts",
+          "Lead the SOC team",
+          "Create new applications",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "What is Purple Teaming?",
+        options: [
+          "When two SOC teams compete to find threats",
+          "When developers and testers work together",
+          "Merging offensive and defensive security teams for collaboration",
+          "Using AI to monitor traffic",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "In incident response, what does 'criticality' refer to?",
+        options: [
+          "The time the incident occurred",
+          "The difficulty of fixing the issue",
+          "How serious the incident is and how quickly it must be addressed",
+          "The type of malware used",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 7,
+        question: "What is the purpose of SOAR in a SOC environment?",
+        options: [
+          "To block all internet access",
+          "To automate responses and orchestrate actions to threats",
+          "To install antivirus software",
+          "To monitor employee productivity",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question:
+          "Which of the following is the hardest for attackers to change and therefore the most useful for detection?",
+        options: ["File hashes", "IP addresses", "Domain names", "Tactics, Techniques, and Procedures (TTPs)"],
+        answerIndex: 3,
+      },
+      {
+        id: 9,
+        question: "What should a SOC use to determine who to notify for different incidents?",
+        options: ["Alert color codes", "Random selection", "Escalation chains", "Antivirus logs"],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "Why might a SIEM require customization for application logs?",
+        options: [
+          "SIEMs never support application logs",
+          "Application logs are always encrypted",
+          "Many applications are proprietary and require manual parsing rules",
+          "They’re not written in English",
+        ],
+        answerIndex: 2,
+      },
     ],
-    "answerIndex": 0
+    "Incident Response": [
+      {
+        id: 1,
+        question: "What is the main goal of a Cyber Security Incident Response Team (IRT)?",
+        options: [
+          "To install antivirus software",
+          "To increase website traffic",
+          "To handle incidents and reduce organizational harm",
+          "To reset employee passwords",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Which methodology is commonly used for structuring incident response processes?",
+        options: ["CIA Triad", "OWASP Top 10", "PICERL", "TCP/IP Stack"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which of the following is the first phase in the PICERL methodology?",
+        options: ["Containment", "Preparation", "Identification", "Eradication"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "During which phase is evidence such as hard drive and memory images collected?",
+        options: ["Identification", "Recovery", "Containment", "Lessons Learned"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "What is the goal of the eradication phase in incident response?",
+        options: [
+          "Build new systems",
+          "Change all employee passwords",
+          "Remove attacker artifacts and restore clean systems",
+          "Monitor employees' emails",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is typically done during the recovery phase?",
+        options: [
+          "Backup compromised systems",
+          "Return systems to normal operations and monitor for reinfection",
+          "Remove malicious files",
+          "Train new employees",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "Which phase involves documenting improvements and reviewing team performance?",
+        options: ["Recovery", "Containment", "Lessons Learned", "Preparation"],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "Which of the following is a common question during the identification phase?",
+        options: [
+          "What was the weather at the time of the attack?",
+          "Can we trace the attackers’ VPN provider?",
+          "What systems and users are involved?",
+          "How long has the company been operating?",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "What role might HR or Legal play in incident response?",
+        options: [
+          "They set firewall rules",
+          "They help respond to phishing emails",
+          "They assist with communication, policy, or regulatory needs",
+          "They provide penetration testing tools",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 10,
+        question: "Which of the following would NOT typically occur during the preparation phase?",
+        options: [
+          "Creating incident response playbooks",
+          "Training the response team",
+          "Blocking malicious IPs in the firewall",
+          "Setting up secure communication channels",
+        ],
+        answerIndex: 2,
+      },
+    ],
   },
-  {
-    "id": 3,
-    "question": "Which type of event typically provides the most useful security context for a SOC?",
-    "options": [
-      "Network events",
-      "Host events",
-      "Application events",
-      "Firewall logs"
+  "Chapter 1 Comp TIA": {
+    "Cybersecurity Objectives (CIA Triad)": [
+      {
+        id: 1,
+        question: "Which option best describes the goal of Confidentiality?",
+        options: [
+          "Ensuring systems are available when needed",
+          "Preventing unauthorized disclosure of information",
+          "Ensuring no unauthorized modification occurs",
+          "Proving who sent a message",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Hashing a file to verify it hasn't changed primarily protects which CIA objective?",
+        options: ["Confidentiality", "Integrity", "Availability", "Nonrepudiation"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Which control BEST supports Availability?",
+        options: [
+          "Multi-factor authentication",
+          "Firewall rules",
+          "Backups and fault tolerance (e.g., clustering/RAID)",
+          "File hashing",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Encrypting sensitive data at rest most directly supports which CIA objective?",
+        options: ["Integrity", "Availability", "Confidentiality", "Nonrepudiation"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which scenario MOST clearly violates Integrity?",
+        options: [
+          "An attacker steals a database of SSNs",
+          "A power outage takes down the website",
+          "A user adds unauthorized transactions to a ledger",
+          "A web server is behind a firewall",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "Nonrepudiation means:",
+        options: [
+          "Data cannot be disclosed without permission",
+          "The sender cannot deny having performed an action",
+          "Systems remain online during failures",
+          "Data cannot be altered in transit",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "What is the primary role of a Level 1 SOC Analyst?",
-    "options": [
-      "Design security architecture",
-      "Investigate and escalate alerts",
-      "Lead the SOC team",
-      "Create new applications"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 5,
-    "question": "What is Purple Teaming?",
-    "options": [
-      "When two SOC teams compete to find threats",
-      "When developers and testers work together",
-      "Merging offensive and defensive security teams for collaboration",
-      "Using AI to monitor traffic"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "In incident response, what does 'criticality' refer to?",
-    "options": [
-      "The time the incident occurred",
-      "The difficulty of fixing the issue",
-      "How serious the incident is and how quickly it must be addressed",
-      "The type of malware used"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 7,
-    "question": "What is the purpose of SOAR in a SOC environment?",
-    "options": [
-      "To block all internet access",
-      "To automate responses and orchestrate actions to threats",
-      "To install antivirus software",
-      "To monitor employee productivity"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Which of the following is the hardest for attackers to change and therefore the most useful for detection?",
-    "options": [
-      "File hashes",
-      "IP addresses",
-      "Domain names",
-      "Tactics, Techniques, and Procedures (TTPs)"
-    ],
-    "answerIndex": 3
-  },
-  {
-    "id": 9,
-    "question": "What should a SOC use to determine who to notify for different incidents?",
-    "options": [
-      "Alert color codes",
-      "Random selection",
-      "Escalation chains",
-      "Antivirus logs"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 10,
-    "question": "Why might a SIEM require customization for application logs?",
-    "options": [
-      "SIEMs never support application logs",
-      "Application logs are always encrypted",
-      "Many applications are proprietary and require manual parsing rules",
-      "They’re not written in English"
-    ],
-    "answerIndex": 2
-  }
-], "Incident Response": [
-  {
-    "id": 1,
-    "question": "What is the main goal of a Cyber Security Incident Response Team (IRT)?",
-    "options": [
-      "To install antivirus software",
-      "To increase website traffic",
-      "To handle incidents and reduce organizational harm",
-      "To reset employee passwords"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 2,
-    "question": "Which methodology is commonly used for structuring incident response processes?",
-    "options": [
-      "CIA Triad",
-      "OWASP Top 10",
-      "PICERL",
-      "TCP/IP Stack"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "Which of the following is the first phase in the PICERL methodology?",
-    "options": [
-      "Containment",
-      "Preparation",
-      "Identification",
-      "Eradication"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "During which phase is evidence such as hard drive and memory images collected?",
-    "options": [
-      "Identification",
-      "Recovery",
-      "Containment",
-      "Lessons Learned"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 5,
-    "question": "What is the goal of the eradication phase in incident response?",
-    "options": [
-      "Build new systems",
-      "Change all employee passwords",
-      "Remove attacker artifacts and restore clean systems",
-      "Monitor employees' emails"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "What is typically done during the recovery phase?",
-    "options": [
-      "Backup compromised systems",
-      "Return systems to normal operations and monitor for reinfection",
-      "Remove malicious files",
-      "Train new employees"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 7,
-    "question": "Which phase involves documenting improvements and reviewing team performance?",
-    "options": [
-      "Recovery",
-      "Containment",
-      "Lessons Learned",
-      "Preparation"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 8,
-    "question": "Which of the following is a common question during the identification phase?",
-    "options": [
-      "What was the weather at the time of the attack?",
-      "Can we trace the attackers’ VPN provider?",
-      "What systems and users are involved?",
-      "How long has the company been operating?"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 9,
-    "question": "What role might HR or Legal play in incident response?",
-    "options": [
-      "They set firewall rules",
-      "They help respond to phishing emails",
-      "They assist with communication, policy, or regulatory needs",
-      "They provide penetration testing tools"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 10,
-    "question": "Which of the following would NOT typically occur during the preparation phase?",
-    "options": [
-      "Creating incident response playbooks",
-      "Training the response team",
-      "Blocking malicious IPs in the firewall",
-      "Setting up secure communication channels"
-    ],
-    "answerIndex": 2
-  }
-]
 
+    "DAD Triad (Threats)": [
+      {
+        id: 1,
+        question: "An attacker steals customer credit card numbers from a database. Which DAD threat is this?",
+        options: ["Disclosure", "Alteration", "Denial", "Evasion"],
+        answerIndex: 0,
+      },
+      {
+        id: 2,
+        question: "A power surge corrupts records in a financial system. Which DAD threat occurred?",
+        options: ["Disclosure", "Alteration", "Denial", "Exfiltration"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "A DDoS attack makes the customer portal unreachable for hours. Which DAD threat is this?",
+        options: ["Disclosure", "Alteration", "Denial", "Enumeration"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "Accidentally emailing an unencrypted spreadsheet with PII to the wrong recipient is an example of:",
+        options: ["Disclosure", "Alteration", "Denial", "Nonrepudiation"],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question:
+          "A script modifies product prices in a database without authorization. Which DAD threat best applies?",
+        options: ["Disclosure", "Alteration", "Denial", "Obfuscation"],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "A datacenter cooling failure forces systems offline. Which DAD threat is most affected?",
+        options: ["Disclosure", "Alteration", "Denial", "Integrity"],
+        answerIndex: 2,
+      },
+    ],
 
-  } 
-,
+    "Data Breach Risks": [
+      {
+        id: 1,
+        question: "A security incident that exposes sensitive information most directly violates which CIA objective?",
+        options: ["Availability", "Integrity", "Confidentiality", "Nonrepudiation"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question: "Restoring from backups after ransomware primarily addresses which CIA objective?",
+        options: ["Confidentiality", "Integrity", "Availability", "Nonrepudiation"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Which question best reflects using the DAD model during risk analysis of a public website?",
+        options: [
+          "Does the site have enough staff to support tickets?",
+          "Does the site contain data that would harm the organization if disclosed to unauthorized users?",
+          "Can users deny having posted a comment?",
+          "Are the servers in the same time zone?",
+        ],
+        answerIndex: 1,
+      },
+    ],
+    "Risk Categories": [
+      {
+        id: 1,
+        question:
+          "Which risk refers to monetary losses, such as costs of rebuilding a datacenter or lost revenue due to a breach?",
+        options: ["Reputational Risk", "Financial Risk", "Strategic Risk", "Operational Risk"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question:
+          "A company loses customer trust and suffers negative publicity after a security incident. Which type of risk is this?",
+        options: ["Reputational Risk", "Strategic Risk", "Compliance Risk", "Operational Risk"],
+        answerIndex: 0,
+      },
+      {
+        id: 3,
+        question:
+          "An employee loses a laptop with product development plans. Competitors use this information to launch their own product first. What type of risk is this?",
+        options: ["Operational Risk", "Compliance Risk", "Strategic Risk", "Financial Risk"],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question:
+          "Which risk affects the organization’s ability to carry out daily business functions, such as processing customer orders?",
+        options: ["Compliance Risk", "Operational Risk", "Financial Risk", "Reputational Risk"],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question:
+          "A hospital is fined for violating HIPAA by exposing patient medical records. Which risk is this an example of?",
+        options: ["Compliance Risk", "Financial Risk", "Reputational Risk", "Operational Risk"],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question: "Why can a single breach often fall into multiple risk categories?",
+        options: [
+          "Because only financial losses matter",
+          "Because reputational damage is always temporary",
+          "Because one event can cause legal, financial, operational, and reputational impacts at the same time",
+          "Because strategic risk is the only true business risk",
+        ],
+        answerIndex: 2,
+      },
+    ],
+    "Implementing Security Controls": [
+      {
+        id: 1,
+        question: "What is the main purpose of security controls?",
+        options: [
+          "To replace security objectives completely",
+          "To fulfill security objectives by protecting confidentiality, integrity, and availability",
+          "To provide optional guidelines for employees",
+          "To eliminate all risk in an organization",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "During a gap analysis, what does a cybersecurity professional look for?",
+        options: [
+          "Unpatched vulnerabilities only",
+          "Areas where existing controls do not meet the stated control objectives",
+          "Employee mistakes and training needs",
+          "Ways to improve encryption strength only",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Which of the following is the BEST description of a gap in gap analysis?",
+        options: [
+          "A vulnerability in firewall rules",
+          "A security incident that has already occurred",
+          "A mismatch between security controls and control objectives",
+          "An example of physical security weakness",
+        ],
+        answerIndex: 2,
+      },
+    ],
 
-"Chapter 1 Comp TIA":{
-  "Cybersecurity Objectives (CIA Triad)": [
-  {
-    "id": 1,
-    "question": "Which option best describes the goal of Confidentiality?",
-    "options": [
-      "Ensuring systems are available when needed",
-      "Preventing unauthorized disclosure of information",
-      "Ensuring no unauthorized modification occurs",
-      "Proving who sent a message"
+    "Security Control Categories": [
+      {
+        id: 1,
+        question:
+          "Which type of control enforces confidentiality, integrity, and availability in the digital space using firewalls, ACLs, and encryption?",
+        options: ["Operational controls", "Managerial controls", "Technical controls", "Physical controls"],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question:
+          "Log monitoring, vulnerability management, and user access reviews are examples of which type of control?",
+        options: ["Managerial controls", "Operational controls", "Technical controls", "Physical controls"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question:
+          "Risk assessments, security planning exercises, and project management practices are examples of which control type?",
+        options: ["Operational controls", "Managerial controls", "Technical controls", "Physical controls"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which controls include locks, fences, and fire suppression systems?",
+        options: ["Physical controls", "Managerial controls", "Technical controls", "Operational controls"],
+        answerIndex: 0,
+      },
+      {
+        id: 5,
+        question:
+          "An organization that protects data with encryption (technical), reviews user accounts monthly (operational), and performs quarterly risk assessments (managerial) is practicing:",
+        options: [
+          "Defense in depth with layered controls",
+          "Physical security only",
+          "Gap analysis",
+          "Compliance monitoring",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question:
+          "Which control category involves day-to-day processes to keep systems secure, such as log reviews and vulnerability scanning?",
+        options: ["Technical controls", "Operational controls", "Managerial controls", "Physical controls"],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "Which of the following BEST describes managerial controls?",
+        options: [
+          "Controls that use technology like firewalls or encryption",
+          "Controls that involve physical barriers such as locks and guards",
+          "Controls focused on policies, risk assessments, and planning",
+          "Controls that monitor user activity in real time",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 8,
+        question: "A company installs CCTV cameras at its datacenter. This is an example of which type of control?",
+        options: ["Operational control", "Managerial control", "Physical control", "Technical control"],
+        answerIndex: 2,
+      },
+      {
+        id: 9,
+        question: "Which of the following is an example of a technical control?",
+        options: [
+          "Quarterly risk assessment",
+          "Firewall rules blocking unauthorized traffic",
+          "Employee security awareness training",
+          "Hiring a security guard",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "Security awareness training is MOST closely associated with which control category?",
+        options: ["Operational control", "Technical control", "Physical control", "Managerial control"],
+        answerIndex: 3,
+      },
+      {
+        id: 11,
+        question:
+          "An administrator performs a user access review every month to ensure accounts are valid. This is an example of:",
+        options: ["Operational control", "Managerial control", "Technical control", "Physical control"],
+        answerIndex: 0,
+      },
+      {
+        id: 12,
+        question: "Fire suppression systems in a datacenter fall under which category of control?",
+        options: ["Managerial control", "Technical control", "Operational control", "Physical control"],
+        answerIndex: 3,
+      },
+      {
+        id: 13,
+        question:
+          "Which control category ensures that management decisions are implemented through policies and procedures?",
+        options: ["Managerial control", "Technical control", "Operational control", "Physical control"],
+        answerIndex: 0,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "Hashing a file to verify it hasn't changed primarily protects which CIA objective?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Nonrepudiation"
+    "Security Control Types": [
+      {
+        id: 1,
+        question: "Which type of control is designed to stop a security issue before it occurs?",
+        options: ["Detective control", "Preventive control", "Corrective control", "Compensating control"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Barbed wire fences and warning banners are examples of which type of control?",
+        options: ["Preventive control", "Deterrent control", "Directive control", "Corrective control"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Intrusion Detection Systems (IDS) are an example of which control type?",
+        options: ["Preventive control", "Detective control", "Corrective control", "Compensating control"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Restoring backups after a ransomware attack is an example of:",
+        options: ["Detective control", "Compensating control", "Corrective control", "Preventive control"],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which control type is used as an alternative when the original requirement cannot be met?",
+        options: ["Compensating control", "Preventive control", "Corrective control", "Directive control"],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question:
+          "Policies and procedures that tell employees what they must do to achieve security goals are examples of:",
+        options: ["Compensating control", "Directive control", "Detective control", "Preventive control"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "Which control BEST supports Availability?",
-    "options": [
-      "Multi-factor authentication",
-      "Firewall rules",
-      "Backups and fault tolerance (e.g., clustering/RAID)",
-      "File hashing"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "Encrypting sensitive data at rest most directly supports which CIA objective?",
-    "options": [
-      "Integrity",
-      "Availability",
-      "Confidentiality",
-      "Nonrepudiation"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 5,
-    "question": "Which scenario MOST clearly violates Integrity?",
-    "options": [
-      "An attacker steals a database of SSNs",
-      "A power outage takes down the website",
-      "A user adds unauthorized transactions to a ledger",
-      "A web server is behind a firewall"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "Nonrepudiation means:",
-    "options": [
-      "Data cannot be disclosed without permission",
-      "The sender cannot deny having performed an action",
-      "Systems remain online during failures",
-      "Data cannot be altered in transit"
-    ],
-    "answerIndex": 1
-  }
-],
 
-"DAD Triad (Threats)": [
-  {
-    "id": 1,
-    "question": "An attacker steals customer credit card numbers from a database. Which DAD threat is this?",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Evasion"
+    "Compensating Controls": [
+      {
+        id: 1,
+        question: "Which of the following is NOT one of the criteria for a compensating control under PCI DSS?",
+        options: [
+          "It must meet the intent and rigor of the original requirement",
+          "It must provide a similar level of defense as the original requirement",
+          "It must be easier and cheaper to implement than the original requirement",
+          "It must be 'above and beyond' other PCI DSS requirements",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 2,
+        question:
+          "An organization cannot upgrade an outdated operating system but isolates it from the network and restricts access. What type of control is this?",
+        options: ["Preventive control", "Compensating control", "Corrective control", "Managerial control"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "Why do organizations often adopt compensating controls?",
+        options: [
+          "To avoid compliance requirements altogether",
+          "To meet security objectives when direct compliance with a requirement is not feasible",
+          "To reduce the cost of implementing preventive controls",
+          "To eliminate the need for risk assessments",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which is the BEST description of a compensating control?",
+        options: [
+          "A temporary control that fixes an issue until a permanent solution is found",
+          "An alternative control that provides equivalent protection when the original requirement cannot be met",
+          "A control that only applies to physical security requirements",
+          "A form of detective control used to log policy violations",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 0
+    "Data Protection": [
+      {
+        id: 1,
+        question: "Which term describes data that is stored on hard drives, tapes, or cloud storage?",
+        options: ["Data in transit", "Data at rest", "Data in use", "Data minimized"],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which type of data is most vulnerable to eavesdropping attacks if not encrypted?",
+        options: ["Data at rest", "Data in use", "Data in transit", "Data minimized"],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question:
+          "When an attacker steals sensitive information from system memory while it is being processed, this is a threat to:",
+        options: ["Data in transit", "Data in use", "Data at rest", "Data minimized"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which technology ensures information is unreadable without the correct decryption key?",
+        options: ["Masking", "Encryption", "Tokenization", "Watermarking"],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question:
+          "Which security system is designed to enforce information handling policies and prevent data exfiltration?",
+        options: ["IDS", "SIEM", "DLP", "VPN"],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "What is the difference between agent-based and agentless DLP?",
+        options: [
+          "Agent-based DLP runs on endpoints; agentless DLP runs on the network",
+          "Agent-based DLP only scans network traffic; agentless scans endpoints",
+          "Agent-based DLP focuses on email only; agentless focuses on storage only",
+          "There is no difference between the two",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question:
+          "Which DLP mechanism identifies sensitive data by searching for credit card numbers or Social Security numbers?",
+        options: ["Watermarking", "Pattern matching", "Tokenization", "Masking"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which DLP mechanism uses electronic tags applied to documents to track sensitive information?",
+        options: ["Watermarking", "Pattern matching", "Masking", "Encryption"],
+        answerIndex: 0,
+      },
+      {
+        id: 9,
+        question:
+          "Which technique replaces sensitive values with randomly generated substitutes stored in a lookup table?",
+        options: ["Hashing", "Tokenization", "Masking", "Obfuscation"],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question:
+          "Which data minimization technique redacts sensitive values, such as showing only the last four digits of a credit card?",
+        options: ["Tokenization", "Masking", "Hashing", "Encryption"],
+        answerIndex: 1,
+      },
+      {
+        id: 11,
+        question: "Why should hashing not be the only data minimization technique used?",
+        options: [
+          "It cannot be reversed by design",
+          "It is vulnerable to rainbow table attacks if hashes are exposed",
+          "It requires tokenization to work",
+          "It is more expensive than masking",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 12,
+        question: "Which restriction type limits access based on a user’s physical location?",
+        options: ["Segmentation restriction", "Permission restriction", "Geographic restriction", "Network isolation"],
+        answerIndex: 2,
+      },
+      {
+        id: 13,
+        question: "Which restriction type limits access based on a user’s role or authorization level?",
+        options: [
+          "Geographic restriction",
+          "Permission restriction",
+          "Tokenization restriction",
+          "Data minimization restriction",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 14,
+        question:
+          "Which technique separates sensitive systems onto different networks with strict communication rules?",
+        options: ["Permission restriction", "Data minimization", "Segmentation", "Masking"],
+        answerIndex: 2,
+      },
+      {
+        id: 15,
+        question: "Which approach completely cuts off a system from outside network access?",
+        options: ["Isolation", "Segmentation", "Masking", "Tokenization"],
+        answerIndex: 0,
+      },
+    ],
   },
-  {
-    "id": 2,
-    "question": "A power surge corrupts records in a financial system. Which DAD threat occurred?",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Exfiltration"
+  "Chapter 2 Comp TIA": {
+    "Threat Actor Attributes": [
+      {
+        id: 201,
+        question: "What is the MAIN difference between internal and external threat actors?",
+        options: [
+          "Internal actors are always skilled, external actors are not",
+          "Internal actors have authorized access, externals do not",
+          "External actors are usually motivated by revenge",
+          "Internal actors only target financial gain",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 202,
+        question: "Which characteristic BEST defines the sophistication level of a threat actor?",
+        options: [
+          "The amount of damage they cause",
+          "The tools, techniques, and knowledge they use",
+          "The number of employees in the organization",
+          "Their political beliefs",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 203,
+        question: "A threat actor with limited funding and resources is MOST likely:",
+        options: ["Nation-state", "Organized crime", "Script kiddie", "APT"],
+        answerIndex: 2,
+      },
+      {
+        id: 204,
+        question: "Which motivation is MOST associated with competitors?",
+        options: ["Political gain", "Espionage", "Revenge", "Disruption"],
+        answerIndex: 1,
+      },
+      {
+        id: 205,
+        question: "What attribute is MOST critical in identifying nation-state attackers?",
+        options: [
+          "They lack sophistication",
+          "They have virtually unlimited resources and funding",
+          "They usually work alone",
+          "They are always insiders",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "A DDoS attack makes the customer portal unreachable for hours. Which DAD threat is this?",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Enumeration"
+    "Hacker Hats": [
+      {
+        id: 206,
+        question: "Which type of hacker is typically employed to perform penetration testing?",
+        options: ["Black hat", "White hat", "Gray hat", "Script kiddie"],
+        answerIndex: 1,
+      },
+      {
+        id: 207,
+        question: "Gray-hat hackers differ from black-hat hackers because:",
+        options: [
+          "They always work for governments",
+          "They may disclose vulnerabilities but still act without authorization",
+          "They never break the law",
+          "They only focus on financial gain",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 208,
+        question: "Which hacker type poses the MOST legal risk even if intentions are good?",
+        options: ["White hat", "Gray hat", "Black hat", "APT"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "Accidentally emailing an unencrypted spreadsheet with PII to the wrong recipient is an example of:",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Nonrepudiation"
+    "Types of Threat Actors": [
+      {
+        id: 209,
+        question: "Which attacker relies heavily on downloadable tools and has little real skill?",
+        options: ["Hacktivist", "Script kiddie", "Organized crime", "Insider"],
+        answerIndex: 1,
+      },
+      {
+        id: 210,
+        question: "Which type of attacker is MOST likely to deface a company’s website for political reasons?",
+        options: ["Script kiddie", "Hacktivist", "Insider", "Competitor"],
+        answerIndex: 1,
+      },
+      {
+        id: 211,
+        question: "Which attacker type is MOST likely to use ransomware for profit?",
+        options: ["Nation-state", "Organized crime", "Hacktivist", "Shadow IT"],
+        answerIndex: 1,
+      },
+      {
+        id: 212,
+        question: "Advanced Persistent Threats (APTs) are characterized by:",
+        options: [
+          "Unskilled attackers using random attacks",
+          "Well-funded, highly skilled, long-term campaigns",
+          "Employees using unsanctioned IT solutions",
+          "Hackers who act with good intentions",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 213,
+        question: "Shadow IT poses a risk because:",
+        options: [
+          "It creates unauthorized, unmanaged systems and services",
+          "It is always nation-state sponsored",
+          "It is primarily a physical security concern",
+          "It only happens in small businesses",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 214,
+        question: "Which type of threat actor has the ADVANTAGE of insider knowledge and access?",
+        options: ["Competitors", "Insiders", "Nation-state", "Hacktivists"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 0
-  },
-  {
-    "id": 5,
-    "question": "A script modifies product prices in a database without authorization. Which DAD threat best applies?",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Obfuscation"
+    "Attacker Motivations": [
+      {
+        id: 215,
+        question: "An attack carried out to embarrass or punish an organization is MOST likely motivated by:",
+        options: ["Revenge", "Financial gain", "Hacktivism", "Espionage"],
+        answerIndex: 0,
+      },
+      {
+        id: 216,
+        question: "Espionage attacks are generally focused on:",
+        options: ["Destroying hardware", "Stealing secret information", "Defacing websites", "Causing chaos"],
+        answerIndex: 1,
+      },
+      {
+        id: 217,
+        question: "Which motivation is most common for hacktivists?",
+        options: ["Financial gain", "Political or philosophical beliefs", "Revenge", "Chaos"],
+        answerIndex: 1,
+      },
+      {
+        id: 218,
+        question: "White-hat hackers are MOST motivated by:",
+        options: ["Chaos", "Ethics and improving security", "Revenge", "Espionage"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 6,
-    "question": "A datacenter cooling failure forces systems offline. Which DAD threat is most affected?",
-    "options": [
-      "Disclosure",
-      "Alteration",
-      "Denial",
-      "Integrity"
+    "Threat Vectors": [
+      {
+        id: 219,
+        question: "Phishing emails are an example of which threat vector?",
+        options: ["Wireless", "Message-based", "Wired network", "Cloud"],
+        answerIndex: 1,
+      },
+      {
+        id: 220,
+        question: "An attacker using an infected USB drive is exploiting which threat vector?",
+        options: ["Cloud", "Removable devices", "Supply chain", "Files and images"],
+        answerIndex: 1,
+      },
+      {
+        id: 221,
+        question: "Which vector poses a risk when organizations use outdated vendor systems?",
+        options: ["Files", "Systems", "Wireless", "Message-based"],
+        answerIndex: 1,
+      },
+      {
+        id: 222,
+        question: "Unsecured Wi-Fi networks are an example of which type of threat vector?",
+        options: ["Wireless", "Supply chain", "Message-based", "Removable devices"],
+        answerIndex: 0,
+      },
+      {
+        id: 223,
+        question: "An attacker inserts malicious code into a software update. This is an example of:",
+        options: ["Supply chain attack", "Cloud attack", "Message-based attack", "File-based attack"],
+        answerIndex: 0,
+      },
     ],
-    "answerIndex": 2
-  }
-],
+    "Threat Intelligence": [
+      {
+        id: 224,
+        question: "Which source of intelligence includes community-driven, free threat feeds?",
+        options: [
+          "Open-source intelligence (OSINT)",
+          "Commercial intelligence services",
+          "Government-only databases",
+          "Vulnerability scanning tools",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 225,
+        question: "Indicators of Compromise (IoCs) include all of the following EXCEPT:",
+        options: ["IP addresses", "File hashes", "Log anomalies", "Company mission statements"],
+        answerIndex: 3,
+      },
+      {
+        id: 226,
+        question: "Which U.S. agency provides public alerts and advisories about cybersecurity threats?",
+        options: ["CIA", "CISA", "FBI", "NSA"],
+        answerIndex: 1,
+      },
+    ],
+    "Threat Intelligence Sources": [
+      {
+        id: 11,
+        question: "Which of the following is an example of an open-source threat intelligence feed?",
+        options: [
+          "Cisco Security Advisories",
+          "Microsoft Threat Intelligence Blog",
+          "The SANS Internet Storm Center",
+          "Proprietary vendor reports",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 12,
+        question: "The dark web is most often used by attackers to:",
+        options: [
+          "Store encrypted backups",
+          "Sell stolen credentials and data",
+          "Develop antivirus software",
+          "Host open-source research papers",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 13,
+        question:
+          "Which type of threat intelligence is created and maintained by private companies and sold as a service?",
+        options: ["OSINT", "Closed-source intelligence", "Dark web intelligence", "Community threat feeds"],
+        answerIndex: 1,
+      },
+      {
+        id: 14,
+        question: "Why might a single threat feed fail to provide adequate protection?",
+        options: [
+          "It relies only on manual review",
+          "Feeds may be delayed, incomplete, or outdated",
+          "They only track physical security events",
+          "Threat feeds cannot track indicators of compromise",
+        ],
+        answerIndex: 1,
+      },
+    ],
 
-"Data Breach Risks": [
-  {
-    "id": 1,
-    "question": "A security incident that exposes sensitive information most directly violates which CIA objective?",
-    "options": [
-      "Availability",
-      "Integrity",
-      "Confidentiality",
-      "Nonrepudiation"
+    "Confidence Scoring": [
+      {
+        id: 15,
+        question: "In threat intelligence, a confidence score of 90–100 is usually labeled as:",
+        options: ["Probable", "Confirmed", "Possible", "Discredited"],
+        answerIndex: 1,
+      },
+      {
+        id: 16,
+        question: "Which confidence score range suggests the assessment is possible but not the most likely option?",
+        options: ["90–100 Confirmed", "70–89 Probable", "50–69 Possible", "30–49 Doubtful"],
+        answerIndex: 3,
+      },
+      {
+        id: 17,
+        question: "A threat feed labeled as 'Discredited' means:",
+        options: [
+          "It is based on logical inference",
+          "It should be used with high caution",
+          "The assessment has been proven inaccurate",
+          "The assessment is possible but not confirmed",
+        ],
+        answerIndex: 2,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 2,
-    "question": "Restoring from backups after ransomware primarily addresses which CIA objective?",
-    "options": [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Nonrepudiation"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "Which question best reflects using the DAD model during risk analysis of a public website?",
-    "options": [
-      "Does the site have enough staff to support tickets?",
-      "Does the site contain data that would harm the organization if disclosed to unauthorized users?",
-      "Can users deny having posted a comment?",
-      "Are the servers in the same time zone?"
-    ],
-    "answerIndex": 1
-  }
-], "Risk Categories": [
-  {
-    "id": 1,
-    "question": "Which risk refers to monetary losses, such as costs of rebuilding a datacenter or lost revenue due to a breach?",
-    "options": [
-      "Reputational Risk",
-      "Financial Risk",
-      "Strategic Risk",
-      "Operational Risk"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "A company loses customer trust and suffers negative publicity after a security incident. Which type of risk is this?",
-    "options": [
-      "Reputational Risk",
-      "Strategic Risk",
-      "Compliance Risk",
-      "Operational Risk"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 3,
-    "question": "An employee loses a laptop with product development plans. Competitors use this information to launch their own product first. What type of risk is this?",
-    "options": [
-      "Operational Risk",
-      "Compliance Risk",
-      "Strategic Risk",
-      "Financial Risk"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "Which risk affects the organization’s ability to carry out daily business functions, such as processing customer orders?",
-    "options": [
-      "Compliance Risk",
-      "Operational Risk",
-      "Financial Risk",
-      "Reputational Risk"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 5,
-    "question": "A hospital is fined for violating HIPAA by exposing patient medical records. Which risk is this an example of?",
-    "options": [
-      "Compliance Risk",
-      "Financial Risk",
-      "Reputational Risk",
-      "Operational Risk"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 6,
-    "question": "Why can a single breach often fall into multiple risk categories?",
-    "options": [
-      "Because only financial losses matter",
-      "Because reputational damage is always temporary",
-      "Because one event can cause legal, financial, operational, and reputational impacts at the same time",
-      "Because strategic risk is the only true business risk"
-    ],
-    "answerIndex": 2
-  }
-], "Implementing Security Controls": [
-  {
-    "id": 1,
-    "question": "What is the main purpose of security controls?",
-    "options": [
-      "To replace security objectives completely",
-      "To fulfill security objectives by protecting confidentiality, integrity, and availability",
-      "To provide optional guidelines for employees",
-      "To eliminate all risk in an organization"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "During a gap analysis, what does a cybersecurity professional look for?",
-    "options": [
-      "Unpatched vulnerabilities only",
-      "Areas where existing controls do not meet the stated control objectives",
-      "Employee mistakes and training needs",
-      "Ways to improve encryption strength only"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "Which of the following is the BEST description of a gap in gap analysis?",
-    "options": [
-      "A vulnerability in firewall rules",
-      "A security incident that has already occurred",
-      "A mismatch between security controls and control objectives",
-      "An example of physical security weakness"
-    ],
-    "answerIndex": 2
-  }
-],
 
-"Security Control Categories": [
-  {
-    "id": 1,
-    "question": "Which type of control enforces confidentiality, integrity, and availability in the digital space using firewalls, ACLs, and encryption?",
-    "options": [
-      "Operational controls",
-      "Managerial controls",
-      "Technical controls",
-      "Physical controls"
+    "Threat Indicator Management": [
+      {
+        id: 18,
+        question: "STIX is primarily used for:",
+        options: [
+          "Encrypting sensitive emails",
+          "Standardizing threat information exchange",
+          "Blocking IP addresses on firewalls",
+          "Detecting insider threats",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 19,
+        question: "Which protocol works with STIX to exchange cyber threat intelligence via HTTPS?",
+        options: ["SSL", "TAXII", "IPSec", "TLS"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 2,
-    "question": "Log monitoring, vulnerability management, and user access reviews are examples of which type of control?",
-    "options": [
-      "Managerial controls",
-      "Operational controls",
-      "Technical controls",
-      "Physical controls"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "Risk assessments, security planning exercises, and project management practices are examples of which control type?",
-    "options": [
-      "Operational controls",
-      "Managerial controls",
-      "Technical controls",
-      "Physical controls"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "Which controls include locks, fences, and fire suppression systems?",
-    "options": [
-      "Physical controls",
-      "Managerial controls",
-      "Technical controls",
-      "Operational controls"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 5,
-    "question": "An organization that protects data with encryption (technical), reviews user accounts monthly (operational), and performs quarterly risk assessments (managerial) is practicing:",
-    "options": [
-      "Defense in depth with layered controls",
-      "Physical security only",
-      "Gap analysis",
-      "Compliance monitoring"
-    ],
-    "answerIndex": 0
-  },  {
-    "id": 6,
-    "question": "Which control category involves day-to-day processes to keep systems secure, such as log reviews and vulnerability scanning?",
-    "options": [
-      "Technical controls",
-      "Operational controls",
-      "Managerial controls",
-      "Physical controls"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 7,
-    "question": "Which of the following BEST describes managerial controls?",
-    "options": [
-      "Controls that use technology like firewalls or encryption",
-      "Controls that involve physical barriers such as locks and guards",
-      "Controls focused on policies, risk assessments, and planning",
-      "Controls that monitor user activity in real time"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 8,
-    "question": "A company installs CCTV cameras at its datacenter. This is an example of which type of control?",
-    "options": [
-      "Operational control",
-      "Managerial control",
-      "Physical control",
-      "Technical control"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 9,
-    "question": "Which of the following is an example of a technical control?",
-    "options": [
-      "Quarterly risk assessment",
-      "Firewall rules blocking unauthorized traffic",
-      "Employee security awareness training",
-      "Hiring a security guard"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 10,
-    "question": "Security awareness training is MOST closely associated with which control category?",
-    "options": [
-      "Operational control",
-      "Technical control",
-      "Physical control",
-      "Managerial control"
-    ],
-    "answerIndex": 3
-  },
-  {
-    "id": 11,
-    "question": "An administrator performs a user access review every month to ensure accounts are valid. This is an example of:",
-    "options": [
-      "Operational control",
-      "Managerial control",
-      "Technical control",
-      "Physical control"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 12,
-    "question": "Fire suppression systems in a datacenter fall under which category of control?",
-    "options": [
-      "Managerial control",
-      "Technical control",
-      "Operational control",
-      "Physical control"
-    ],
-    "answerIndex": 3
-  },
-  {
-    "id": 13,
-    "question": "Which control category ensures that management decisions are implemented through policies and procedures?",
-    "options": [
-      "Managerial control",
-      "Technical control",
-      "Operational control",
-      "Physical control"
-    ],
-    "answerIndex": 0
-  }
-], "Security Control Types": [
-  {
-    "id": 1,
-    "question": "Which type of control is designed to stop a security issue before it occurs?",
-    "options": [
-      "Detective control",
-      "Preventive control",
-      "Corrective control",
-      "Compensating control"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "Barbed wire fences and warning banners are examples of which type of control?",
-    "options": [
-      "Preventive control",
-      "Deterrent control",
-      "Directive control",
-      "Corrective control"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "Intrusion Detection Systems (IDS) are an example of which control type?",
-    "options": [
-      "Preventive control",
-      "Detective control",
-      "Corrective control",
-      "Compensating control"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "Restoring backups after a ransomware attack is an example of:",
-    "options": [
-      "Detective control",
-      "Compensating control",
-      "Corrective control",
-      "Preventive control"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 5,
-    "question": "Which control type is used as an alternative when the original requirement cannot be met?",
-    "options": [
-      "Compensating control",
-      "Preventive control",
-      "Corrective control",
-      "Directive control"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 6,
-    "question": "Policies and procedures that tell employees what they must do to achieve security goals are examples of:",
-    "options": [
-      "Compensating control",
-      "Directive control",
-      "Detective control",
-      "Preventive control"
-    ],
-    "answerIndex": 1
-  }
-],
 
-"Compensating Controls": [
-  {
-    "id": 1,
-    "question": "Which of the following is NOT one of the criteria for a compensating control under PCI DSS?",
-    "options": [
-      "It must meet the intent and rigor of the original requirement",
-      "It must provide a similar level of defense as the original requirement",
-      "It must be easier and cheaper to implement than the original requirement",
-      "It must be 'above and beyond' other PCI DSS requirements"
+    "Information Sharing": [
+      {
+        id: 20,
+        question: "What is the main purpose of an Information Sharing and Analysis Center (ISAC)?",
+        options: [
+          "To manage incident response inside one company",
+          "To provide guidance on compliance laws",
+          "To help industries share threat information",
+          "To replace vendor intelligence feeds",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 21,
+        question: "Which U.S. agency runs the Automated Indicator Sharing (AIS) program?",
+        options: ["FBI", "CISA", "NSA", "DHS"],
+        answerIndex: 1,
+      },
+      {
+        id: 22,
+        question: "Which UK organization is responsible for national cybersecurity intelligence?",
+        options: ["Interpol", "MI6", "National Protective Security Authority (NPSA)", "NATO"],
+        answerIndex: 2,
+      },
     ],
-    "answerIndex": 2
   },
-  {
-    "id": 2,
-    "question": "An organization cannot upgrade an outdated operating system but isolates it from the network and restricts access. What type of control is this?",
-    "options": [
-      "Preventive control",
-      "Compensating control",
-      "Corrective control",
-      "Managerial control"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "Why do organizations often adopt compensating controls?",
-    "options": [
-      "To avoid compliance requirements altogether",
-      "To meet security objectives when direct compliance with a requirement is not feasible",
-      "To reduce the cost of implementing preventive controls",
-      "To eliminate the need for risk assessments"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "Which is the BEST description of a compensating control?",
-    "options": [
-      "A temporary control that fixes an issue until a permanent solution is found",
-      "An alternative control that provides equivalent protection when the original requirement cannot be met",
-      "A control that only applies to physical security requirements",
-      "A form of detective control used to log policy violations"
-    ],
-    "answerIndex": 1
-  }
-], "Data Protection": [
-  {
-    "id": 1,
-    "question": "Which term describes data that is stored on hard drives, tapes, or cloud storage?",
-    "options": [
-      "Data in transit",
-      "Data at rest",
-      "Data in use",
-      "Data minimized"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "Which type of data is most vulnerable to eavesdropping attacks if not encrypted?",
-    "options": [
-      "Data at rest",
-      "Data in use",
-      "Data in transit",
-      "Data minimized"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "When an attacker steals sensitive information from system memory while it is being processed, this is a threat to:",
-    "options": [
-      "Data in transit",
-      "Data in use",
-      "Data at rest",
-      "Data minimized"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "Which technology ensures information is unreadable without the correct decryption key?",
-    "options": [
-      "Masking",
-      "Encryption",
-      "Tokenization",
-      "Watermarking"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 5,
-    "question": "Which security system is designed to enforce information handling policies and prevent data exfiltration?",
-    "options": [
-      "IDS",
-      "SIEM",
-      "DLP",
-      "VPN"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "What is the difference between agent-based and agentless DLP?",
-    "options": [
-      "Agent-based DLP runs on endpoints; agentless DLP runs on the network",
-      "Agent-based DLP only scans network traffic; agentless scans endpoints",
-      "Agent-based DLP focuses on email only; agentless focuses on storage only",
-      "There is no difference between the two"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 7,
-    "question": "Which DLP mechanism identifies sensitive data by searching for credit card numbers or Social Security numbers?",
-    "options": [
-      "Watermarking",
-      "Pattern matching",
-      "Tokenization",
-      "Masking"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Which DLP mechanism uses electronic tags applied to documents to track sensitive information?",
-    "options": [
-      "Watermarking",
-      "Pattern matching",
-      "Masking",
-      "Encryption"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 9,
-    "question": "Which technique replaces sensitive values with randomly generated substitutes stored in a lookup table?",
-    "options": [
-      "Hashing",
-      "Tokenization",
-      "Masking",
-      "Obfuscation"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 10,
-    "question": "Which data minimization technique redacts sensitive values, such as showing only the last four digits of a credit card?",
-    "options": [
-      "Tokenization",
-      "Masking",
-      "Hashing",
-      "Encryption"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 11,
-    "question": "Why should hashing not be the only data minimization technique used?",
-    "options": [
-      "It cannot be reversed by design",
-      "It is vulnerable to rainbow table attacks if hashes are exposed",
-      "It requires tokenization to work",
-      "It is more expensive than masking"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 12,
-    "question": "Which restriction type limits access based on a user’s physical location?",
-    "options": [
-      "Segmentation restriction",
-      "Permission restriction",
-      "Geographic restriction",
-      "Network isolation"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 13,
-    "question": "Which restriction type limits access based on a user’s role or authorization level?",
-    "options": [
-      "Geographic restriction",
-      "Permission restriction",
-      "Tokenization restriction",
-      "Data minimization restriction"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 14,
-    "question": "Which technique separates sensitive systems onto different networks with strict communication rules?",
-    "options": [
-      "Permission restriction",
-      "Data minimization",
-      "Segmentation",
-      "Masking"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 15,
-    "question": "Which approach completely cuts off a system from outside network access?",
-    "options": [
-      "Isolation",
-      "Segmentation",
-      "Masking",
-      "Tokenization"
-    ],
-    "answerIndex": 0
-  }
-]
-
-
-
-}
-
 };
 
 export default questions;
