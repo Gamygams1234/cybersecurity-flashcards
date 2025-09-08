@@ -3677,386 +3677,526 @@ const questions = {
       },
     ],
     "Non-Repudiation and Integrity (PM)": [
-  {
-    "id": 1,
-    "question": "What does non-repudiation ensure in cybersecurity?",
-    "options": [
-      "Data cannot be modified",
-      "You cannot deny an action or communication",
-      "The system is always available",
-      "The message is encrypted"
+      {
+        id: 1,
+        question: "What does non-repudiation ensure in cybersecurity?",
+        options: [
+          "Data cannot be modified",
+          "You cannot deny an action or communication",
+          "The system is always available",
+          "The message is encrypted",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which of the following is an example of non-repudiation in practice?",
+        options: [
+          "Using a firewall",
+          "Signing a contract with your signature",
+          "Encrypting a hard drive",
+          "Hashing a password",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "In cryptography, non-repudiation provides:",
+        options: [
+          "Proof of confidentiality and secrecy",
+          "Proof of integrity and proof of origin",
+          "Proof that data is anonymized",
+          "Proof that data is backed up",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "What happens if a single character in a file changes when using hashing?",
+        options: [
+          "The file becomes encrypted",
+          "The hash remains the same",
+          "The hash completely changes",
+          "The file becomes unreadable",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 5,
+        question: "Which cryptographic tool is primarily used to verify data integrity?",
+        options: ["Hashing", "Encryption", "Firewall rules", "Digital certificates"],
+        answerIndex: 0,
+      },
+      {
+        id: 6,
+        question: "What does proof of origin in cryptography validate?",
+        options: [
+          "The message has not changed and comes from the claimed sender",
+          "The system is protected by antivirus software",
+          "Only authorized users can log in",
+          "The file has been compressed",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "Which key is used to sign a digital signature?",
+        options: ["Public key", "Private key", "Symmetric key", "Session key"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which key is used to verify a digital signature?",
+        options: ["Private key", "Public key", "Root key", "Hash key"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "Which of the following is an example of non-repudiation in practice?",
-    "options": [
-      "Using a firewall",
-      "Signing a contract with your signature",
-      "Encrypting a hard drive",
-      "Hashing a password"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "In cryptography, non-repudiation provides:",
-    "options": [
-      "Proof of confidentiality and secrecy",
-      "Proof of integrity and proof of origin",
-      "Proof that data is anonymized",
-      "Proof that data is backed up"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "What happens if a single character in a file changes when using hashing?",
-    "options": [
-      "The file becomes encrypted",
-      "The hash remains the same",
-      "The hash completely changes",
-      "The file becomes unreadable"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 5,
-    "question": "Which cryptographic tool is primarily used to verify data integrity?",
-    "options": [
-      "Hashing",
-      "Encryption",
-      "Firewall rules",
-      "Digital certificates"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 6,
-    "question": "What does proof of origin in cryptography validate?",
-    "options": [
-      "The message has not changed and comes from the claimed sender",
-      "The system is protected by antivirus software",
-      "Only authorized users can log in",
-      "The file has been compressed"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 7,
-    "question": "Which key is used to sign a digital signature?",
-    "options": [
-      "Public key",
-      "Private key",
-      "Symmetric key",
-      "Session key"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Which key is used to verify a digital signature?",
-    "options": [
-      "Private key",
-      "Public key",
-      "Root key",
-      "Hash key"
-    ],
-    "answerIndex": 1
-  }
-],  "AAA Framework, (PM)": [
-  {
-    "id": 1,
-    "question": "What does the first 'A' in AAA stand for, and what is its purpose?",
-    "options": ["Authentication – proving identity", "Authorization – granting access", "Identification – claiming an identity", "Accounting – tracking user actions"],
-    "answerIndex": 0
-  },
+    "AAA Framework, (PM)": [
+      {
+        id: 1,
+        question: "What does the first 'A' in AAA stand for, and what is its purpose?",
+        options: [
+          "Authentication – proving identity",
+          "Authorization – granting access",
+          "Identification – claiming an identity",
+          "Accounting – tracking user actions",
+        ],
+        answerIndex: 0,
+      },
 
-  {
-    "id": 2,
-    "question": "Which AAA process requires proof like a password or fingerprint?",
-    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
-    "answerIndex": 1
-  },
-  {
-    "id": 3,
-    "question": "What does authorization decide?",
-    "options": ["Who you claim to be", "What resources you can access", "When you logged out", "Your username"],
-    "answerIndex": 1
-  },
-  {
-    "id": 4,
-    "question": "Which AAA process tracks resources used, such as login time and data transferred?",
-    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
-    "answerIndex": 3
-  },
-  {
-    "id": 5,
-    "question": "What is the primary purpose of identification?",
-    "options": ["To prove your identity", "To claim an identity", "To log system activity", "To assign privileges"],
-    "answerIndex": 1
-  },
-  {
-    "id": 6,
-    "question": "In a VPN setup, which AAA function verifies credentials before granting access?",
-    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
-    "answerIndex": 1
-  },
-  {
-    "id": 7,
-    "question": "Which method can authenticate systems that cannot type a password?",
-    "options": ["PIN code", "Digitally signed certificate", "One-time password", "Security questions"],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Why is direct user-to-resource authorization not scalable?",
-    "options": ["It is insecure", "It is difficult to manage with many users", "It prevents authentication", "It requires strong passwords"],
-    "answerIndex": 1
-  },
-  {
-    "id": 9,
-    "question": "Which model defines access by attributes, roles, or organizations?",
-    "options": ["Discretionary Access Control", "Role-based authorization model", "Mandatory Access Control", "No authorization model"],
-    "answerIndex": 1
-  },
-  {
-    "id": 10,
-    "question": "What is one advantage of using an authorization model?",
-    "options": ["Adds complexity", "Reduces scalability", "Streamlines administration", "Prevents identification"],
-    "answerIndex": 2
-  },
-  {
-    "id": 11,
-    "question": "Which AAA component logs when a user logs in, what data they accessed, and when they logged out?",
-    "options": ["Identification", "Authentication", "Authorization", "Accounting"],
-    "answerIndex": 3
-  },
-  {
-    "id": 12,
-    "question": "What is the weakness of having no authorization model?",
-    "options": ["It’s too complex", "It does not scale and is hard to understand", "It prevents authentication from working", "It breaks encryption"],
-    "answerIndex": 1
-  },
-  {
-    "id": 13,
-    "question": "How does certificate-based authentication help validate devices?",
-    "options": ["By using usernames", "By using shared passwords", "By assigning digitally signed certificates", "By logging activity"],
-    "answerIndex": 2
-  },
-  {
-    "id": 14,
-    "question": "In certificate-based authentication, which entity issues the trusted certificates?",
-    "options": ["Device owner", "Root Certificate Authority (CA)", "VPN concentrator", "Authentication server"],
-    "answerIndex": 1
-  },
-  {
-    "id": 15,
-    "question": "Which of the following best describes authorization?",
-    "options": ["Proof of identity", "Claiming who you are", "Determining what resources you may access", "Tracking resource usage"],
-    "answerIndex": 2
-  },
-  {
-    "id": 16,
-    "question": "Which AAA process is often implemented with role-based access control (RBAC)?",
-    "options": ["Authentication", "Authorization", "Identification", "Accounting"],
-    "answerIndex": 1
-  },
-  {
-    "id": 17,
-    "question": "What is a practical example of accounting in AAA?",
-    "options": ["A log file showing user login and logout times", "Entering a username to claim identity", "Verifying a fingerprint at login", "Assigning permissions to a role"],
-    "answerIndex": 0
-  },
-  {
-    "id": 18,
-    "question": "What type of AAA model supports assigning rights based on job role?",
-    "options": ["Role-Based Access Control (RBAC)", "Mandatory Access Control (MAC)", "Discretionary Access Control (DAC)", "Attribute-Based Access Control (ABAC)"],
-    "answerIndex": 0
-  },
-  {
-    "id": 19,
-    "question": "What does authentication validate that identification alone does not?",
-    "options": ["What access rights the user has", "That the user truly is who they claim to be", "The resources the user accessed", "The user’s login/logout times"],
-    "answerIndex": 1
-  },
-  {
-    "id": 20,
-    "question": "In the AAA framework, which comes first?",
-    "options": ["Authorization", "Authentication", "Identification", "Accounting"],
-    "answerIndex": 1
-  }
-]
-,  "Gap Analysis & Frameworks, (PM)": [
-  {
-    "id": 1,
-    "question": "What does a gap analysis compare in cybersecurity?",
-    "options": [
-      "Threat actors and vulnerabilities",
-      "Where you are now vs. where you want to be",
-      "Different vendor products",
-      "Employee performance evaluations"
+      {
+        id: 2,
+        question: "Which AAA process requires proof like a password or fingerprint?",
+        options: ["Identification", "Authentication", "Authorization", "Accounting"],
+        answerIndex: 1,
+      },
+      {
+        id: 3,
+        question: "What does authorization decide?",
+        options: ["Who you claim to be", "What resources you can access", "When you logged out", "Your username"],
+        answerIndex: 1,
+      },
+      {
+        id: 4,
+        question: "Which AAA process tracks resources used, such as login time and data transferred?",
+        options: ["Identification", "Authentication", "Authorization", "Accounting"],
+        answerIndex: 3,
+      },
+      {
+        id: 5,
+        question: "What is the primary purpose of identification?",
+        options: ["To prove your identity", "To claim an identity", "To log system activity", "To assign privileges"],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "In a VPN setup, which AAA function verifies credentials before granting access?",
+        options: ["Identification", "Authentication", "Authorization", "Accounting"],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "Which method can authenticate systems that cannot type a password?",
+        options: ["PIN code", "Digitally signed certificate", "One-time password", "Security questions"],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Why is direct user-to-resource authorization not scalable?",
+        options: [
+          "It is insecure",
+          "It is difficult to manage with many users",
+          "It prevents authentication",
+          "It requires strong passwords",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "Which model defines access by attributes, roles, or organizations?",
+        options: [
+          "Discretionary Access Control",
+          "Role-based authorization model",
+          "Mandatory Access Control",
+          "No authorization model",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What is one advantage of using an authorization model?",
+        options: ["Adds complexity", "Reduces scalability", "Streamlines administration", "Prevents identification"],
+        answerIndex: 2,
+      },
+      {
+        id: 11,
+        question: "Which AAA component logs when a user logs in, what data they accessed, and when they logged out?",
+        options: ["Identification", "Authentication", "Authorization", "Accounting"],
+        answerIndex: 3,
+      },
+      {
+        id: 12,
+        question: "What is the weakness of having no authorization model?",
+        options: [
+          "It’s too complex",
+          "It does not scale and is hard to understand",
+          "It prevents authentication from working",
+          "It breaks encryption",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 13,
+        question: "How does certificate-based authentication help validate devices?",
+        options: [
+          "By using usernames",
+          "By using shared passwords",
+          "By assigning digitally signed certificates",
+          "By logging activity",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 14,
+        question: "In certificate-based authentication, which entity issues the trusted certificates?",
+        options: ["Device owner", "Root Certificate Authority (CA)", "VPN concentrator", "Authentication server"],
+        answerIndex: 1,
+      },
+      {
+        id: 15,
+        question: "Which of the following best describes authorization?",
+        options: [
+          "Proof of identity",
+          "Claiming who you are",
+          "Determining what resources you may access",
+          "Tracking resource usage",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 16,
+        question: "Which AAA process is often implemented with role-based access control (RBAC)?",
+        options: ["Authentication", "Authorization", "Identification", "Accounting"],
+        answerIndex: 1,
+      },
+      {
+        id: 17,
+        question: "What is a practical example of accounting in AAA?",
+        options: [
+          "A log file showing user login and logout times",
+          "Entering a username to claim identity",
+          "Verifying a fingerprint at login",
+          "Assigning permissions to a role",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 18,
+        question: "What type of AAA model supports assigning rights based on job role?",
+        options: [
+          "Role-Based Access Control (RBAC)",
+          "Mandatory Access Control (MAC)",
+          "Discretionary Access Control (DAC)",
+          "Attribute-Based Access Control (ABAC)",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 19,
+        question: "What does authentication validate that identification alone does not?",
+        options: [
+          "What access rights the user has",
+          "That the user truly is who they claim to be",
+          "The resources the user accessed",
+          "The user’s login/logout times",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 20,
+        question: "In the AAA framework, which comes first?",
+        options: ["Authorization", "Authentication", "Identification", "Accounting"],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 1
-  },
-  {
-    "id": 2,
-    "question": "What is the 'gap' in a gap analysis?",
-    "options": [
-      "The difference between threats and vulnerabilities",
-      "The difference between existing controls and best practices",
-      "The difference between current and desired security posture",
-      "The difference between budgets and expenses"
+    "Gap Analysis & Frameworks, (PM)": [
+      {
+        id: 1,
+        question: "What does a gap analysis compare in cybersecurity?",
+        options: [
+          "Threat actors and vulnerabilities",
+          "Where you are now vs. where you want to be",
+          "Different vendor products",
+          "Employee performance evaluations",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "What is the 'gap' in a gap analysis?",
+        options: [
+          "The difference between threats and vulnerabilities",
+          "The difference between existing controls and best practices",
+          "The difference between current and desired security posture",
+          "The difference between budgets and expenses",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 3,
+        question: "Why can gap analysis take weeks or months?",
+        options: [
+          "It requires software development",
+          "It needs approvals from regulators",
+          "It involves data gathering, technical research, and multiple participants",
+          "It can only be performed once a year",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What is the purpose of establishing a baseline in framework selection?",
+        options: [
+          "To avoid compliance audits",
+          "To have an internal or external standard to measure against",
+          "To reduce the number of employees involved",
+          "To guarantee ISO certification",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question:
+          "Which framework focuses on protecting Controlled Unclassified Information (CUI) in nonfederal systems?",
+        options: ["ISO/IEC 27001", "PCI DSS", "NIST SP 800-171", "COBIT"],
+        answerIndex: 2,
+      },
+      {
+        id: 6,
+        question: "ISO/IEC 27001 is primarily used for:",
+        options: [
+          "Information security management systems",
+          "Physical building security",
+          "Cryptographic algorithms",
+          "Data privacy for healthcare",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 7,
+        question: "When evaluating employees in a gap analysis, what should you assess?",
+        options: [
+          "Job titles only",
+          "Formal experience, training, and policy knowledge",
+          "Vacation history",
+          "Salary levels",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "Which of the following is part of examining current processes?",
+        options: [
+          "Replacing outdated staff",
+          "Researching IT systems and reviewing security policies",
+          "Checking financial reports",
+          "Purchasing new servers",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 9,
+        question: "During compare and contrast, what is the goal?",
+        options: [
+          "To decide which vendor to use",
+          "To evaluate systems, identify weaknesses, and conduct detailed analysis",
+          "To generate financial savings",
+          "To prepare only for compliance audits",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 10,
+        question: "What is often the output of mapping access control requirements?",
+        options: [
+          "Employee termination list",
+          "A chart connecting security requirements to controls",
+          "Vendor purchase agreements",
+          "Penetration test results",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 11,
+        question: "In the NIST SP 800-171 access control mapping, AC-2 corresponds to:",
+        options: ["Audit logs", "Account Management", "System Maintenance", "Encryption Policies"],
+        answerIndex: 1,
+      },
+      {
+        id: 12,
+        question: "What does the final gap analysis report include?",
+        options: [
+          "Only a list of vulnerabilities",
+          "Detailed baseline objectives, current state, and recommendations",
+          "Financial projections for IT purchases",
+          "Employee satisfaction scores",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 13,
+        question: "Why is change control important in moving from the current state to the goal?",
+        options: [
+          "It avoids involving management",
+          "It ensures security changes are managed, documented, and approved",
+          "It eliminates the need for user training",
+          "It reduces the number of policies required",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 14,
+        question:
+          "Which of the following best describes the purpose of comparing existing systems during gap analysis?",
+        options: [
+          "To identify cost savings",
+          "To identify weaknesses and effective processes",
+          "To check compliance with HIPAA",
+          "To eliminate redundant employees",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 15,
+        question: "What is the ultimate goal of a gap analysis?",
+        options: [
+          "To eliminate compliance audits",
+          "To bridge the difference between current security posture and desired security goals",
+          "To replace all employees with automation",
+          "To document employee productivity",
+        ],
+        answerIndex: 1,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 3,
-    "question": "Why can gap analysis take weeks or months?",
-    "options": [
-      "It requires software development",
-      "It needs approvals from regulators",
-      "It involves data gathering, technical research, and multiple participants",
-      "It can only be performed once a year"
+    "Zeror Trust (PM)": [
+      {
+        id: 1,
+        question: "What is the key rule of Zero Trust?",
+        options: [
+          "Trust everyone once inside",
+          "Nothing is trusted, everything is verified",
+          "Only check passwords once",
+          "Trust only people, not devices",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 2,
+        question: "Which of these is part of Zero Trust?",
+        options: ["Multi-factor authentication", "Encryption", "System permissions", "All of the above"],
+        answerIndex: 3,
+      },
+      {
+        id: 3,
+        question: "In networking, what does the Data Plane do?",
+        options: [
+          "Makes the rules",
+          "Manages routing tables",
+          "Processes and forwards packets",
+          "Decides who gets access",
+        ],
+        answerIndex: 2,
+      },
+      {
+        id: 4,
+        question: "What is the job of the Control Plane?",
+        options: [
+          "Move data quickly",
+          "Tell the Data Plane how to act",
+          "Encrypt information",
+          "Block untrusted users directly",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 5,
+        question: "Why do networks split tasks into Control and Data planes?",
+        options: [
+          "To make things more complicated",
+          "To separate tasks and make management easier",
+          "So firewalls can work faster",
+          "Because devices cannot work together",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 6,
+        question: "What does Adaptive Identity mean?",
+        options: [
+          "Only usernames matter",
+          "It checks multiple factors like location, IP, and connection",
+          "It makes passwords longer",
+          "It reduces encryption needs",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 7,
+        question: "How does Threat Scope Reduction help?",
+        options: [
+          "Adds more entry points",
+          "Decreases the number of possible entry points",
+          "Makes passwords easier",
+          "Removes encryption",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 8,
+        question: "What are Security Zones used for?",
+        options: [
+          "To group trusted and untrusted areas",
+          "To give everyone full access",
+          "To replace encryption",
+          "To create passwords",
+        ],
+        answerIndex: 0,
+      },
+      {
+        id: 9,
+        question: "Which is an example of Security Zones?",
+        options: [
+          "Classroom vs Playground",
+          "Trusted vs Untrusted networks",
+          "Internal vs External systems",
+          "All of the above",
+        ],
+        answerIndex: 3,
+      },
+      {
+        id: 10,
+        question: "What is the job of the Policy Enforcement Point (PEP)?",
+        options: [
+          "It creates the rules",
+          "It enforces, monitors, and ends connections",
+          "It replaces encryption",
+          "It stores user data",
+        ],
+        answerIndex: 1,
+      },
+      {
+        id: 11,
+        question: "In Zero Trust Across Planes, what does the Policy Engine do?",
+        options: ["Makes the rules", "Decides who is trusted", "Enforces the rules", "Moves packets"],
+        answerIndex: 0,
+      },
+      {
+        id: 12,
+        question: "Who acts as the 'hall monitor' in Zero Trust Across Planes?",
+        options: ["Policy Decision Point", "Policy Engine", "Policy Enforcement Point", "Data Plane"],
+        answerIndex: 2,
+      },
     ],
-    "answerIndex": 2
-  },
-  {
-    "id": 4,
-    "question": "What is the purpose of establishing a baseline in framework selection?",
-    "options": [
-      "To avoid compliance audits",
-      "To have an internal or external standard to measure against",
-      "To reduce the number of employees involved",
-      "To guarantee ISO certification"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 5,
-    "question": "Which framework focuses on protecting Controlled Unclassified Information (CUI) in nonfederal systems?",
-    "options": [
-      "ISO/IEC 27001",
-      "PCI DSS",
-      "NIST SP 800-171",
-      "COBIT"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "id": 6,
-    "question": "ISO/IEC 27001 is primarily used for:",
-    "options": [
-      "Information security management systems",
-      "Physical building security",
-      "Cryptographic algorithms",
-      "Data privacy for healthcare"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "id": 7,
-    "question": "When evaluating employees in a gap analysis, what should you assess?",
-    "options": [
-      "Job titles only",
-      "Formal experience, training, and policy knowledge",
-      "Vacation history",
-      "Salary levels"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 8,
-    "question": "Which of the following is part of examining current processes?",
-    "options": [
-      "Replacing outdated staff",
-      "Researching IT systems and reviewing security policies",
-      "Checking financial reports",
-      "Purchasing new servers"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 9,
-    "question": "During compare and contrast, what is the goal?",
-    "options": [
-      "To decide which vendor to use",
-      "To evaluate systems, identify weaknesses, and conduct detailed analysis",
-      "To generate financial savings",
-      "To prepare only for compliance audits"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 10,
-    "question": "What is often the output of mapping access control requirements?",
-    "options": [
-      "Employee termination list",
-      "A chart connecting security requirements to controls",
-      "Vendor purchase agreements",
-      "Penetration test results"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 11,
-    "question": "In the NIST SP 800-171 access control mapping, AC-2 corresponds to:",
-    "options": [
-      "Audit logs",
-      "Account Management",
-      "System Maintenance",
-      "Encryption Policies"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 12,
-    "question": "What does the final gap analysis report include?",
-    "options": [
-      "Only a list of vulnerabilities",
-      "Detailed baseline objectives, current state, and recommendations",
-      "Financial projections for IT purchases",
-      "Employee satisfaction scores"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 13,
-    "question": "Why is change control important in moving from the current state to the goal?",
-    "options": [
-      "It avoids involving management",
-      "It ensures security changes are managed, documented, and approved",
-      "It eliminates the need for user training",
-      "It reduces the number of policies required"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 14,
-    "question": "Which of the following best describes the purpose of comparing existing systems during gap analysis?",
-    "options": [
-      "To identify cost savings",
-      "To identify weaknesses and effective processes",
-      "To check compliance with HIPAA",
-      "To eliminate redundant employees"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "id": 15,
-    "question": "What is the ultimate goal of a gap analysis?",
-    "options": [
-      "To eliminate compliance audits",
-      "To bridge the difference between current security posture and desired security goals",
-      "To replace all employees with automation",
-      "To document employee productivity"
-    ],
-    "answerIndex": 1
-  }
-],
-
-
     "DAD Triad (Threats)": [
       {
         id: 1,
