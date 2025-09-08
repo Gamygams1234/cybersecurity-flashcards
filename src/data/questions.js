@@ -4078,7 +4078,7 @@ const questions = {
         answerIndex: 1,
       },
     ],
-    "Zeror Trust (PM)": [
+    "Zero Trust (PM)": [
       {
         id: 1,
         question: "What is the key rule of Zero Trust?",
@@ -4196,7 +4196,356 @@ const questions = {
         options: ["Policy Decision Point", "Policy Engine", "Policy Enforcement Point", "Data Plane"],
         answerIndex: 2,
       },
+    ],  "Physical Security (PM)": [
+      {
+        "id": 1,
+        "question": "What is the main purpose of barricades and bollards?",
+        "options": ["Detect intrusions", "Prevent or control access", "Provide lighting", "Encrypt data"],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "question": "Why are bollards often installed in front of buildings?",
+        "options": ["To improve lighting", "To prevent cars and trucks from entering", "To allow wireless communication", "To increase network bandwidth"],
+        "answerIndex": 1
+      },
+      {
+        "id": 3,
+        "question": "Barricades can also help identify:",
+        "options": ["Password strength", "Safety concerns and injury prevention", "CCTV blind spots", "Encryption weaknesses"],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "question": "What is another name for an access control vestibule?",
+        "options": ["Security checkpoint", "Mantrap", "Bollard gate", "NAT gateway"],
+        "answerIndex": 1
+      },
+      {
+        "id": 5,
+        "question": "In an access control vestibule, what happens if one door is open?",
+        "options": ["The system shuts down", "The other door remains locked", "Both doors unlock", "The alarm turns off"],
+        "answerIndex": 1
+      },
+      {
+        "id": 6,
+        "question": "Why would an organization use 'all doors normally locked' in a vestibule?",
+        "options": ["To allow fast entry", "To prevent tailgating and unauthorized entry", "To provide lighting", "To manage power consumption"],
+        "answerIndex": 1
+      },
+      {
+        "id": 7,
+        "question": "What is the main purpose of fencing in physical security?",
+        "options": ["To encrypt data", "To build a perimeter", "To monitor video feeds", "To manage passwords"],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "question": "A robust fence should be:",
+        "options": ["Easy to climb", "Difficult to cut", "Transparent only", "Electrically powered"],
+        "answerIndex": 1
+      },
+      {
+        "id": 9,
+        "question": "What feature is often added to fencing to prevent climbing?",
+        "options": ["Cameras", "Razor wire", "Access badges", "Bollards"],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "question": "What does CCTV stand for?",
+        "options": ["Computer Controlled Transmission Vault", "Closed Circuit Television", "Cyber Control Technical Verification", "Central Camera Test View"],
+        "answerIndex": 1
+      },
+      {
+        "id": 11,
+        "question": "Which feature helps surveillance cameras detect when something moves?",
+        "options": ["Motion recognition", "Object storage", "Encryption", "Trunking"],
+        "answerIndex": 0
+      },
+      {
+        "id": 12,
+        "question": "Why is object detection in cameras important?",
+        "options": ["To detect fire hazards", "To identify license plates or faces", "To encrypt passwords", "To measure light levels"],
+        "answerIndex": 1
+      },
+      {
+        "id": 13,
+        "question": "What is one role of a security guard at a facility?",
+        "options": ["Encrypt passwords", "Validate employee identification", "Install firewalls", "Set lighting levels"],
+        "answerIndex": 1
+      },
+      {
+        "id": 14,
+        "question": "Why is 'two-person control' used in security?",
+        "options": ["To make authentication faster", "To minimize exposure to an attack", "To enforce video recording", "To log electronic badges"],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "question": "What is required on an access badge?",
+        "options": ["Social media handle", "Picture, name, and details", "Passwords", "MAC address"],
+        "answerIndex": 1
+      },
+      {
+        "id": 16,
+        "question": "Why does more lighting usually mean more security?",
+        "options": ["Attackers avoid well-lit areas", "It increases Wi-Fi signal strength", "It prevents tailgating", "It encrypts sensitive data"],
+        "answerIndex": 0
+      },
+      {
+        "id": 17,
+        "question": "Why is specialized lighting important?",
+        "options": ["For facial recognition and avoiding shadows/glare", "For encrypting communication", "For blocking car access", "For controlling badge readers"],
+        "answerIndex": 0
+      },
+      {
+        "id": 18,
+        "question": "What do infrared sensors detect?",
+        "options": ["Password breaches", "Infrared radiation (heat/motion)", "Car movement", "Light glare"],
+        "answerIndex": 1
+      },
+      {
+        "id": 19,
+        "question": "What type of sensor detects changes in force, like someone walking on a floor?",
+        "options": ["Pressure sensor", "Ultrasonic sensor", "Infrared sensor", "Microwave sensor"],
+        "answerIndex": 0
+      },
+      {
+        "id": 20,
+        "question": "Which sensor type sends out sound waves and listens for reflections?",
+        "options": ["Microwave", "Ultrasonic", "Pressure", "Optical"],
+        "answerIndex": 1
+      },
+      {
+        "id": 21,
+        "question": "Microwave sensors are commonly used to:",
+        "options": ["Detect movement across large areas", "Monitor employee badges", "Replace access vestibules", "Enhance lighting design"],
+        "answerIndex": 0
+      }
     ],
+    "Deception and Disruption": [
+      {
+        "id": 1,
+        "question": "What is the main purpose of a honeypot in cybersecurity?",
+        "options": [
+          "To serve as a backup system",
+          "To attract and trap attackers",
+          "To store sensitive data",
+          "To replace firewalls"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "question": "A honeynet is best described as:",
+        "options": [
+          "One single fake device for attackers",
+          "A group of real production servers",
+          "A network of honeypots working together",
+          "A method of encrypting data"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 3,
+        "question": "What are honeyfiles typically used for?",
+        "options": [
+          "Storing real passwords",
+          "Attracting attackers with fake information",
+          "Encrypting system backups",
+          "Providing access to admins"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 4,
+        "question": "Which of the following is an example of a honeyfile?",
+        "options": [
+          "A fake document called passwords.txt",
+          "An encrypted employee database",
+          "A firewall access log",
+          "A legitimate HR policy document"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 5,
+        "question": "What do honeytokens help track?",
+        "options": [
+          "Lost laptops",
+          "Malicious actors who use fake data",
+          "Employee attendance",
+          "System uptime"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 6,
+        "question": "Which of these could be used as a honeytoken?",
+        "options": [
+          "API credentials that don’t provide real access",
+          "Real login accounts",
+          "Encrypted database backups",
+          "Firewall rules"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 7,
+        "question": "What makes honeypots and honeynets useful to defenders?",
+        "options": [
+          "They speed up network traffic",
+          "They distract attackers and provide intel",
+          "They automatically patch vulnerabilities",
+          "They prevent power outages"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 8,
+        "question": "When an attacker interacts with a honeyfile, what usually happens?",
+        "options": [
+          "The system deletes the file",
+          "An alert is sent to defenders",
+          "The attacker gains admin access",
+          "Nothing happens"
+        ],
+        "answerIndex": 1
+      },{
+        "id": 9,
+        "question": "Which of the following best describes the constant challenge of honeypots?",
+        "options": [
+          "They are too expensive to maintain",
+          "Separating real traffic from fake traffic",
+          "Preventing them from generating logs",
+          "Making them faster than production systems"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 10,
+        "question": "Why are many honeypots open source?",
+        "options": [
+          "They are easier for attackers to bypass",
+          "They allow defenders to deploy them quickly and cheaply",
+          "They cannot be modified by organizations",
+          "They guarantee perfect security"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 11,
+        "question": "What type of deception tool creates a full virtual world for attackers to explore?",
+        "options": [
+          "Honeypot",
+          "Honeyfile",
+          "Honeynet",
+          "Honeytoken"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 12,
+        "question": "A fake API key that triggers an alert when used is an example of:",
+        "options": [
+          "Honeynet",
+          "Honeytoken",
+          "Honeyfile",
+          "Honeypot"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 13,
+        "question": "If an attacker accesses a document named 'Employee_Passwords.txt' placed intentionally on a server, what control is being used?",
+        "options": [
+          "Honeyfile",
+          "Honeytoken",
+          "Firewall rule",
+          "Backup system"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 14,
+        "question": "What is the main difference between a honeypot and a honeynet?",
+        "options": [
+          "A honeypot is physical and a honeynet is virtual",
+          "A honeypot is a single system, while a honeynet is multiple honeypots networked together",
+          "A honeypot is used for logging, a honeynet is used for backups",
+          "A honeypot requires internet, a honeynet does not"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 15,
+        "question": "Which deception method is most useful for tracking data exfiltration?",
+        "options": [
+          "Honeynet",
+          "Honeypot",
+          "Honeytoken",
+          "Firewall logging"
+        ],
+        "answerIndex": 2
+      },
+      {
+        "id": 16,
+        "question": "What alert mechanism makes honeyfiles effective?",
+        "options": [
+          "They lock the attacker out immediately",
+          "They send an alert when accessed",
+          "They delete system logs",
+          "They encrypt the attacker’s files"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 17,
+        "question": "Why would an organization deploy multiple honeypots?",
+        "options": [
+          "To confuse attackers and gather more intelligence",
+          "To speed up the network",
+          "To reduce electricity costs",
+          "To replace firewalls"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 18,
+        "question": "Which of the following could be a honeytoken?",
+        "options": [
+          "Fake email addresses in a database",
+          "An actual user’s login password",
+          "A firewall block rule",
+          "Encrypted hard drive"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 19,
+        "question": "What is one risk of deploying honeypots?",
+        "options": [
+          "They may generate too many backups",
+          "Attackers could detect the honeypot and avoid it",
+          "They make systems slower",
+          "They replace endpoint protection software"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 20,
+        "question": "Honeypots are MOST valuable for which of the following?",
+        "options": [
+          "Encrypting corporate data",
+          "Gathering intelligence about attacker methods",
+          "Replacing antivirus tools",
+          "Blocking phishing emails"
+        ],
+        "answerIndex": 1
+      }
+    ],
+  
     "DAD Triad (Threats)": [
       {
         id: 1,
