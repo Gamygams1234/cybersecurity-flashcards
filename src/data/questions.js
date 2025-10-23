@@ -5891,6 +5891,138 @@ const questions = {
       ],
       answerIndex: 0
     }
+    {
+      id: 9,
+      question: "What is the main goal of redundancy in a network or system?",
+      options: [
+        "To eliminate single points of failure",
+        "To reduce encryption time",
+        "To improve password complexity",
+        "To create faster DNS lookups"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 10,
+      question: "What does SPOF stand for in system design?",
+      options: [
+        "Single Point of Failure",
+        "System Protection and Overload Filter",
+        "Security Protocol of Firewalls",
+        "Server Protection Over Framework"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 11,
+      question: "Which of the following RAID levels provides disk mirroring for redundancy?",
+      options: [
+        "RAID 0",
+        "RAID 1",
+        "RAID 5",
+        "RAID 10"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 12,
+      question: "Which RAID configuration combines both striping and mirroring?",
+      options: [
+        "RAID 0",
+        "RAID 1",
+        "RAID 5",
+        "RAID 10"
+      ],
+      answerIndex: 3
+    },
+    {
+      id: 13,
+      question: "What is a major weakness of RAID 0?",
+      options: [
+        "It reduces total storage capacity",
+        "It offers no fault tolerance",
+        "It only supports SSD drives",
+        "It cannot handle network traffic"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 14,
+      question: "Which of the following describes fault tolerance?",
+      options: [
+        "The ability of a system to continue operating when a component fails",
+        "Using encryption to protect data at rest",
+        "Preventing data leaks through social engineering",
+        "Using virtualization for testing"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 15,
+      question: "Network redundancy ensures:",
+      options: [
+        "Multiple communication paths are available in case one link fails",
+        "Only one router handles all traffic",
+        "Users must authenticate twice before connection",
+        "DNS requests are encrypted end-to-end"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 16,
+      question: "What kind of redundancy allows quick recovery if a server crashes?",
+      options: [
+        "Network redundancy",
+        "Server redundancy",
+        "Power redundancy",
+        "Disk redundancy"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 17,
+      question: "Which device provides temporary power during short electrical outages?",
+      options: [
+        "Generator",
+        "Uninterruptible Power Supply (UPS)",
+        "Power distribution unit",
+        "Circuit breaker"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 18,
+      question: "What is the purpose of a failover cluster?",
+      options: [
+        "To encrypt all data on the network",
+        "To allow another server to take over automatically if one fails",
+        "To create multiple RAID arrays",
+        "To back up user credentials"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 19,
+      question: "What does load balancing accomplish?",
+      options: [
+        "Distributes network traffic across multiple servers to improve availability",
+        "Encrypts packets for secure transfer",
+        "Backs up databases at scheduled intervals",
+        "Creates redundancy in power supplies"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 20,
+      question: "Which term describes having multiple power sources to maintain uptime?",
+      options: [
+        "Network redundancy",
+        "Server redundancy",
+        "Power redundancy",
+        "Data redundancy"
+      ],
+      answerIndex: 2
+    }
   ],
 
   "Patching and Resiliency": [
