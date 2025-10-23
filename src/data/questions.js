@@ -4544,7 +4544,410 @@ const questions = {
         ],
         "answerIndex": 1
       }
+    ],"Change Management (PM)": [
+    {
+      "id": 1,
+      "question": "Why is change management important in cybersecurity?",
+      "options": [
+        "It prevents employees from using social media",
+        "It helps avoid downtime, confusion, and added risk",
+        "It blocks malware from entering a system",
+        "It speeds up network traffic"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "What is often one of the biggest risks in a company’s IT environment?",
+      "options": [
+        "Hackers creating phishing emails",
+        "Frequent system changes",
+        "Users forgetting passwords",
+        "Installing antivirus software"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a key step in a formal change approval process?",
+      "options": [
+        "Skipping testing to save time",
+        "Completing a request form",
+        "Letting employees decide changes on their own",
+        "Making changes directly in production"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "Who owns the process of a change, even if they do not perform the technical steps?",
+      "options": [
+        "The change control board",
+        "The process owner",
+        "The IT help desk",
+        "The CEO"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "Why must stakeholders be considered in change management?",
+      "options": [
+        "They control employee lunch breaks",
+        "They decide on company holiday schedules",
+        "They are impacted by the change and need input",
+        "They approve pay raises for IT staff"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 6,
+      "question": "What does impact analysis determine?",
+      "options": [
+        "How secure a firewall is",
+        "The potential risks of making or not making a change",
+        "The cost of buying new laptops",
+        "The best time to schedule lunch breaks"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of these is an example of a risk if a change is NOT made?",
+      "options": [
+        "Improved application speed",
+        "Security vulnerability remains open",
+        "Employees become more efficient",
+        "More reliable backups"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "What is a sandbox environment used for?",
+      "options": [
+        "Playing with test software safely",
+        "Blocking attackers from phishing",
+        "Encrypting user data",
+        "Sharing data with external vendors"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Why should a backout plan always exist?",
+      "options": [
+        "Because changes always fail",
+        "To quickly reverse the change if something goes wrong",
+        "To save money on upgrades",
+        "To avoid documenting changes"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "What is one challenge of having a backout plan?",
+      "options": [
+        "Some changes are very hard to reverse",
+        "They are illegal in most countries",
+        "They require shutting down the internet",
+        "They remove all system backups"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "When is the BEST time to schedule major IT changes?",
+      "options": [
+        "During peak business hours",
+        "At night or during low-use periods",
+        "When the CEO requests it",
+        "During holiday sales events"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "Why might a company avoid scheduling changes during the holiday season?",
+      "options": [
+        "Retail networks freeze changes during critical business times",
+        "Hackers are less active during the holidays",
+        "Employees are on vacation",
+        "Firewalls are turned off in December"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "question": "What document contains the official step-by-step process for handling changes?",
+      "options": [
+        "Firewall rules",
+        "Security incident log",
+        "Standard Operating Procedure (SOP)",
+        "Daily meeting notes"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "Why should SOPs be treated as 'living documents'?",
+      "options": [
+        "They are constantly updated as processes change",
+        "They expire after 30 days",
+        "They are meant to be ignored by new employees",
+        "They are destroyed after every change"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "What is the role of the change control board?",
+      "options": [
+        "They approve or deny proposed changes",
+        "They write firewall rules",
+        "They replace security guards",
+        "They manage company payroll"
+      ],
+      "answerIndex": 0
+    }
+  ]
+, "Technical Change Management (PM)": [
+  {
+    "id": 1,
+    "question": "What does it mean to put the change management process into action?",
+    "options": ["Ignore the plan", "Execute the plan", "Create a plan", "Cancel the plan"],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "Why is there no such thing as a 'simple upgrade'?",
+    "options": [
+      "Upgrades are always free",
+      "They usually involve many moving parts and events",
+      "They never need testing",
+      "They are handled only by one person"
     ],
+    "answerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "What is an allow list?",
+    "options": [
+      "A list of apps you don’t trust",
+      "A list of apps that can run only if approved",
+      "A list of users allowed into the building",
+      "A list of blocked websites"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of a deny list?",
+    "options": [
+      "Nothing on the bad list can run",
+      "All apps are blocked",
+      "All apps are allowed",
+      "It replaces antivirus software"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "Does change approval mean you can make ANY change?",
+    "options": [
+      "Yes, all changes are allowed",
+      "No, it is very specific to the approved change",
+      "Only network changes are allowed",
+      "It depends on the manager"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "Why might the scope of a change need to be expanded during the change window?",
+    "options": [
+      "Because you didn’t prepare for all outcomes",
+      "Because new staff joined",
+      "Because the budget increased",
+      "Because end users requested it"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "When is downtime usually scheduled?",
+    "options": ["During the workday", "During non-production hours", "At lunchtime", "Never"],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "What is one way to prevent downtime?",
+    "options": [
+      "Avoid all upgrades",
+      "Switch to a secondary system while upgrading the primary",
+      "Shut down all systems",
+      "Skip testing patches"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Why might a restart be required after a change?",
+    "options": [
+      "To apply the new configuration",
+      "To increase system speed",
+      "To back up files",
+      "To let staff log in again"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "What is a common restart action for services?",
+    "options": ["Ignore the process", "Stop and restart the service or daemon", "Call technical support", "Reinstall the OS"],
+    "answerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "What’s a risk of legacy applications?",
+    "options": [
+      "They are always faster",
+      "They may no longer be supported by the developer",
+      "They never have bugs",
+      "They are automatically upgraded"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "What should you do when facing an unknown legacy system?",
+    "options": [
+      "Guess and hope it works",
+      "Document the system and become the expert",
+      "Ignore the system",
+      "Delete it immediately"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "What does it mean when A depends on B?",
+    "options": [
+      "A can start without B",
+      "B must be completed or running before A works",
+      "They are not related",
+      "A always overrides B"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Why can dependencies be challenging?",
+    "options": [
+      "Because they increase speed",
+      "Because changing one component may require restarting others",
+      "Because dependencies make backups automatic",
+      "Because they stop security updates"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": "Why is updating documentation important in change management?",
+    "options": [
+      "Documentation always stays current",
+      "Documentation can become outdated quickly",
+      "It removes the need for policies",
+      "It avoids using diagrams"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 16,
+    "question": "What might need updating when systems change?",
+    "options": [
+      "Diagrams and policies/procedures",
+      "Wall posters",
+      "Staff uniforms",
+      "Office furniture"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "What does version control help you do?",
+    "options": [
+      "Track changes and revert to earlier versions",
+      "Stop using backups",
+      "Block all changes",
+      "Erase system history"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Which of these could use version control?",
+    "options": ["Router configurations", "Windows patches", "Application registry entries", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "id": 19,
+    "question": "What does the technical team focus on during change management?",
+    "options": ["Who requested the change", "How to make the change happen", "When lunch is scheduled", "Why budgets are cut"],
+    "answerIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "What is the main focus of change management itself?",
+    "options": ["What needs to change", "How to hire staff", "Who gets promoted", "When holidays are scheduled"],
+    "answerIndex": 0
+  },
+  {
+    "id": 21,
+    "question": "What is one risk of not preventing downtime?",
+    "options": [
+      "Employees will take more breaks",
+      "Business services may be unavailable",
+      "The system will run faster",
+      "Nothing at all"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "What should always be part of the downtime plan?",
+    "options": ["Send emails and calendar updates", "Ignore staff feedback", "Schedule during peak hours", "Unplug all devices"],
+    "answerIndex": 0
+  },
+  {
+    "id": 23,
+    "question": "What’s one danger of legacy apps?",
+    "options": ["They are too modern", "They may be quirky and unpredictable", "They never need documentation", "They upgrade themselves automatically"],
+    "answerIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "What’s an example of a dependency across systems?",
+    "options": [
+      "Firewall code must be upgraded before firewall management software",
+      "Staff must be hired before lunch break",
+      "Printers must be replaced before desks",
+      "WiFi must be installed before lightbulbs"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 25,
+    "question": "Why is version control not always straightforward?",
+    "options": [
+      "It is always automatic",
+      "Some devices require extra management software",
+      "It never works with Windows",
+      "It removes backups"
+    ],
+    "answerIndex": 1
+  }
+],
   
     "DAD Triad (Threats)": [
       {
@@ -5312,6 +5715,627 @@ const questions = {
       },
     ],
   },
+  "Chapter 1: Mastering Security Basics": {
+  "CIA Triad": [
+    {
+      id: 1,
+      question: "Which three principles make up the CIA Triad?",
+      options: [
+        "Confidentiality, Integrity, Availability",
+        "Control, Identity, Authorization",
+        "Confidentiality, Innovation, Access",
+        "Compliance, Integrity, Assurance"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 2,
+      question: "What does 'Confidentiality' in the CIA Triad primarily protect?",
+      options: [
+        "Data from unauthorized access",
+        "Data from accidental deletion",
+        "Systems from downtime",
+        "Data accuracy"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 3,
+      question: "Which goal of the CIA Triad ensures data is accurate and unaltered?",
+      options: [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Accountability"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 4,
+      question: "Availability in the CIA Triad focuses on:",
+      options: [
+        "Ensuring data is only viewable by authorized users",
+        "Ensuring systems and data are accessible when needed",
+        "Preventing unauthorized access attempts",
+        "Tracking all system activity"
+      ],
+      answerIndex: 1
+    }
+  ],
+
+  "Access Controls": [
+    {
+      id: 5,
+      question: "Which of the following best defines access control?",
+      options: [
+        "Methods that ensure data availability",
+        "Mechanisms that regulate who can view or use resources",
+        "Processes that encrypt data for transmission",
+        "Physical barriers against natural disasters"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 6,
+      question: "Authentication verifies:",
+      options: [
+        "Who you are",
+        "What you can do",
+        "When you logged in",
+        "Where data is stored"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 7,
+      question: "Authorization defines:",
+      options: [
+        "Who you are",
+        "What resources a user can access",
+        "When a user must change their password",
+        "Where credentials are stored"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 8,
+      question: "Which is an example of a physical access control?",
+      options: [
+        "Firewall",
+        "Biometric scanner",
+        "Encryption key",
+        "Antivirus software"
+      ],
+      answerIndex: 1
+    }
+  ],
+
+  "Redundancy and Fault Tolerance": [
+    {
+      id: 9,
+      question: "What is the purpose of redundancy in cybersecurity?",
+      options: [
+        "To speed up network traffic",
+        "To eliminate single points of failure",
+        "To enhance encryption strength",
+        "To automate authentication"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 10,
+      question: "What does SPOF stand for?",
+      options: [
+        "Single Point of Failure",
+        "System Point of Firewall",
+        "Security Policy of Framework",
+        "Shared Process of Function"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 11,
+      question: "Which of the following provides disk redundancy?",
+      options: [
+        "Load balancing",
+        "RAID",
+        "Elasticity",
+        "Proxy server"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 12,
+      question: "What type of redundancy protects against a power outage?",
+      options: [
+        "Network redundancy",
+        "Server redundancy",
+        "Power redundancy",
+        "Disk redundancy"
+      ],
+      answerIndex: 2
+    }
+  ],
+
+  "Scaling and Elasticity": [
+    {
+      id: 13,
+      question: "Horizontal scaling means:",
+      options: [
+        "Adding more powerful hardware to one system",
+        "Adding more servers to share the load",
+        "Decreasing the number of servers to reduce cost",
+        "Upgrading network cables for higher bandwidth"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 14,
+      question: "Vertical scaling means:",
+      options: [
+        "Adding more servers to handle demand",
+        "Increasing resources like CPU or RAM on a single system",
+        "Switching to a different data center",
+        "Migrating workloads to the cloud"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 15,
+      question: "Elasticity in cloud computing allows:",
+      options: [
+        "Systems to automatically scale resources up or down based on demand",
+        "Data to self-encrypt when idle",
+        "Traffic to be blocked from untrusted sources",
+        "Administrators to manually patch servers"
+      ],
+      answerIndex: 0
+    }
+  ],
+
+  "Patching and Resiliency": [
+    {
+      id: 16,
+      question: "Patching is primarily used to:",
+      options: [
+        "Add new software features",
+        "Fix security vulnerabilities and bugs",
+        "Increase hardware performance",
+        "Change user permissions"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 17,
+      question: "Resiliency refers to:",
+      options: [
+        "Preventing users from accessing data",
+        "The system’s ability to recover quickly after a failure",
+        "Encrypting sensitive files",
+        "Using redundant hardware for scaling"
+      ],
+      answerIndex: 1
+    }
+  ],
+
+  "Basic Risk Concepts": [
+    {
+      id: 18,
+      question: "Which term describes the chance of a negative event occurring?",
+      options: [
+        "Vulnerability",
+        "Risk",
+        "Threat",
+        "Mitigation"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 19,
+      question: "What is a vulnerability?",
+      options: [
+        "An existing weakness that can be exploited",
+        "A malicious actor attempting to cause harm",
+        "A mitigation control",
+        "A security patch"
+      ],
+      answerIndex: 0
+    },
+    {
+      id: 20,
+      question: "A threat is best defined as:",
+      options: [
+        "A security weakness in a system",
+        "A patch that resolves an issue",
+        "A potential danger that exploits a vulnerability",
+        "A control that prevents risk"
+      ],
+      answerIndex: 2
+    },
+    {
+      id: 21,
+      question: "What is risk mitigation?",
+      options: [
+        "Accepting a risk without change",
+        "Reducing the likelihood or impact of a risk",
+        "Ignoring known vulnerabilities",
+        "Removing all users from the network"
+      ],
+      answerIndex: 1
+    },
+    {
+      id: 22,
+      question: "A security incident is:",
+      options: [
+        "A planned penetration test",
+        "An event that negatively affects confidentiality, integrity, or availability",
+        "A risk assessment",
+        "A false positive"
+      ],
+      answerIndex: 1
+    }
+  ], "Monitoring and Logs": [
+  {
+    id: 23,
+    question: "What is the main purpose of centralized logging?",
+    options: [
+      "To store logs locally on each host",
+      "To aggregate logs from multiple sources into one system for analysis",
+      "To replace system backups",
+      "To encrypt traffic between routers"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 24,
+    question: "What does a Security Information and Event Management (SIEM) system do?",
+    options: [
+      "Manages user access control policies",
+      "Provides real-time analysis and correlation of security events",
+      "Runs vulnerability scans on endpoints",
+      "Stores backups of encrypted data"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 25,
+    question: "Which type of log records information about programs and services running on a system?",
+    options: [
+      "Application logs",
+      "Network logs",
+      "Firewall logs",
+      "System logs"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 26,
+    question: "Which log captures events such as allowed or denied network traffic?",
+    options: [
+      "Application log",
+      "Firewall log",
+      "Event log",
+      "Packet capture"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 27,
+    question: "Which log type shows details of intrusion attempts and detections?",
+    options: [
+      "IDS/IPS logs",
+      "System logs",
+      "Network logs",
+      "Application logs"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 28,
+    question: "Packet captures are used primarily to:",
+    options: [
+      "Block malicious traffic in real time",
+      "Record and analyze raw network traffic for troubleshooting or investigations",
+      "Encrypt traffic between networks",
+      "Automatically patch systems"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 29,
+    question: "Metadata in logs typically includes:",
+    options: [
+      "Only the message content of an email",
+      "Information like sender, receiver, time, and IP address",
+      "The full system image backup",
+      "Only hardware serial numbers"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 30,
+    question: "Which of the following logs would show failed login attempts to a Windows system?",
+    options: [
+      "System log",
+      "Security log",
+      "Firewall log",
+      "Application log"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 31,
+    question: "Which log type can help trace the origin of a network attack?",
+    options: [
+      "Packet captures",
+      "Firewall logs",
+      "Application logs",
+      "Audit logs"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 32,
+    question: "What is the purpose of alert tuning in SIEM systems?",
+    options: [
+      "To increase the number of alerts received daily",
+      "To limit false positives and improve alert relevance",
+      "To disable security monitoring during maintenance",
+      "To collect metadata for compliance purposes"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 33,
+    question: "Which component of a SIEM collects and normalizes data from various sources?",
+    options: [
+      "Sensors",
+      "Collectors",
+      "Dashboards",
+      "Correlators"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 34,
+    question: "What is the function of a SIEM dashboard?",
+    options: [
+      "To block malicious IP addresses",
+      "To display real-time analytics and trends from logged events",
+      "To run patch management automation",
+      "To store archived logs indefinitely"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 35,
+    question: "Which SIEM component identifies relationships between different security events?",
+    options: [
+      "Correlation engine",
+      "Collector",
+      "Packet sniffer",
+      "Metadata parser"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 36,
+    question: "Syslog is commonly used for:",
+    options: [
+      "Email encryption",
+      "Transmitting log messages from network devices to a centralized server",
+      "Collecting application crash reports",
+      "Performing data backups"
+    ],
+    answerIndex: 1
+  }
+],
+
+"Security Controls": [
+  {
+    id: 37,
+    question: "What is the main purpose of security controls?",
+    options: [
+      "To completely eliminate all risks",
+      "To reduce or manage risk to an acceptable level",
+      "To replace patch management systems",
+      "To improve network speed"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 38,
+    question: "Which of the following is a preventive control?",
+    options: [
+      "Firewall",
+      "Security audit",
+      "Backup recovery",
+      "Incident report"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 39,
+    question: "Which of the following is a detective control?",
+    options: [
+      "Security camera monitoring",
+      "Firewall rule",
+      "Multi-factor authentication",
+      "Antivirus update"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 40,
+    question: "A deterrent control primarily:",
+    options: [
+      "Encourages users to report incidents",
+      "Discourages attackers from attempting intrusion",
+      "Encrypts sensitive files",
+      "Provides access management"
+    ],
+      answerIndex: 1
+  },
+  {
+    id: 41,
+    question: "A corrective control is designed to:",
+    options: [
+      "Identify an incident after it occurs",
+      "Fix issues or restore systems after an incident",
+      "Discourage threat actors",
+      "Monitor user behavior"
+    ],
+      answerIndex: 1
+  },
+  {
+    id: 42,
+    question: "Which control type provides guidance such as acceptable use policies?",
+    options: [
+      "Preventive",
+      "Directive",
+      "Compensating",
+      "Corrective"
+    ],
+      answerIndex: 1
+  },
+  {
+    id: 43,
+    question: "Which category of control uses technology such as firewalls or encryption?",
+    options: [
+      "Technical controls",
+      "Managerial controls",
+      "Operational controls",
+      "Physical controls"
+    ],
+      answerIndex: 0
+  },
+  {
+    id: 44,
+    question: "Which control category includes training and awareness programs?",
+    options: [
+      "Operational controls",
+      "Managerial controls",
+      "Technical controls",
+      "Preventive controls"
+    ],
+      answerIndex: 0
+  },
+  {
+    id: 45,
+    question: "Which control category focuses on risk assessments and policies?",
+    options: [
+      "Managerial controls",
+      "Technical controls",
+      "Physical controls",
+      "Operational controls"
+    ],
+      answerIndex: 0
+  },
+  {
+    id: 46,
+    question: "Physical controls are best described as:",
+    options: [
+      "Software configurations that block traffic",
+      "Hardware and barriers that restrict physical access",
+      "Policy-based access permissions",
+      "Firewall rule sets"
+    ],
+      answerIndex: 1
+  }
+],   "Security Control Types": [
+  {
+    "id": 1,
+    "question": "Which type of control is designed to stop an incident before it happens?",
+    "options": ["Detective", "Preventive", "Corrective", "Recovery"],
+    "answerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "A firewall that blocks unauthorized access is an example of which control type?",
+    "options": ["Preventive", "Corrective", "Compensating", "Deterrent"],
+    "answerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Which control type identifies and reports an incident after it has occurred?",
+    "options": ["Preventive", "Detective", "Recovery", "Deterrent"],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "An intrusion detection system (IDS) is an example of what control type?",
+    "options": ["Detective", "Preventive", "Compensating", "Corrective"],
+    "answerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": "A backup system that restores data after a ransomware attack is what kind of control?",
+    "options": ["Corrective", "Preventive", "Recovery", "Compensating"],
+    "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "Warning signs that say 'This area is monitored by cameras' are which type of control?",
+    "options": ["Deterrent", "Preventive", "Detective", "Corrective"],
+    "answerIndex": 0
+  },
+  {
+    "id": 7,
+    "question": "A control that provides an alternative measure when a primary control isn't feasible is called what?",
+    "options": ["Compensating", "Preventive", "Corrective", "Recovery"],
+    "answerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Installing software patches after detecting a vulnerability is an example of which control type?",
+    "options": ["Preventive", "Corrective", "Detective", "Deterrent"],
+    "answerIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "Security cameras that record activity for later review are an example of what control type?",
+    "options": ["Corrective", "Detective", "Preventive", "Recovery"],
+    "answerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "Which control focuses on restoring systems and data after an incident to normal operation?",
+    "options": ["Recovery", "Corrective", "Preventive", "Compensating"],
+    "answerIndex": 0
+  },
+  {
+    "id": 11,
+    "question": "A company enforces strong password policies. What type of control is this?",
+    "options": ["Deterrent", "Preventive", "Corrective", "Detective"],
+    "answerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "Visible security guards primarily serve as what kind of control?",
+    "options": ["Detective", "Preventive", "Deterrent", "Recovery"],
+    "answerIndex": 2
+  },
+  {
+    "id": 13,
+    "question": "A honeypot designed to lure attackers and monitor their behavior is considered which control type?",
+    "options": ["Preventive", "Detective", "Corrective", "Deterrent"],
+    "answerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "Implementing network segmentation to limit lateral movement is which control type?",
+    "options": ["Preventive", "Corrective", "Recovery", "Compensating"],
+    "answerIndex": 0
+  },
+  {
+    "id": 15,
+    "question": "A redundant power supply used to maintain availability is an example of what control type?",
+    "options": ["Compensating", "Recovery", "Preventive", "Detective"],
+    "answerIndex": 1
+  }
+]
+}
+  
 };
 
 export default questions;
