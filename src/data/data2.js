@@ -1371,7 +1371,1548 @@ const questions = {
         "answerIndex": 2
       }
     ]
+  },"Chapter 5": {
+    "Vulnerability Management": [
+      {
+        "id": 1,
+        "question": "What is the main goal of vulnerability management?",
+        "options": [
+          "To eliminate all system vulnerabilities permanently",
+          "To identify, prioritize, and remediate vulnerabilities on an ongoing basis",
+          "To configure firewalls to block all incoming connections",
+          "To replace vulnerable systems with new ones"
+        ],
+        "answerIndex": 1
+      },
+      {
+        "id": 2,
+        "question": "What process detects new vulnerabilities as they arise?",
+        "options": ["Patch management", "Vulnerability scanning", "Asset mapping", "Change control"],
+        "answerIndex": 1
+      },
+      {
+        "id": 3,
+        "question": "Why is vulnerability management necessary even in well-secured systems?",
+        "options": [
+          "New vulnerabilities are constantly discovered",
+          "Encryption eliminates the need for scanning",
+          "Firewalls cannot detect vulnerabilities",
+          "Updates always introduce fixes automatically"
+        ],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Identifying Scan Targets": [
+      {
+        "id": 1,
+        "question": "Which question should be considered when selecting scan targets?",
+        "options": [
+          "Is the system connected to the internet?",
+          "What color is the data center hardware?",
+          "Who manufactured the router?",
+          "How many employees are in the department?"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "What is the purpose of asset inventory in vulnerability management?",
+        "options": [
+          "To identify and track systems for scanning coverage",
+          "To store employee credentials",
+          "To replace outdated systems",
+          "To restrict remote access"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "What tool feature is often used to visualize system relationships in a scan?",
+        "options": ["Firewall log", "Asset map", "File checksum", "Patch repository"],
+        "answerIndex": 1
+      }
+    ],
+  
+    "Determining Scan Frequency": [
+      {
+        "id": 1,
+        "question": "Which factor most influences how often vulnerability scans are performed?",
+        "options": [
+          "The organization’s risk appetite",
+          "The size of the IT department",
+          "The number of employees",
+          "The system color-coding scheme"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "Why do organizations configure automated scans?",
+        "options": [
+          "To reduce the administrative burden and ensure regular scanning",
+          "To replace all manual network checks",
+          "To automatically fix vulnerabilities",
+          "To block malware installations"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "What might limit scan frequency during high business activity?",
+        "options": ["Business constraints", "Firewall settings", "Redundancy plans", "Backups"],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Configuring Vulnerability Scans": [
+      {
+        "id": 1,
+        "question": "Why should administrators pay attention to scan sensitivity levels?",
+        "options": [
+          "They affect scan depth and potential disruption to systems",
+          "They determine the color of the dashboard",
+          "They decide which antivirus is used",
+          "They configure encryption strength"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "What is the purpose of disabling unnecessary plug-ins during scans?",
+        "options": [
+          "To improve scan performance and reduce false positives",
+          "To allow more comprehensive scanning",
+          "To disable antivirus protection temporarily",
+          "To increase network traffic"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "Why are some plug-ins considered intrusive?",
+        "options": [
+          "They can cause performance issues or disrupt production systems",
+          "They only check external networks",
+          "They require internet access to run",
+          "They ignore critical updates"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 4,
+        "question": "What is one way to safely run potentially intrusive scans?",
+        "options": [
+          "Run them in a test environment before production",
+          "Disable all network firewalls",
+          "Turn off nonintrusive plug-ins",
+          "Run them during work hours only"
+        ],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Supplementing Network Scans": [
+      {
+        "id": 1,
+        "question": "What is the purpose of credentialed scanning?",
+        "options": [
+          "To log into systems for more accurate vulnerability detection",
+          "To brute force weak passwords",
+          "To simulate uncredentialed network attacks",
+          "To perform denial-of-service tests"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "Why should credentialed scans use the principle of least privilege?",
+        "options": [
+          "To minimize risk from the scanner's access rights",
+          "To bypass administrative permissions",
+          "To avoid detection by IDS systems",
+          "To increase scan coverage"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "What is an agent-based scanning approach?",
+        "options": [
+          "Using installed software agents to gather internal system data",
+          "Scanning all networks remotely from one location",
+          "Running only credentialed scans",
+          "Using external vulnerability feeds exclusively"
+        ],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Scan Perspective": [
+      {
+        "id": 1,
+        "question": "What is the purpose of conducting scans from multiple perspectives?",
+        "options": [
+          "To view vulnerabilities from both internal and external viewpoints",
+          "To test only administrative credentials",
+          "To encrypt scan reports",
+          "To simulate denial-of-service attacks"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "Which control could block or alter external scan results?",
+        "options": ["Firewall", "Backup schedule", "Patch system", "Web filter"],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "What organization requires both internal and external scans by an ASV?",
+        "options": ["PCI DSS", "FEMA", "CISA", "CIA"],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Scanner Maintenance and Feeds": [
+      {
+        "id": 1,
+        "question": "Why must vulnerability feeds be kept up-to-date?",
+        "options": [
+          "To detect newly discovered vulnerabilities",
+          "To avoid generating scan reports",
+          "To reduce hardware usage",
+          "To delete outdated software"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "What is the main risk of not updating scanner software?",
+        "options": [
+          "The scanner itself may become vulnerable",
+          "It will automatically disable scanning agents",
+          "The organization will lose network access",
+          "The firewall will block the scanner"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "How often should plug-in feeds ideally update?",
+        "options": ["Weekly", "Daily", "Monthly", "Quarterly"],
+        "answerIndex": 1
+      }
+    ],
+  
+    "Security Content Automation Protocol (SCAP)": [
+      {
+        "id": 1,
+        "question": "What is the purpose of SCAP?",
+        "options": [
+          "To standardize communication of security information",
+          "To encrypt scan reports",
+          "To automate credential assignment",
+          "To perform penetration testing"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "Which SCAP component provides standard names for software flaws?",
+        "options": [
+          "CVE - Common Vulnerabilities and Exposures",
+          "CPE - Common Platform Enumeration",
+          "CCSS - Cyber Configuration System Score",
+          "XML - Extensible Markup Language"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "Which SCAP standard is used for measuring vulnerability severity?",
+        "options": [
+          "CVSS - Common Vulnerability Scoring System",
+          "CCCE - Common Configuration Checklist",
+          "NVD - National Vulnerability Database",
+          "SCOR - Security Configuration Rating"
+        ],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Vulnerability Scanning Tools": [
+      {
+        "id": 1,
+        "question": "Which tool is one of the earliest and most well-known vulnerability scanners?",
+        "options": ["Nessus", "Nikto", "Arachni", "Wireshark"],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "What type of deployment model does Qualys use?",
+        "options": [
+          "Software-as-a-Service (SaaS)",
+          "On-prem only",
+          "Mobile app",
+          "Browser extension"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "Which open-source scanner offers a free alternative to commercial tools?",
+        "options": ["OpenVAS", "Nexpose", "Splunk", "Burp Suite"],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Application and Web Scanning": [
+      {
+        "id": 1,
+        "question": "What is the goal of static application testing?",
+        "options": [
+          "To analyze code without executing it",
+          "To execute live web traffic",
+          "To test network firewalls",
+          "To perform denial-of-service attacks"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "What is a dynamic testing approach?",
+        "options": [
+          "Executing code and analyzing behavior during runtime",
+          "Scanning source code offline",
+          "Testing password hashes",
+          "Measuring network throughput"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "Which tool is commonly used for web application scanning?",
+        "options": ["Nikto", "Metasploit", "Nmap", "Hydra"],
+        "answerIndex": 0
+      },
+      {
+        "id": 4,
+        "question": "What type of vulnerabilities can web app scanners detect?",
+        "options": [
+          "SQL injection and cross-site scripting (XSS)",
+          "DNS cache poisoning",
+          "Brute-force passwords",
+          "Port misconfiguration"
+        ],
+        "answerIndex": 0
+      }
+    ],
+  
+    "Reviewing and Interpreting Scan Reports": [
+      {
+        "id": 1,
+        "question": "What does the 'severity' field in a vulnerability report indicate?",
+        "options": [
+          "The urgency or criticality of the vulnerability",
+          "The scan frequency",
+          "The number of devices in scope",
+          "The system’s IP address"
+        ],
+        "answerIndex": 0
+      },
+      {
+        "id": 2,
+        "question": "Which protocol version is recommended to replace SSL 2.0 and 3.0?",
+        "options": ["TLS 1.2 or higher", "WPA3", "SSHv1", "HTTPS 1.0"],
+        "answerIndex": 0
+      },
+      {
+        "id": 3,
+        "question": "Why is report interpretation critical for administrators?",
+        "options": [
+          "It helps them prioritize and remediate vulnerabilities effectively",
+          "It allows them to hide vulnerabilities from audits",
+          "It replaces the need for further scanning",
+          "It automatically patches all systems"
+        ],
+        "answerIndex": 0
+      }
+    ],   "Vulnerability Scanning and CVSS (Chapter 5 Continued)": [
+        {
+          "id": 1,
+          "question": "What is the main purpose of the Common Vulnerability Scoring System (CVSS)?",
+          "options": [
+            "To assign unique IDs to vulnerabilities",
+            "To measure and communicate the severity of security vulnerabilities",
+            "To patch vulnerabilities automatically",
+            "To encrypt vulnerability reports"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 2,
+          "question": "Which CVSS metric describes how an attacker could exploit a vulnerability?",
+          "options": [
+            "Attack Complexity Metric",
+            "Attack Vector Metric",
+            "Privileges Required Metric",
+            "User Interaction Metric"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 3,
+          "question": "In CVSS scoring, which metric evaluates how difficult it is to exploit a vulnerability?",
+          "options": [
+            "Attack Complexity Metric",
+            "Scope Metric",
+            "Availability Metric",
+            "Confidentiality Metric"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 4,
+          "question": "What does the Confidentiality Metric in CVSS measure?",
+          "options": [
+            "The amount of user interaction required",
+            "How much system integrity is affected",
+            "The degree of information disclosure if exploited",
+            "Whether the system becomes unavailable"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 5,
+          "question": "If a vulnerability causes the system to completely shut down, which Availability Metric score is assigned?",
+          "options": ["0.00", "0.22", "0.56", "0.85"],
+          "answerIndex": 2
+        },
+        {
+          "id": 6,
+          "question": "What does the CVSS 'Scope Metric' describe?",
+          "options": [
+            "Whether a vulnerability affects multiple users",
+            "Whether it impacts systems beyond its security authority",
+            "Whether users must take action to exploit it",
+            "How much data is lost during exploitation"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 7,
+          "question": "What does a CVSS base score between 7.0 and 8.9 represent?",
+          "options": ["Low", "Medium", "High", "Critical"],
+          "answerIndex": 2
+        },
+        {
+          "id": 8,
+          "question": "What is a false positive in vulnerability scanning?",
+          "options": [
+            "When a real vulnerability goes undetected",
+            "When a scanner incorrectly reports a vulnerability that doesn’t exist",
+            "When a scan fails to complete",
+            "When multiple vulnerabilities are grouped together"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 9,
+          "question": "What is patch management primarily used for?",
+          "options": [
+            "Detecting new vulnerabilities",
+            "Updating system configurations",
+            "Applying security updates to fix vulnerabilities",
+            "Backing up system data"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 10,
+          "question": "What is the main security risk of running legacy platforms like Windows Server 2003?",
+          "options": [
+            "They run too slowly for new scans",
+            "They stop receiving security patches",
+            "They require additional licensing fees",
+            "They can’t support antivirus software"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 11,
+          "question": "Which of the following is considered a weak configuration?",
+          "options": [
+            "Disabling unused accounts",
+            "Using strong encryption algorithms",
+            "Leaving default admin credentials enabled",
+            "Enforcing least privilege"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 12,
+          "question": "Why is debug mode considered a vulnerability risk?",
+          "options": [
+            "It slows down the web server",
+            "It reveals internal error details that attackers can exploit",
+            "It deletes important log files",
+            "It disables the firewall"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 13,
+          "question": "Which insecure protocol allows sending usernames and passwords in cleartext?",
+          "options": ["SSH", "FTP", "HTTPS", "SFTP"],
+          "answerIndex": 1
+        },
+        {
+          "id": 14,
+          "question": "What is a secure replacement for FTP?",
+          "options": ["HTTP", "SMTP", "SFTP", "POP3"],
+          "answerIndex": 2
+        },
+        {
+          "id": 15,
+          "question": "What are the two main decisions to make when implementing encryption?",
+          "options": [
+            "Encryption software and OS version",
+            "Encryption algorithm and encryption key management",
+            "User permissions and access roles",
+            "Patch schedule and update frequency"
+          ],
+          "answerIndex": 1
+        }
+      ], 
+      "Penetration Testing and Vulnerability Management (Chapter 5 Continued)": [
+        {
+          "id": 1,
+          "question": "What encryption algorithm should replace insecure ciphers like RC4?",
+          "options": [
+            "RSA",
+            "Triple DES",
+            "AES (Advanced Encryption Standard)",
+            "Blowfish"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 2,
+          "question": "What is the primary goal of penetration testing?",
+          "options": [
+            "To intentionally break systems for research",
+            "To find and exploit vulnerabilities in a controlled, authorized manner",
+            "To replace firewalls and antivirus programs",
+            "To automate vulnerability scanning"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 3,
+          "question": "What mindset must penetration testers adopt?",
+          "options": [
+            "The hacker mindset",
+            "The defender mindset",
+            "The compliance mindset",
+            "The managerial mindset"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 4,
+          "question": "Why do attackers 'only need to win once' in cybersecurity?",
+          "options": [
+            "Because security teams ignore alerts",
+            "Because even one successful attack can lead to compromise",
+            "Because attackers have unlimited time",
+            "Because defenders reuse passwords"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is a benefit of penetration testing?",
+          "options": [
+            "Provides visibility into security posture",
+            "Replaces audits entirely",
+            "Eliminates all vulnerabilities permanently",
+            "Only tests physical security systems"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 6,
+          "question": "What is the main difference between penetration testing and threat hunting?",
+          "options": [
+            "Penetration testing assumes compromise; threat hunting doesn’t",
+            "Threat hunting assumes compromise and searches for evidence of it",
+            "Penetration testing is automated while threat hunting is manual",
+            "Threat hunting focuses only on external attacks"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 7,
+          "question": "Which type of penetration test involves bypassing physical security measures?",
+          "options": [
+            "Offensive",
+            "Physical",
+            "Defensive",
+            "Integrated"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 8,
+          "question": "What does offensive penetration testing primarily focus on?",
+          "options": [
+            "Finding and exploiting network and system vulnerabilities",
+            "Reviewing compliance policies",
+            "Testing backup systems",
+            "Analyzing employee satisfaction"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 9,
+          "question": "What does defensive penetration testing aim to do?",
+          "options": [
+            "Evaluate and improve an organization’s ability to detect and respond to cyberattacks",
+            "Create new types of malware for study",
+            "Attack competitor networks",
+            "Automate patching systems"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 10,
+          "question": "Which type of testing combines offensive and defensive techniques for a full assessment?",
+          "options": [
+            "Layered testing",
+            "Integrated testing",
+            "Hybrid scanning",
+            "SOC simulation"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 11,
+          "question": "What is a 'known environment' penetration test?",
+          "options": [
+            "Testers have full knowledge of the target systems and configurations",
+            "Testers know nothing about the target",
+            "Testers only test third-party networks",
+            "Testers use only automated tools"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 12,
+          "question": "In a 'partially known environment' penetration test, testers:",
+          "options": [
+            "Have full credentials to all systems",
+            "Have zero information about the target",
+            "Have limited information to simulate a realistic attacker view",
+            "Focus only on external systems"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 13,
+          "question": "What document gives penetration testers legal authorization to perform tests?",
+          "options": [
+            "Rules of Engagement (RoE)",
+            "Attack Blueprint",
+            "Exploit Framework License",
+            "Encryption Key Document"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 14,
+          "question": "What is a 'get out of jail free' card in penetration testing?",
+          "options": [
+            "A permission document from authorized leadership",
+            "A literal physical access card",
+            "An emergency shutdown code",
+            "A VPN access credential"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 15,
+          "question": "What is the purpose of reconnaissance in penetration testing?",
+          "options": [
+            "To clean up after the test",
+            "To gather information about the target before attacking",
+            "To perform brute-force attacks",
+            "To patch vulnerabilities before scanning"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 16,
+          "question": "What is the key difference between passive and active reconnaissance?",
+          "options": [
+            "Passive reconnaissance directly interacts with the target",
+            "Active reconnaissance avoids contact with the target",
+            "Passive reconnaissance collects data indirectly, while active directly engages the target",
+            "Active reconnaissance uses only social engineering"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 17,
+          "question": "What technique involves driving around to detect wireless networks?",
+          "options": [
+            "Port scanning",
+            "War driving",
+            "Social mapping",
+            "Network footprinting"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 18,
+          "question": "Which phase involves testers exploiting vulnerabilities to gain network access?",
+          "options": [
+            "Privilege escalation",
+            "Initial access",
+            "Persistence",
+            "Lateral movement"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 19,
+          "question": "What activity should testers perform after completing a penetration test?",
+          "options": [
+            "Remove tools and write a close-out report",
+            "Delete all system logs",
+            "Leave persistence mechanisms active",
+            "Conduct a second test immediately"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 20,
+          "question": "What do security audits primarily verify?",
+          "options": [
+            "The effectiveness of controls by an independent party",
+            "That systems are patched automatically",
+            "That users have admin privileges",
+            "That firewalls are turned off during scans"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 21,
+          "question": "What is the main difference between internal and external audits?",
+          "options": [
+            "Internal audits are conducted by outside firms",
+            "External audits are performed by the organization’s staff",
+            "Internal audits are performed by the organization’s staff for internal review; external by independent third parties",
+            "There is no difference"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 22,
+          "question": "What does the ISO 27001 standard focus on?",
+          "options": [
+            "Developing antivirus software",
+            "Establishing an information security management system (ISMS)",
+            "Setting up firewalls",
+            "Auditing physical facilities only"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 23,
+          "question": "What is the correct order of the vulnerability life cycle?",
+          "options": [
+            "Identification → Analysis → Response and Remediation → Validation of Remediation → Reporting",
+            "Analysis → Reporting → Identification → Validation → Response",
+            "Remediation → Identification → Validation → Reporting",
+            "Reporting → Identification → Validation → Analysis"
+          ],
+          "answerIndex": 0
+        }
+      ],  "Vulnerability Analysis, Response, and Reporting (Chapter 5 Final)": [
+        {
+          "id": 1,
+          "question": "What is the primary purpose of vulnerability analysis?",
+          "options": [
+            "To create new vulnerabilities for testing purposes",
+            "To confirm, prioritize, and categorize vulnerabilities",
+            "To perform random security scans",
+            "To replace existing controls with new ones"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 2,
+          "question": "Which of the following tools help in categorizing and prioritizing vulnerabilities?",
+          "options": ["SSL", "TLS", "CVSS and CVE", "AES and RSA"],
+          "answerIndex": 2
+        },
+        {
+          "id": 3,
+          "question": "During vulnerability analysis, confirming that a vulnerability is real helps eliminate what type of error?",
+          "options": [
+            "False negative",
+            "Configuration error",
+            "False positive",
+            "Critical exposure"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 4,
+          "question": "What organizational factors may influence vulnerability prioritization?",
+          "options": [
+            "Employee age and department size",
+            "Company logo and location",
+            "Exposure factor, environment variables, and risk tolerance",
+            "Marketing budget"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 5,
+          "question": "Which action represents vulnerability remediation?",
+          "options": [
+            "Ignoring the vulnerability",
+            "Applying a patch or corrective measure",
+            "Reporting the issue only to upper management",
+            "Deleting user data"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of using network segmentation during vulnerability response?",
+          "options": [
+            "To improve data transfer speeds",
+            "To isolate affected systems and limit exploitability",
+            "To store old vulnerabilities for training",
+            "To reduce server storage usage"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 7,
+          "question": "Purchasing insurance to offset financial risk from a vulnerability is an example of:",
+          "options": [
+            "Risk transference",
+            "Risk avoidance",
+            "Risk denial",
+            "Risk elimination"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 8,
+          "question": "Validation of remediation ensures that:",
+          "options": [
+            "The vulnerability is still active for testing",
+            "The vulnerability no longer exists after remediation",
+            "New vulnerabilities are added for future scans",
+            "The same exploit can be reused"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 9,
+          "question": "Who may perform independent validation of remediation for serious vulnerabilities?",
+          "options": [
+            "Sales representatives",
+            "Marketing team",
+            "Internal or external auditors",
+            "End users"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 10,
+          "question": "Which of the following is a key purpose of vulnerability reporting?",
+          "options": [
+            "To summarize findings and communicate them to stakeholders",
+            "To delete system logs for privacy",
+            "To create new vulnerabilities for testing",
+            "To automate threat hunting"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 11,
+          "question": "What might vulnerability reporting include?",
+          "options": [
+            "Remediation details and improvement recommendations",
+            "Employee evaluations",
+            "Sales projections",
+            "Payroll information"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 12,
+          "question": "What is a false negative?",
+          "options": [
+            "A vulnerability that exists but is not detected by a scan",
+            "A vulnerability that is detected but not real",
+            "An invalid patch",
+            "An incorrect system configuration"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 13,
+          "question": "What is a false positive?",
+          "options": [
+            "A scan report that incorrectly identifies a vulnerability that doesn’t exist",
+            "A vulnerability that exists but is missed",
+            "An accurate report",
+            "An encryption error"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 14,
+          "question": "What does threat hunting primarily focus on?",
+          "options": [
+            "Discovering existing compromises in a network",
+            "Creating simulated malware samples",
+            "Performing random audits",
+            "Encrypting endpoint devices"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 15,
+          "question": "What do vulnerability scans primarily probe?",
+          "options": [
+            "Systems, applications, and devices for known issues",
+            "Employee devices for non-work content",
+            "Firewall ports only",
+            "Wireless networks exclusively"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 16,
+          "question": "What is the main goal of penetration testing?",
+          "options": [
+            "To legally exploit systems and identify weaknesses before attackers do",
+            "To replace vulnerability scanning entirely",
+            "To perform social engineering exclusively",
+            "To test antivirus software effectiveness"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 17,
+          "question": "How do bug bounty programs improve security?",
+          "options": [
+            "They encourage external testers to find and report vulnerabilities for rewards",
+            "They eliminate the need for internal testing teams",
+            "They focus on developing new security products",
+            "They allow unauthorized access for hackers"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 18,
+          "question": "What is the main goal of a security audit?",
+          "options": [
+            "To formally evaluate and attest to the effectiveness of security controls",
+            "To patch vulnerabilities automatically",
+            "To train developers in encryption",
+            "To back up sensitive data"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 19,
+          "question": "What are the stages of the vulnerability life cycle?",
+          "options": [
+            "Identification, Analysis, Response and Remediation, Validation of Remediation, Reporting",
+            "Planning, Development, Testing, Deployment",
+            "Detection, Backup, Reboot, Retest",
+            "Scanning, Logging, Reviewing, Archiving"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 20,
+          "question": "What is the main takeaway from Chapter 5 regarding cybersecurity maintenance?",
+          "options": [
+            "Security assessment and testing are ongoing processes essential for maintaining effective controls",
+            "Once a system is secure, it stays secure indefinitely",
+            "Scanning tools alone can replace human oversight",
+            "Penetration testing is only necessary after a breach"
+          ],
+          "answerIndex": 0
+        }
+      ]
+  },"Chapter 6":{
+    "Chapter 6: Secure Application Development": [
+        {
+          "id": 1,
+          "question": "What is the main purpose of the Software Development Life Cycle (SDLC)?",
+          "options": [
+            "To organize the process of software creation and maintenance",
+            "To test software only after it’s released",
+            "To handle network configurations during deployment",
+            "To automate database backups"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 2,
+          "question": "Which SDLC phase focuses on determining what the software should do and gathering customer needs?",
+          "options": [
+            "Design phase",
+            "Requirements definition phase",
+            "Testing phase",
+            "Coding phase"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 3,
+          "question": "In the SDLC, which phase involves writing and integrating the actual software code?",
+          "options": [
+            "Design",
+            "Coding",
+            "Planning",
+            "Deployment"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the main goal of DevSecOps?",
+          "options": [
+            "To separate security from development",
+            "To add security into every step of the DevOps process",
+            "To automate HR and financial operations",
+            "To reduce the number of software updates"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 5,
+          "question": "Which phase ensures that software continues to operate correctly after deployment and includes patching and updates?",
+          "options": [
+            "Testing",
+            "Maintenance",
+            "Design",
+            "Decommissioning"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 6,
+          "question": "What does CI/CD stand for in software development?",
+          "options": [
+            "Continuous Integration / Continuous Deployment",
+            "Code Implementation / Component Delivery",
+            "Centralized Installation / Continuous Debugging",
+            "Controlled Input / Code Distribution"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 7,
+          "question": "Which environment is where developers write and initially test code?",
+          "options": [
+            "Production environment",
+            "Staging environment",
+            "Development environment",
+            "Testing environment"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 8,
+          "question": "What is the main focus of secure coding practices?",
+          "options": [
+            "Writing code that is fast to execute",
+            "Writing code that avoids introducing security vulnerabilities",
+            "Writing code that looks professional and clean",
+            "Writing code that uses minimal memory"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 9,
+          "question": "Which organization publishes the 'Proactive Controls' and 'Top 10' list for secure coding?",
+          "options": [
+            "CISA",
+            "OWASP",
+            "NIST",
+            "ISC2"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 10,
+          "question": "What type of code testing examines the source code without executing it?",
+          "options": [
+            "Dynamic code analysis",
+            "Static code analysis",
+            "Runtime testing",
+            "Fuzzing"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 11,
+          "question": "What is the purpose of fuzz testing (fuzzing)?",
+          "options": [
+            "To check code logic without running it",
+            "To test applications by sending random or unexpected data inputs",
+            "To test how fast code executes under pressure",
+            "To confirm user interface design consistency"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 12,
+          "question": "Which of the following is a common injection vulnerability where attackers insert SQL code into a web application?",
+          "options": [
+            "Command injection",
+            "SQL injection",
+            "Cross-site scripting",
+            "XML injection"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 13,
+          "question": "Which secure coding practice involves verifying user input before processing it?",
+          "options": [
+            "Encoding data",
+            "Validating all inputs",
+            "Implementing digital identity",
+            "Logging and monitoring"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 14,
+          "question": "What is the main risk of a command injection attack?",
+          "options": [
+            "It exposes credit card data",
+            "It allows attackers to execute system-level commands",
+            "It causes applications to slow down",
+            "It modifies website appearance"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 15,
+          "question": "Which SDLC phase marks the end of a software’s life and involves securely removing it from use?",
+          "options": [
+            "Transition phase",
+            "Decommissioning phase",
+            "Design phase",
+            "Testing phase"
+          ],
+          "answerIndex": 1
+        }
+      ], "Chapter 6: Authentication and Web Application Vulnerabilities": [
+        {
+          "id": 1,
+          "question": "What is the most common and easily defeated form of authentication?",
+          "options": [
+            "Biometric authentication",
+            "Password authentication",
+            "Token-based authentication",
+            "Certificate-based authentication"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 2,
+          "question": "What is one common method attackers use to steal passwords?",
+          "options": [
+            "Session replay",
+            "Phishing and credential harvesting",
+            "Privilege escalation",
+            "Input validation"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 3,
+          "question": "Which type of attack allows an attacker to hijack an already authenticated user’s web session?",
+          "options": [
+            "Session hijacking",
+            "Cookie poisoning",
+            "Pharming",
+            "Privilege escalation"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 4,
+          "question": "Cookies are often used to maintain user sessions. If stolen, they can be used to:",
+          "options": [
+            "Reset the web server",
+            "Impersonate an authenticated user",
+            "Encrypt all server traffic",
+            "Disable the user's account"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 5,
+          "question": "What kind of attack tricks a user into visiting a malicious URL that looks legitimate?",
+          "options": [
+            "Unvalidated redirect",
+            "SQL injection",
+            "Directory traversal",
+            "Cross-site scripting"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 6,
+          "question": "What vulnerability allows a user to directly access files or data by manipulating a URL’s parameters?",
+          "options": [
+            "Directory traversal",
+            "Insecure direct object reference",
+            "Remote file inclusion",
+            "Parameter pollution"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 7,
+          "question": "Which attack allows users to move through a server’s directory structure to access restricted files?",
+          "options": [
+            "SQL injection",
+            "Cross-site scripting",
+            "Directory traversal",
+            "Cookie stealing"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 8,
+          "question": "Which attack involves inserting malicious code into a web page that gets executed when viewed by others?",
+          "options": [
+            "SQL injection",
+            "Cross-site scripting (XSS)",
+            "Command injection",
+            "Parameter pollution"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 9,
+          "question": "What type of XSS attack stores malicious code on a server so that it affects multiple users?",
+          "options": [
+            "Reflected XSS",
+            "Stored (Persistent) XSS",
+            "Blind XSS",
+            "Cross-site request forgery"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 10,
+          "question": "Which attack tricks a user’s browser into executing unwanted actions on a trusted site where they are logged in?",
+          "options": [
+            "Cross-site request forgery (CSRF)",
+            "Session replay",
+            "Privilege escalation",
+            "SQL injection"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 11,
+          "question": "What is the purpose of input validation?",
+          "options": [
+            "To ensure user input follows expected formats and prevent malicious data",
+            "To check server configuration",
+            "To improve password complexity",
+            "To verify HTTPS certificates"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 12,
+          "question": "Which vulnerability occurs when a web app receives multiple values for a single parameter, confusing input validation?",
+          "options": [
+            "Parameter pollution",
+            "Code injection",
+            "Command injection",
+            "Session fixation"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 13,
+          "question": "What tool or system can help detect and block web-based attacks like SQL injection and XSS?",
+          "options": [
+            "Web Application Firewall (WAF)",
+            "Static code analyzer",
+            "SSL certificate manager",
+            "API gateway"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 14,
+          "question": "Privilege escalation attacks focus on:",
+          "options": [
+            "Obtaining a valid session cookie",
+            "Increasing access rights to gain administrator privileges",
+            "Bypassing login pages",
+            "Redirecting users to malicious websites"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 15,
+          "question": "Server-Side Request Forgery (SSRF) attacks trick a web server into:",
+          "options": [
+            "Sending requests to internal or external systems on behalf of the attacker",
+            "Accepting multiple parameters in a URL",
+            "Deleting user cookies",
+            "Executing local scripts"
+          ],
+          "answerIndex": 0
+        }
+      ],   "Chapter 6: Secure Coding and Automation": [
+        {
+          "id": 1,
+          "question": "What is the main purpose of a Web Application Firewall (WAF)?",
+          "options": [
+            "Encrypt all website traffic",
+            "Block unauthorized access to internal databases",
+            "Filter and monitor HTTP requests to prevent web attacks",
+            "Scan for viruses in email attachments"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 2,
+          "question": "Parameterized queries are primarily used to prevent which type of attack?",
+          "options": [
+            "Cross-site scripting",
+            "SQL injection",
+            "Command injection",
+            "Directory traversal"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 3,
+          "question": "What is the purpose of sandboxing?",
+          "options": [
+            "To encrypt software during testing",
+            "To run applications in isolation to prevent harm to systems",
+            "To permanently store temporary application files",
+            "To automate database backups"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 4,
+          "question": "Which method confirms the authenticity and integrity of software code?",
+          "options": [
+            "Code signing",
+            "Code reuse",
+            "Sandboxing",
+            "Parameter validation"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 5,
+          "question": "Using third-party libraries and SDKs introduces what type of risk?",
+          "options": [
+            "Reduced code efficiency",
+            "Potential vulnerabilities from untrusted sources",
+            "Increased database size",
+            "Slower runtime performance"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 6,
+          "question": "What is the goal of software diversity?",
+          "options": [
+            "To improve code readability",
+            "To reduce single points of failure in systems",
+            "To simplify debugging",
+            "To remove all dependencies"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 7,
+          "question": "Why are code repositories important for secure development?",
+          "options": [
+            "They eliminate the need for software testing",
+            "They centralize and track version changes in source code",
+            "They increase execution speed",
+            "They automatically patch vulnerabilities"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 8,
+          "question": "Which of the following best defines 'application resilience'?",
+          "options": [
+            "An application’s ability to prevent user access",
+            "An application’s ability to recover or adapt to changes or failures",
+            "An application’s ability to use encryption effectively",
+            "An application’s ability to run without user interaction"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 9,
+          "question": "Improper error handling can expose applications to:",
+          "options": [
+            "Integer overflow attacks",
+            "Privilege escalation attacks",
+            "Sensitive system information and SQL injection risks",
+            "Brute-force attacks"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 10,
+          "question": "Hard-coded credentials pose a risk because they:",
+          "options": [
+            "Are encrypted before deployment",
+            "Can be easily changed by administrators",
+            "May become known to outsiders through code exposure",
+            "Expire automatically after 30 days"
+          ],
+          "answerIndex": 2
+        },
+        {
+          "id": 11,
+          "question": "What issue arises when two processes compete for the same system resource?",
+          "options": [
+            "Buffer overflow",
+            "Race condition",
+            "Stack overflow",
+            "Command injection"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 12,
+          "question": "A Time-of-Check to Time-of-Use (TOCTOU) vulnerability occurs when:",
+          "options": [
+            "An API is exposed without proper authentication",
+            "A program checks access permissions at one time but uses them later without rechecking",
+            "A memory leak leads to unauthorized access",
+            "A user bypasses the firewall"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 13,
+          "question": "Unprotected APIs can lead to which of the following issues?",
+          "options": [
+            "Unauthorized data access or modification",
+            "Faster API response times",
+            "Improved network routing",
+            "Reduced development costs"
+          ],
+          "answerIndex": 0
+        },
+        {
+          "id": 14,
+          "question": "What is a key benefit of using automation and scripting in cybersecurity?",
+          "options": [
+            "Eliminating human oversight",
+            "Improving efficiency and reducing manual errors",
+            "Disabling redundant system processes",
+            "Preventing cloud migration"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 15,
+          "question": "Which of the following is a drawback of over-automation in cybersecurity?",
+          "options": [
+            "Increased reaction time to incidents",
+            "Creation of a single point of failure",
+            "Improved team communication",
+            "Reduced technical debt"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 16,
+          "question": "What is a common use case of scripting in security operations?",
+          "options": [
+            "Running database backups",
+            "User provisioning and access control",
+            "Updating web graphics",
+            "Changing browser cache settings"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 17,
+          "question": "What is the best description of 'guard rails' in automation?",
+          "options": [
+            "Firewalls that protect against malware",
+            "Automated policies that enforce security compliance",
+            "Manual review checklists for developers",
+            "Physical barriers around server racks"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 18,
+          "question": "How does resource exhaustion impact system performance?",
+          "options": [
+            "It increases available memory for all users",
+            "It consumes system resources until the system slows or crashes",
+            "It optimizes CPU usage",
+            "It improves software redundancy"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 19,
+          "question": "Which memory-related issue allows an attacker to inject code by overflowing data into adjacent memory?",
+          "options": [
+            "Pointer dereferencing",
+            "Buffer overflow",
+            "Memory leak",
+            "Integer truncation"
+          ],
+          "answerIndex": 1
+        },
+        {
+          "id": 20,
+          "question": "What should cybersecurity professionals ensure when using third-party packages?",
+          "options": [
+            "They are from trusted, up-to-date sources",
+            "They reduce the size of the code repository",
+            "They contain unverified dependencies",
+            "They improve GUI design"
+          ],
+          "answerIndex": 0
+        }
+      ]
   }
+  
   
 }
 
