@@ -3,7 +3,7 @@ import TopicSelector from './components/TopicSelector';
 import SubtopicSelector from './components/SubtopicSelector';
 import QuizCard from './components/QuizCard';
 import ScoreSummary from './components/ScoreSummary';
-import questions from './data/questions';
+import questions from './data/data2';
 import './App.scss';
 
 function App() {
