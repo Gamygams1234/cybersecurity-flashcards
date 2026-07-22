@@ -2911,7 +2911,338 @@ const questions = {
           "answerIndex": 0
         }
       ]
-  }
+  }, "WGU": {
+  "C952 Computer Architecture": [
+  {
+    id: 1,
+    question: "What acts as a buffer for slower, larger memory?",
+    options: [
+      "Cache",
+      "Control",
+      "Processor",
+      "Datapath"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 2,
+    question: "What does the yield represent when integrated circuits are manufactured?",
+    options: [
+      "The percentage of good dies out of the total number of dies on the wafer",
+      "The cost per good die produced from each wafer",
+      "The number of blank wafers produced from each silicon crystal ingot",
+      "The number of dies produced per wafer"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 3,
+    question: "Which register architectural style follows their historical development?",
+    options: [
+      "Accumulator architecture, load-store architecture, RISC architecture",
+      "Accumulator architecture, RISC architecture, load-store architecture",
+      "Load-store architecture, accumulator architecture, RISC architecture",
+      "RISC architecture, accumulator architecture, load-store architecture"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 4,
+    question: "Which desktop machine had the first built-in local area network (LAN) that became the precursor to Ethernet?",
+    options: [
+      "IBM Personal Computer",
+      "Apple IIe",
+      "IBM compatible personal computer",
+      "Xerox Alto"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 5,
+    question: "Which mode is unique to RISC architectures?",
+    options: [
+      "Register indirect mode",
+      "Scaled register mode",
+      "Simplified addressing mode",
+      "Absolute address mode"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 6,
+    question: "Which processor feature can improve performance when processing multimedia or identically structured data?",
+    options: [
+      "Direct memory access",
+      "Graphics processing unit",
+      "SIMD",
+      "SISD"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 7,
+    question: "Which processor characteristic enables multiple operations to be executed simultaneously in a functional unit?",
+    options: [
+      "Pipeline units",
+      "Scalar architectures",
+      "Vector lanes",
+      "Multimedia extensions"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 8,
+    question: "Which component in the central processing unit (CPU) performs addition, subtraction, and AND/OR instructions?",
+    options: [
+      "Control unit",
+      "Memory unit",
+      "Arithmetic logic unit",
+      "Cache memory"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 9,
+    question: "What is the LEGv8 floating-point instruction for a multiply operation?",
+    options: [
+      "STURD",
+      "FCMPS",
+      "FMULS",
+      "FCMPD"
+    ],
+    answerIndex: 2
+  }, {
+  id: 10,
+  question: "Which ARMv8 instruction category causes an exception if an operand is not a number?",
+  options: [
+    "Three long long",
+    "Quiet compare",
+    "Three long",
+    "Signaling compare"
+  ],
+  answerIndex: 3
+},
+{
+  id: 11,
+  question: "How is the integer 7 represented in an 8-bit byte?",
+  options: [
+    "1111 1110",
+    "1111 0000",
+    "0000 1111",
+    "0000 0111"
+  ],
+  answerIndex: 3
+},
+{
+  id: 12,
+  question: "What is an advantage of the principle of locality when implementing computer memory as a memory hierarchy?",
+  options: [
+    "Fraction of memory accesses found in a level",
+    "Minimum unit of information",
+    "Multiple levels of memory with different speeds and sizes",
+    "Access memory points closest to the CPU first"
+  ],
+  answerIndex: 2
+},
+{
+  id: 13,
+  question: "How is the sum of the binary numbers 4 + 2 represented in binary?",
+  options: [
+    "0000 0110",
+    "0110 0000",
+    "1111 1100",
+    "0011 1111"
+  ],
+  answerIndex: 0
+},
+{
+  id: 14,
+  question: "Which step follows the fetch stage in the ARM instruction cycle?",
+  options: [
+    "The ALU is used for address calculation.",
+    "The registers are compared.",
+    "The ALU is used for branch comparisons.",
+    "The register operands are read."
+  ],
+  answerIndex: 1
+},
+{
+  id: 15,
+  question: "A 40-ms operation is divided into five equal pipeline stages. What is the length of each stage?",
+  options: [
+    "4 ms",
+    "5 ms",
+    "10 ms",
+    "8 ms"
+  ],
+  answerIndex: 3
+},
+{
+  id: 16,
+  question: "Which rate is the fraction of memory accesses found in a level of the memory hierarchy?",
+  options: [
+    "Contact",
+    "Residual",
+    "Hit",
+    "Miss"
+  ],
+  answerIndex: 2
+},
+{
+  id: 17,
+  question: "Which locality principle states that if a data location is referenced, nearby addresses are likely to be referenced soon?",
+  options: [
+    "Spatial",
+    "Temporal",
+    "Canonical",
+    "Residual"
+  ],
+  answerIndex: 0
+},
+{
+  id: 18,
+  question: "Which category of parallelization does an Intel Core i7 processor in a modern PC represent?",
+  options: [
+    "Single instruction single data (SISD)",
+    "Single instruction multiple data (SIMD)",
+    "Multiple instruction multiple data (MIMD)",
+    "Multiple instruction single data (MISD)"
+  ],
+  answerIndex: 2
+},
+{
+  id: 19,
+  question: "Which type of hardware multithreading only switches between threads after a major execution stall?",
+  options: [
+    "Coarse-grained",
+    "Simultaneous",
+    "Fine-grained",
+    "Cooperative"
+  ],
+  answerIndex: 0
+}, {
+  id: 20,
+  question: "Assume the following values are in registers r1, r2, and r0. Which set of ARM instructions will produce the results in r0 using the values in r1 and r2?",
+  options: [
+    "OR r0, r1, r2",
+    "EOR r1, r2, r0",
+    "OR r1, r2, r0",
+    "EOR r0, r2, r1"
+  ],
+  answerIndex: 3
+},
+{
+  id: 21,
+  question: "Register A1 contains a value. If that value is not zero, increment A1 by 2. If the value is zero, increment A1 by 10. Which ARM instruction correctly translates this pseudoinstruction?",
+  options: [
+    "CBNZ A1, Else\nADD A1, A1, 2\nElse: ADD A1, A1, 10\nExit:",
+    "ADD A1, A1, 2 ORR 10",
+    "CBZ A1, Else\nADD A1, A1, 2\nElse: ADD A1, A1, 10\nExit:",
+    "ADD A1, A1, 2 OR 10"
+  ],
+  answerIndex: 2
+},
+{
+  id: 22,
+  question: "Given the following ARM instructions:\nLDUR X1, [X0,#0]\nLDUR X2, [X0,#8]\nADD X3, X1, X2\nWhat are the corresponding C instructions?",
+  options: [
+    "a = b - a;",
+    "a = a + b;",
+    "a = b + c;",
+    "a = b - c;"
+  ],
+  answerIndex: 1
+},
+{
+  id: 23,
+  question: "X10 has the base of array A, and X21 corresponds to h. What are the corresponding C/C++ instructions for these ARM instructions?",
+  options: [
+    "A[30] = h + A[30] + 1;",
+    "A[30] = h + A[30] + 240;",
+    "A[30] = h + A[30] + X9;",
+    "A[30] = h + A[30] + X21;"
+  ],
+  answerIndex: 0
+},
+{
+  id: 24,
+  question: "What is the third computing application that has been added to personal computers and servers?",
+  options: [
+    "Internet computers",
+    "Laptop devices",
+    "Embedded computers",
+    "Handheld devices"
+  ],
+  answerIndex: 2
+},
+{
+  id: 25,
+  question: "What enables a single user program to exceed the size of primary memory?",
+  options: [
+    "Virtual memory",
+    "Kernel mode",
+    "Multicore microprocessor",
+    "Page fault"
+  ],
+  answerIndex: 0
+},
+{
+  id: 26,
+  question: "Which memory hierarchy levels are controlled by virtual memory used in servers?",
+  options: [
+    "Flash memory and online storage",
+    "Flash memory and DRAM",
+    "Flash memory and magnetic disks",
+    "DRAM and magnetic disks"
+  ],
+  answerIndex: 3
+},
+{
+  id: 27,
+  question: "What is used to track a page if it has been written to since the last read when using a write-back scheme?",
+  options: [
+    "Dirty bit",
+    "Reference bit",
+    "Status bit",
+    "Write access bit"
+  ],
+  answerIndex: 0
+},
+{
+  id: 28,
+  question: "What determines the overhead cost of a virtual machine?",
+  options: [
+    "Emulation time and hardware specifications by the VMM",
+    "Emulation time by the VMM and number of instructions",
+    "Number of concurrent users and hardware specifications by the VMM",
+    "Number of instructions and number of concurrent users by the VMM"
+  ],
+  answerIndex: 1
+},
+{
+  id: 29,
+  question: "Which software manages the creation of virtual machines?",
+  options: [
+    "Hypervisor",
+    "Guest",
+    "Instruction set architecture",
+    "Host"
+  ],
+  answerIndex: 0
+},
+{
+  id: 30,
+  question: "Which type of caching technology is always used in a virtual machine?",
+  options: [
+    "Write-through",
+    "Adaptive read-ahead",
+    "Read-ahead",
+    "Write-back"
+  ],
+  answerIndex: 3
+},
+]
+}
   
   
 }
