@@ -3042,7 +3042,7 @@ const questions = {
     "Multiple levels of memory with different speeds and sizes",
     "Access memory points closest to the CPU first"
   ],
-  answerIndex: 2
+  answerIndex: 3
 },
 {
   id: 13,
@@ -3240,7 +3240,510 @@ const questions = {
     "Write-back"
   ],
   answerIndex: 3
+},{
+  id: 31,
+  question: "Which type of program interfaces with the processor using a single thread?",
+  options: [
+    "Parallel",
+    "Symmetric",
+    "Sequential",
+    "Distributed"
+  ],
+  answerIndex: 2
 },
+{
+  id: 32,
+  question: "Which method utilizes multiple processors by running independent programs simultaneously?",
+  options: [
+    "Canonical level processing",
+    "Process level parallelism",
+    "Adaptive level parallelism",
+    "Derivative level processing"
+  ],
+  answerIndex: 1
+},
+{
+  id: 33,
+  question: "What is the principle of spatial locality?",
+  options: [
+    "The data locations with nearby addresses will tend to be referenced in another program.",
+    "The data locations with nearby addresses will tend to be replaced by some other data soon.",
+    "The data locations with nearby addresses will tend to be deleted from memory soon.",
+    "The data locations with nearby addresses will tend to be referenced soon."
+  ],
+  answerIndex: 3
+},
+{
+  id: 34,
+  question: "Which architecture describes a vector processor?",
+  options: [
+    "Multiple instruction streams, multiple data streams",
+    "Multiple instruction streams, single data stream",
+    "Single instruction stream, single data stream",
+    "Single instruction stream, multiple data streams"
+  ],
+  answerIndex: 3
+},
+{
+  id: 35,
+  question: "A compiler does not want checking for data hazards to be required. Which type of instruction should the compiler indicate so that the computation is independent of similar instructions?",
+  options: [
+    "Process",
+    "Scalar",
+    "Vector",
+    "Concurrent"
+  ],
+  answerIndex: 1
+},
+{
+  id: 36,
+  question: "The following instructions are repeated multiple times:\n\nFetch\nDecode\nExecute\n\nWhich technique results in the fastest execution time?",
+  options: [
+    "Single cycling",
+    "Pipelining",
+    "Sequential",
+    "Registering"
+  ],
+  answerIndex: 1
+},
+{
+  id: 37,
+  question: "How is the cycle time calculated for a single-cycle pipeline design?",
+  options: [
+    "The slowest time for a single instruction",
+    "The fastest time for a single instruction",
+    "The fastest total time for the instruction set",
+    "The slowest total time for the instruction set"
+  ],
+  answerIndex: 0
+},
+{
+  id: 38,
+  question: "Which instruction is used for a bitwise exclusive OR immediate operation in an ARMv8 environment?",
+  options: [
+    "ORRI",
+    "BFI",
+    "ORR",
+    "EORI"
+  ],
+  answerIndex: 3
+},
+{
+  id: 39,
+  question: "A set of instructions with five steps takes 150 nanoseconds (ns) to complete. What is the time required to complete all instructions, if the instruction set is executed 1,000 times and pipelining is used?",
+  options: [
+    "30,000 ns",
+    "750 ns",
+    "150,000 ns",
+    "150 ns"
+  ],
+  answerIndex: 0
+},
+{
+  id: 40,
+  question: "Which cache organization reduces cache misses by flexible placement of blocks?",
+  options: [
+    "Set associative",
+    "Fully associative",
+    "Direct mapped",
+    "Random mapped"
+  ],
+  answerIndex: 0
+},
+{
+  id: 41,
+  question: "A bus has 16 data lines and requires four cycles of 250 nanoseconds (nsecs) each for transferring data. The bandwidth of this bus is 2 Megabytes/second. What is the number of cycles required for transfer if the cycle time of the bus is reduced to 125 nsecs?",
+  options: [
+    "8 clock cycles or 2 nsecs",
+    "1 clock cycle or 2 nsecs",
+    "2 clock cycles or 2 nsecs",
+    "4 clock cycles or 2 nsecs"
+  ],
+  answerIndex: 3
+},{
+  id: 42,
+  question: "A large single disk is replaced with 35 smaller disks. By which factor would the disk failure rate increase in the system?",
+  options: [
+    "35",
+    "1",
+    "70",
+    "0"
+  ],
+  answerIndex: 0
+},
+{
+  id: 43,
+  question: "Which hardware or software component affects the clock rate in the CPU performance equation?",
+  options: [
+    "Algorithm",
+    "Instruction set architecture",
+    "Programming language",
+    "Compiler"
+  ],
+  answerIndex: 1
+},
+{
+  id: 44,
+  question: "A program requires one billion instructions to execute on a processor running at 4 GHz. Exactly 50% of the instructions execute in three clock cycles, 30% execute in four clock cycles, and 20% execute in five clock cycles, resulting in an execution time of 1.075 seconds.\n\nA redesign of the instructions that were executed at five clock cycles now execute in four clock cycles. No other changes were made.\n\nWhat is the overall CPI improvement percentage?",
+  options: [
+    "20%",
+    "0.50%",
+    "1%",
+    "5.7%"
+  ],
+  answerIndex: 3
+},
+{
+  id: 45,
+  question: "Which strategy improves average memory access time?",
+  options: [
+    "Increase the miss penalty",
+    "Reduce the hit time and increase the miss penalty",
+    "Reduce the miss rate",
+    "Increase the miss rate and reduce the miss penalty"
+  ],
+  answerIndex: 2
+},
+{
+  id: 46,
+  question: "What is the effect of increasing bandwidth on a processor?",
+  options: [
+    "Increased capacity, increased throughput",
+    "Increased throughput, decreased response time",
+    "Decreased throughput, increased response time",
+    "Decreased capacity, decreased throughput"
+  ],
+  answerIndex: 1
+},
+{
+  id: 47,
+  question: "Which technology improves the dependability and the I/O performance of a system?",
+  options: [
+    "Address translators",
+    "Redundant Arrays of Inexpensive Disks (RAID)",
+    "Cache controllers",
+    "Warehouse-Scale Computers (WSC)"
+  ],
+  answerIndex: 1
+},
+{
+  id: 48,
+  question: "What is a known advantage of reducing cache misses to improve performance?",
+  options: [
+    "Cache memory",
+    "Cache blocking",
+    "Spatial locality",
+    "Temporal locality"
+  ],
+  answerIndex: 3
+},
+{
+  id: 49,
+  question: "What is the proper order of translation hierarchy from a C program into an actively executing program?",
+  options: [
+    "Loader -> Compiler -> Assembler -> Linker",
+    "Loader -> Linker -> Assembler -> Compiler",
+    "Compiler -> Assembler -> Linker -> Loader",
+    "Assembler -> Compiler -> Linker -> Loader"
+  ],
+  answerIndex: 2
+},
+{
+  id: 50,
+  question: "How many pipeline stages does the ARM Cortex-A53 processor use?",
+  options: [
+    "2",
+    "8",
+    "4",
+    "14"
+  ],
+  answerIndex: 1
+},
+{
+  id: 51,
+  question: "A hardware specification requires a maximum time of <= 52.6 minutes of repairs per year. What is the corresponding availability?",
+  options: [
+    "99.90%",
+    "99.95%",
+    "90.00%",
+    "99.99%"
+  ],
+  answerIndex: 3
+},{
+  id: 52,
+  question: "A program needs to be moved from Computer A to Computer B. The program takes 14 seconds to run on Computer A that has a clock rate of 1.5 GHz. Computer B must meet the following requirements:\n\nRun the program in 10 seconds.\nRun twice as many clock cycles as Computer A.\n\nWhich clock rate does Computer B require?",
+  options: [
+    "3.8 GHz",
+    "4.2 GHz",
+    "4.9 GHz",
+    "4.6 GHz"
+  ],
+  answerIndex: 1
+},
+{
+  id: 53,
+  question: "What are the advantages of replacing a processor in a computer with a faster processor?",
+  options: [
+    "Decreased performance and increased throughput",
+    "Increased response time and decreased throughput",
+    "Increased performance and decreased throughput",
+    "Decreased response time and increased throughput"
+  ],
+  answerIndex: 3
+},
+{
+  id: 54,
+  question: "Which memory hierarchy level is controlled by virtual memory?",
+  options: [
+    "Registers and cache",
+    "Cache and DRAM",
+    "DRAM and magnetic disk",
+    "Flash memory and cache"
+  ],
+  answerIndex: 2
+},
+{
+  id: 55,
+  question: "Given a = 10, b = 20, c = 30, what is the result of the following LEGv8 instructions?\n\nADD a, b, c\nADD t, a, c\nSUB t, b, a",
+  options: [
+    "a = 50, b = 20, c = 30, t = -30",
+    "a = 10, b = 20, c = 30, t = -30",
+    "a = 50, b = 20, c = 30, t = 0",
+    "a = 10, b = -30, c = 30, t = 0"
+  ],
+  answerIndex: 0
+},
+{
+  id: 56,
+  question: "Which type of instruction is required to perform a bitwise AND operation?",
+  options: [
+    "Arithmetic register",
+    "Conditional compare",
+    "Bit operation",
+    "Logical register"
+  ],
+  answerIndex: 3
+},
+{
+  id: 57,
+  question: "What is the ARM arithmetic/logical instruction for the following definition?\n\nRd = ~Imm",
+  options: [
+    "BIC",
+    "RSP",
+    "MVN",
+    "MOV"
+  ],
+  answerIndex: 2
+},
+{
+  id: 58,
+  question: "What is the ARM arithmetic/logical instruction for the following definition?\n\nRd = Rs2 - Rs1",
+  options: [
+    "BIC",
+    "RSB",
+    "MOV",
+    "MVN"
+  ],
+  answerIndex: 1
+},
+{
+  id: 59,
+  question: "What is the advantage of using hardware multithreading over fine-grained multithreading?",
+  options: [
+    "It displays throughput losses.",
+    "It slows down execution of the individual threads.",
+    "It uses a single functional unit to control dynamic scheduling.",
+    "It increases utilization of a processor."
+  ],
+  answerIndex: 3
+},
+{
+  id: 60,
+  question: "What must a software solution be translated into in order for a computer to execute instructions?",
+  options: [
+    "Application component",
+    "Assembly language",
+    "Operating system",
+    "Machine language"
+  ],
+  answerIndex: 3
+},
+{
+  id: 61,
+  question: "Which type of nonvolatile memory is least expensive?",
+  options: [
+    "DRAM",
+    "Magnetic disk",
+    "Solid state drive",
+    "Flash memory"
+  ],
+  answerIndex: 1
+},  {
+    "id": 54,
+    "question": "What is an advantage of implementing Verilog?",
+    "options": [
+      "It derives from Ada.",
+      "It describes a combinational signal.",
+      "It holds a value which can vary with time and signal strength.",
+      "It specifies both a behavioral and a structural definition of a digital system."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 55,
+    "question": "Given a = 10, b = 20, c = 30. What is the result of the following LEGv8 instructions?\n\nADD a, b, c\nADD t, a, c\nSUB t, b, a",
+    "options": [
+      "a = 50, b = 20, c = 30, t = -30",
+      "a = 10, b = 20, c = 30, t = -30",
+      "a = 50, b = 20, c = 30, t = 0",
+      "a = 10, b = -30, c = 30, t = 0"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 56,
+    "question": "Which type of instruction is required to perform a bitwise AND operation?",
+    "options": [
+      "Arithmetic register",
+      "Conditional compare",
+      "Bit operation",
+      "Logical register"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 57,
+    "question": "What is the ARM arithmetic/logical instruction for the following definition?\n\nRd = Imm",
+    "options": [
+      "Bic",
+      "Rsp",
+      "Mvn",
+      "Mov"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 58,
+    "question": "What is the ARM arithmetic/logical instruction for the following definition?\n\nRd = Rs2 - Rs1",
+    "options": [
+      "Bic",
+      "Rsb",
+      "Mov",
+      "Mvn"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "What is the advantage of using hardware multithreading over fine-grained multithreading?",
+    "options": [
+      "It displays throughput losses.",
+      "It slows down execution of the individual threads.",
+      "It uses a single functional unit to control dynamic scheduling.",
+      "It increases utilization of a processor."
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 60,
+    "question": "What must a software solution be translated into in order for a computer to execute instructions?",
+    "options": [
+      "Application component",
+      "Assembly language",
+      "Operating system",
+      "Machine language"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 61,
+    "question": "Which type of nonvolatile memory is least expensive?",
+    "options": [
+      "DRAM",
+      "Magnetic disk",
+      "Solid state drive",
+      "Flash memory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 62,
+    "question": "Which limitation does a single-threaded application experience?",
+    "options": [
+      "Tasks are offloaded to memory before they are executed.",
+      "Tasks are offloaded to the cache before they are executed.",
+      "One task is executed at a time by the processor.",
+      "Multiple tasks are executed by the processor simultaneously."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 63,
+    "question": "Which hardware component relieves the burden of interface graphics on the processor?",
+    "options": [
+      "SSD",
+      "RAID",
+      "GPU",
+      "DRAM"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 64,
+    "question": "A company is seeking a cost-effective way to use a networked application via a web interface. The company prefers to be charged based on use versus ownership. Which solution should be implemented?",
+    "options": [
+      "Infrastructure-as-a-Service (IaaS)",
+      "Testing-as-a-Service (TaaS)",
+      "Software-as-a-Service (SaaS)",
+      "Platform-as-a-Service (PaaS)"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 65,
+    "question": "A small company wants to cut the high cost of hardware and use a subscription-based model to save on cash flow. Which type of system should they implement?",
+    "options": [
+      "Cloud computing",
+      "Wireless computing",
+      "Wide area network",
+      "Local area network"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 66,
+    "question": "What does X1 = X2 + X3 + X4 translate into in ARM instructions?",
+    "options": [
+      "ADD X1, #X2, X4, X4",
+      "ADD X1, X2, X3\nADD X1, X1, X4",
+      "ADD X1, X2, X3, X4",
+      "ADD X3, X3, X4\nADD X1, #X2, X3"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 67,
+    "question": "How does hardware multithreading work?",
+    "options": [
+      "It relies on multiple processes or threads to try to keep many processors busy.",
+      "It allows multiple threads to share the functional units of a single processor by switching threads when one stalls.",
+      "It uses threads to improve resource utilization of a dynamically scheduled, out-of-order processor.",
+      "It offers a single physical address space across all processors for the programmer."
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 68,
+    "question": "How does multiple issue enable parallelism via instruction?",
+    "options": [
+      "By launching one instruction per clock cycle with overlapped instruction operations.",
+      "By increasing the depth of the pipeline to overlap more instructions.",
+      "By determining which issue slots should be used for which instructions.",
+      "By replicating the internal components to launch several instructions in every pipeline stage."
+    ],
+    "answerIndex": 3
+  }
+
 ]
 }
   
