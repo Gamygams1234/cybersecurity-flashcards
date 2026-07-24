@@ -3742,6 +3742,665 @@ const questions = {
       "By replicating the internal components to launch several instructions in every pipeline stage."
     ],
     "answerIndex": 3
+  },  {
+    "index": 1,
+    "question": "Which access does a register file rely on to properly function?",
+    "options": [
+      "Read and write access",
+      "Write only access",
+      "Read only access",
+      "No access"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 2,
+    "question": "What is the binary representation of instructions?",
+    "options": [
+      "Machine language",
+      "Assembly language",
+      "Operating system",
+      "Systems software"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 3,
+    "question": "Which feature of the IBM 360/91 was incorporated into the majority of microprocessors developed in the 21st century?",
+    "options": [
+      "Branch prediction allowed the processor to proceed with the next instruction.",
+      "Algorithm innovations allowed the improved parallel execution of instructions.",
+      "Pipeline innovations allowed for reservation stations and the commit unit.",
+      "Pipeline innovations allowed for dynamically scheduled pipelined processors."
+    ],
+    "answer": 1
+  },
+  {
+    "index": 4,
+    "question": "Which key design element changed in 2005 to drive continued improvements in computing capability?",
+    "options": [
+      "Multiprocessor architecture",
+      "Transistor architecture",
+      "DRAM technology",
+      "Frame buffering"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 5,
+    "question": "Which term refers to the same instruction applied to multiple data streams?",
+    "options": [
+      "SIMD",
+      "MIMD",
+      "SPMD",
+      "SISD"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 6,
+    "question": "What makes vector-based code more efficient than conventional code?",
+    "options": [
+      "Usage of LEGv8 architecture code",
+      "Usage of Multimedia extensions (MMX)",
+      "Frequency of pipeline hazards is higher",
+      "Frequency of pipeline hazards is lower"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 7,
+    "question": "Which two elements are required to implement R-format arithmetic logic unit (ALU) operations?",
+    "options": [
+      "ALU and register file",
+      "ALU and GPU",
+      "GPU and register file",
+      "Datapath and COD"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 8,
+    "question": "Which component of a computer moderates the action of its other components?",
+    "options": [
+      "Control",
+      "Datapath",
+      "Memory",
+      "Output"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 9,
+    "question": "Given X1=11000110 and X2=11110111, what is the result of ADD X3,X2,X1?",
+    "options": [
+      "Overflow",
+      "10011101",
+      "11000110",
+      "11110111"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 10,
+    "question": "What is the approximate range of a 64-bit unsigned integer?",
+    "options": [
+      "-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807",
+      "-2,147,483,648 to 2,147,483,647",
+      "0 to 4,294,967,295",
+      "0 to 18,446,744,073,709,551,615"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 11,
+    "question": "How is the integer 255 represented in memory?",
+    "options": [
+      "0000 0000 0000 0000 0000 0000 0111",
+      "0000 0000 0000 0000 0000 0000 1111",
+      "0000 0000 0000 0000 0000 0111 1111",
+      "0000 0000 0000 0000 0000 1111 1111"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 12,
+    "question": "What does extending to 16 bits yield given -5 in 8-bit two's complement (11111011)?",
+    "options": [
+      "11111100 11111011",
+      "11111111 11111011",
+      "01111111 11111011",
+      "00111111 11111011"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 13,
+    "question": "How many minutes does it take to wash, dry, and fold four loads of laundry using a pipelining approach?",
+    "options": [
+      "90",
+      "170",
+      "210",
+      "360"
+    ],
+    "answer": 2
+  },
+  {
+    "index": 14,
+    "question": "The manufacturing process has five steps taking one day each. What is the average number of days needed per widget when producing 10 widgets?",
+    "options": [
+      "0.5",
+      "1.4",
+      "5",
+      "14"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 15,
+    "question": "Which locality principle states that if data is referenced once it will likely be referenced again soon?",
+    "options": [
+      "Spatial",
+      "Residual",
+      "Temporal",
+      "Canonical"
+    ],
+    "answer": 2
+  },
+  {
+    "index": 16,
+    "question": "What does each bank of modern DRAMs consist of?",
+    "options": [
+      "Rows",
+      "Disk",
+      "Buffers",
+      "Columns"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 17,
+    "question": "What is meant by pipelining in computer architecture?",
+    "options": [
+      "It compensates for a serial portion of the program.",
+      "It overlaps execution of multiple instructions.",
+      "It increases the problem size with processors.",
+      "It uses threads to improve utilization."
+    ],
+    "answer": 1
+  },
+  {
+    "index": 18,
+    "question": "What is superscalar as it relates to parallelization?",
+    "options": [
+      "A functional unit buffer",
+      "Hardware support for reordering",
+      "A blocked instruction",
+      "Executing more than one instruction per clock cycle"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 19,
+    "question": "Which ARM instruction accomplishes a = b & c?",
+    "options": [
+      "AND r0,r1,r2",
+      "OR r0,r1,r2",
+      "EOR r0,r1,r2",
+      "ORR r0,r1,r2"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 20,
+    "question": "Registers X1=A, X2=B, X3=C. Which instruction computes A=B+C?",
+    "options": [
+      "ADD X3,X2,X1",
+      "ADD X1,X2,#X3",
+      "ADD X3,#X2,X1",
+      "ADD X1,X2,X3"
+    ],
+    "answer": 3
+  },   {
+    "index": 21,
+    "question": "The variables f and g are assigned to registers X3 and X4, respectively. Given the LEGv8 instructions below, what are the corresponding C language statements?\n\nLoop:\nSUBS XZR, X3, X4\nB.GE Exit\nLSL X3, X3, #1\nB Loop\nExit:",
+    "options": [
+      "while (f < g) { f = f << 1; }",
+      "while (f > g) { f = f << 1; }",
+      "while (f <= g) { f = f << 1; }",
+      "while (f == g) { f = f << 1; }"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 22,
+    "question": "Given this set of ARM instructions, where b is at offset 0, e is at offset 8, and a is at offset 24, what is the corresponding C language statement?\n\nLDUR X1, [X0,#0]\nLDUR X2, [X0,#8]\nADD X3, X1, X2\nSTUR X3, [X0,#24]",
+    "options": [
+      "a = b + e;",
+      "a = a + e;",
+      "a = b + a;",
+      "a = e + a;"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 23,
+    "question": "What is the number of bits used in virtual memory with ARMv8?",
+    "options": [
+      "12",
+      "16",
+      "24",
+      "48"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 24,
+    "question": "Which register will be populated with the reason for an exception in LEGv8 architecture?",
+    "options": [
+      "ESR",
+      "RAID",
+      "FADDS",
+      "FSUBS"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 25,
+    "question": "Which statement about the operating system describes how virtual memory is allocated in ARM architecture?",
+    "options": [
+      "It loads the page table register to refer to the page table of the process.",
+      "It uses a reference bit to refer to the page table of the process.",
+      "It loads the entire page table to reference the process.",
+      "It uses a limit register to refer to the page table of the process."
+    ],
+    "answer": 0
+  },
+  {
+    "index": 26,
+    "question": "What is used by virtual memory to increase performance?",
+    "options": [
+      "Translation-lookaside buffer",
+      "Sparse memory",
+      "Demand paging",
+      "Page size"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 27,
+    "question": "What maps virtual memory to real memory by using page tables?",
+    "options": [
+      "Each guest operating system manages virtual memory independently.",
+      "The host operating system manages each virtual machine's virtual memory.",
+      "The hypervisor software manages each virtual machine's virtual memory.",
+      "Guest operating systems prohibit the use of virtual memory."
+    ],
+    "answer": 0
+  },
+  {
+    "index": 28,
+    "question": "What are two benefits of using virtual machines?",
+    "options": [
+      "Software abstraction",
+      "Hardware separation",
+      "Disk failure rates lowered",
+      "Memory hierarchy can be ignored"
+    ],
+    "answer": [0, 1]
+  },
+  {
+    "index": 29,
+    "question": "Which type of processing is used if a program executes a process that takes turns waiting for user input?",
+    "options": [
+      "Parallel",
+      "Sequential",
+      "Distributed",
+      "Symmetric"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 30,
+    "question": "Which factor in parallel processing is not bound by Amdahl's Law?",
+    "options": [
+      "Weak Scaling",
+      "Strong Scaling",
+      "Memory Hierarchy",
+      "Application Hierarchy"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 31,
+    "question": "What is an advantage of multiprocessor architecture?",
+    "options": [
+      "It increases throughput.",
+      "It is easier to increase clock rate.",
+      "It minimizes instruction bandwidth.",
+      "It is easier to extend a scalar instruction set."
+    ],
+    "answer": 0
+  },
+  {
+    "index": 32,
+    "question": "In which type of multiprocessor is latency to any word in main memory the same regardless of which processor requests access?",
+    "options": [
+      "Uniform memory access",
+      "Locking memory access",
+      "Non-uniform memory access",
+      "Synchronization memory access"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 33,
+    "question": "Which benefit does pipelining a set of instructions provide?",
+    "options": [
+      "The throughput of the complete set of instructions is increased.",
+      "The throughput of an individual instruction is increased.",
+      "The execution time of an individual instruction is increased.",
+      "The execution time for a complete set of instructions is increased."
+    ],
+    "answer": 0
+  },
+  {
+    "index": 34,
+    "question": "Given four sets of ARM instructions that take the same amount of time and processing power to execute, how much faster would the instructions complete if executed 1,000 times using a pipelining methodology?",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "16 times"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 35,
+    "question": "What is improved from all LEGv8 instructions having the same 32-bit length?",
+    "options": [
+      "Pipelining",
+      "Caching",
+      "Disk I/O",
+      "Power consumption"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 36,
+    "question": "What is the final value in X10 after the following code completes, given that X6 contains 20, X7 contains 10, and X8 contains 20?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 37,
+    "question": "How can the CPU performance of a program be improved?",
+    "options": [
+      "By reducing the number of clock cycles",
+      "By increasing the length of the clock cycle",
+      "By reducing the throughput of the processor",
+      "By increasing response time for disk access"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 38,
+    "question": "A CPU runs at 3 GHz and requires 15 × 10^9 clock cycles. How many seconds does it take to complete the task?",
+    "options": [
+      "1.5",
+      "7.5",
+      "15",
+      "75"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 39,
+    "question": "A cache has 16 one-word blocks. Memory blocks are mapped to a fully associative cache. Memory block is 15. Which cache position can contain the block?",
+    "options": [
+      "Block 7",
+      "Block 15",
+      "Any of the 15 cache blocks",
+      "Any of the 16 cache blocks"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 40,
+    "question": "A program has a CPI of 10. The processor pipeline is expanded and clock rate increases by a factor of 5, but CPI fails to decrease accordingly. Which factor is negatively affecting performance?",
+    "options": [
+      "Cache memory",
+      "Virtual memory",
+      "Hard disk drive",
+      "Single processor"
+    ],
+    "answer": 0
+  },  {
+    "index": 41,
+    "question": "Four processors (1, 2, 3, and 4) have clock frequencies of 200 MHz, 300 MHz, 500 MHz, and 700 MHz, respectively. Processor 1 executes an instruction in 5 steps, Processor 2 in 3 steps, Processor 3 in 3 steps, and Processor 4 in 5 steps. Which processor should be selected to improve performance for the execution of the same instruction?",
+    "options": [
+      "Processor 1",
+      "Processor 2",
+      "Processor 3",
+      "Processor 4"
+    ],
+    "answer": 2
+  },
+  {
+    "index": 42,
+    "question": "Which technique should be implemented to reduce cache miss rate?",
+    "options": [
+      "Blocking",
+      "Pipelining",
+      "Parallel processing",
+      "Loop unrolling"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 43,
+    "question": "Which set-associative cache will improve overall performance?",
+    "options": [
+      "One-way",
+      "Two-way",
+      "Six-way",
+      "Ten-way"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 44,
+    "question": "A program requires one billion instructions to execute on a processor running at 4 GHz. Exactly 50% of the instructions execute in three clock cycles, 30% execute in four clock cycles, and 20% execute in five clock cycles. Which adjustment improves overall performance by 12%?",
+    "options": [
+      "30% execute at three cycles and 70% at four cycles",
+      "70% execute at three cycles and 30% at four cycles",
+      "100% execute at three cycles",
+      "100% execute at four cycles"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 45,
+    "question": "Which instruction of the ARM architecture excludes a carry value after the arithmetic calculation?",
+    "options": [
+      "Reverse subtract",
+      "Long multiplies",
+      "No divide",
+      "Conditional trap"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 46,
+    "question": "Which three components or aspects specify the state of a virtual machine?",
+    "options": [
+      "Page table",
+      "Program counter",
+      "Registers",
+      "Secondary storage cache",
+      "Translation-lookaside buffer (TLB)",
+      "System call"
+    ],
+    "answer": [0, 1, 2]
+  },
+  {
+    "index": 47,
+    "question": "A storage solution for video editing is being planned. The requirements are largest storage space, no redundancy, and fastest I/O speed. Which RAID solution should be implemented?",
+    "options": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 5",
+      "RAID 6"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 48,
+    "question": "Which computer architecture idea is analogous to the assembly line?",
+    "options": [
+      "Dependability via parallelism",
+      "Performance via pipelining",
+      "Performance via prediction",
+      "Dependability via redundancy"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 49,
+    "question": "What is an advantage of using virtual memory technique?",
+    "options": [
+      "It increases the size of the primary memory available.",
+      "It permits a program to exceed the size of primary memory.",
+      "It shares a virtual address with the same physical address.",
+      "It allows reading and writing to main memory in virtual machines."
+    ],
+    "answer": 1
+  },
+  {
+    "index": 50,
+    "question": "What is an advantage of implementing cloud computing?",
+    "options": [
+      "It offers scheduled scaling.",
+      "It provides automatic scaling.",
+      "It provides local hosting by self-detection.",
+      "It offers additional services by self-detection."
+    ],
+    "answer": 1
+  },
+  {
+    "index": 51,
+    "question": "Which performance benefit do 128-bit wide registers in SSE2 streaming SIMD extensions enable?",
+    "options": [
+      "Parallel arithmetic computations",
+      "Pipelined arithmetic computations",
+      "Fine-grained multithreading",
+      "Coarse-grained multithreading"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 52,
+    "question": "What is the bit width of an SIMD register with the suffix of 'D' when determining subword parallelism?",
+    "options": [
+      "8-bit",
+      "32-bit",
+      "64-bit",
+      "128-bit"
+    ],
+    "answer": 2
+  },
+  {
+    "index": 53,
+    "question": "Which register holds the result for the instruction SUB X1, X2, X3?",
+    "options": [
+      "X1",
+      "X2",
+      "X3",
+      "X0"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 54,
+    "question": "Register M0 should contain the result of dividing register R1 by R2. R1 and R2 contain two unsigned 32-bit integers. Which ARM instruction is optimized for this arithmetic operation?",
+    "options": [
+      "UDIV M0, R1, R2",
+      "SDIV R1, R2, M0",
+      "Loop: CBZR1, Exit / SUB R1,R1,1 / SUB M0,M0,R2 / B Loop / Exit",
+      "Loop: CBZR2, Exit / SUB R1,R1,1 / SUB M0,M0,R1 / B Loop / Exit"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 55,
+    "question": "Which optimized processor architecture solves operations with large amounts of data-level parallelism?",
+    "options": [
+      "Vector",
+      "SISD",
+      "Scalar",
+      "Uniprocessor"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 56,
+    "question": "Which memory type is built as an integrated circuit that provides the fastest access but less density?",
+    "options": [
+      "Static random access memory (SRAM)",
+      "Dynamic random access memory (DRAM)",
+      "Graphics-based",
+      "Cache"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 57,
+    "question": "Which technology improves the efficiency of processor utilization by ensuring all processors remain utilized even when waiting for instruction sequences to complete?",
+    "options": [
+      "Multithreading",
+      "Multiprocessing",
+      "Multicore processors",
+      "Multiple processes"
+    ],
+    "answer": 0
+  },
+  {
+    "index": 58,
+    "question": "Why have recent CPU clock rates increased while power consumption has flattened out?",
+    "options": [
+      "Memory size requirements",
+      "Chip sizes are too small",
+      "Chip sizes are too large",
+      "Cooling issues"
+    ],
+    "answer": 3
+  },
+  {
+    "index": 59,
+    "question": "A company needs the ability to host a low-cost network of servers and thin clients that host different operating systems needed to support differing applications. Which solution will meet these needs?",
+    "options": [
+      "RAID",
+      "Hypervisor",
+      "RISC architecture",
+      "Instruction-level parallelism"
+    ],
+    "answer": 1
+  },
+  {
+    "index": 60,
+    "question": "A system designer wants to lower the cost of communicating at a high clock rate over the network. How can this goal be accomplished?",
+    "options": [
+      "Increase the network latency",
+      "Extend the length of the wires",
+      "Reduce the distance of each link",
+      "Implement a fully connected network"
+    ],
+    "answer": 2
   }
 
 ]
