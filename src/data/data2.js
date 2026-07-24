@@ -3751,7 +3751,7 @@ const questions = {
       "Read only access",
       "No access"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 2,
@@ -3762,7 +3762,7 @@ const questions = {
       "Operating system",
       "Systems software"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 3,
@@ -3773,7 +3773,7 @@ const questions = {
       "Pipeline innovations allowed for reservation stations and the commit unit.",
       "Pipeline innovations allowed for dynamically scheduled pipelined processors."
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 4,
@@ -3784,7 +3784,7 @@ const questions = {
       "DRAM technology",
       "Frame buffering"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 5,
@@ -3795,7 +3795,7 @@ const questions = {
       "SPMD",
       "SISD"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 6,
@@ -3806,7 +3806,7 @@ const questions = {
       "Frequency of pipeline hazards is higher",
       "Frequency of pipeline hazards is lower"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 7,
@@ -3817,7 +3817,7 @@ const questions = {
       "GPU and register file",
       "Datapath and COD"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 8,
@@ -3828,7 +3828,7 @@ const questions = {
       "Memory",
       "Output"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 9,
@@ -3839,7 +3839,7 @@ const questions = {
       "11000110",
       "11110111"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 10,
@@ -3850,7 +3850,7 @@ const questions = {
       "0 to 4,294,967,295",
       "0 to 18,446,744,073,709,551,615"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 11,
@@ -3861,7 +3861,7 @@ const questions = {
       "0000 0000 0000 0000 0000 0111 1111",
       "0000 0000 0000 0000 0000 1111 1111"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 12,
@@ -3872,7 +3872,7 @@ const questions = {
       "01111111 11111011",
       "00111111 11111011"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 13,
@@ -3883,7 +3883,7 @@ const questions = {
       "210",
       "360"
     ],
-    "answer": 2
+    "answerIndex": 2
   },
   {
     "index": 14,
@@ -3894,7 +3894,7 @@ const questions = {
       "5",
       "14"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 15,
@@ -3905,7 +3905,7 @@ const questions = {
       "Temporal",
       "Canonical"
     ],
-    "answer": 2
+    "answerIndex": 2
   },
   {
     "index": 16,
@@ -3916,7 +3916,7 @@ const questions = {
       "Buffers",
       "Columns"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 17,
@@ -3927,7 +3927,7 @@ const questions = {
       "It increases the problem size with processors.",
       "It uses threads to improve utilization."
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 18,
@@ -3938,7 +3938,7 @@ const questions = {
       "A blocked instruction",
       "Executing more than one instruction per clock cycle"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 19,
@@ -3949,7 +3949,7 @@ const questions = {
       "EOR r0,r1,r2",
       "ORR r0,r1,r2"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 20,
@@ -3960,7 +3960,7 @@ const questions = {
       "ADD X3,#X2,X1",
       "ADD X1,X2,X3"
     ],
-    "answer": 3
+    "answerIndex": 3
   },   {
     "index": 21,
     "question": "The variables f and g are assigned to registers X3 and X4, respectively. Given the LEGv8 instructions below, what are the corresponding C language statements?\n\nLoop:\nSUBS XZR, X3, X4\nB.GE Exit\nLSL X3, X3, #1\nB Loop\nExit:",
@@ -3970,7 +3970,7 @@ const questions = {
       "while (f <= g) { f = f << 1; }",
       "while (f == g) { f = f << 1; }"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 22,
@@ -3981,7 +3981,7 @@ const questions = {
       "a = b + a;",
       "a = e + a;"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 23,
@@ -3992,7 +3992,7 @@ const questions = {
       "24",
       "48"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 24,
@@ -4003,7 +4003,7 @@ const questions = {
       "FADDS",
       "FSUBS"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 25,
@@ -4014,7 +4014,7 @@ const questions = {
       "It loads the entire page table to reference the process.",
       "It uses a limit register to refer to the page table of the process."
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 26,
@@ -4025,7 +4025,7 @@ const questions = {
       "Demand paging",
       "Page size"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 27,
@@ -4036,19 +4036,9 @@ const questions = {
       "The hypervisor software manages each virtual machine's virtual memory.",
       "Guest operating systems prohibit the use of virtual memory."
     ],
-    "answer": 0
+    "answerIndex": 0
   },
-  {
-    "index": 28,
-    "question": "What are two benefits of using virtual machines?",
-    "options": [
-      "Software abstraction",
-      "Hardware separation",
-      "Disk failure rates lowered",
-      "Memory hierarchy can be ignored"
-    ],
-    "answer": [0, 1]
-  },
+
   {
     "index": 29,
     "question": "Which type of processing is used if a program executes a process that takes turns waiting for user input?",
@@ -4058,7 +4048,7 @@ const questions = {
       "Distributed",
       "Symmetric"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 30,
@@ -4069,7 +4059,7 @@ const questions = {
       "Memory Hierarchy",
       "Application Hierarchy"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 31,
@@ -4080,7 +4070,7 @@ const questions = {
       "It minimizes instruction bandwidth.",
       "It is easier to extend a scalar instruction set."
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 32,
@@ -4091,7 +4081,7 @@ const questions = {
       "Non-uniform memory access",
       "Synchronization memory access"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 33,
@@ -4102,7 +4092,7 @@ const questions = {
       "The execution time of an individual instruction is increased.",
       "The execution time for a complete set of instructions is increased."
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 34,
@@ -4113,7 +4103,7 @@ const questions = {
       "8 times",
       "16 times"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 35,
@@ -4124,7 +4114,7 @@ const questions = {
       "Disk I/O",
       "Power consumption"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 36,
@@ -4135,7 +4125,7 @@ const questions = {
       "2",
       "3"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 37,
@@ -4146,7 +4136,7 @@ const questions = {
       "By reducing the throughput of the processor",
       "By increasing response time for disk access"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 38,
@@ -4157,7 +4147,7 @@ const questions = {
       "15",
       "75"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 39,
@@ -4168,7 +4158,7 @@ const questions = {
       "Any of the 15 cache blocks",
       "Any of the 16 cache blocks"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 40,
@@ -4179,7 +4169,7 @@ const questions = {
       "Hard disk drive",
       "Single processor"
     ],
-    "answer": 0
+    "answerIndex": 0
   },  {
     "index": 41,
     "question": "Four processors (1, 2, 3, and 4) have clock frequencies of 200 MHz, 300 MHz, 500 MHz, and 700 MHz, respectively. Processor 1 executes an instruction in 5 steps, Processor 2 in 3 steps, Processor 3 in 3 steps, and Processor 4 in 5 steps. Which processor should be selected to improve performance for the execution of the same instruction?",
@@ -4189,7 +4179,7 @@ const questions = {
       "Processor 3",
       "Processor 4"
     ],
-    "answer": 2
+    "answerIndex": 2
   },
   {
     "index": 42,
@@ -4200,7 +4190,7 @@ const questions = {
       "Parallel processing",
       "Loop unrolling"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 43,
@@ -4211,7 +4201,7 @@ const questions = {
       "Six-way",
       "Ten-way"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 44,
@@ -4222,7 +4212,7 @@ const questions = {
       "100% execute at three cycles",
       "100% execute at four cycles"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 45,
@@ -4233,21 +4223,9 @@ const questions = {
       "No divide",
       "Conditional trap"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
-  {
-    "index": 46,
-    "question": "Which three components or aspects specify the state of a virtual machine?",
-    "options": [
-      "Page table",
-      "Program counter",
-      "Registers",
-      "Secondary storage cache",
-      "Translation-lookaside buffer (TLB)",
-      "System call"
-    ],
-    "answer": [0, 1, 2]
-  },
+
   {
     "index": 47,
     "question": "A storage solution for video editing is being planned. The requirements are largest storage space, no redundancy, and fastest I/O speed. Which RAID solution should be implemented?",
@@ -4257,7 +4235,7 @@ const questions = {
       "RAID 5",
       "RAID 6"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 48,
@@ -4268,7 +4246,7 @@ const questions = {
       "Performance via prediction",
       "Dependability via redundancy"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 49,
@@ -4279,7 +4257,7 @@ const questions = {
       "It shares a virtual address with the same physical address.",
       "It allows reading and writing to main memory in virtual machines."
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 50,
@@ -4290,7 +4268,7 @@ const questions = {
       "It provides local hosting by self-detection.",
       "It offers additional services by self-detection."
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 51,
@@ -4301,7 +4279,7 @@ const questions = {
       "Fine-grained multithreading",
       "Coarse-grained multithreading"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 52,
@@ -4312,7 +4290,7 @@ const questions = {
       "64-bit",
       "128-bit"
     ],
-    "answer": 2
+    "answerIndex": 2
   },
   {
     "index": 53,
@@ -4323,7 +4301,7 @@ const questions = {
       "X3",
       "X0"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 54,
@@ -4334,7 +4312,7 @@ const questions = {
       "Loop: CBZR1, Exit / SUB R1,R1,1 / SUB M0,M0,R2 / B Loop / Exit",
       "Loop: CBZR2, Exit / SUB R1,R1,1 / SUB M0,M0,R1 / B Loop / Exit"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 55,
@@ -4345,7 +4323,7 @@ const questions = {
       "Scalar",
       "Uniprocessor"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 56,
@@ -4356,7 +4334,7 @@ const questions = {
       "Graphics-based",
       "Cache"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 57,
@@ -4367,7 +4345,7 @@ const questions = {
       "Multicore processors",
       "Multiple processes"
     ],
-    "answer": 0
+    "answerIndex": 0
   },
   {
     "index": 58,
@@ -4378,7 +4356,7 @@ const questions = {
       "Chip sizes are too large",
       "Cooling issues"
     ],
-    "answer": 3
+    "answerIndex": 3
   },
   {
     "index": 59,
@@ -4389,7 +4367,7 @@ const questions = {
       "RISC architecture",
       "Instruction-level parallelism"
     ],
-    "answer": 1
+    "answerIndex": 1
   },
   {
     "index": 60,
@@ -4400,7 +4378,7 @@ const questions = {
       "Reduce the distance of each link",
       "Implement a fully connected network"
     ],
-    "answer": 2
+    "answerIndex": 2
   }
 
 ]
