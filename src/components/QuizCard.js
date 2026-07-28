@@ -45,12 +45,26 @@ function QuizCard({ question, onAnswer ,restart}) {
         {shuffledOptions.map((opt, idx) => (
           <li
             key={idx}
-            className={clsx({
-                // going to try this for a to see if this will help me read a bit better
-              correct: isSubmitted && idx === correctIndex  && idx === selectedIndex,
-              wrong: isSubmitted && idx === selectedIndex && idx !== correctIndex,
-              selected: !isSubmitted && idx === selectedIndex,
-            })}
+        className={clsx({
+  correct:
+    isSubmitted &&
+    idx === correctIndex &&
+    idx === selectedIndex,
+
+  wrong:
+    isSubmitted &&
+    idx === selectedIndex &&
+    idx !== correctIndex,
+
+  reveal:
+    isSubmitted &&
+    selectedIndex !== correctIndex &&
+    idx === correctIndex,
+
+  selected:
+    !isSubmitted &&
+    idx === selectedIndex,
+})}
             onClick={() => {
               if (!isSubmitted) setSelectedIndex(idx);
             }}

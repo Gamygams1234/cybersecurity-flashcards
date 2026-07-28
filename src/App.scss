@@ -75,6 +75,13 @@ ul {
     background-color: #c0392b;
     color: white;
     border-color: #e74c3c;
+
+
+&.reveal {
+  background-color: #f1c40f;
+  color: #222;
+  border-color: #f39c12;
+}
   }
 }
 
