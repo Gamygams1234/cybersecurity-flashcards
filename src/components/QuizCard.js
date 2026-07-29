@@ -43,34 +43,34 @@ function QuizCard({ question, onAnswer ,restart}) {
       <h2>{question.question}</h2>
       <ul>
         {shuffledOptions.map((opt, idx) => (
-          <li
-            key={idx}
-        className={clsx({
-  correct:
-    isSubmitted &&
-    idx === correctIndex &&
-    idx === selectedIndex,
+<li
+  key={idx}
+  className={clsx({
+    selected: !isSubmitted && idx === selectedIndex,
 
-  wrong:
-    isSubmitted &&
-    idx === selectedIndex &&
-    idx !== correctIndex,
+    correct:
+      isSubmitted &&
+      selectedIndex === correctIndex &&
+      idx === correctIndex,
 
-  reveal:
-    isSubmitted &&
-    selectedIndex !== correctIndex &&
-    idx === correctIndex,
+    wrong:
+      isSubmitted &&
+      selectedIndex !== correctIndex &&
+      idx === selectedIndex,
 
-  selected:
-    !isSubmitted &&
-    idx === selectedIndex,
-})}
-            onClick={() => {
-              if (!isSubmitted) setSelectedIndex(idx);
-            }}
-          >
-            {opt}
-          </li>
+    reveal:
+      isSubmitted &&
+      selectedIndex !== correctIndex &&
+      idx === correctIndex,
+  })}
+  onClick={() => {
+    if (!isSubmitted) {
+      setSelectedIndex(idx);
+    }
+  }}
+>
+  {opt}
+</li>
         ))}
       </ul>
 
