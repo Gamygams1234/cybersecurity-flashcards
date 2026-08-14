@@ -4381,7 +4381,2362 @@ const questions = {
     "answerIndex": 2
   }
 
-]
+], "D281 Linux Foundations - Part 1": [
+  {
+    "index": 1,
+    "question": "Which command is used to move a file from one directory to another?",
+    "options": [
+      "mv",
+      "cp",
+      "ls",
+      "rm"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which command is used to create a new directory?",
+    "options": [
+      "rmdir",
+      "mkdir",
+      "touch",
+      "cp"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What is the command used to remove a directory and all its contents?",
+    "options": [
+      "rmdir",
+      "rm -r",
+      "rm -d",
+      "rm -rf"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "Which command is used to display the manual for a given command?",
+    "options": [
+      "man",
+      "info",
+      "help",
+      "guide"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "How can a user search by keyword while using the man command?",
+    "options": [
+      "man /keyword",
+      "man -s keyword",
+      "man find keyword",
+      "man /list"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command is used to clear all text from the terminal?",
+    "options": [
+      "clear",
+      "reset",
+      "erase",
+      "cls"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What is the default file permission for new directories in Linux?",
+    "options": [
+      "775",
+      "755",
+      "644",
+      "777"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 8,
+    "question": "What command is used to create an empty file in Linux?",
+    "options": [
+      "rm",
+      "touch",
+      "cat",
+      "ls"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "Which command displays the present working directory?",
+    "options": [
+      "pwd",
+      "cd",
+      "dir",
+      "ls"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "How do you display a list of all files, including hidden files, in a directory?",
+    "options": [
+      "ls -a",
+      "ls -l",
+      "ls -h",
+      "ls -x"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command is used to search for a specific keyword in the output of other commands?",
+    "options": [
+      "grep",
+      "find",
+      "locate",
+      "search"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What does the rmdir command do?",
+    "options": [
+      "Removes a non-empty directory",
+      "Removes an empty directory",
+      "Removes a directory and its contents",
+      "Creates a new directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "Which of the following is a valid meta-character in Linux used for file matching?",
+    "options": [
+      "#",
+      "&",
+      "*",
+      "@"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 14,
+    "question": "What does the cd .. command do?",
+    "options": [
+      "Changes to the home directory",
+      "Changes to the parent directory",
+      "Changes to the root directory",
+      "Lists the contents of the current directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "Which command is used to rename a file or directory in Linux?",
+    "options": [
+      "rename",
+      "mv",
+      "cp",
+      "rm"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 16,
+    "question": "What is the correct file extension for a GZIP compressed file?",
+    "options": [
+      ".bz2",
+      ".gz",
+      ".xz",
+      ".zip"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "What does the chmod command do?",
+    "options": [
+      "Changes the owner of a file",
+      "Changes the group of a file",
+      "Changes file permissions",
+      "Changes the file location"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 18,
+    "question": "What does the find command do in Linux?",
+    "options": [
+      "Lists all files in a directory",
+      "Searches for files matching specific criteria",
+      "Displays the contents of a file",
+      "Moves files to a different location"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "Which command is used to display system information such as uptime and load?",
+    "options": [
+      "ps",
+      "top",
+      "free",
+      "uptime"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 20,
+    "question": "What does the df command show?",
+    "options": [
+      "Disk space usage",
+      "Directory structure",
+      "File permissions",
+      "Memory usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What does the rm command do?",
+    "options": [
+      "Removes a file or directory",
+      "Renames a file",
+      "Copies a file",
+      "Lists directory contents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Which command is used to copy files in Linux?",
+    "options": [
+      "mv",
+      "cp",
+      "touch",
+      "rm"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "What is the purpose of the ls command in Linux?",
+    "options": [
+      "To list files and directories",
+      "To move files",
+      "To delete files",
+      "To create new directories"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which command allows you to view the contents of a file one page at a time?",
+    "options": [
+      "more",
+      "cat",
+      "tail",
+      "less"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which of the following is a text editor in Linux?",
+    "options": [
+      "vi",
+      "rm",
+      "ls",
+      "cp"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "What does the pwd command show?",
+    "options": [
+      "The current working directory",
+      "The previous directory",
+      "The contents of a file",
+      "The system uptime"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "Which command is used to change the current directory?",
+    "options": [
+      "mv",
+      "cd",
+      "ls",
+      "pwd"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 28,
+    "question": "What is the purpose of the chmod command in Linux?",
+    "options": [
+      "To change file permissions",
+      "To change the file owner",
+      "To create new directories",
+      "To delete files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 29,
+    "question": "Which command is used to count the lines, words, and characters in a file?",
+    "options": [
+      "count",
+      "wc",
+      "lines",
+      "grep"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 30,
+    "question": "Which of the following is a wildcard character in Linux used to match multiple characters in filenames?",
+    "options": [
+      "?",
+      "#",
+      "*",
+      "$"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 31,
+    "question": "How can you append data to an existing file in Linux?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "<<"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 32,
+    "question": "Which command can be used to search for a file by name in the current directory and its subdirectories?",
+    "options": [
+      "find",
+      "locate",
+      "grep",
+      "search"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 33,
+    "question": "What does the uname command display?",
+    "options": [
+      "System name and kernel version",
+      "Current user name",
+      "Disk usage",
+      "Directory contents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 34,
+    "question": "Which of the following is the default shell in most Linux distributions?",
+    "options": [
+      "zsh",
+      "fish",
+      "bash",
+      "csh"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 35,
+    "question": "Which of the following is NOT a package manager in Linux?",
+    "options": [
+      "APT",
+      "YUM",
+      "Pacman",
+      "DOS"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 36,
+    "question": "What does the echo command do?",
+    "options": [
+      "Displays a line of text or variable value",
+      "Moves a file",
+      "Lists directory contents",
+      "Deletes a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 37,
+    "question": "What is the purpose of the ps command?",
+    "options": [
+      "To display a list of running processes",
+      "To shut down the system",
+      "To search for files",
+      "To display file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "What does the tail command do?",
+    "options": [
+      "Displays the first 10 lines of a file",
+      "Displays the last 10 lines of a file",
+      "Displays the contents of a file in reverse order",
+      "Displays the file's permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 39,
+    "question": "Which command can you use to view system memory usage?",
+    "options": [
+      "df",
+      "free",
+      "ps",
+      "top"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 40,
+    "question": "What is the role of the sudo command?",
+    "options": [
+      "To allow users to execute commands with superuser privileges",
+      "To shut down the system",
+      "To delete files",
+      "To install software packages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 41,
+    "question": "How can you list all the running services in a Linux system?",
+    "options": [
+      "top",
+      "ps",
+      "systemctl list-units --type=service",
+      "df"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 42,
+    "question": "What does the hostname command do?",
+    "options": [
+      "Displays or sets the system's hostname",
+      "Displays the current user",
+      "Displays network connections",
+      "Lists installed software"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 43,
+    "question": "Which command can be used to download and install updates on a Debian-based Linux system?",
+    "options": [
+      "apt-get update",
+      "yum update",
+      "pacman -Syu",
+      "brew update"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "Which command is used to view the contents of a file in Linux?",
+    "options": [
+      "cat",
+      "ls",
+      "pwd",
+      "mkdir"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 45,
+    "question": "How can you remove a directory and all its contents, including subdirectories?",
+    "options": [
+      "rm -r",
+      "rmdir",
+      "rm -d",
+      "rm -f"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 46,
+    "question": "What does the chown command do?",
+    "options": [
+      "Changes file or directory ownership",
+      "Changes file permissions",
+      "Changes the file name",
+      "Copies a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 47,
+    "question": "Which of the following commands will list hidden files in a directory?",
+    "options": [
+      "ls -a",
+      "ls -l",
+      "ls -h",
+      "ls -r"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 48,
+    "question": "What is the primary purpose of the vi command?",
+    "options": [
+      "To edit text files",
+      "To view system processes",
+      "To search for files",
+      "To copy files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 49,
+    "question": "Which command will display the current shell being used?",
+    "options": [
+      "echo $SHELL",
+      "pwd",
+      "whoami",
+      "uname"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "How can you terminate a process in Linux?",
+    "options": [
+      "kill",
+      "rm",
+      "stop",
+      "exit"
+    ],
+    "answerIndex": 0
+  }
+],"D281 Linux Foundations - Part 2": [
+  {
+    "index": 1,
+    "question": "What command is used to display the current working directory in Linux?",
+    "options": [
+      "pwd",
+      "ls",
+      "cd",
+      "echo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which command in Linux is used to remove an empty directory?",
+    "options": [
+      "rmdir",
+      "rm",
+      "deldir",
+      "mv"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "What command is used to change file permissions in Linux?",
+    "options": [
+      "chmod",
+      "chown",
+      "ls",
+      "touch"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "Which command is used to create an empty file in Linux?",
+    "options": [
+      "touch",
+      "mkdir",
+      "rm",
+      "echo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What does the man command do in Linux?",
+    "options": [
+      "Displays the manual page for a command",
+      "Moves a file",
+      "Deletes a file",
+      "Creates a new directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "What does the cd command do in Linux?",
+    "options": [
+      "Changes the current directory",
+      "Deletes a file",
+      "Displays the contents of a directory",
+      "Copies a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What is the default text editor installed on most Linux systems?",
+    "options": [
+      "vi",
+      "nano",
+      "gedit",
+      "vim"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "How do you count the number of lines in a file in Linux?",
+    "options": [
+      "wc -l",
+      "count",
+      "cat -n",
+      "grep"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What does the df command show in Linux?",
+    "options": [
+      "Disk space usage",
+      "Memory usage",
+      "Running processes",
+      "Network connections"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which command is used to show the running processes in Linux?",
+    "options": [
+      "ps",
+      "df",
+      "cd",
+      "chmod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "How can you search for a string within a file in Linux?",
+    "options": [
+      "grep",
+      "find",
+      "locate",
+      "echo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which command is used to view the first 10 lines of a file by default?",
+    "options": [
+      "head",
+      "tail",
+      "less",
+      "more"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What is the role of the kill command in Linux?",
+    "options": [
+      "To terminate a running process",
+      "To start a process",
+      "To list all processes",
+      "To create a new process"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which of the following is a package manager for Debian-based systems?",
+    "options": [
+      "APT",
+      "YUM",
+      "Pacman",
+      "Brew"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What does the echo command do?",
+    "options": [
+      "Displays text or variable value",
+      "Removes a file",
+      "Lists directory contents",
+      "Changes file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Which of the following is the correct command to view the contents of a directory?",
+    "options": [
+      "ls",
+      "cd",
+      "mv",
+      "pwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "What is the purpose of the mv command in Linux?",
+    "options": [
+      "To move or rename files and directories",
+      "To create new files",
+      "To delete files",
+      "To display files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "What does the free command show in Linux?",
+    "options": [
+      "Memory usage",
+      "Disk usage",
+      "File permissions",
+      "Process list"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "How can you display hidden files in a directory?",
+    "options": [
+      "ls -a",
+      "ls -h",
+      "ls -l",
+      "ls -r"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What does the chmod 755 command do?",
+    "options": [
+      "Sets read, write, and execute permissions for the owner, and read and execute permissions for the group and others",
+      "Deletes a file",
+      "Moves a file",
+      "Creates a symbolic link"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Which command is used to change the ownership of a file?",
+    "options": [
+      "chown",
+      "chmod",
+      "ls",
+      "touch"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "How do you create a new directory in Linux?",
+    "options": [
+      "mkdir",
+      "rmdir",
+      "touch",
+      "rm"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Which command is used to view the last 10 lines of a file in Linux?",
+    "options": [
+      "tail",
+      "head",
+      "cat",
+      "grep"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What does the passwd command do?",
+    "options": [
+      "Changes the user's password",
+      "Displays the current password",
+      "Deletes a password",
+      "Displays the user's permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "How can you view the file permissions of a file?",
+    "options": [
+      "ls -l",
+      "chmod",
+      "chown",
+      "rm -l"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "What is the purpose of the hostname command?",
+    "options": [
+      "Displays or sets the system's hostname",
+      "Displays the current directory",
+      "Displays the network IP address",
+      "Lists all installed packages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "Which of the following is a compression tool in Linux?",
+    "options": [
+      "gzip",
+      "cp",
+      "ls",
+      "mv"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 28,
+    "question": "How do you check the disk usage of a file or directory?",
+    "options": [
+      "du",
+      "df",
+      "ls",
+      "cp"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 29,
+    "question": "What does the find command do in Linux?",
+    "options": [
+      "Searches for files and directories",
+      "Moves files",
+      "Displays file contents",
+      "Changes file ownership"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 30,
+    "question": "How do you display the system's kernel version?",
+    "options": [
+      "uname -r",
+      "uname -a",
+      "ls -a",
+      "pwd -v"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 31,
+    "question": "What does the alias command do in Linux?",
+    "options": [
+      "Creates shortcuts for long commands",
+      "Deletes a file",
+      "Lists running processes",
+      "Compresses a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 32,
+    "question": "How do you view the manual pages for a command in Linux?",
+    "options": [
+      "man",
+      "info",
+      "help",
+      "echo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 33,
+    "question": "Which command is used to delete a directory and its contents recursively?",
+    "options": [
+      "rm -r",
+      "rmdir",
+      "rm -d",
+      "mv"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 34,
+    "question": "What does the uptime command show in Linux?",
+    "options": [
+      "How long the system has been running",
+      "The current time",
+      "Disk usage",
+      "Memory usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 35,
+    "question": "How can you display all running services in Linux?",
+    "options": [
+      "systemctl list-units",
+      "ls -a",
+      "ps",
+      "echo $SERVICES"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 36,
+    "question": "Which command is used to change a user's shell?",
+    "options": [
+      "chsh",
+      "chmod",
+      "chown",
+      "usermod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 37,
+    "question": "What does the df -h command show?",
+    "options": [
+      "Human-readable disk space usage",
+      "Memory usage",
+      "Network usage",
+      "Process list"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "Which command is used to compress a file using the bzip2 algorithm?",
+    "options": [
+      "bzip2",
+      "gzip",
+      "tar",
+      "zip"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 39,
+    "question": "How do you create a symbolic link in Linux?",
+    "options": [
+      "ln -s",
+      "ln",
+      "ln -h",
+      "link"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 40,
+    "question": "What does the jobs command show?",
+    "options": [
+      "Lists all jobs in the current shell",
+      "Lists all running processes",
+      "Lists all users",
+      "Lists all installed software"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 41,
+    "question": "Which command can be used to display all network interfaces in Linux?",
+    "options": [
+      "ifconfig",
+      "netstat",
+      "ls -n",
+      "ps"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 42,
+    "question": "What does the whoami command display?",
+    "options": [
+      "The current user's name",
+      "The hostname",
+      "The current directory",
+      "The shell being used"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 43,
+    "question": "Which of the following is a process monitoring tool in Linux?",
+    "options": [
+      "top",
+      "chmod",
+      "cp",
+      "df"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "What does the history command do?",
+    "options": [
+      "Displays the list of previously executed commands",
+      "Displays the current user",
+      "Deletes a file",
+      "Shows system uptime"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 45,
+    "question": "Which command is used to view detailed information about the CPU?",
+    "options": [
+      "lscpu",
+      "df",
+      "free",
+      "uname -r"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 46,
+    "question": "How can you list all installed packages on a Debian-based system?",
+    "options": [
+      "dpkg -l",
+      "yum list",
+      "apt-get install",
+      "ls /usr/bin"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 47,
+    "question": "Which command is used to set a delay before shutting down a Linux system?",
+    "options": [
+      "shutdown +m",
+      "halt",
+      "poweroff",
+      "exit"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 48,
+    "question": "What is the purpose of the sudo command in Linux?",
+    "options": [
+      "Allows a permitted user to run a command as the superuser or another user",
+      "Displays the list of processes",
+      "Compresses a file",
+      "Deletes a directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 49,
+    "question": "Which command shows active TCP connections in Linux?",
+    "options": [
+      "netstat",
+      "ifconfig",
+      "ls -l",
+      "ps"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "How do you set file permissions in octal notation in Linux?",
+    "options": [
+      "chmod",
+      "chown",
+      "ls -a",
+      "ln"
+    ],
+    "answerIndex": 0
+  }
+],"D281 Linux Foundations - Part 3": [
+  {
+    "index": 1,
+    "question": "Which command is used to show the current disk space usage in human-readable format?",
+    "options": [
+      "df -h",
+      "du -h",
+      "ls -h",
+      "free -h"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What is the purpose of the uname command in Linux?",
+    "options": [
+      "Displays system information",
+      "Changes file permissions",
+      "Creates a new user",
+      "Lists running processes"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "Which of the following commands is used to install software packages in Debian-based systems?",
+    "options": [
+      "apt-get install",
+      "yum install",
+      "rpm install",
+      "brew install"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "How can you view the contents of a text file in Linux?",
+    "options": [
+      "cat",
+      "mkdir",
+      "chmod",
+      "mv"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What does the tail -f command do?",
+    "options": [
+      "Follows the changes to a file in real-time",
+      "Shows the first few lines of a file",
+      "Displays the last 100 lines of a file",
+      "Displays the file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command can be used to check the network connection status in Linux?",
+    "options": [
+      "ping",
+      "df",
+      "cd",
+      "ls"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does the locate command do in Linux?",
+    "options": [
+      "Finds files by name",
+      "Lists directory contents",
+      "Displays disk usage",
+      "Modifies file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "How do you search for a file named file.txt in the current directory and its subdirectories?",
+    "options": [
+      "find . -name file.txt",
+      "locate file.txt",
+      "grep file.txt",
+      "ls -R file.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What does the useradd command do?",
+    "options": [
+      "Creates a new user",
+      "Displays user information",
+      "Deletes a user",
+      "Changes a user's password"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which command is used to remove a file in Linux?",
+    "options": [
+      "rm",
+      "rmdir",
+      "del",
+      "erase"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "What does the touch command do in Linux?",
+    "options": [
+      "Creates a new empty file",
+      "Displays file permissions",
+      "Moves a file",
+      "Deletes a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which command is used to add a user to a group in Linux?",
+    "options": [
+      "usermod -aG",
+      "chmod",
+      "chown",
+      "useradd -g"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "How do you delete a directory in Linux, including its contents?",
+    "options": [
+      "rm -r",
+      "rmdir -r",
+      "del -d",
+      "mv -r"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What does the free -m command display?",
+    "options": [
+      "Memory usage in megabytes",
+      "Disk usage in megabytes",
+      "Free disk space in kilobytes",
+      "Process list in megabytes"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which command is used to compare two files in Linux?",
+    "options": [
+      "diff",
+      "compare",
+      "ls -c",
+      "cat"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What does the history command do?",
+    "options": [
+      "Displays the list of previously executed commands",
+      "Displays the current directory",
+      "Lists system logs",
+      "Displays file contents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which command is used to reboot the system in Linux?",
+    "options": [
+      "reboot",
+      "shutdown -r",
+      "halt",
+      "stop"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "How can you display the manual page for a specific command in Linux?",
+    "options": [
+      "man",
+      "info",
+      "help",
+      "readme"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What does the chmod 644 command do?",
+    "options": [
+      "Sets read and write permissions for the owner, and read permissions for the group and others",
+      "Deletes a file",
+      "Copies a file",
+      "Moves a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "Which command is used to display running processes in real-time?",
+    "options": [
+      "top",
+      "ps",
+      "df",
+      "du"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What does the alias command do in Linux?",
+    "options": [
+      "Creates shortcuts for commands",
+      "Deletes a file",
+      "Lists all running processes",
+      "Installs software"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Which command is used to find out the system uptime in Linux?",
+    "options": [
+      "uptime",
+      "top",
+      "ps",
+      "free"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "How can you check the status of a network interface in Linux?",
+    "options": [
+      "ifconfig",
+      "netstat",
+      "df",
+      "ls -l"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What does the cp command do in Linux?",
+    "options": [
+      "Copies files and directories",
+      "Changes file permissions",
+      "Deletes files",
+      "Displays file contents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which command is used to display the current user's home directory?",
+    "options": [
+      "echo $HOME",
+      "pwd",
+      "ls -a",
+      "cd ~"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "How can you display the IP address of a network interface in Linux?",
+    "options": [
+      "ip addr show",
+      "ifconfig ip",
+      "ls -ip",
+      "ping addr"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "What is the use of the tar command in Linux?",
+    "options": [
+      "Creates or extracts archive files",
+      "Lists directory contents",
+      "Compresses files",
+      "Moves files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 28,
+    "question": "Which command is used to show all open ports and services in Linux?",
+    "options": [
+      "netstat",
+      "ifconfig",
+      "ps",
+      "ls -l"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 29,
+    "question": "How do you check available disk space in Linux?",
+    "options": [
+      "df",
+      "du",
+      "ls -d",
+      "free"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 30,
+    "question": "Which command is used to create a new directory in Linux?",
+    "options": [
+      "mkdir",
+      "touch",
+      "rm",
+      "mv"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 31,
+    "question": "What does the passwd command do in Linux?",
+    "options": [
+      "Changes a user's password",
+      "Creates a new user",
+      "Deletes a user account",
+      "Lists user accounts"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 32,
+    "question": "Which command can be used to display the size of files and directories in Linux?",
+    "options": [
+      "du",
+      "df",
+      "ls -s",
+      "size"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 33,
+    "question": "How can you check the Linux kernel version?",
+    "options": [
+      "uname -r",
+      "kernel -v",
+      "uname -v",
+      "sysinfo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 34,
+    "question": "Which command is used to change file ownership in Linux?",
+    "options": [
+      "chown",
+      "chmod",
+      "ls -l",
+      "touch"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 35,
+    "question": "What does the df command display in Linux?",
+    "options": [
+      "Disk space usage",
+      "File size",
+      "Memory usage",
+      "Network connections"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 36,
+    "question": "Which command is used to install software packages in Red Hat-based Linux distributions?",
+    "options": [
+      "yum install",
+      "apt-get install",
+      "brew install",
+      "install pkg"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 37,
+    "question": "What does the ps command show?",
+    "options": [
+      "Running processes",
+      "Disk usage",
+      "Network interfaces",
+      "Installed packages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "Which command is used to forcefully remove a directory along with its contents?",
+    "options": [
+      "rm -rf",
+      "rmdir -r",
+      "del -d",
+      "erase -r"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 39,
+    "question": "What does the grep command do?",
+    "options": [
+      "Searches for patterns in files",
+      "Displays disk usage",
+      "Moves files",
+      "Deletes directories"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 40,
+    "question": "Which command is used to create a compressed .gz file?",
+    "options": [
+      "gzip",
+      "zip",
+      "tar",
+      "compress"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 41,
+    "question": "How do you list all running services in Linux?",
+    "options": [
+      "systemctl list-units --type=service",
+      "ps -e",
+      "top",
+      "df -s"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 42,
+    "question": "Which command is used to extract .tar.gz archive files?",
+    "options": [
+      "tar -xzvf",
+      "tar -czvf",
+      "unzip",
+      "gzip -d"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 43,
+    "question": "What does the chmod 755 command do?",
+    "options": [
+      "Gives read, write, and execute permissions to the owner, and read and execute permissions to others",
+      "Removes all permissions from a file",
+      "Deletes a file",
+      "Changes the owner of a file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "Which command is used to rename a file in Linux?",
+    "options": [
+      "mv",
+      "cp",
+      "rename",
+      "chown"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 45,
+    "question": "What does the ln -s command do in Linux?",
+    "options": [
+      "Creates a symbolic link",
+      "Creates a hard link",
+      "Deletes a file",
+      "Displays file contents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 46,
+    "question": "Which command is used to switch users in Linux?",
+    "options": [
+      "su",
+      "sudo",
+      "usermod",
+      "useradd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 47,
+    "question": "What does the uptime command display?",
+    "options": [
+      "How long the system has been running",
+      "Current CPU usage",
+      "Memory usage",
+      "Running processes"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 48,
+    "question": "Which command shows the current working directory in Linux?",
+    "options": [
+      "pwd",
+      "ls -l",
+      "cd",
+      "df"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 49,
+    "question": "What is the purpose of the export command in Linux?",
+    "options": [
+      "Exports environment variables to child processes",
+      "Exports a file to a different format",
+      "Deletes a file",
+      "Displays disk usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "Which command is used to display the manual page of a command?",
+    "options": [
+      "man",
+      "help",
+      "info",
+      "readme"
+    ],
+    "answerIndex": 0
+  }
+],"D281 Linux Foundations - Part 4": [
+  {
+    "index": 1,
+    "question": "Which command is used to check the memory usage in Linux?",
+    "options": ["top", "free", "ps", "ls"],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does the ps aux command display?",
+    "options": [
+      "Memory usage",
+      "Running processes with detailed information",
+      "Network connections",
+      "Disk usage"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What is the use of the kill command in Linux?",
+    "options": [
+      "Terminate processes",
+      "List running processes",
+      "Check system logs",
+      "Compress files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "Which command displays information about your network interfaces?",
+    "options": ["ifconfig", "ipconfig", "netstat", "ping"],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What does the df -h command display?",
+    "options": [
+      "Disk space usage in human-readable format",
+      "Network configuration",
+      "Memory usage",
+      "List of files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command can be used to count the number of lines in a file?",
+    "options": ["wc -l", "grep -c", "cut -n", "sort -l"],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does the chmod command do in Linux?",
+    "options": [
+      "Change file permissions",
+      "Change file ownership",
+      "List files",
+      "Compress files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which command is used to display the last few lines of a file?",
+    "options": ["tail", "head", "cat", "less"],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "How do you display hidden files in Linux?",
+    "options": ["ls -a", "ls -h", "show hidden", "ls -l"],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which command is used to find the location of an executable file?",
+    "options": ["which", "find", "whereis", "locate"],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command is used to display the contents of a file one page at a time?",
+    "options": ["less", "more", "cat", "head"],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "How do you change the owner of a file in Linux?",
+    "options": ["chown", "chmod", "chgrp", "mv"],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does the sudo command do?",
+    "options": [
+      "Executes commands as the superuser",
+      "Displays system logs",
+      "Lists processes",
+      "Changes file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which file stores user account information in Linux?",
+    "options": ["/etc/passwd", "/etc/shadow", "/etc/group", "/etc/profile"],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "How can you view the system's kernel log messages?",
+    "options": ["dmesg", "logread", "journalctl", "syslog"],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Which command shows the disk partitions on your system?",
+    "options": ["fdisk -l", "df -l", "du -h", "lsblk"],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "How do you find out the path of the shell currently being used?",
+    "options": ["echo $SHELL", "pwd", "printenv SHELL", "env"],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which command is used to display the current date and time?",
+    "options": ["date", "time", "clock", "now"],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Which command is used to display system-wide environment variables?",
+    "options": ["printenv", "env", "echo $VAR", "export"],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What does the uname command display?",
+    "options": [
+      "System information",
+      "Disk usage",
+      "Current users",
+      "Network configuration"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Which command can be used to monitor real-time network connections?",
+    "options": ["netstat", "ifconfig", "traceroute", "ping"],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "How can you view the current working directory in Linux?",
+    "options": ["pwd", "ls", "cd", "df"],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Which command is used to delete files and directories?",
+    "options": ["rm", "del", "erase", "rmdir"],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which command is used to display the manual for a specific command?",
+    "options": ["man", "info", "help", "readme"],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "How do you display the first 10 lines of a file?",
+    "options": ["head", "tail", "cat", "less"],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "Which command is used to change a user's password?",
+    "options": ["passwd", "usermod", "chown", "sudo passwd"],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "What does the ping command do?",
+    "options": [
+      "Checks network connectivity",
+      "Displays IP address information",
+      "Lists active network connections",
+      "Assigns an IP address to a network interface"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 28,
+    "question": "How can you check the available disk space on a system?",
+    "options": ["df", "du", "lsblk", "fdisk"],
+    "answerIndex": 0
+  },
+  {
+    "index": 29,
+    "question": "Which command is used to create a new user in Linux?",
+    "options": ["useradd", "adduser", "passwd", "newuser"],
+    "answerIndex": 0
+  },
+  {
+    "index": 30,
+    "question": "How do you reboot a Linux system using the command line?",
+    "options": ["reboot", "restart", "shutdown -r now", "poweroff"],
+    "answerIndex": 0
+  },
+  {
+    "index": 31,
+    "question": "Which file contains the group information in Linux?",
+    "options": ["/etc/group", "/etc/passwd", "/etc/shadow", "/etc/profile"],
+    "answerIndex": 0
+  },
+  {
+    "index": 32,
+    "question": "How do you add a new group in Linux?",
+    "options": ["groupadd", "useradd", "newgroup", "addgroup"],
+    "answerIndex": 0
+  },
+  {
+    "index": 33,
+    "question": "Which command is used to monitor system logs in real-time?",
+    "options": [
+      "tail -f /var/log/syslog",
+      "cat /var/log/syslog",
+      "head /var/log/syslog",
+      "grep syslog"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 34,
+    "question": "Which command shows the number of files and directories in a directory?",
+    "options": ["ls | wc -l", "ls -l", "du -h", "df -h"],
+    "answerIndex": 0
+  },
+  {
+    "index": 35,
+    "question": "How can you remove a directory in Linux?",
+    "options": ["rmdir", "del", "rm -d", "remove"],
+    "answerIndex": 0
+  },
+  {
+    "index": 36,
+    "question": "Which command lists all the available commands in Linux?",
+    "options": ["compgen -c", "help", "man", "alias"],
+    "answerIndex": 0
+  },
+  {
+    "index": 37,
+    "question": "Which file stores hashed passwords in Linux?",
+    "options": ["/etc/shadow", "/etc/passwd", "/etc/group", "/etc/hosts"],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "What does the hostname command do?",
+    "options": [
+      "Displays or sets the system's hostname",
+      "Lists network interfaces",
+      "Assigns an IP address",
+      "Displays the system time"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 39,
+    "question": "How do you forcefully log out a user in Linux?",
+    "options": [
+      "pkill -KILL -u username",
+      "killall -u username",
+      "logout username",
+      "shutdown username"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 40,
+    "question": "Which command checks the status of a service in systemd?",
+    "options": [
+      "systemctl status service_name",
+      "service service_name status",
+      "ps -e | grep service_name",
+      "status service_name"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 41,
+    "question": "How do you extract files from a .zip archive?",
+    "options": ["unzip", "gunzip", "tar -xvf", "gzip -d"],
+    "answerIndex": 0
+  },
+  {
+    "index": 42,
+    "question": "Which command provides detailed information about a file in Linux?",
+    "options": ["stat", "file", "cat", "ls -l"],
+    "answerIndex": 0
+  },
+  {
+    "index": 43,
+    "question": "How do you schedule a one-time task in Linux?",
+    "options": ["at", "cron", "systemctl", "job"],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "What does the jobs command do?",
+    "options": [
+      "Lists background jobs in the current shell",
+      "Lists all running processes",
+      "Kills background processes",
+      "Suspends background jobs"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 45,
+    "question": "Which command creates a new empty file?",
+    "options": ["touch", "mkdir", "cat >", "nano"],
+    "answerIndex": 0
+  },
+  {
+    "index": 46,
+    "question": "How can you remove all files in a directory without being prompted?",
+    "options": ["rm -rf *", "rmdir -f", "rm *", "delete --force"],
+    "answerIndex": 0
+  },
+  {
+    "index": 47,
+    "question": "How do you check the IP address of your system in Linux?",
+    "options": ["ifconfig", "ip address show", "netstat -i", "route -n"],
+    "answerIndex": 0
+  },
+  {
+    "index": 48,
+    "question": "Which command is used to create a symbolic link?",
+    "options": ["ln -s", "ln", "link", "symlink"],
+    "answerIndex": 0
+  },
+  {
+    "index": 49,
+    "question": "What does the du command display?",
+    "options": [
+      "Disk usage of files and directories",
+      "Number of users logged in",
+      "Available memory",
+      "System uptime"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "Which command terminates a program or process by name?",
+    "options": ["killall", "kill", "ps -e", "stop"],
+    "answerIndex": 0
+  }
+],"D281 Linux Foundations - Part 5": [
+  {
+    "index": 1,
+    "question": "Which Linux command is used to print the last 10 lines of a file?",
+    "options": ["tail", "head", "cat", "grep"],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does the tar command do in Linux?",
+    "options": ["Compresses files", "Creates an archive", "Extracts files", "Deletes files"],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which command is used to list open ports and network connections?",
+    "options": ["netstat", "ping", "ifconfig", "iptables"],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What is the default text editor in most Linux distributions?",
+    "options": ["vi", "nano", "emacs", "gedit"],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "How do you search for a pattern within files in Linux?",
+    "options": ["grep", "find", "locate", "search"],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command is used to modify the default gateway in Linux?",
+    "options": ["route", "ifconfig", "ipconfig", "netstat"],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does the mv command do?",
+    "options": ["Move or rename files", "Copy files", "Delete files", "Create files"],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which of the following is a valid option for the cp command to copy directories recursively?",
+    "options": ["-r", "-f", "-d", "-x"],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "Which of the following commands is used to display the system's IP routing table?",
+    "options": ["netstat -r", "ip route show", "route -n", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 10,
+    "question": "What does the du -sh command display?",
+    "options": [
+      "Disk usage of a directory in human-readable format",
+      "Detailed information about files",
+      "Disk partitions",
+      "Number of files in a directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command is used to terminate a process by specifying its PID?",
+    "options": ["kill", "terminate", "end", "stop"],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What does the ln -s command do in Linux?",
+    "options": ["Creates a symbolic link", "Creates a hard link", "Copies a file", "Moves a file"],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "Which file contains system-wide environment variables in Linux?",
+    "options": ["/etc/environment", "/etc/passwd", "/etc/group", "/etc/shadow"],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which command is used to compress files using the gzip algorithm?",
+    "options": ["gzip", "tar", "zip", "bzip2"],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What does the find command do in Linux?",
+    "options": ["Search for files and directories", "Display file contents", "Copy files", "Compress files"],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "How can you change the password of a user account?",
+    "options": ["passwd", "usermod", "chpasswd", "resetpwd"],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which command is used to show the current disk usage of directories and files?",
+    "options": ["du", "df", "ls", "ps"],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "What does the sudo command allow?",
+    "options": [
+      "Execute commands with superuser privileges",
+      "Switch to another user",
+      "Run background processes",
+      "Display running processes"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "How do you view a file's permissions in Linux?",
+    "options": ["ls -l", "chmod -l", "perm -v", "cat -p"],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What is the purpose of the passwd file in Linux?",
+    "options": [
+      "Stores user account information",
+      "Stores passwords in plain text",
+      "Stores encrypted passwords",
+      "Stores environment variables"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Which of the following commands is used to reboot the Linux system?",
+    "options": ["reboot", "shutdown -r now", "systemctl reboot", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 22,
+    "question": "Which command would you use to delete a directory that contains files?",
+    "options": ["rm -r", "rmdir", "deldir", "remove"],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "How do you create a new directory in Linux?",
+    "options": ["mkdir", "newdir", "touchdir", "create"],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which command lists all active processes running on a Linux system?",
+    "options": ["ps", "top", "htop", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 25,
+    "question": "What does the locate command do?",
+    "options": [
+      "Finds files by searching a pre-built database",
+      "Lists files in a directory",
+      "Searches for patterns within files",
+      "Creates a new directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "Which command is used to monitor system performance in real-time?",
+    "options": ["top", "ps", "free", "iostat"],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "Which command is used to set permissions on files or directories in Linux?",
+    "options": ["chmod", "chown", "chgrp", "setperm"],
+    "answerIndex": 0
+  },
+  {
+    "index": 28,
+    "question": "How can you display the current users logged in to the system?",
+    "options": ["who", "users", "w", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 29,
+    "question": "Which command is used to extract files from a tar archive?",
+    "options": ["tar -xvf", "unzip", "gunzip", "unrar"],
+    "answerIndex": 0
+  },
+  {
+    "index": 30,
+    "question": "Which command is used to print the path of the current directory?",
+    "options": ["pwd", "dir", "ls", "echo $DIR"],
+    "answerIndex": 0
+  },
+  {
+    "index": 31,
+    "question": "Which command displays the available disk space on mounted filesystems?",
+    "options": ["df", "du", "lsblk", "mount"],
+    "answerIndex": 0
+  },
+  {
+    "index": 32,
+    "question": "Which file in Linux stores group information?",
+    "options": ["/etc/group", "/etc/shadow", "/etc/passwd", "/etc/hosts"],
+    "answerIndex": 0
+  },
+  {
+    "index": 33,
+    "question": "How do you check system uptime in Linux?",
+    "options": ["uptime", "who -u", "top", "systemctl uptime"],
+    "answerIndex": 0
+  },
+  {
+    "index": 34,
+    "question": "Which command is used to copy files and directories?",
+    "options": ["cp", "mv", "copy", "copydir"],
+    "answerIndex": 0
+  },
+  {
+    "index": 35,
+    "question": "What does the head command do in Linux?",
+    "options": [
+      "Displays the first 10 lines of a file",
+      "Displays the last 10 lines of a file",
+      "Displays file permissions",
+      "Copies files to another directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 36,
+    "question": "Which command is used to shut down a Linux system?",
+    "options": ["shutdown", "halt", "poweroff", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 37,
+    "question": "How do you extract a .tar.gz file in Linux?",
+    "options": ["tar -xvzf", "gunzip", "unzip", "gzip -d"],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "What does the chmod 755 filename command do?",
+    "options": [
+      "Assigns read, write, and execute permissions for the owner and read and execute permissions for others",
+      "Assigns full permissions to the owner and no permissions to others",
+      "Assigns no permissions to the owner and full permissions to others",
+      "Assigns read-only permissions for everyone"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 39,
+    "question": "Which command displays information about the current Linux distribution?",
+    "options": ["lsb_release -a", "uname -a", "cat /etc/os-release", "Both a and c"],
+    "answerIndex": 3
+  },
+  {
+    "index": 40,
+    "question": "How do you check memory usage in Linux?",
+    "options": ["free -h", "df -h", "top", "All of the above"],
+    "answerIndex": 0
+  },
+  {
+    "index": 41,
+    "question": "What does the df -h command display?",
+    "options": [
+      "Disk space usage in a human-readable format",
+      "CPU usage",
+      "Memory usage",
+      "Number of open files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 42,
+    "question": "Which command lists the contents of a directory?",
+    "options": ["ls", "cat", "cp", "mv"],
+    "answerIndex": 0
+  },
+  {
+    "index": 43,
+    "question": "Which command is used to install software on a Debian-based system?",
+    "options": ["apt-get install", "yum install", "rpm -i", "pacman -S"],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "What does the top command display in Linux?",
+    "options": ["System processes in real-time", "Network connections", "Disk partitions", "File permissions"],
+    "answerIndex": 0
+  },
+  {
+    "index": 45,
+    "question": "How do you display the contents of a file in Linux?",
+    "options": ["cat", "less", "more", "All of the above"],
+    "answerIndex": 3
+  },
+  {
+    "index": 46,
+    "question": "Which file in Linux contains the system's hostname?",
+    "options": ["/etc/hostname", "/etc/hosts", "/etc/network/interfaces", "/etc/resolv.conf"],
+    "answerIndex": 0
+  },
+  {
+    "index": 47,
+    "question": "How do you display the current time and date in Linux?",
+    "options": ["date", "time", "clock", "timedatectl"],
+    "answerIndex": 0
+  },
+  {
+    "index": 48,
+    "question": "Which command changes the ownership of a file?",
+    "options": ["chown", "chmod", "chgrp", "ownchange"],
+    "answerIndex": 0
+  },
+  {
+    "index": 49,
+    "question": "What does the ps -e command display?",
+    "options": ["All running processes", "Active network connections", "Disk usage", "Open ports"],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "How do you display the current shell in use?",
+    "options": ["echo $SHELL", "echo $PATH", "echo $USER", "echo $UID"],
+    "answerIndex": 0
+  }
+],
 }
   
   
