@@ -6736,7 +6736,5814 @@ const questions = {
     "options": ["echo $SHELL", "echo $PATH", "echo $USER", "echo $UID"],
     "answerIndex": 0
   }
+],"Linux fountaditon notes Intructional" : [
+  {
+    "index": 1,
+    "question": "What is the best description of Linux?",
+    "options": ["A terminal program", "An operating system", "A programming language", "A file manager"],
+    "answerIndex": 1
+  },
+  {
+    "index": 2,
+    "question": "What is the primary role of the Linux kernel?",
+    "options": ["Store user passwords", "Communicate with hardware and manage system resources", "Provide a graphical desktop", "Create user accounts"],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which correctly describes the relationship between the terminal and shell?",
+    "options": ["They are exactly the same thing", "The terminal is where you type; the shell interprets commands", "The shell is hardware; the terminal is software", "The terminal interprets commands and the shell displays them"],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "Ubuntu, Debian, and Fedora are examples of:",
+    "options": ["Kernels", "Shells", "Linux distributions", "Filesystems"],
+    "answerIndex": 2
+  },
+  {
+    "index": 5,
+    "question": "In the command 'ls -l /home', what is '/home'?",
+    "options": ["Command", "Option", "Target", "Shell"],
+    "answerIndex": 2
+  },
+  {
+    "index": 6,
+    "question": "In the command 'ls -l /home', what does '-l' represent?",
+    "options": ["An option that changes how ls behaves", "A user account", "A directory change", "A shell"],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Why can 'Report.txt' and 'report.txt' exist in the same Linux directory?",
+    "options": ["Linux duplicates files automatically", "Linux is case-sensitive", "Linux ignores file extensions", "One must be hidden"],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "Which user has the greatest system privileges in Linux?",
+    "options": ["admin", "sudo", "root", "system"],
+    "answerIndex": 2
+  },
+  {
+    "index": 9,
+    "question": "What UID is associated with the root user?",
+    "options": ["1", "1000", "0", "777"],
+    "answerIndex": 2
+  },
+  {
+    "index": 10,
+    "question": "A Linux command prompt ending in '#' commonly indicates:",
+    "options": ["You are in /home", "You are root", "The system is offline", "You are using Bash"],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "What does '/' represent in the Linux filesystem?",
+    "options": ["Current directory", "Home directory", "Root of the filesystem", "Parent directory"],
+    "answerIndex": 2
+  },
+  {
+    "index": 12,
+    "question": "Where would you most likely find users' personal directories?",
+    "options": ["/etc", "/home", "/var", "/bin"],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "Which Linux directory should make you think of system configuration files?",
+    "options": ["/etc", "/tmp", "/home", "/var/log"],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Where are system logs commonly located in Linux?",
+    "options": ["/home/log", "/etc/log", "/var/log", "/tmp/log"],
+    "answerIndex": 2
+  },
+  {
+    "index": 15,
+    "question": "Which of the following is an absolute path?",
+    "options": ["Documents/report.txt", "../report.txt", "/home/student/report.txt", "report.txt"],
+    "answerIndex": 2
+  },
+  {
+    "index": 16,
+    "question": "Why is '/home/student/report.txt' considered an absolute path?",
+    "options": ["It contains a filename", "It begins at the root directory /", "It contains /home", "It contains multiple directories"],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "You do not know your current directory. Which command should you use?",
+    "options": ["ls", "pwd", "cd", "find"],
+    "answerIndex": 1
+  },
+  {
+    "index": 18,
+    "question": "You are in /home/student and run 'cd ..'. Where do you move?",
+    "options": ["/", "/home", "/home/student/..", "/etc"],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "What does '~' normally represent in Linux?",
+    "options": ["Root directory", "Current directory", "The user's home directory", "Temporary directory"],
+    "answerIndex": 2
+  },
+  {
+    "index": 20,
+    "question": "Which command displays hidden files in the current directory?",
+    "options": ["ls -a", "ls -h", "pwd -a", "cd -a"],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What does 'touch practice.txt' usually do if practice.txt does not exist?",
+    "options": ["Creates an empty file", "Creates a directory", "Deletes a file", "Opens a text editor"],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What does 'mkdir Projects' do?",
+    "options": ["Creates a file", "Creates a directory", "Moves into Projects", "Lists Projects"],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "What happens when you run 'cp report.txt backup.txt'?",
+    "options": ["report.txt is renamed", "A copy is created as backup.txt", "report.txt is deleted", "A directory is created"],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "What are you doing when you run 'mv old.txt new.txt'?",
+    "options": ["Copying a file", "Renaming a file", "Deleting a file", "Compressing a file"],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "What is a major difference between cp and mv?",
+    "options": ["cp leaves the original while mv relocates or renames it", "mv creates two copies", "cp only works with directories", "There is no difference"],
+    "answerIndex": 0
+  },
+  {
+    "index": 26,
+    "question": "Which command removes an empty directory?",
+    "options": ["rmfile", "rmdir", "del", "erase"],
+    "answerIndex": 1
+  },
+  {
+    "index": 27,
+    "question": "Why should 'rm -r' be used carefully?",
+    "options": ["It changes permissions", "It recursively removes directories and their contents", "It creates root users", "It shuts down Linux"],
+    "answerIndex": 1
+  },
+  {
+    "index": 28,
+    "question": "In 'drwxr-xr-x Documents', what does the first 'd' indicate?",
+    "options": ["Deleted", "Directory", "Disk", "Default"],
+    "answerIndex": 1
+  },
+  {
+    "index": 29,
+    "question": "In '-rw-r--r-- notes.txt', what does the first '-' indicate?",
+    "options": ["Hidden file", "Regular file", "No permissions", "Root-owned file"],
+    "answerIndex": 1
+  },
+  {
+    "index": 30,
+    "question": "You need to locate server.conf somewhere under /etc. Which command is best?",
+    "options": ["find /etc -name server.conf", "ls server.conf /etc", "pwd /etc server.conf", "grep /etc server.conf"],
+    "answerIndex": 0
+  },
+  {
+    "index": 31,
+    "question": "In 'find /home -name notes.txt', where does Linux begin searching?",
+    "options": ["/", "/home", "The current directory", "/etc"],
+    "answerIndex": 1
+  },
+  {
+    "index": 32,
+    "question": "What does '-name' do when used with the find command?",
+    "options": ["Renames a file", "Searches according to a name", "Displays a username", "Creates a filename"],
+    "answerIndex": 1
+  },
+  {
+    "index": 33,
+    "question": "What does the wildcard '*.txt' match?",
+    "options": ["Exactly one file named .txt", "Names ending in .txt", "Files beginning with txt", "Directories only"],
+    "answerIndex": 1
+  },
+  {
+    "index": 34,
+    "question": "Which filename could match the wildcard 'file?.txt'?",
+    "options": ["file.txt", "file1.txt", "file100.txt", "myfile1.txt"],
+    "answerIndex": 1
+  },
+  {
+    "index": 35,
+    "question": "Why does file100.txt not match 'file?.txt'?",
+    "options": ["? represents exactly one character", "? represents zero characters", "Linux does not allow numbers", ".txt files cannot use wildcards"],
+    "answerIndex": 0
+  },
+  {
+    "index": 36,
+    "question": "What does a UID identify in Linux?",
+    "options": ["A group", "A user", "A file", "A process"],
+    "answerIndex": 1
+  },
+  {
+    "index": 37,
+    "question": "What does a GID identify in Linux?",
+    "options": ["A group", "A user", "A process", "The kernel"],
+    "answerIndex": 0
+  },
+  {
+    "index": 38,
+    "question": "Why are groups useful in Linux?",
+    "options": ["They allow multiple users to share access permissions", "They increase CPU performance", "They compress files", "They replace usernames"],
+    "answerIndex": 0
+  },
+  {
+    "index": 39,
+    "question": "Which file stores Linux user account information?",
+    "options": ["/etc/shadow", "/etc/passwd", "/etc/group", "/etc/skel"],
+    "answerIndex": 1
+  },
+  {
+    "index": 40,
+    "question": "Where are protected password hashes normally stored?",
+    "options": ["/etc/passwd", "/etc/shadow", "/home/passwords", "/etc/skel"],
+    "answerIndex": 1
+  },
+  {
+    "index": 41,
+    "question": "Which file contains Linux group information?",
+    "options": ["/etc/group", "/etc/passwd", "/etc/shadow", "/var/group"],
+    "answerIndex": 0
+  },
+  {
+    "index": 42,
+    "question": "What is /etc/skel used for?",
+    "options": ["Kernel files", "Default files for new user home directories", "Password hashes", "Deleted files"],
+    "answerIndex": 1
+  },
+  {
+    "index": 43,
+    "question": "What does 'useradd -m sam' do?",
+    "options": ["Creates user sam and a home directory", "Deletes user sam", "Changes sam's password", "Makes sam the root user"],
+    "answerIndex": 0
+  },
+  {
+    "index": 44,
+    "question": "What does the 'r' permission mean?",
+    "options": ["Run", "Read", "Root", "Rename"],
+    "answerIndex": 1
+  },
+  {
+    "index": 45,
+    "question": "What does the 'w' permission mean?",
+    "options": ["Write", "Watch", "Work", "Wildcard"],
+    "answerIndex": 0
+  },
+  {
+    "index": 46,
+    "question": "What does the 'x' permission mean?",
+    "options": ["Delete", "Execute", "Extract", "Exit"],
+    "answerIndex": 1
+  },
+  {
+    "index": 47,
+    "question": "What are the three permission categories in Linux?",
+    "options": ["root, sudo, user", "owner, group, others", "read, write, execute", "file, directory, link"],
+    "answerIndex": 1
+  },
+  {
+    "index": 48,
+    "question": "What does the numeric permission value 7 represent?",
+    "options": ["r--", "rw-", "r-x", "rwx"],
+    "answerIndex": 3
+  },
+  {
+    "index": 49,
+    "question": "What does the numeric permission value 6 represent?",
+    "options": ["rw-", "r-x", "-wx", "rwx"],
+    "answerIndex": 0
+  },
+  {
+    "index": 50,
+    "question": "Which symbolic permissions are represented by chmod 754?",
+    "options": ["rwxr-xr--", "rw-r-xr--", "rwxrwxr--", "r--r-xrwx"],
+    "answerIndex": 0
+  },
+  {
+    "index": 51,
+    "question": "Which symbolic permissions are represented by chmod 640?",
+    "options": ["rw-r-----", "rwxr-----", "rw-r--r--", "r--r-----"],
+    "answerIndex": 0
+  },
+  {
+    "index": 52,
+    "question": "A file has permissions '-rwxr-xr--'. What can members of the file's group do?",
+    "options": ["Read, write, and execute", "Read and execute", "Read only", "Nothing"],
+    "answerIndex": 1
+  },
+  {
+    "index": 53,
+    "question": "A file has permissions '-rwxr-xr--'. What can users in the 'others' category do?",
+    "options": ["Read only", "Read and write", "Execute only", "Nothing"],
+    "answerIndex": 0
+  },
+  {
+    "index": 54,
+    "question": "What does the chmod command change?",
+    "options": ["File ownership", "File permissions or mode", "Username", "Password"],
+    "answerIndex": 1
+  },
+  {
+    "index": 55,
+    "question": "What does the chown command change?",
+    "options": ["Permissions", "Ownership", "Passwords", "Current directory"],
+    "answerIndex": 1
+  },
+  {
+    "index": 56,
+    "question": "What does 'chmod +x backup.sh' do?",
+    "options": ["Deletes backup.sh", "Adds execute permission", "Makes root the owner", "Immediately executes the script"],
+    "answerIndex": 1
+  },
+  {
+    "index": 57,
+    "question": "What is a shell script?",
+    "options": ["A compressed archive", "A text file containing commands for a shell", "A Linux user", "A kernel process"],
+    "answerIndex": 1
+  },
+  {
+    "index": 58,
+    "question": "What is the purpose of '#!/bin/bash' at the beginning of a script?",
+    "options": ["Deletes Bash", "Identifies the interpreter used to run the script", "Adds execute permission", "Creates a variable"],
+    "answerIndex": 1
+  },
+  {
+    "index": 59,
+    "question": "What does './hello.sh' mean?",
+    "options": ["Search the filesystem for hello.sh", "Execute hello.sh from the current directory", "Copy hello.sh", "Open the home directory"],
+    "answerIndex": 1
+  },
+  {
+    "index": 60,
+    "question": "A script has permissions '-rw-r--r--' and './cleanup.sh' gives 'Permission denied'. What should you check first?",
+    "options": ["Disk space", "Execute permission", "DNS configuration", "Whether UID 0 exists"],
+    "answerIndex": 1
+  },
+  {
+    "index": 61,
+    "question": "Which command could add the execute permission to cleanup.sh?",
+    "options": ["chmod +x cleanup.sh", "chown +x cleanup.sh", "mv +x cleanup.sh", "pwd cleanup.sh"],
+    "answerIndex": 0
+  },
+  {
+    "index": 62,
+    "question": "What is conceptually happening when you run 'bash cleanup.sh'?",
+    "options": ["Bash is being given the file to interpret", "The file is deleted afterward", "The file becomes root-owned", "The file automatically gains execute permission"],
+    "answerIndex": 0
+  },
+  {
+    "index": 63,
+    "question": "What is a process in Linux?",
+    "options": ["Software stored on disk", "A running instance of a program", "A user account", "A filesystem"],
+    "answerIndex": 1
+  },
+  {
+    "index": 64,
+    "question": "What does PID stand for?",
+    "options": ["Program Installation Directory", "Process ID", "Permission Identification", "Primary Internet Device"],
+    "answerIndex": 1
+  },
+  {
+    "index": 65,
+    "question": "The computer feels slow and you want to see processes, CPU activity, and memory usage. Which command should you use?",
+    "options": ["free", "top", "find", "host"],
+    "answerIndex": 1
+  },
+  {
+    "index": 66,
+    "question": "Which command should come to mind when you specifically want information about RAM?",
+    "options": ["free", "pwd", "dmesg", "tar"],
+    "answerIndex": 0
+  },
+  {
+    "index": 67,
+    "question": "You are troubleshooting hardware detection and want to view kernel messages. Which command should you use?",
+    "options": ["top", "dmesg", "free", "host"],
+    "answerIndex": 1
+  },
+  {
+    "index": 68,
+    "question": "What does 'ls | sort' do?",
+    "options": ["Writes ls output directly to a file", "Sends the output of ls into sort", "Runs the commands independently", "Deletes unsorted output"],
+    "answerIndex": 1
+  },
+  {
+    "index": 69,
+    "question": "What does the '>' redirection operator normally do?",
+    "options": ["Appends output", "Redirects output and overwrites the destination", "Redirects input", "Pipes output between commands"],
+    "answerIndex": 1
+  },
+  {
+    "index": 70,
+    "question": "What does the '>>' redirection operator normally do?",
+    "options": ["Appends output to the destination", "Overwrites the destination", "Redirects input", "Executes a script"],
+    "answerIndex": 0
+  },
+  {
+    "index": 71,
+    "question": "What is the difference between archiving and compression?",
+    "options": ["There is no difference", "Archiving combines files while compression attempts to reduce storage size", "Compression combines user accounts", "Archiving only works with directories"],
+    "answerIndex": 1
+  },
+  {
+    "index": 72,
+    "question": "In 'tar -czf classbackup.tar.gz Documents/', what does the 'c' option mean?",
+    "options": ["Compress", "Create", "Copy", "Check"],
+    "answerIndex": 1
+  },
+  {
+    "index": 73,
+    "question": "In 'tar -czf classbackup.tar.gz Documents/', what does the 'z' option indicate?",
+    "options": ["ZIP", "Use gzip compression", "Zero", "Use xz compression"],
+    "answerIndex": 1
+  },
+  {
+    "index": 74,
+    "question": "You are using an unfamiliar Linux command and do not remember its syntax. What should you do?",
+    "options": ["Guess until something works", "Use man, info, or --help", "Log in as root", "Restart Linux"],
+    "answerIndex": 1
+  },
+  {
+    "index": 75,
+    "question": "Which command is associated with performing a DNS lookup?",
+    "options": ["chmod", "host", "apt", "rpm"],
+    "answerIndex": 1
+  }
+], "Linux Essentials - Linux and Distributions": [
+  {
+    "index": 1,
+    "question": "What is Linux technically referring to?",
+    "options": [
+      "The Linux kernel",
+      "The Bash shell",
+      "The Ubuntu operating system",
+      "The Linux terminal"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What is the primary role of the Linux kernel?",
+    "options": [
+      "Create user passwords",
+      "Manage hardware and system resources",
+      "Provide a graphical desktop",
+      "Download applications from the internet"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What is a Linux distribution?",
+    "options": [
+      "A version of the Bash command",
+      "A filesystem used only by Linux",
+      "A complete operating system built around the Linux kernel and additional software",
+      "A program used to install Linux"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 4,
+    "question": "Which of the following is an example of a Linux distribution?",
+    "options": [
+      "Bash",
+      "Fedora",
+      "ext4",
+      "grep"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "Ubuntu, Fedora, and Debian are all examples of what?",
+    "options": [
+      "Linux distributions",
+      "Linux kernels",
+      "Command-line shells",
+      "Filesystems"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Why can two Linux distributions look and behave differently even though both use Linux?",
+    "options": [
+      "Each distribution must use different computer hardware",
+      "Each distribution can combine the Linux kernel with different software and configurations",
+      "Only one of them actually uses a kernel",
+      "Linux automatically changes depending on the computer"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "Which component sits between applications and the computer's hardware?",
+    "options": [
+      "The kernel",
+      "The web browser",
+      "The text editor",
+      "The package repository"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "What does the kernel manage for running programs?",
+    "options": [
+      "Only filenames",
+      "Only internet connections",
+      "Resources such as CPU time and memory",
+      "Only user passwords"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 9,
+    "question": "What is one major reason Linux distributions exist?",
+    "options": [
+      "The Linux kernel by itself does not provide every component needed for a complete user operating system",
+      "Linux computers cannot run applications",
+      "Every computer requires a different programming language",
+      "The Linux kernel can only run one program"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "A company takes the Linux kernel, adds utilities, a package manager, applications, and configuration defaults. What has it essentially created?",
+    "options": [
+      "A Linux distribution",
+      "A CPU architecture",
+      "A filesystem partition",
+      "A shell command"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which statement best describes the relationship between Linux and Ubuntu?",
+    "options": [
+      "Linux is a program that runs inside Ubuntu",
+      "Ubuntu is a Linux distribution built around the Linux kernel",
+      "Ubuntu and Linux are unrelated operating systems",
+      "Ubuntu is the Linux command-line shell"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 12,
+    "question": "Which of the following would most likely differ between Linux distributions?",
+    "options": [
+      "Whether the system contains any kernel at all",
+      "Package management tools and default software",
+      "The basic requirement for a CPU",
+      "The definition of a computer file"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "What is a package manager primarily used for?",
+    "options": [
+      "Managing software packages",
+      "Managing CPU temperatures",
+      "Creating physical hard drives",
+      "Replacing the Linux kernel with Windows"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which distribution family is Ubuntu associated with?",
+    "options": [
+      "Debian",
+      "Red Hat",
+      "Arch",
+      "SUSE"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Fedora is closely associated with which Linux ecosystem?",
+    "options": [
+      "Debian",
+      "Red Hat",
+      "Slackware",
+      "Android"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 16,
+    "question": "What is meant by a Linux distribution's 'package repository'?",
+    "options": [
+      "A physical storage device containing the kernel",
+      "A collection of software packages available for installation",
+      "A list of all users on the computer",
+      "A directory containing only log files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "Two administrators use different Linux distributions. One uses apt while the other uses a different package management tool. What best explains this?",
+    "options": [
+      "Linux distributions can use different package management systems",
+      "Only one administrator is actually using Linux",
+      "Package managers are determined by the computer monitor",
+      "The Linux kernel requires apt on every system"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which statement about Linux distributions is TRUE?",
+    "options": [
+      "Every Linux distribution must include exactly the same applications",
+      "Different distributions can target different types of users and workloads",
+      "A Linux distribution cannot include a graphical desktop",
+      "Only one Linux distribution can exist at a time"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "Why might an organization choose a server-oriented Linux distribution instead of a desktop-oriented one?",
+    "options": [
+      "Server distributions do not use kernels",
+      "Different distributions can be designed and supported for different workloads",
+      "Desktop Linux cannot connect to networks",
+      "Servers cannot run open-source software"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "Which layer is most directly responsible for communicating with device hardware?",
+    "options": [
+      "Kernel",
+      "Web browser",
+      "Desktop environment",
+      "Text editor"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "You install a different desktop environment on a Linux system. Does that automatically mean you have replaced the Linux kernel?",
+    "options": [
+      "Yes, because the desktop environment is the kernel",
+      "Yes, because every graphical interface requires a new kernel",
+      "No, the desktop environment and kernel are different components",
+      "No, because Linux does not have a kernel"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 22,
+    "question": "What is a desktop environment in Linux?",
+    "options": [
+      "The physical computer hardware",
+      "A graphical user environment that provides components such as windows, menus, and panels",
+      "The program responsible for booting the CPU",
+      "Another name for the Linux kernel"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "A beginner says, 'Ubuntu and Fedora are completely different operating systems with nothing in common.' What is the best correction?",
+    "options": [
+      "They are identical in every way",
+      "Both are Linux distributions and therefore share the Linux kernel foundation, although other components can differ",
+      "Neither uses Linux",
+      "Fedora is an application that runs inside Ubuntu"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "Which statement best distinguishes the Linux kernel from a Linux distribution?",
+    "options": [
+      "The kernel manages core system resources, while a distribution packages the kernel with additional software",
+      "The kernel is a graphical interface, while a distribution is a command",
+      "The kernel installs applications, while a distribution manages passwords",
+      "There is no difference between them"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "You are asked to explain Linux distributions in one sentence. Which answer is BEST?",
+    "options": [
+      "They are different programming languages used to control Linux",
+      "They are collections of hardware designed specifically for Linux",
+      "They are operating systems that combine the Linux kernel with software, tools, and configuration choices",
+      "They are different versions of the ls command"
+    ],
+    "answerIndex": 2
+  }
+],"Linux Essentials - Linux Applications": [
+  {
+    "index": 1,
+    "question": "What is an application in a Linux system?",
+    "options": [
+      "A program used to perform a task",
+      "The Linux kernel",
+      "A hardware driver only",
+      "A filesystem partition"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which type of software would most likely be used to browse websites on Linux?",
+    "options": [
+      "Web browser",
+      "Package manager",
+      "Bootloader",
+      "Kernel module"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "Which of the following is an example of an office productivity application?",
+    "options": [
+      "LibreOffice",
+      "GRUB",
+      "systemd",
+      "Bash"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What is one reason Linux applications may differ between distributions?",
+    "options": [
+      "Different distributions may include different default software",
+      "Linux applications only work on one CPU",
+      "Every distribution must use the same application set",
+      "Applications replace the Linux kernel"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "Which type of application would most likely be used to edit a text file?",
+    "options": [
+      "Text editor",
+      "Bootloader",
+      "Disk partition",
+      "Kernel"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which of the following is a common command-line text editor on Linux?",
+    "options": [
+      "vi",
+      "apt",
+      "grep",
+      "chmod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "A Linux user needs to create documents, spreadsheets, and presentations. Which category of software would be most appropriate?",
+    "options": [
+      "Office suite",
+      "Network utility",
+      "Shell",
+      "Boot manager"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which statement about applications on Linux is TRUE?",
+    "options": [
+      "Linux can run many different types of applications",
+      "Linux can only run command-line programs",
+      "Linux cannot run graphical applications",
+      "Linux applications must be part of the kernel"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What is a major difference between a graphical application and a command-line application?",
+    "options": [
+      "A graphical application usually provides windows and visual controls, while a command-line application is operated with typed commands",
+      "Command-line applications cannot perform useful tasks",
+      "Graphical applications do not use the operating system",
+      "Only graphical applications can access files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which type of Linux software would be most useful for managing a database?",
+    "options": [
+      "Database management system",
+      "Window manager",
+      "Bootloader",
+      "Filesystem driver"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "A developer wants to write and test code on Linux. Which type of software would be useful?",
+    "options": [
+      "Programming tools such as editors, compilers, and interpreters",
+      "Only a web browser",
+      "Only a package repository",
+      "Only the bootloader"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What is a compiler used for?",
+    "options": [
+      "Translating source code into executable or lower-level code",
+      "Creating user accounts",
+      "Managing file permissions",
+      "Resolving DNS names"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What is an interpreter used for?",
+    "options": [
+      "Reading and executing code or commands",
+      "Managing physical memory only",
+      "Formatting hard drives",
+      "Changing file ownership"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which application category would most likely include software such as Apache or Nginx?",
+    "options": [
+      "Web server software",
+      "Office software",
+      "Image editing software",
+      "Boot software"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What is the purpose of web server software?",
+    "options": [
+      "To provide web content and services to clients",
+      "To edit text files",
+      "To manage the Linux kernel",
+      "To create user passwords"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "A company wants Linux to store and organize large amounts of structured information. Which type of application would be appropriate?",
+    "options": [
+      "Database server",
+      "Desktop wallpaper manager",
+      "Shell prompt",
+      "Kernel debugger"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which statement best describes server applications?",
+    "options": [
+      "They often provide services to other computers or users over a network",
+      "They can only run with a graphical interface",
+      "They replace the operating system",
+      "They cannot run in the background"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Why are command-line applications especially common on Linux servers?",
+    "options": [
+      "They are efficient, scriptable, and can be used remotely",
+      "Linux servers cannot run any graphical software",
+      "They do not use system resources",
+      "They are always easier than graphical tools"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What is one benefit of installing applications through a distribution's package management system?",
+    "options": [
+      "Software installation and dependency management can be handled in a consistent way",
+      "The Linux kernel is removed automatically",
+      "Applications no longer require storage",
+      "All software becomes proprietary"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What does a software dependency mean?",
+    "options": [
+      "Another component or package that software needs in order to function properly",
+      "A user password",
+      "A network cable",
+      "A file permission"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "A program requires a library that is not installed. What problem is this an example of?",
+    "options": [
+      "A missing dependency",
+      "A missing UID",
+      "A filesystem root error",
+      "A DNS alias"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Which statement best describes a software library?",
+    "options": [
+      "Reusable code that applications can use",
+      "A directory that contains only books",
+      "A user account used by developers",
+      "A network routing table"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Why might two Linux applications perform the same general task?",
+    "options": [
+      "Linux often provides users with multiple software choices for the same purpose",
+      "Only one application can exist on Linux",
+      "Applications are required to have identical names",
+      "The Linux kernel duplicates all applications"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "A user needs a program but does not know whether it is available for their distribution. What should they check?",
+    "options": [
+      "The distribution's package repositories or software management tools",
+      "Only the root directory",
+      "The CPU serial number",
+      "The current user's UID"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which statement best summarizes the role of applications in Linux?",
+    "options": [
+      "Applications perform user or system tasks on top of the operating system",
+      "Applications replace the kernel",
+      "Applications are only used for graphical desktops",
+      "Applications are the same thing as hardware drivers"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Open Source Licensing": [
+  {
+    "index": 1,
+    "question": "What does open source software make available to users?",
+    "options": [
+      "Only the compiled program",
+      "The program's source code",
+      "Only the software's documentation",
+      "The developer's private files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 2,
+    "question": "What is source code?",
+    "options": [
+      "Human-readable instructions written by programmers",
+      "A Linux user account",
+      "A compressed binary file",
+      "A hardware configuration"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "What is one major advantage of having access to source code?",
+    "options": [
+      "Users can inspect and potentially modify how the software works",
+      "The software no longer needs an operating system",
+      "The software cannot contain bugs",
+      "The software automatically becomes free of charge"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "Does open source necessarily mean that software must cost $0?",
+    "options": [
+      "Yes, open source software can never be sold",
+      "No, open source refers to licensing and source-code freedoms rather than simply price",
+      "Yes, charging for open source software is illegal",
+      "No, because open source software has no license"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "What is a software license?",
+    "options": [
+      "A set of terms describing how software may be used, modified, or distributed",
+      "A Linux command for installing software",
+      "A physical certificate required to use Linux",
+      "A package repository"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "What does the acronym GPL stand for?",
+    "options": [
+      "General Programming Language",
+      "GNU Public Linux",
+      "GNU General Public License",
+      "General Permission List"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 7,
+    "question": "Which organization is strongly associated with the GNU General Public License?",
+    "options": [
+      "Free Software Foundation",
+      "Microsoft",
+      "Internet Engineering Task Force",
+      "World Wide Web Consortium"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which person is strongly associated with the GNU Project and the Free Software Foundation?",
+    "options": [
+      "Richard Stallman",
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What does 'free' emphasize in the term free software?",
+    "options": [
+      "Software must always cost nothing",
+      "Freedom to use, study, modify, and share software",
+      "Software cannot be copyrighted",
+      "Software must be downloaded from the internet"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "What is copyleft?",
+    "options": [
+      "A licensing approach designed to preserve certain freedoms when software is redistributed or modified",
+      "Software with no copyright protection",
+      "A command for copying files",
+      "A license that prevents users from seeing source code"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which license is well known for using a copyleft approach?",
+    "options": [
+      "GNU GPL",
+      "A typical proprietary software license",
+      "A hardware warranty",
+      "A domain name registration"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "You modify GPL-licensed software and distribute the modified version. Which concept is particularly important?",
+    "options": [
+      "The GPL's requirements concerning distribution and corresponding source code",
+      "The computer's IP address",
+      "The filesystem's inode count",
+      "The user's shell history"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "Which statement best describes a permissive open source license?",
+    "options": [
+      "It generally places fewer restrictions on redistribution and reuse",
+      "It prohibits redistribution",
+      "It prevents anyone from modifying the source code",
+      "It requires the software to run only on Linux"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which of the following is an example of a permissive open source license?",
+    "options": [
+      "MIT License",
+      "GNU GPL only",
+      "A proprietary end-user license agreement",
+      "A software patent"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which is another well-known permissive open source license?",
+    "options": [
+      "BSD License",
+      "Windows Product Key License",
+      "Closed Source License",
+      "Commercial Hardware License"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What is a key difference between copyleft and permissive licenses?",
+    "options": [
+      "Copyleft licenses generally require certain freedoms to remain when derivative work is distributed, while permissive licenses generally impose fewer conditions",
+      "Permissive licenses never provide source code",
+      "Copyleft software cannot be modified",
+      "Only permissive licenses are open source"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "What generally characterizes proprietary software?",
+    "options": [
+      "Its source code and redistribution rights are typically restricted by its owner",
+      "Anyone can always modify and redistribute it without restrictions",
+      "It cannot be copyrighted",
+      "It must run on Linux"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which statement about copyright and open source software is TRUE?",
+    "options": [
+      "Open source software can still be protected by copyright",
+      "Open source software cannot have a copyright holder",
+      "Copyright only applies to proprietary software",
+      "Publishing source code automatically removes copyright"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Why is copyright important to many open source licenses?",
+    "options": [
+      "Copyright gives creators legal rights that can then be licensed to others under specified terms",
+      "Copyright automatically makes software proprietary",
+      "Copyright prevents source code from being distributed",
+      "Copyright is a Linux package manager"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What is the main purpose of the Open Source Initiative (OSI)?",
+    "options": [
+      "Promote and support the concept of open source software and maintain the Open Source Definition",
+      "Develop all Linux distributions",
+      "Own the Linux kernel",
+      "Sell proprietary operating systems"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "A developer allows users to view, modify, and redistribute a program under specified license terms. What type of development model does this most closely represent?",
+    "options": [
+      "Open source",
+      "Hardware virtualization",
+      "Closed networking",
+      "Disk partitioning"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What should you check before redistributing open source software?",
+    "options": [
+      "The software's license terms",
+      "Only the filename",
+      "Only the file size",
+      "The monitor resolution"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "A company sells a product that contains open source software. Does charging money automatically violate open source principles?",
+    "options": [
+      "Yes, open source software can never be part of a commercial product",
+      "No, commercial use can be permitted as long as the applicable license requirements are followed",
+      "Yes, because open source means public domain",
+      "No, because licenses never apply to companies"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "What is the difference between open source software and software in the public domain?",
+    "options": [
+      "They always mean exactly the same thing",
+      "Open source software is normally distributed under a license, while public-domain software is not restricted by copyright in the same way",
+      "Public-domain software must use the GPL",
+      "Open source software cannot be copyrighted"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "Which statement BEST summarizes open source licensing?",
+    "options": [
+      "It provides legal terms governing freedoms and responsibilities for using, studying, modifying, and distributing software",
+      "It means every program must be completely free of charge",
+      "It means software has no copyright",
+      "It prevents programmers from modifying software"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Working with Linux": [
+  {
+    "index": 1,
+    "question": "What is a terminal in Linux?",
+    "options": [
+      "A program or interface that provides access to a command-line environment",
+      "The Linux kernel",
+      "A filesystem type",
+      "A package repository"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What is the primary role of a shell?",
+    "options": [
+      "Manage physical memory",
+      "Interpret commands entered by the user",
+      "Store user passwords",
+      "Control the computer monitor"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which of the following is a common Linux shell?",
+    "options": [
+      "Bash",
+      "Firefox",
+      "Fedora",
+      "LibreOffice"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What does CLI stand for?",
+    "options": [
+      "Computer Linux Interface",
+      "Command Line Interface",
+      "Central Login Interface",
+      "Command Linux Installation"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "What is a GUI?",
+    "options": [
+      "A Graphical User Interface",
+      "A General User Instruction",
+      "A Global Unix Interpreter",
+      "A Group User Identifier"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "What is one major advantage of using the Linux command line?",
+    "options": [
+      "Commands can be combined and automated",
+      "It eliminates the need for an operating system",
+      "It prevents users from making mistakes",
+      "It can only perform one task at a time"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Why is the command line particularly useful when administering a remote Linux server?",
+    "options": [
+      "It can provide efficient remote administration without requiring a graphical desktop",
+      "Linux servers cannot use networks",
+      "The command line automatically gives every user root access",
+      "Graphical applications cannot exist on Linux"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which statement best describes the relationship between a terminal and a shell?",
+    "options": [
+      "They are always exactly the same program",
+      "The terminal provides access to the command line, while the shell interprets commands",
+      "The shell displays graphics while the terminal manages hardware",
+      "The terminal is part of the Linux kernel"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "In the command 'ls -l /home', which part is the command?",
+    "options": [
+      "ls",
+      "-l",
+      "/home",
+      "home"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "In the command 'ls -l /home', what is '-l'?",
+    "options": [
+      "The target",
+      "An option",
+      "The username",
+      "The shell"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "In the command 'ls -l /home', what is '/home'?",
+    "options": [
+      "The command",
+      "The option",
+      "The target or argument",
+      "The shell"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 12,
+    "question": "What is the general structure of many Linux commands?",
+    "options": [
+      "command + options + arguments",
+      "argument + kernel + password",
+      "user + filesystem + command",
+      "directory + shell + UID"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What is an argument in a Linux command?",
+    "options": [
+      "Information telling the command what object or value to operate on",
+      "A Linux error message",
+      "The root password",
+      "A graphical desktop"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What is the purpose of a command-line option such as '-l' or '-a'?",
+    "options": [
+      "To modify the behavior of a command",
+      "To change the Linux kernel",
+      "To create a new user automatically",
+      "To identify the CPU"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Why is capitalization important when working with Linux filenames?",
+    "options": [
+      "Linux filenames are generally case-sensitive",
+      "Linux automatically converts every filename to uppercase",
+      "Linux does not allow lowercase filenames",
+      "Capitalization only matters for directories"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "You have files named 'Report.txt' and 'report.txt'. How does Linux normally treat them?",
+    "options": [
+      "As the same file",
+      "As two different filenames",
+      "As invalid filenames",
+      "As symbolic links"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "Which symbol commonly appears at the end of a regular user's Bash prompt?",
+    "options": [
+      "$",
+      "#",
+      "%",
+      "&"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which symbol commonly appears at the end of the root user's shell prompt?",
+    "options": [
+      "$",
+      "#",
+      "@",
+      "!"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "Why should you normally avoid performing everyday tasks as root?",
+    "options": [
+      "Root has extensive privileges, so mistakes can cause significant system damage",
+      "Root cannot access files",
+      "Root cannot execute commands",
+      "Root can only use graphical applications"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What does the root account represent in Linux?",
+    "options": [
+      "A standard user with limited permissions",
+      "The administrative superuser",
+      "The first directory on the disk",
+      "The default web server account"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 21,
+    "question": "What UID is traditionally assigned to the root user?",
+    "options": [
+      "1000",
+      "1",
+      "0",
+      "777"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 22,
+    "question": "A command returns 'Permission denied'. What should you consider before assuming the command itself is broken?",
+    "options": [
+      "Whether your user has permission to perform the requested action",
+      "Whether Linux needs to be reinstalled",
+      "Whether the computer has a graphical desktop",
+      "Whether the filename contains a file extension"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Why is learning the command line valuable even on a Linux computer with a graphical desktop?",
+    "options": [
+      "The command line provides powerful tools for administration, troubleshooting, and automation",
+      "The GUI stops working whenever a terminal is installed",
+      "Linux applications can only be installed from a terminal",
+      "A graphical desktop cannot access files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "A user types a command correctly but changes the capitalization of a filename and receives 'No such file or directory'. What is a likely explanation?",
+    "options": [
+      "Linux is case-sensitive, so the filename may no longer match",
+      "Linux requires every command to run as root",
+      "Linux does not support filenames",
+      "The terminal automatically deleted the file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which approach BEST demonstrates understanding of a Linux command rather than simple memorization?",
+    "options": [
+      "Recognizing the command name only",
+      "Knowing what the command does, what its options change, and what target it operates on",
+      "Memorizing the position of the correct answer",
+      "Running every command as root"
+    ],
+    "answerIndex": 1
+  }
+],"Linux Essentials - Command Line Basics": [
+  {
+    "index": 1,
+    "question": "Which command displays your current working directory?",
+    "options": [
+      "pwd",
+      "cd",
+      "ls",
+      "dir"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does the cd command do?",
+    "options": [
+      "Copies a directory",
+      "Changes the current working directory",
+      "Creates a directory",
+      "Displays the current directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which command lists the contents of a directory?",
+    "options": [
+      "pwd",
+      "mkdir",
+      "ls",
+      "cd"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 4,
+    "question": "What does the root directory '/' represent?",
+    "options": [
+      "The root user's home directory",
+      "The top level of the Linux filesystem",
+      "The current directory",
+      "The temporary files directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "Which of the following is an absolute path?",
+    "options": [
+      "Documents/report.txt",
+      "../report.txt",
+      "/home/alex/Documents/report.txt",
+      "./report.txt"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 6,
+    "question": "How can you recognize an absolute Linux path?",
+    "options": [
+      "It always ends with a slash",
+      "It begins with /",
+      "It begins with ..",
+      "It must contain /home"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "What is a relative path?",
+    "options": [
+      "A path interpreted relative to your current location",
+      "A path that always begins at /",
+      "A path that can only reference your home directory",
+      "A path that can only be used by root"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "You are currently in /home/alex. What does 'cd Documents' attempt to do?",
+    "options": [
+      "Move to /Documents",
+      "Move to /home/alex/Documents",
+      "Create /home/alex/Documents",
+      "Delete the Documents directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "What does '..' represent in a Linux path?",
+    "options": [
+      "The user's home directory",
+      "The root directory",
+      "The parent directory",
+      "A hidden directory"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 10,
+    "question": "You are in /home/alex/Documents. What happens when you run 'cd ..'?",
+    "options": [
+      "You move to /home/alex",
+      "You move to /",
+      "You move to /home",
+      "You remain in Documents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "What does a single period '.' represent in a Linux path?",
+    "options": [
+      "The parent directory",
+      "The current directory",
+      "The root directory",
+      "The home directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 12,
+    "question": "What does the tilde '~' normally represent?",
+    "options": [
+      "The filesystem root",
+      "The user's home directory",
+      "The parent directory",
+      "The current directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "A user named alex has /home/alex as their home directory. Where will 'cd ~' normally take them?",
+    "options": [
+      "/",
+      "/home",
+      "/home/alex",
+      "/etc/alex"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 14,
+    "question": "What usually happens if you run cd without specifying a directory?",
+    "options": [
+      "You move to the filesystem root",
+      "You move to your home directory",
+      "The current directory is deleted",
+      "The command always produces an error"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "Which command displays directory contents in a long listing format?",
+    "options": [
+      "ls -l",
+      "ls -a",
+      "pwd -l",
+      "cd -l"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What additional information can 'ls -l' show compared with a basic ls?",
+    "options": [
+      "Information such as permissions, ownership, size, and modification time",
+      "Only hidden files",
+      "Only the current directory name",
+      "The computer's IP address"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "In Linux, what normally makes a file hidden?",
+    "options": [
+      "Its filename begins with a period",
+      "Its filename ends in .hidden",
+      "It belongs to root",
+      "It has no read permission"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "You run ls but do not see a file named '.config'. What is the most likely reason?",
+    "options": [
+      "The file is compressed",
+      "The file is hidden because its name begins with a period",
+      "Linux deleted the file",
+      "Only root can have .config files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "Which command would display hidden files along with regular files?",
+    "options": [
+      "ls -l",
+      "ls -a",
+      "ls -h",
+      "ls -r"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "What does 'ls -la' accomplish?",
+    "options": [
+      "Lists files in long format and includes hidden entries",
+      "Lists only large files",
+      "Deletes hidden files",
+      "Lists only directories"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "You type 'cd /etc' while currently in /home/alex. Why does your current location not affect where the command takes you?",
+    "options": [
+      "/etc is an absolute path",
+      "cd ignores directory paths",
+      "/etc is always the home directory",
+      "The command automatically searches for etc"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "You are in /home/alex and need to access /home/alex/Documents using a relative path. Which command works?",
+    "options": [
+      "cd /Documents",
+      "cd Documents",
+      "cd ../home/alex/Documents",
+      "pwd Documents"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "Why is tab completion useful at the Linux command line?",
+    "options": [
+      "It can complete commands and filenames, reducing typing and spelling mistakes",
+      "It automatically executes commands as root",
+      "It displays all running processes",
+      "It changes the current directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "You type part of a long filename and press Tab. What is the shell commonly able to do?",
+    "options": [
+      "Delete the file",
+      "Complete the filename when enough information uniquely identifies it",
+      "Change the file's permissions",
+      "Move the file into your home directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "You are lost in the filesystem and want to determine your location before doing anything else. Which sequence makes the most sense?",
+    "options": [
+      "Run pwd to identify your location, then use ls to inspect its contents",
+      "Run rm -r and then pwd",
+      "Run chmod and then reboot",
+      "Run passwd and then cd /"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Linux CLI": [
+  {
+    "index": 1,
+    "question": "Which command can create an empty file named notes.txt?",
+    "options": [
+      "mkdir notes.txt",
+      "touch notes.txt",
+      "cp notes.txt",
+      "ls notes.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 2,
+    "question": "What does 'mkdir projects' do?",
+    "options": [
+      "Creates a file named projects",
+      "Moves into the projects directory",
+      "Creates a directory named projects",
+      "Lists the projects directory"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 3,
+    "question": "Which command copies report.txt to backup.txt?",
+    "options": [
+      "cp report.txt backup.txt",
+      "mv report.txt backup.txt",
+      "touch report.txt backup.txt",
+      "mkdir report.txt backup.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "After running 'cp report.txt backup.txt', what normally happens to report.txt?",
+    "options": [
+      "It is deleted",
+      "It remains in its original location",
+      "It becomes a directory",
+      "It is automatically renamed"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "What does 'mv report.txt Documents/' do if Documents is an existing directory?",
+    "options": [
+      "Copies report.txt into Documents",
+      "Deletes report.txt",
+      "Moves report.txt into Documents",
+      "Creates a new directory named report.txt"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 6,
+    "question": "How can the mv command be used to rename a file?",
+    "options": [
+      "mv oldname.txt newname.txt",
+      "mv -r oldname.txt",
+      "mv oldname.txt",
+      "mv --delete oldname.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "You run 'mv draft.txt final.txt'. What is the most likely result?",
+    "options": [
+      "draft.txt is copied and both files remain",
+      "draft.txt is renamed to final.txt",
+      "final.txt is converted into a directory",
+      "Both files are deleted"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "Which command removes a file named old.txt?",
+    "options": [
+      "rmdir old.txt",
+      "delete old.txt",
+      "rm old.txt",
+      "mv old.txt"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 9,
+    "question": "Why should the rm command be used carefully?",
+    "options": [
+      "Removed files are not normally sent to a graphical trash or recycle bin",
+      "rm automatically shuts down Linux",
+      "rm always removes the entire filesystem",
+      "rm automatically changes file ownership"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which command is designed to remove an empty directory?",
+    "options": [
+      "touch",
+      "rmdir",
+      "cp",
+      "pwd"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "You run 'rmdir Projects' and receive an error because Projects contains files. Why?",
+    "options": [
+      "rmdir normally removes only empty directories",
+      "Projects must be owned by root",
+      "rmdir only works on files",
+      "Linux directories cannot be removed"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which command can recursively remove a directory and the files beneath it?",
+    "options": [
+      "rm -r directory",
+      "touch -r directory",
+      "pwd -r directory",
+      "ls -r directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does the '-r' option generally mean when recursively processing directories with commands such as cp or rm?",
+    "options": [
+      "Read only",
+      "Reverse",
+      "Recursive",
+      "Rename"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 14,
+    "question": "You need to copy an entire directory named Projects and everything inside it. Which command is appropriate?",
+    "options": [
+      "cp Projects Backup",
+      "cp -r Projects Backup",
+      "touch -r Projects Backup",
+      "mkdir -r Projects Backup"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "What does the '*' wildcard represent in a filename pattern?",
+    "options": [
+      "Exactly one character",
+      "Zero or more characters",
+      "Only numeric characters",
+      "Only hidden files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 16,
+    "question": "Which files could be matched by '*.txt'?",
+    "options": [
+      "Files whose names end in .txt",
+      "Only a file literally named *.txt",
+      "Files beginning with txt",
+      "Only hidden text files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "A directory contains notes.txt, report.txt, and photo.jpg. Which files are targeted by 'rm *.txt'?",
+    "options": [
+      "Only photo.jpg",
+      "notes.txt and report.txt",
+      "All three files",
+      "No files"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 18,
+    "question": "What does the '?' wildcard normally represent?",
+    "options": [
+      "Zero or more characters",
+      "Exactly one character",
+      "Any number only",
+      "A directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "Which filename would match the pattern 'file?.txt'?",
+    "options": [
+      "file.txt",
+      "file7.txt",
+      "file77.txt",
+      "myfile7.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "Why would 'file25.txt' NOT match the pattern 'file?.txt'?",
+    "options": [
+      "The ? wildcard matches exactly one character, but 25 contains two characters",
+      "Wildcards cannot match numbers",
+      "Linux does not support .txt files",
+      "The ? wildcard only matches letters"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "You have a file named 'My Report.txt'. Why can spaces in filenames require special handling at the command line?",
+    "options": [
+      "The shell normally uses spaces to separate parts of a command",
+      "Linux cannot store filenames containing spaces",
+      "Spaces automatically make files hidden",
+      "Files containing spaces must belong to root"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Which command correctly treats 'My Report.txt' as one filename?",
+    "options": [
+      "cat My Report.txt",
+      "cat \"My Report.txt\"",
+      "cat My + Report.txt",
+      "cat My / Report.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "You want to delete several .txt files but are worried your wildcard might match the wrong files. What is a safer approach before using rm?",
+    "options": [
+      "Use ls with the same wildcard first to see what it matches",
+      "Immediately run rm -rf",
+      "Switch to root first",
+      "Reboot the computer"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "You run 'cp notes.txt /home/sam/backup/'. In this command, what is '/home/sam/backup/'?",
+    "options": [
+      "The source",
+      "The destination",
+      "The cp option",
+      "The shell"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "You need to preserve the original file while creating another copy elsewhere. Which command should you generally choose instead of mv?",
+    "options": [
+      "rm",
+      "cp",
+      "rmdir",
+      "pwd"
+    ],
+    "answerIndex": 1
+  }
+],"Linux Essentials - Getting Help": [
+  {
+    "index": 1,
+    "question": "Which command is commonly used to display the manual page for another Linux command?",
+    "options": [
+      "man",
+      "pwd",
+      "grep",
+      "history"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What would 'man ls' display?",
+    "options": [
+      "A list of all users",
+      "The manual page for the ls command",
+      "The contents of the current directory",
+      "The location of the ls executable"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What is the primary purpose of a man page?",
+    "options": [
+      "Provide documentation about a command, including its syntax and options",
+      "Automatically execute a command",
+      "Install a software package",
+      "Change file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "While viewing a man page, which key commonly exits the manual viewer?",
+    "options": [
+      "q",
+      "x",
+      "e",
+      "Esc only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "While viewing a man page, what is commonly used to search forward for a word or pattern?",
+    "options": [
+      "/pattern",
+      "-pattern",
+      "?help",
+      "grep only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "After searching within a man page, which key commonly moves to the next matching result?",
+    "options": [
+      "n",
+      "q",
+      "x",
+      "c"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does the SYNOPSIS section of a man page generally show?",
+    "options": [
+      "How the command is structured and used",
+      "The current user's password",
+      "A list of running processes",
+      "The computer's hardware"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "What does the DESCRIPTION section of a man page generally provide?",
+    "options": [
+      "An explanation of what the command does",
+      "The user's home directory",
+      "The Linux kernel source code",
+      "The system's IP address"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "You remember the ls command but cannot remember which option displays hidden files. What is a good first step?",
+    "options": [
+      "Check 'man ls' or 'ls --help'",
+      "Reinstall Linux",
+      "Run rm -rf",
+      "Change to the root account"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "What does the '--help' option commonly provide?",
+    "options": [
+      "Usage information and available options for a command",
+      "Root access",
+      "A list of user passwords",
+      "A complete system backup"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command would commonly provide quick usage information for ls without opening its full man page?",
+    "options": [
+      "ls --help",
+      "ls --manual-only",
+      "help --ls",
+      "pwd ls"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What is the purpose of the info command?",
+    "options": [
+      "Provide documentation, often with more structured or detailed information about GNU tools",
+      "Display only IP addresses",
+      "Show file ownership",
+      "Create new users"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "Which command could display Info documentation for a command such as ls?",
+    "options": [
+      "info ls",
+      "ls info",
+      "showinfo ls",
+      "helpfile ls"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What does the whatis command generally provide?",
+    "options": [
+      "A short description of a command",
+      "The complete source code of a command",
+      "The current working directory",
+      "A list of open network ports"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What would 'whatis passwd' generally help you determine?",
+    "options": [
+      "A brief description of entries named passwd in the manual database",
+      "Your current password",
+      "The root password",
+      "All passwords stored on the system"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What is apropos useful for?",
+    "options": [
+      "Searching manual-page names and descriptions by keyword",
+      "Changing file permissions",
+      "Creating compressed archives",
+      "Displaying memory usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "You need a command related to copying files but cannot remember the command name. Which help tool could be useful?",
+    "options": [
+      "apropos copy",
+      "pwd copy",
+      "chmod copy",
+      "cd copy"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "What is the relationship between 'apropos keyword' and 'man -k keyword'?",
+    "options": [
+      "They can both search manual-page descriptions by keyword",
+      "One deletes documentation while the other installs it",
+      "They both change file ownership",
+      "They only work for root"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Why are Linux manual pages divided into sections?",
+    "options": [
+      "The same name can refer to different types of documentation, such as commands or configuration files",
+      "Each section belongs to a different user",
+      "Linux only allows one command per section",
+      "Sections represent different hard drives"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "Manual section 1 is generally associated with what?",
+    "options": [
+      "User commands",
+      "System calls",
+      "Administrative configuration files only",
+      "Kernel source code"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Manual section 5 is commonly associated with what?",
+    "options": [
+      "File formats and configuration files",
+      "User commands",
+      "Games only",
+      "Hardware drivers only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "There is both a passwd command and a passwd configuration file. Why can manual section numbers be useful?",
+    "options": [
+      "They let you request documentation for the specific type of passwd entry you want",
+      "They change your password automatically",
+      "They determine your UID",
+      "They allow passwd to bypass permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "What would 'man 5 passwd' request?",
+    "options": [
+      "Documentation for the passwd file format",
+      "Five copies of the passwd manual",
+      "The fifth user's password",
+      "Documentation for changing five passwords"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "You know what a command does but forget its exact syntax. Which approach is BEST?",
+    "options": [
+      "Consult the command's documentation instead of guessing",
+      "Run random options until one works",
+      "Use sudo for every attempt",
+      "Delete and reinstall the command"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which statement BEST describes an effective Linux user's approach to command documentation?",
+    "options": [
+      "Understand how to find documentation instead of trying to memorize every option for every command",
+      "Never use documentation after learning the basics",
+      "Always search the internet before checking local documentation",
+      "Run unfamiliar commands as root so they are more likely to work"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Archives and Compression": [
+  {
+    "index": 1,
+    "question": "What is the primary purpose of creating an archive?",
+    "options": [
+      "Combine multiple files and directories into a single file",
+      "Delete duplicate files",
+      "Change file permissions",
+      "Encrypt user passwords"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What is the primary purpose of compression?",
+    "options": [
+      "Combine user accounts",
+      "Reduce the amount of storage space data requires",
+      "Change file ownership",
+      "Create directories"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which Linux command is commonly used to create and extract archives?",
+    "options": [
+      "tar",
+      "grep",
+      "chmod",
+      "find"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What does the 'c' option mean when used with tar?",
+    "options": [
+      "Copy",
+      "Create an archive",
+      "Compress only",
+      "Check permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 5,
+    "question": "What does the 'x' option mean when used with tar?",
+    "options": [
+      "Execute",
+      "Expand memory",
+      "Extract files from an archive",
+      "Exclude all files"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 6,
+    "question": "What does the 'f' option tell tar?",
+    "options": [
+      "Use the following archive filename",
+      "Force deletion",
+      "Find files",
+      "Format the filesystem"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does the 'v' option commonly mean when used with tar?",
+    "options": [
+      "Verify ownership",
+      "Verbose output",
+      "Virtual archive",
+      "Version control"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "What does 'tar -cf backup.tar Documents/' do?",
+    "options": [
+      "Extracts backup.tar into Documents",
+      "Creates backup.tar containing Documents",
+      "Compresses Documents using gzip",
+      "Deletes Documents after archiving"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "What does 'tar -xf backup.tar' do?",
+    "options": [
+      "Creates backup.tar",
+      "Extracts files from backup.tar",
+      "Compresses backup.tar",
+      "Displays disk space used by backup.tar"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "What does the 'z' option tell tar to use?",
+    "options": [
+      "ZIP compression",
+      "gzip compression",
+      "xz compression",
+      "No compression"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "What does 'tar -czf backup.tar.gz Documents/' do?",
+    "options": [
+      "Creates a gzip-compressed tar archive containing Documents",
+      "Extracts a gzip archive",
+      "Creates an uncompressed directory",
+      "Deletes Documents and creates backup.tar.gz"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which command would extract a gzip-compressed tar archive named backup.tar.gz?",
+    "options": [
+      "tar -czf backup.tar.gz",
+      "tar -xzf backup.tar.gz",
+      "gzip backup.tar.gz",
+      "tar -jf backup.tar.gz"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "In 'tar -xzf backup.tar.gz', what does the combination of x, z, and f mean?",
+    "options": [
+      "Extract, use gzip, and specify the archive file",
+      "Execute, zip, and find",
+      "Extract, use xz, and force deletion",
+      "Create, compress, and format"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which command compresses a file using gzip?",
+    "options": [
+      "gzip report.txt",
+      "tar report.txt",
+      "gunzip report.txt",
+      "grep report.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What filename would normally result from running 'gzip report.txt'?",
+    "options": [
+      "report.tar",
+      "report.zip",
+      "report.txt.gz",
+      "report.gz.txt"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 16,
+    "question": "Which command can decompress a file named report.txt.gz?",
+    "options": [
+      "gzip report.txt.gz",
+      "gunzip report.txt.gz",
+      "tar -cf report.txt.gz",
+      "zip report.txt.gz"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "Which filename extension is commonly associated with bzip2 compression?",
+    "options": [
+      ".gz",
+      ".bz2",
+      ".xz",
+      ".zip2"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 18,
+    "question": "Which filename extension is commonly associated with xz compression?",
+    "options": [
+      ".xz",
+      ".bz2",
+      ".gz",
+      ".txz2"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What does the 'j' option commonly tell tar to use?",
+    "options": [
+      "gzip compression",
+      "bzip2 compression",
+      "xz compression",
+      "ZIP compression"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "What does the 'J' option commonly tell tar to use?",
+    "options": [
+      "xz compression",
+      "gzip compression",
+      "bzip2 compression",
+      "No compression"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What does a filename ending in '.tar.gz' generally indicate?",
+    "options": [
+      "A tar archive that has been compressed using gzip",
+      "A directory that cannot be opened",
+      "A file encrypted with gzip",
+      "A Linux executable"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What is an important difference between tar and gzip?",
+    "options": [
+      "tar primarily archives files together, while gzip primarily compresses data",
+      "gzip creates directories while tar deletes them",
+      "tar only works on Windows",
+      "There is no difference"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "You need to bundle an entire project directory and compress it with gzip. Which command is appropriate?",
+    "options": [
+      "gzip -r project.tar",
+      "tar -czf project.tar.gz project/",
+      "tar -xf project.tar.gz project/",
+      "gunzip project/"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "You receive archive.tar.gz and want to unpack it. Which mental breakdown of 'tar -xzf archive.tar.gz' is correct?",
+    "options": [
+      "x = extract, z = gzip, f = archive filename",
+      "x = xz, z = zip, f = force",
+      "x = execute, z = zero, f = file permissions",
+      "x = extract, z = bzip2, f = filesystem"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which statement BEST explains the relationship between archiving and compression?",
+    "options": [
+      "They are exactly the same operation",
+      "Archiving groups files together, while compression reduces data size; they can be used together",
+      "Compression always creates multiple files",
+      "Archiving always makes files smaller"
+    ],
+    "answerIndex": 1
+  }
+],"Linux Essentials - Pipes and Redirection": [
+  {
+    "index": 1,
+    "question": "What does the pipe symbol '|' do in a Linux command?",
+    "options": [
+      "Sends the output of one command to the input of another command",
+      "Writes output directly to a file",
+      "Deletes the output of a command",
+      "Runs a command as root"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What happens when you run 'ls | sort'?",
+    "options": [
+      "The output of ls is sent to sort",
+      "The output of sort is sent to ls",
+      "The contents of the directory are deleted",
+      "The ls command is saved in a file named sort"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "In the command 'cat names.txt | sort', which command produces the initial output?",
+    "options": [
+      "sort",
+      "cat",
+      "names.txt",
+      "The shell does not produce output"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "In 'cat names.txt | sort', what does sort receive as its input?",
+    "options": [
+      "The contents produced by cat",
+      "The filename names.txt only",
+      "The current directory",
+      "The user's password"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What is standard input commonly abbreviated as?",
+    "options": [
+      "stdin",
+      "stdout",
+      "stderr",
+      "stdfile"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "What is standard output commonly abbreviated as?",
+    "options": [
+      "stdin",
+      "stdout",
+      "stderr",
+      "stdlog"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "What is standard error commonly abbreviated as?",
+    "options": [
+      "stdin",
+      "stdout",
+      "stderr",
+      "errout"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 8,
+    "question": "By default, where does standard output from a command normally appear?",
+    "options": [
+      "On the terminal",
+      "In /etc/passwd",
+      "In the user's home directory",
+      "In a compressed archive"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "Which symbol redirects standard output into a file and normally overwrites that file?",
+    "options": [
+      "|",
+      ">",
+      ">>",
+      "<"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "What does 'ls > files.txt' do?",
+    "options": [
+      "Uses files.txt as input for ls",
+      "Redirects the output of ls into files.txt",
+      "Appends files.txt to the ls command",
+      "Deletes files.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "If files.txt already contains data, what normally happens when you run 'ls > files.txt'?",
+    "options": [
+      "The new output is appended to the existing data",
+      "The existing contents are overwritten by the new output",
+      "Linux refuses to run the command",
+      "The existing file is automatically renamed"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 12,
+    "question": "Which operator redirects output while appending it to the end of an existing file?",
+    "options": [
+      ">",
+      ">>",
+      "|",
+      "<"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "What does 'echo Hello >> notes.txt' normally do?",
+    "options": [
+      "Replaces notes.txt with the word Hello",
+      "Adds Hello to the end of notes.txt",
+      "Uses notes.txt as input for echo",
+      "Deletes the contents of notes.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 14,
+    "question": "You want to save command output to a file without destroying the file's existing contents. Which operator should you use?",
+    "options": [
+      ">",
+      ">>",
+      "<",
+      "|"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "What is the main difference between '>' and '>>'?",
+    "options": [
+      "> normally overwrites while >> normally appends",
+      "> appends while >> deletes",
+      "> handles input while >> handles errors",
+      "There is no difference"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What is the purpose of the '<' redirection operator?",
+    "options": [
+      "Provide input to a command from a file",
+      "Send output to another command",
+      "Append output to a file",
+      "Redirect only error messages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "What does 'sort < names.txt' do?",
+    "options": [
+      "Uses names.txt as input to the sort command",
+      "Writes sorted output into names.txt",
+      "Deletes names.txt after sorting",
+      "Creates a directory named names.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which standard stream has file descriptor 0?",
+    "options": [
+      "Standard input",
+      "Standard output",
+      "Standard error",
+      "Standard log"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Which standard stream has file descriptor 1?",
+    "options": [
+      "Standard input",
+      "Standard output",
+      "Standard error",
+      "Standard archive"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "Which standard stream has file descriptor 2?",
+    "options": [
+      "Standard input",
+      "Standard output",
+      "Standard error",
+      "Standard pipe"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 21,
+    "question": "What does 'command 2> errors.txt' do?",
+    "options": [
+      "Redirects standard output to errors.txt",
+      "Redirects standard error to errors.txt",
+      "Redirects standard input from errors.txt",
+      "Runs the command twice"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 22,
+    "question": "A command produces normal output and error messages. You use '2> errors.txt'. What happens to the normal standard output?",
+    "options": [
+      "It is also automatically written to errors.txt",
+      "It normally continues to its usual destination, such as the terminal",
+      "It is automatically deleted",
+      "It becomes standard input"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "What does 'grep error logfile.txt > matches.txt' accomplish?",
+    "options": [
+      "Searches logfile.txt for 'error' and writes matching output to matches.txt",
+      "Searches matches.txt and writes results into logfile.txt",
+      "Appends the entire logfile to matches.txt",
+      "Redirects matches.txt into grep as input"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What does 'cat names.txt | sort > sorted.txt' do?",
+    "options": [
+      "Displays names.txt without changing the order",
+      "Sends the file contents through sort and saves the sorted output in sorted.txt",
+      "Sorts the filename itself and deletes names.txt",
+      "Uses sorted.txt as input and saves the result in names.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "Which explanation BEST describes the Linux idea of chaining commands together?",
+    "options": [
+      "The output of one command can become the input of another, allowing simple tools to perform more complex tasks together",
+      "Every command must operate independently",
+      "Pipes permanently modify the commands they connect",
+      "Commands can only be combined when running as root"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Text Manipulation and Regex": [
+  {
+    "index": 1,
+    "question": "Which command is commonly used to search text for lines that match a pattern?",
+    "options": [
+      "grep",
+      "mkdir",
+      "chmod",
+      "pwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does 'grep error logfile.txt' do?",
+    "options": [
+      "Deletes lines containing error",
+      "Displays lines in logfile.txt that match the pattern error",
+      "Renames logfile.txt to error",
+      "Counts every file in the directory"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which grep option performs a case-insensitive search?",
+    "options": [
+      "-r",
+      "-i",
+      "-v",
+      "-n"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "You want grep to match 'ERROR', 'Error', and 'error' without caring about capitalization. Which command is appropriate?",
+    "options": [
+      "grep -i error logfile.txt",
+      "grep -v error logfile.txt",
+      "grep -n error logfile.txt",
+      "grep -c error logfile.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What does the '-v' option do with grep?",
+    "options": [
+      "Displays only matching lines",
+      "Displays lines that do NOT match the pattern",
+      "Displays file permissions",
+      "Makes the search case-insensitive"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 6,
+    "question": "What does 'grep -v error logfile.txt' display?",
+    "options": [
+      "Only lines containing error",
+      "Lines that do not match error",
+      "Only the first error",
+      "The number of errors"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "Which grep option can display line numbers with matching lines?",
+    "options": [
+      "-n",
+      "-i",
+      "-v",
+      "-l"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "What does the sort command primarily do?",
+    "options": [
+      "Sorts lines of text",
+      "Deletes duplicate files",
+      "Searches for filenames",
+      "Changes permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What does 'sort names.txt' normally do?",
+    "options": [
+      "Sorts the lines from names.txt and sends the result to standard output",
+      "Permanently sorts names.txt automatically",
+      "Deletes names.txt after sorting",
+      "Renames names.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "You want to save the sorted contents of names.txt into sorted.txt. Which command is appropriate?",
+    "options": [
+      "sort names.txt > sorted.txt",
+      "sort names.txt < sorted.txt",
+      "sorted.txt | sort names.txt",
+      "sort > names.txt sorted.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "What is the uniq command commonly used for?",
+    "options": [
+      "Filtering adjacent duplicate lines",
+      "Finding hidden files",
+      "Changing ownership",
+      "Creating unique usernames"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Why are sort and uniq commonly used together?",
+    "options": [
+      "Sorting places identical lines next to each other so uniq can effectively filter duplicates",
+      "uniq can only read encrypted files",
+      "sort automatically changes file permissions",
+      "Both commands are required to create directories"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does 'sort names.txt | uniq' accomplish?",
+    "options": [
+      "Sorts the lines and then filters adjacent duplicate entries",
+      "Deletes names.txt",
+      "Displays only filenames beginning with uniq",
+      "Changes every name to uppercase"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What is the wc command used for?",
+    "options": [
+      "Counting information such as lines, words, and bytes in text",
+      "Changing the working directory",
+      "Compressing files",
+      "Finding network connections"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which command counts the number of lines in users.txt?",
+    "options": [
+      "wc -l users.txt",
+      "wc -w users.txt",
+      "grep -l users.txt",
+      "sort -l users.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Which command displays the beginning of a text file?",
+    "options": [
+      "tail",
+      "head",
+      "cut",
+      "uniq"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "Which command displays the end of a text file?",
+    "options": [
+      "head",
+      "tail",
+      "sort",
+      "wc"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 18,
+    "question": "You are examining a large log file and want to quickly view its most recent lines. Which command would commonly be useful?",
+    "options": [
+      "head",
+      "tail",
+      "mkdir",
+      "chmod"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "What is the cut command commonly used for?",
+    "options": [
+      "Extracting selected portions or fields from lines of text",
+      "Deleting files permanently",
+      "Splitting a disk partition",
+      "Removing file permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "In a basic regular expression, what does '^' commonly represent?",
+    "options": [
+      "The beginning of a line",
+      "The end of a line",
+      "Any single character",
+      "A directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What does '$' commonly represent in a regular expression?",
+    "options": [
+      "The beginning of a line",
+      "The end of a line",
+      "A literal dollar amount only",
+      "Any number of characters"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 22,
+    "question": "What would 'grep ^root /etc/passwd' search for?",
+    "options": [
+      "Lines that begin with root",
+      "Lines that end with root",
+      "Any file owned by root",
+      "Only the root directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "What would 'grep bash$ /etc/passwd' search for?",
+    "options": [
+      "Lines beginning with bash",
+      "Lines ending with bash",
+      "Any line containing a dollar sign",
+      "Files named bash"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "In a basic regular expression, what does '.' commonly match?",
+    "options": [
+      "Any single character",
+      "Only a literal period",
+      "Any number of characters",
+      "The beginning of a line"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "What does '*' generally mean in a basic regular expression?",
+    "options": [
+      "The preceding element may occur zero or more times",
+      "Exactly one character must appear",
+      "The pattern must occur at the beginning of the line",
+      "The pattern must occur at the end of the line"
+    ],
+    "answerIndex": 0
+  }
 ],
+"Linux Essentials - Shell Scripts": [
+  {
+    "index": 1,
+    "question": "What is a shell script?",
+    "options": [
+      "A text file containing commands that can be interpreted by a shell",
+      "A compressed Linux filesystem",
+      "A special type of user account",
+      "A hardware configuration file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which line is commonly placed at the beginning of a Bash script?",
+    "options": [
+      "#!/bin/bash",
+      "/bin/bash#!",
+      "#bash/bin",
+      "bash#!/bin"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "What is '#!/bin/bash' commonly called?",
+    "options": [
+      "A shebang",
+      "A wildcard",
+      "A pipeline",
+      "A regular expression"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What does the shebang '#!/bin/bash' tell the system?",
+    "options": [
+      "Use /bin/bash as the interpreter for the script",
+      "Run the script as root",
+      "Delete the script after execution",
+      "Store the script in /bin"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What does the echo command commonly do in a shell script?",
+    "options": [
+      "Displays text or variable values",
+      "Changes file ownership",
+      "Creates a user account",
+      "Compresses a script"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "What would 'echo \"Hello World\"' normally do?",
+    "options": [
+      "Create a user named Hello World",
+      "Display Hello World",
+      "Create a file named Hello World",
+      "Change the shell to Hello World"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "Which is the correct way to assign the value Linux to a Bash variable named OS?",
+    "options": [
+      "OS = Linux",
+      "OS=Linux",
+      "$OS=Linux",
+      "set OS = Linux"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "Why is 'name=Alex' valid while 'name = Alex' is normally not a valid Bash variable assignment?",
+    "options": [
+      "Bash variable assignments normally cannot contain spaces around the equals sign",
+      "Linux variables cannot contain letters",
+      "The equals sign can only be used by root",
+      "Variables must always begin with a dollar sign"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "If a script contains 'name=Alex', how would you normally reference the value stored in name?",
+    "options": [
+      "name$",
+      "$name",
+      "#name",
+      "@name"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "Given 'name=Alex', what would 'echo $name' normally display?",
+    "options": [
+      "$name",
+      "name",
+      "Alex",
+      "Nothing because variables cannot be displayed"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 11,
+    "question": "A script named greet.sh is executed as './greet.sh Karen'. What does $1 normally represent inside the script?",
+    "options": [
+      "The script's first command-line argument, Karen",
+      "The name greet.sh",
+      "The script's process ID",
+      "The number of commands in the script"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "In a shell script, what does $0 normally represent?",
+    "options": [
+      "The script or command name used to invoke it",
+      "The first user argument",
+      "The root user's UID",
+      "The current exit status"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "A script is run as './adduser.sh sam developers'. What does $2 normally contain?",
+    "options": [
+      "adduser.sh",
+      "sam",
+      "developers",
+      "The script's PID"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 14,
+    "question": "What does '$?' normally contain in Bash?",
+    "options": [
+      "The exit status of the most recently executed command",
+      "The current username",
+      "The first script argument",
+      "The current working directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What does an exit status of 0 normally indicate?",
+    "options": [
+      "The command completed successfully",
+      "The command definitely failed",
+      "The script must be run as root",
+      "The system is shutting down"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What does a non-zero exit status generally indicate?",
+    "options": [
+      "Some type of error or unsuccessful condition occurred",
+      "The command was successful",
+      "The user is root",
+      "The command produced no output"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "What is the purpose of an if statement in a shell script?",
+    "options": [
+      "Execute commands based on whether a condition is satisfied",
+      "Create compressed archives",
+      "Change the current shell permanently",
+      "Assign every user root privileges"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which keyword commonly completes an if statement in a Bash script?",
+    "options": [
+      "done",
+      "fi",
+      "end",
+      "stop"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "What is the purpose of a loop in a shell script?",
+    "options": [
+      "Repeat commands according to a condition or set of values",
+      "Change file ownership",
+      "Create a filesystem",
+      "Start a graphical desktop"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "Which of the following is a common loop type in Bash?",
+    "options": [
+      "for",
+      "repeatonly",
+      "cyclefile",
+      "iteratecmd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Which keyword commonly marks the end of a for or while loop in Bash?",
+    "options": [
+      "fi",
+      "done",
+      "endloop",
+      "exit"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 22,
+    "question": "A script has permissions '-rw-r--r--'. Why might './script.sh' return Permission denied?",
+    "options": [
+      "The script does not have execute permission",
+      "The script does not have read permission",
+      "Every script must be owned by root",
+      "Bash scripts cannot use .sh extensions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Which command can add execute permission to a script named script.sh?",
+    "options": [
+      "chmod +x script.sh",
+      "chown +x script.sh",
+      "touch +x script.sh",
+      "bash +x script.sh"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What does './script.sh' mean when entered at the command line?",
+    "options": [
+      "Execute script.sh located in the current directory",
+      "Search the entire filesystem for script.sh",
+      "Copy script.sh into the current directory",
+      "Open script.sh as the root user"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "A script cannot be executed directly with './backup.sh', but 'bash backup.sh' works. What is the BEST explanation?",
+    "options": [
+      "Giving the file directly to Bash does not require the script itself to have execute permission in the same way direct execution does",
+      "Bash automatically makes every script owned by root",
+      "The .sh extension prevents direct execution",
+      "The script must be stored in /bin before './backup.sh' can work"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Choosing Linux Distributions": [
+  {
+    "index": 1,
+    "question": "What is one of the most important factors when choosing a Linux distribution?",
+    "options": [
+      "The intended use of the system",
+      "The color of the default desktop",
+      "The length of the distribution's name",
+      "Whether the computer has a mouse"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which Linux distribution is based on Debian?",
+    "options": [
+      "Fedora",
+      "Ubuntu",
+      "openSUSE",
+      "CentOS Stream"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which distribution is closely associated with Red Hat and often introduces technologies that may later appear in Red Hat Enterprise Linux?",
+    "options": [
+      "Debian",
+      "Ubuntu",
+      "Fedora",
+      "Linux Mint"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 4,
+    "question": "What does RHEL stand for?",
+    "options": [
+      "Red Hat Enterprise Linux",
+      "Remote Hardware Environment Linux",
+      "Red Hat Essential License",
+      "Reliable Host Enterprise Layer"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "Which distribution is designed primarily for enterprise environments with commercial support available from Red Hat?",
+    "options": [
+      "Fedora",
+      "Red Hat Enterprise Linux",
+      "Arch Linux",
+      "Linux Mint"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 6,
+    "question": "What is a major reason a business might choose an enterprise Linux distribution?",
+    "options": [
+      "Long-term support, stability, and professional support options",
+      "Enterprise distributions never require updates",
+      "They eliminate the need for administrators",
+      "They can only run one application at a time"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What is a major difference between a community distribution and a commercial enterprise distribution?",
+    "options": [
+      "Enterprise distributions may include formal commercial support and longer support commitments",
+      "Community distributions do not use Linux kernels",
+      "Enterprise distributions cannot use open source software",
+      "Community distributions cannot connect to networks"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Which Linux distribution is strongly associated with Canonical?",
+    "options": [
+      "Ubuntu",
+      "Fedora",
+      "Debian",
+      "openSUSE"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "Which Linux distribution is developed by a community and serves as the foundation for Ubuntu?",
+    "options": [
+      "Fedora",
+      "Debian",
+      "RHEL",
+      "openSUSE"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "Which distribution is associated with the SUSE family?",
+    "options": [
+      "openSUSE",
+      "Ubuntu",
+      "Fedora",
+      "Debian"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which package format is traditionally associated with Debian-based distributions?",
+    "options": [
+      ".deb",
+      ".rpm",
+      ".taronly",
+      ".exe"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which package format is commonly associated with Red Hat-based distributions?",
+    "options": [
+      ".deb",
+      ".rpm",
+      ".dmg",
+      ".exe"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "Which package management tool is commonly associated with Debian and Ubuntu systems?",
+    "options": [
+      "apt",
+      "dnf",
+      "rpm",
+      "zypper"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which package management tool is commonly associated with modern Fedora systems?",
+    "options": [
+      "apt",
+      "dnf",
+      "dpkg-only",
+      "pacman"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "Which package management tool is commonly associated with openSUSE?",
+    "options": [
+      "zypper",
+      "apt",
+      "pacman",
+      "brew"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "You are administering Ubuntu and want to install software from its configured repositories. Which tool should immediately come to mind?",
+    "options": [
+      "apt",
+      "dnf",
+      "rpm",
+      "zypper"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "You are administering Fedora and want to install a package while automatically handling dependencies. Which tool is most appropriate?",
+    "options": [
+      "apt",
+      "dnf",
+      "dpkg",
+      "tar"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 18,
+    "question": "Why can the release cycle of a Linux distribution matter when choosing one?",
+    "options": [
+      "It affects how frequently new versions, features, and updates may be introduced",
+      "It determines the user's UID",
+      "It controls the size of every file",
+      "It determines whether Linux has a kernel"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What does LTS commonly mean when discussing a Linux distribution release?",
+    "options": [
+      "Linux Terminal System",
+      "Long Term Support",
+      "Limited Technical Software",
+      "Local Transfer Service"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "Why might an organization prefer an LTS release for an important production system?",
+    "options": [
+      "It generally emphasizes a longer period of maintenance and updates",
+      "It guarantees the system will never require patches",
+      "It automatically makes every user root",
+      "It eliminates the need for backups"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "A developer wants access to relatively new Linux technologies and is comfortable with a faster release cycle. Which type of distribution might be appropriate?",
+    "options": [
+      "A distribution focused on newer software and frequent releases",
+      "A distribution that never receives updates",
+      "A system without a package manager",
+      "A distribution that only supports obsolete hardware"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "A company needs a Linux server expected to remain in production for years with predictable security updates and vendor support. What should be prioritized?",
+    "options": [
+      "Long-term support, stability, and support availability",
+      "The newest desktop wallpaper",
+      "The largest possible number of preinstalled games",
+      "Changing distributions every few weeks"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Your organization already has administrators experienced with Debian-based systems and software packaged as .deb files. Which factor could reasonably influence the choice of a new distribution?",
+    "options": [
+      "Existing staff experience and compatibility with the current ecosystem",
+      "The administrator's favorite terminal color",
+      "Whether the distribution name contains the word Linux",
+      "The number of letters in the distribution name"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which statement BEST describes why there is no single 'best' Linux distribution for every situation?",
+    "options": [
+      "Different distributions emphasize different goals such as stability, ease of use, new software, enterprise support, or specialized workloads",
+      "Linux distributions are randomly generated",
+      "Every Linux distribution requires different computer hardware",
+      "Only one distribution can run server applications"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "You are evaluating two Linux distributions for a production server. Which question is MOST useful?",
+    "options": [
+      "Which distribution best meets the workload, support, stability, software, and maintenance requirements?",
+      "Which distribution has the coolest logo?",
+      "Which distribution has the shortest name?",
+      "Which distribution was downloaded most recently?"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Hardware": [
+  {
+    "index": 1,
+    "question": "What is the primary role of the CPU in a computer?",
+    "options": [
+      "Store files permanently",
+      "Execute instructions and perform calculations",
+      "Provide network addresses",
+      "Store user passwords"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 2,
+    "question": "What is RAM primarily used for?",
+    "options": [
+      "Permanent file storage",
+      "Temporary storage for data and programs currently being used",
+      "Storing the Linux kernel permanently",
+      "Providing network connectivity"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What normally happens to data stored in RAM when the computer loses power?",
+    "options": [
+      "It is preserved permanently",
+      "It is lost",
+      "It is automatically copied to /etc",
+      "It becomes read-only"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "Which of the following is typically used for persistent storage?",
+    "options": [
+      "RAM",
+      "CPU cache",
+      "SSD",
+      "CPU registers"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 5,
+    "question": "What is a major difference between an SSD and a traditional HDD?",
+    "options": [
+      "An SSD generally uses flash memory while an HDD uses spinning magnetic disks",
+      "An SSD can only store Linux files",
+      "An HDD has no moving parts",
+      "An SSD is a type of RAM"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command displays information about memory usage on a Linux system?",
+    "options": [
+      "free",
+      "pwd",
+      "grep",
+      "chmod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "What does 'free -h' display?",
+    "options": [
+      "Disk space in hexadecimal",
+      "Memory usage in a human-readable format",
+      "Only free disk partitions",
+      "CPU temperature"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "A Linux system is running slowly and you suspect it is running low on RAM. Which command would be useful to check?",
+    "options": [
+      "mkdir",
+      "free -h",
+      "pwd",
+      "host"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "Which command can display information about PCI devices in a Linux computer?",
+    "options": [
+      "lsusb",
+      "lspci",
+      "lsmem",
+      "pcishow"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "Which type of hardware might appear in the output of lspci?",
+    "options": [
+      "PCI-connected network or graphics devices",
+      "Only USB flash drives",
+      "Only user accounts",
+      "Shell variables"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command displays information about USB devices connected to a Linux system?",
+    "options": [
+      "lspci",
+      "lsusb",
+      "usbshow",
+      "free"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 12,
+    "question": "You connect a USB device and want to verify that Linux recognizes it. Which command would be useful?",
+    "options": [
+      "lsusb",
+      "chmod",
+      "pwd",
+      "useradd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "Which command is useful for viewing messages generated by the Linux kernel?",
+    "options": [
+      "dmesg",
+      "touch",
+      "passwd",
+      "tar"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Why might dmesg be useful when troubleshooting hardware?",
+    "options": [
+      "Kernel messages can contain information about detected devices and hardware problems",
+      "It automatically repairs damaged hardware",
+      "It changes hardware permissions",
+      "It installs every missing driver"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What is the purpose of the /dev directory?",
+    "options": [
+      "Store user documents",
+      "Contain device files representing hardware and other devices",
+      "Store only system logs",
+      "Contain software source code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 16,
+    "question": "What does a device file under /dev allow Linux programs to do?",
+    "options": [
+      "Interact with devices through filesystem-like interfaces",
+      "Automatically replace physical hardware",
+      "Create new user accounts",
+      "Download Linux distributions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which of the following could represent a storage device in /dev?",
+    "options": [
+      "/dev/sda",
+      "/etc/sda",
+      "/home/sda",
+      "/var/user"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "If /dev/sda represents a disk, what might /dev/sda1 represent?",
+    "options": [
+      "A user account",
+      "A partition on that disk",
+      "A network address",
+      "A shell"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "What is a disk partition?",
+    "options": [
+      "A logical division of a storage device",
+      "A Linux user group",
+      "A running process",
+      "A network protocol"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What type of information is available through the /proc virtual filesystem?",
+    "options": [
+      "Information about processes and the running system",
+      "Only personal documents",
+      "Only deleted files",
+      "Software installation packages"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Why is /proc described as a virtual filesystem?",
+    "options": [
+      "Its information is provided by the kernel rather than being ordinary files permanently stored on disk",
+      "It only exists on virtual machines",
+      "It contains files downloaded from the internet",
+      "It cannot be accessed from the command line"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Where could you look for detailed information about the system's CPU?",
+    "options": [
+      "/proc/cpuinfo",
+      "/etc/password",
+      "/home/cpu",
+      "/dev/users"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "Where could you look for detailed information about system memory?",
+    "options": [
+      "/proc/meminfo",
+      "/etc/memory",
+      "/dev/ram.txt",
+      "/home/memory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "A newly connected hardware device is not working. Which troubleshooting approach makes the MOST sense?",
+    "options": [
+      "Check whether Linux detects the device using tools such as lspci, lsusb, or dmesg",
+      "Immediately delete /dev",
+      "Change every file permission to 777",
+      "Create a new root account"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "Which statement BEST describes the relationship between Linux and computer hardware?",
+    "options": [
+      "Applications always communicate directly with hardware without involving Linux",
+      "The Linux kernel manages hardware resources and provides interfaces that software can use",
+      "Hardware is managed entirely by the Bash shell",
+      "Linux only manages files and has no role in hardware"
+    ],
+    "answerIndex": 1
+  }
+],"Linux Essentials - Filesystem": [
+  {
+    "index": 1,
+    "question": "What does the '/' directory represent in Linux?",
+    "options": [
+      "The root of the entire filesystem",
+      "The root user's home directory",
+      "The current user's home directory",
+      "The temporary files directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which directory commonly contains users' personal home directories?",
+    "options": [
+      "/etc",
+      "/home",
+      "/var",
+      "/boot"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which directory commonly contains system-wide configuration files?",
+    "options": [
+      "/tmp",
+      "/home",
+      "/etc",
+      "/boot"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 4,
+    "question": "Which directory commonly contains data that changes while the system is running, such as logs?",
+    "options": [
+      "/var",
+      "/boot",
+      "/home",
+      "/dev"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "Where are Linux system log files commonly stored?",
+    "options": [
+      "/etc/log",
+      "/home/log",
+      "/var/log",
+      "/usr/log"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 6,
+    "question": "What is the primary purpose of the /tmp directory?",
+    "options": [
+      "Store temporary files",
+      "Store user passwords",
+      "Store bootloader files",
+      "Store permanent user documents"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Which directory commonly contains files required during the Linux boot process?",
+    "options": [
+      "/home",
+      "/boot",
+      "/tmp",
+      "/var/log"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "Which directory contains device files that represent hardware and other devices?",
+    "options": [
+      "/proc",
+      "/etc",
+      "/dev",
+      "/home"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 9,
+    "question": "Which directory provides virtual files containing information about processes and the running system?",
+    "options": [
+      "/proc",
+      "/boot",
+      "/home",
+      "/tmp"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "What type of content is commonly associated with /usr?",
+    "options": [
+      "User applications, libraries, and shared system resources",
+      "Only user home directories",
+      "Only temporary files",
+      "Only system logs"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "What is a filesystem?",
+    "options": [
+      "A method used to organize and store files and directories on storage",
+      "A Linux user account",
+      "A network protocol",
+      "A running process"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which of the following is a filesystem commonly used with Linux?",
+    "options": [
+      "ext4",
+      "HTTP",
+      "SSH",
+      "Bash"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does it mean to mount a filesystem?",
+    "options": [
+      "Make the filesystem accessible at a location in the Linux directory tree",
+      "Compress the filesystem",
+      "Delete the filesystem",
+      "Convert the filesystem into RAM"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What is a mount point?",
+    "options": [
+      "A directory where a mounted filesystem becomes accessible",
+      "The root user's password",
+      "A file containing CPU information",
+      "A type of symbolic link"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which command can display currently mounted filesystems?",
+    "options": [
+      "mount",
+      "mkdir",
+      "touch",
+      "passwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Which command is commonly used to display available and used space on mounted filesystems?",
+    "options": [
+      "du",
+      "df",
+      "free",
+      "pwd"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "What does 'df -h' provide?",
+    "options": [
+      "Filesystem disk-space information in a human-readable format",
+      "RAM usage in a human-readable format",
+      "A list of hidden files",
+      "Directory sizes only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which command is commonly used to determine how much disk space a particular directory or set of files is using?",
+    "options": [
+      "df",
+      "du",
+      "free",
+      "mount"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 19,
+    "question": "What does 'du -sh Documents/' commonly display?",
+    "options": [
+      "A summarized human-readable size for Documents/",
+      "All mounted filesystems",
+      "Available RAM",
+      "The permissions of Documents/"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "Your root filesystem is nearly full and you want an overview of filesystem capacity. Which command should you try first?",
+    "options": [
+      "free -h",
+      "df -h",
+      "pwd",
+      "chmod"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 21,
+    "question": "After discovering a filesystem is nearly full, you want to investigate which directory is consuming significant space. Which command would be useful?",
+    "options": [
+      "du",
+      "passwd",
+      "host",
+      "whoami"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What is an inode used to store?",
+    "options": [
+      "Metadata about a filesystem object, such as permissions and ownership",
+      "Only the filename",
+      "The user's password",
+      "The computer's IP address"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "What is a symbolic link?",
+    "options": [
+      "A special file that points to another path",
+      "A duplicate user account",
+      "A compressed archive",
+      "A filesystem partition"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which command creates a symbolic link named shortcut that points to report.txt?",
+    "options": [
+      "ln report.txt shortcut",
+      "ln -s report.txt shortcut",
+      "cp -s report.txt shortcut",
+      "link -r report.txt shortcut"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "What is an important difference between a hard link and a symbolic link?",
+    "options": [
+      "A hard link references the same inode and file data, while a symbolic link stores a path to another file",
+      "A symbolic link always contains a complete copy of the original file",
+      "A hard link can only point to directories",
+      "There is no difference between them"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Networking": [
+  {
+    "index": 1,
+    "question": "What is the primary purpose of an IP address?",
+    "options": [
+      "Identify a device or network interface on an IP network",
+      "Identify a Linux user's password",
+      "Determine file permissions",
+      "Store DNS records locally"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which of the following is a valid IPv4 address?",
+    "options": [
+      "192.168.1.25",
+      "192.168.300.1",
+      "10.20.30.400",
+      "192:168:1:25"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "How many bits are in an IPv4 address?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "How many bits are in an IPv6 address?",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 5,
+    "question": "Which address is associated with the IPv4 loopback interface?",
+    "options": [
+      "0.0.0.0",
+      "127.0.0.1",
+      "255.255.255.255",
+      "192.168.1.1"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 6,
+    "question": "What hostname commonly refers to the local computer itself?",
+    "options": [
+      "gateway",
+      "localhost",
+      "broadcast",
+      "internet"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 7,
+    "question": "What is the purpose of a subnet mask or network prefix?",
+    "options": [
+      "Determine which portion of an IP address identifies the network",
+      "Encrypt network traffic",
+      "Translate hostnames into IP addresses",
+      "Determine a user's permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "What is the purpose of a default gateway?",
+    "options": [
+      "Provide a route to destinations outside the local network",
+      "Assign Linux usernames",
+      "Translate domain names",
+      "Store website files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "A computer can communicate with devices on its local network but cannot reach remote networks. Which configuration should you investigate?",
+    "options": [
+      "Default gateway",
+      "File permissions",
+      "Shell history",
+      "Home directory"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "What does DNS primarily do?",
+    "options": [
+      "Translates names such as example.com into IP addresses",
+      "Assigns file permissions",
+      "Encrypts every network connection",
+      "Controls CPU usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "You can successfully connect to a server using its IP address but not its hostname. What is a likely problem?",
+    "options": [
+      "DNS name resolution",
+      "RAM",
+      "File ownership",
+      "Disk compression"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which command can display or manipulate network interface and IP address information on modern Linux systems?",
+    "options": [
+      "ip",
+      "tar",
+      "chmod",
+      "grep"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does 'ip addr' commonly display?",
+    "options": [
+      "Network interfaces and their address information",
+      "Only DNS server addresses",
+      "User account information",
+      "Filesystem usage"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which command is commonly used to test whether another IP host is reachable?",
+    "options": [
+      "ping",
+      "mkdir",
+      "passwd",
+      "touch"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "What protocol does the ping utility primarily use?",
+    "options": [
+      "HTTP",
+      "ICMP",
+      "SSH",
+      "FTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 16,
+    "question": "What is the purpose of the hostname command?",
+    "options": [
+      "Display or work with the system's hostname",
+      "Display all user passwords",
+      "Create DNS servers",
+      "Display disk partitions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which command can be used to perform DNS lookups for a hostname?",
+    "options": [
+      "host",
+      "free",
+      "chmod",
+      "mkdir"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "What is a network port used to identify?",
+    "options": [
+      "A particular network service or application endpoint",
+      "A physical disk partition",
+      "A Linux user account",
+      "A directory in /home"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Which port is commonly associated with SSH?",
+    "options": [
+      "21",
+      "22",
+      "53",
+      "80"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 20,
+    "question": "Which port is commonly associated with HTTP?",
+    "options": [
+      "22",
+      "25",
+      "53",
+      "80"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 21,
+    "question": "Which port is commonly associated with HTTPS?",
+    "options": [
+      "80",
+      "110",
+      "443",
+      "808"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 22,
+    "question": "Which port is commonly associated with DNS?",
+    "options": [
+      "22",
+      "53",
+      "80",
+      "443"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "Which statement correctly distinguishes TCP from UDP?",
+    "options": [
+      "TCP is connection-oriented, while UDP is connectionless",
+      "UDP guarantees delivery while TCP does not",
+      "TCP can only be used on Linux",
+      "UDP requires a filesystem while TCP does not"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "Which command is useful for examining listening sockets and network connections on a modern Linux system?",
+    "options": [
+      "ss",
+      "ls",
+      "du",
+      "whoami"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "A Linux server has the correct IP address and can reach its gateway, but users cannot connect to the expected service. What is a useful next troubleshooting step?",
+    "options": [
+      "Use a tool such as ss to verify whether the expected service is listening on the correct port",
+      "Immediately reinstall Linux",
+      "Delete the network interface",
+      "Change every file permission to 777"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Command Line Utilities": [
+  {
+    "index": 1,
+    "question": "Which command displays the current date and time?",
+    "options": [
+      "date",
+      "time",
+      "clock",
+      "calendar"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which command displays a calendar in the terminal?",
+    "options": [
+      "date",
+      "cal",
+      "clock",
+      "month"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which command displays the username of the current user?",
+    "options": [
+      "whoami",
+      "who",
+      "users",
+      "idname"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What information does the id command commonly display?",
+    "options": [
+      "User and group identity information such as UID and GID",
+      "Only the current directory",
+      "Disk usage information",
+      "Network interface addresses"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What is the difference between whoami and id?",
+    "options": [
+      "whoami displays the current username, while id can provide UID, GID, and group information",
+      "whoami displays disk usage while id displays RAM usage",
+      "id only works for root",
+      "There is no difference"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which command can display users who are currently logged into the system?",
+    "options": [
+      "who",
+      "pwd",
+      "free",
+      "grep"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Which command provides information about logged-in users and what they are doing?",
+    "options": [
+      "w",
+      "cp",
+      "df",
+      "touch"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "What does the history command display?",
+    "options": [
+      "Previously entered shell commands",
+      "Previously deleted files",
+      "Previous user passwords",
+      "Previous Linux installations"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "Why can shell history be useful?",
+    "options": [
+      "It allows you to review and reuse commands that were entered previously",
+      "It automatically backs up the filesystem",
+      "It records every user's password",
+      "It permanently prevents command errors"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which command displays running processes?",
+    "options": [
+      "ps",
+      "ls",
+      "cp",
+      "pwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "What does 'ps aux' commonly provide?",
+    "options": [
+      "A detailed list of running processes",
+      "A list of mounted filesystems",
+      "A list of user passwords",
+      "A list of compressed archives"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "Which utility provides an interactive, continuously updated view of running processes and system activity?",
+    "options": [
+      "top",
+      "cat",
+      "touch",
+      "mkdir"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "A Linux computer is running slowly and you suspect a process is consuming significant CPU resources. Which utility would be useful?",
+    "options": [
+      "top",
+      "pwd",
+      "mkdir",
+      "cal"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What is a PID?",
+    "options": [
+      "A Process ID that identifies a running process",
+      "A user's password identifier",
+      "A partition installation directory",
+      "A package installation database"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which command can send a signal to a process using its PID?",
+    "options": [
+      "kill",
+      "rm",
+      "delete",
+      "stopfile"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "What does the kill command actually do?",
+    "options": [
+      "Sends a signal to a process",
+      "Always immediately deletes a program from disk",
+      "Deletes a user account",
+      "Shuts down Linux"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "You identify a problematic process with PID 4250. Which command could request that the process terminate?",
+    "options": [
+      "kill 4250",
+      "rm 4250",
+      "stop /4250",
+      "delete --pid 4250"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which command searches for files and directories by walking through a directory hierarchy?",
+    "options": [
+      "find",
+      "grep",
+      "where",
+      "search"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What does 'find /home -name \"report.txt\"' attempt to do?",
+    "options": [
+      "Search under /home for an entry named report.txt",
+      "Create report.txt inside /home",
+      "Display the contents of report.txt",
+      "Rename /home to report.txt"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "Which command searches a prebuilt database for filenames and can often return results faster than find?",
+    "options": [
+      "locate",
+      "grep",
+      "pwd",
+      "whereis"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "What is an important limitation of locate compared with find?",
+    "options": [
+      "Its database may not contain very recent filesystem changes until the database is updated",
+      "It can only search for directories",
+      "It requires every file to be executable",
+      "It only works on network filesystems"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "Which command can show the path of an executable that would run when you enter a command name?",
+    "options": [
+      "which",
+      "who",
+      "finduser",
+      "pwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "What would 'which python' commonly help determine?",
+    "options": [
+      "Which Python executable would be found through the current PATH",
+      "Which user installed Python",
+      "Which files were created with Python",
+      "Which network port Python uses"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What is the PATH environment variable used for?",
+    "options": [
+      "Specify directories the shell searches for executable commands",
+      "Store the current user's password",
+      "Specify the filesystem's total capacity",
+      "Store network routing information"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "You type a command name and receive 'command not found', even though you believe the program is installed. Which issue would be reasonable to investigate?",
+    "options": [
+      "Whether the executable's directory is included in PATH",
+      "Whether /tmp contains enough files",
+      "Whether your hostname is localhost",
+      "Whether the program has a .txt extension"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Users": [
+  {
+    "index": 1,
+    "question": "What is the purpose of a user account in Linux?",
+    "options": [
+      "Identify a user and determine which resources they can access",
+      "Identify a hard drive partition",
+      "Store network routing information",
+      "Control CPU temperature"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does UID stand for?",
+    "options": [
+      "User Installation Directory",
+      "User Identifier",
+      "Unix Internal Device",
+      "Universal Internet Domain"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "Which UID is traditionally assigned to the root user?",
+    "options": [
+      "1",
+      "1000",
+      "0",
+      "500"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 4,
+    "question": "What does GID stand for?",
+    "options": [
+      "Group Identifier",
+      "General Installation Directory",
+      "Global Internet Device",
+      "Graphical Interface Driver"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "What is the purpose of groups in Linux?",
+    "options": [
+      "Allow permissions and access to be assigned to collections of users",
+      "Combine multiple files into archives",
+      "Assign IP addresses",
+      "Create disk partitions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which file contains basic Linux user account information?",
+    "options": [
+      "/etc/passwd",
+      "/etc/shadow",
+      "/etc/users",
+      "/home/passwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Which information is commonly stored in /etc/passwd?",
+    "options": [
+      "Usernames, UIDs, GIDs, home directories, and login shells",
+      "Users' plaintext passwords",
+      "Only administrator passwords",
+      "Network interface configuration"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "Where are password hashes commonly stored on a modern Linux system?",
+    "options": [
+      "/etc/passwd",
+      "/etc/shadow",
+      "/home/passwords",
+      "/var/password"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 9,
+    "question": "Why is /etc/shadow normally more restricted than /etc/passwd?",
+    "options": [
+      "It contains sensitive password-related information",
+      "It contains the Linux kernel",
+      "It stores every user's personal documents",
+      "It contains network routing information"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "Which file contains information about Linux groups?",
+    "options": [
+      "/etc/group",
+      "/etc/users",
+      "/etc/groups.txt",
+      "/home/group"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 11,
+    "question": "Which command displays the UID, GID, and group memberships associated with a user?",
+    "options": [
+      "id",
+      "pwd",
+      "groupset",
+      "passwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What does the whoami command display?",
+    "options": [
+      "The current effective username",
+      "All users on the system",
+      "The current user's password",
+      "The current user's home directory only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "Which command is commonly used by an administrator to create a new user account?",
+    "options": [
+      "useradd",
+      "newaccount",
+      "mkuserfile",
+      "touchuser"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "Which command is commonly used to change a user's password?",
+    "options": [
+      "passwd",
+      "password",
+      "usermod -p only",
+      "chmod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "A logged-in user runs 'passwd' without specifying another username. Whose password will they normally attempt to change?",
+    "options": [
+      "Their own password",
+      "The root password",
+      "Every user's password",
+      "The first user's password"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Which command can be used to modify an existing Linux user account?",
+    "options": [
+      "usermod",
+      "useradd",
+      "usereditfile",
+      "chmoduser"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "Which command is commonly used to delete a user account?",
+    "options": [
+      "userdel",
+      "rmuserfile",
+      "deleteaccount",
+      "rmdiruser"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which command is commonly used to create a new group?",
+    "options": [
+      "groupadd",
+      "useradd",
+      "mkgroupdir",
+      "chmod"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "What is a user's primary group?",
+    "options": [
+      "The main group associated with the user's account",
+      "The group containing only root",
+      "The first group created on the system",
+      "A group used only for networking"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What is a supplementary group?",
+    "options": [
+      "An additional group membership that can provide access to shared resources",
+      "A backup copy of the primary group",
+      "A group that can only contain root",
+      "A group used only during installation"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 21,
+    "question": "Which command can display the groups to which the current user belongs?",
+    "options": [
+      "groups",
+      "groupadd",
+      "pwd",
+      "who"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What is a user's home directory primarily intended for?",
+    "options": [
+      "The user's personal files and user-specific configuration",
+      "System-wide configuration only",
+      "Kernel device files",
+      "System boot files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "A user named sam has the entry 'sam:x:1001:1001:Sam:/home/sam:/bin/bash' in /etc/passwd. What does '/home/sam' represent?",
+    "options": [
+      "Sam's login shell",
+      "Sam's home directory",
+      "Sam's password",
+      "Sam's group name"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "In the entry 'sam:x:1001:1001:Sam:/home/sam:/bin/bash', what does '/bin/bash' represent?",
+    "options": [
+      "Sam's home directory",
+      "Sam's UID",
+      "Sam's login shell",
+      "Sam's password hash"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 25,
+    "question": "Why is it useful to understand UIDs and GIDs instead of thinking only in terms of usernames and group names?",
+    "options": [
+      "Linux internally uses numeric identifiers to associate users and groups with ownership and permissions",
+      "UIDs determine IP addresses",
+      "GIDs determine filesystem sizes",
+      "Usernames are not supported by Linux"
+    ],
+    "answerIndex": 0
+  }
+],"Linux Essentials - Permissions and Ownership": [
+  {
+    "index": 1,
+    "question": "Which three basic permissions can be assigned to Linux files and directories?",
+    "options": [
+      "read, write, execute",
+      "open, close, delete",
+      "copy, move, rename",
+      "owner, group, other"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "Which letter represents read permission?",
+    "options": [
+      "r",
+      "w",
+      "x",
+      "d"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 3,
+    "question": "Which letter represents write permission?",
+    "options": [
+      "r",
+      "w",
+      "x",
+      "e"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 4,
+    "question": "Which letter represents execute permission?",
+    "options": [
+      "e",
+      "r",
+      "w",
+      "x"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 5,
+    "question": "In a permission string such as '-rwxr-xr--', what do the three permission groups represent?",
+    "options": [
+      "root, administrator, guest",
+      "user/owner, group, others",
+      "read, write, execute",
+      "file, directory, link"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 6,
+    "question": "In '-rwxr-xr--', what permissions does the owner have?",
+    "options": [
+      "Read only",
+      "Read and write",
+      "Read, write, and execute",
+      "Read and execute"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 7,
+    "question": "In '-rwxr-xr--', what permissions does the group have?",
+    "options": [
+      "Read, write, and execute",
+      "Read and execute",
+      "Write and execute",
+      "Read only"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 8,
+    "question": "In '-rwxr-xr--', what permissions do others have?",
+    "options": [
+      "Read only",
+      "Read and write",
+      "Read and execute",
+      "No permissions"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "What does the first character in '-rwxr-xr--' indicate?",
+    "options": [
+      "The owner's read permission",
+      "The type of filesystem object",
+      "The group permission",
+      "The file's UID"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 10,
+    "question": "What does a 'd' at the beginning of a long listing permission string indicate?",
+    "options": [
+      "The object is deleted",
+      "The object is a directory",
+      "The object is a device",
+      "The object has default permissions"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 11,
+    "question": "Which command is used to change file permissions?",
+    "options": [
+      "chmod",
+      "chown",
+      "chgrp",
+      "passwd"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "What does 'chmod u+x script.sh' do?",
+    "options": [
+      "Adds execute permission for the file's owner",
+      "Removes execute permission from everyone",
+      "Changes the owner to x",
+      "Adds execute permission only to the group"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 13,
+    "question": "What does 'chmod g-w report.txt' do?",
+    "options": [
+      "Adds write permission for the group",
+      "Removes write permission from the group",
+      "Removes write permission from the owner",
+      "Changes the file's group"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 14,
+    "question": "What does 'chmod o+r report.txt' do?",
+    "options": [
+      "Adds read permission for others",
+      "Removes read permission from others",
+      "Adds read permission to the owner only",
+      "Changes the owner of the file"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 15,
+    "question": "Which numeric value represents read permission?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "7"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 16,
+    "question": "Which numeric value represents write permission?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 17,
+    "question": "Which numeric value represents execute permission?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "What permissions does the numeric value 7 represent?",
+    "options": [
+      "Read only",
+      "Read and write",
+      "Read and execute",
+      "Read, write, and execute"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "index": 19,
+    "question": "What permissions does the numeric value 6 represent?",
+    "options": [
+      "Read and write",
+      "Read and execute",
+      "Write and execute",
+      "Execute only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "What permissions does the numeric value 5 represent?",
+    "options": [
+      "Read and write",
+      "Write and execute",
+      "Read and execute",
+      "Read only"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 21,
+    "question": "What permissions are represented by chmod 755?",
+    "options": [
+      "Owner: rwx, Group: r-x, Others: r-x",
+      "Owner: rw-, Group: r--, Others: r--",
+      "Owner: rwx, Group: rwx, Others: rwx",
+      "Owner: r-x, Group: r-x, Others: r-x"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What permissions are represented by chmod 644?",
+    "options": [
+      "Owner: rwx, Group: r--, Others: r--",
+      "Owner: rw-, Group: r--, Others: r--",
+      "Owner: rw-, Group: rw-, Others: rw-",
+      "Owner: r--, Group: r--, Others: r--"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 23,
+    "question": "What permissions are represented by chmod 700?",
+    "options": [
+      "Everyone has read, write, and execute",
+      "Owner has rwx while group and others have no permissions",
+      "Owner has read only while everyone else has execute",
+      "Owner has rw- while group and others have r--"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 24,
+    "question": "Which command changes the owner of report.txt to sam?",
+    "options": [
+      "chmod sam report.txt",
+      "chown sam report.txt",
+      "chgrp sam report.txt",
+      "usermod sam report.txt"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 25,
+    "question": "Which command changes the group ownership of report.txt to developers?",
+    "options": [
+      "chmod developers report.txt",
+      "chown -x developers report.txt",
+      "chgrp developers report.txt",
+      "groupadd report.txt developers"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 26,
+    "question": "What does 'chown sam:developers report.txt' do?",
+    "options": [
+      "Changes the owner to sam and the group to developers",
+      "Changes the permissions to sam and developers",
+      "Creates users named sam and developers",
+      "Copies report.txt to the developers group"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "For a regular file, what does execute permission allow?",
+    "options": [
+      "The file can potentially be run as a program or script",
+      "The file can only be read",
+      "The file can only be renamed",
+      "The file automatically runs as root"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 28,
+    "question": "What does execute permission on a directory primarily allow?",
+    "options": [
+      "The directory itself runs as a program",
+      "The user can traverse or access entries within the directory when other permissions allow",
+      "The user can always delete every file in the directory",
+      "The directory becomes executable code"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 29,
+    "question": "A script has permissions '-rw-r--r--' and cannot be directly executed. Which change would address the missing permission for the owner?",
+    "options": [
+      "chmod u+x script.sh",
+      "chmod u-r script.sh",
+      "chown root script.sh",
+      "chmod g-w script.sh"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 30,
+    "question": "A file should allow its owner to read and write it, while everyone else should only be able to read it. Which mode is appropriate?",
+    "options": [
+      "777",
+      "755",
+      "644",
+      "700"
+    ],
+    "answerIndex": 2
+  }
+],"Linux Essentials - Special Permissions and Sticky Bit": [
+  {
+    "index": 1,
+    "question": "Which three special permissions are available on Linux files and directories?",
+    "options": [
+      "SUID, SGID, and sticky bit",
+      "Read, write, and execute",
+      "Owner, group, and others",
+      "Root, user, and guest"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 2,
+    "question": "What does SUID stand for?",
+    "options": [
+      "System User Identification",
+      "Set User ID",
+      "Special User Installation Directory",
+      "Secure User Internet Device"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 3,
+    "question": "What does SGID stand for?",
+    "options": [
+      "Set Group ID",
+      "System Group Identification",
+      "Secure Group Installation Directory",
+      "Shared General ID"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 4,
+    "question": "What is the effect of SUID on an executable file?",
+    "options": [
+      "The program can run with the effective privileges of the file's owner",
+      "The program always runs with the privileges of the file's group",
+      "Anyone can delete the file",
+      "The program becomes read-only"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 5,
+    "question": "Why can SUID be useful?",
+    "options": [
+      "It can allow users to perform specific tasks requiring the file owner's privileges without giving them unrestricted access to that account",
+      "It gives every user permanent root access",
+      "It automatically encrypts files",
+      "It prevents programs from executing"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 6,
+    "question": "Which common Linux command is traditionally an example of a program that may use SUID?",
+    "options": [
+      "passwd",
+      "pwd",
+      "ls",
+      "echo"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 7,
+    "question": "Why might the passwd command need special privileges?",
+    "options": [
+      "It needs controlled access to protected password-related information when changing a user's password",
+      "It needs to change the Linux kernel",
+      "It needs to format the filesystem",
+      "It needs to assign IP addresses"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 8,
+    "question": "How is SUID commonly displayed in a symbolic permission string when execute permission is also present?",
+    "options": [
+      "An s in the owner's execute position",
+      "An s in the others' read position",
+      "A t in the owner's execute position",
+      "An x in the group write position"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 9,
+    "question": "Which permission string indicates that SUID is set and owner execute permission is present?",
+    "options": [
+      "-rwsr-xr-x",
+      "-rwxr-sr-x",
+      "-rwxr-xr-t",
+      "-rw-r--r--"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 10,
+    "question": "What is the numeric value used to represent SUID in the special permission digit?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "7"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 11,
+    "question": "What is the effect of SGID on an executable file?",
+    "options": [
+      "The program can run with the effective group privileges associated with the file",
+      "The program always runs as root",
+      "The file becomes hidden",
+      "The file cannot be executed"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 12,
+    "question": "How is SGID commonly displayed when group execute permission is also present?",
+    "options": [
+      "An s in the owner's execute position",
+      "An s in the group's execute position",
+      "A t in the group's execute position",
+      "An x in the owner's read position"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 13,
+    "question": "Which permission string indicates that SGID is set?",
+    "options": [
+      "-rwxr-sr-x",
+      "-rwsr-xr-x",
+      "-rwxr-xr-t",
+      "-rwx------"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 14,
+    "question": "What is the numeric value used to represent SGID in the special permission digit?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 15,
+    "question": "What is an important effect of SGID when applied to a directory?",
+    "options": [
+      "New files and directories created inside can inherit the directory's group ownership",
+      "Every file becomes owned by root",
+      "All users gain write access automatically",
+      "The directory is automatically deleted when empty"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 16,
+    "question": "Why is SGID useful on a shared project directory?",
+    "options": [
+      "It can help files created by different users remain associated with the project's shared group",
+      "It makes every file executable",
+      "It gives every project member root access",
+      "It prevents users from creating files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 17,
+    "question": "What is the main purpose of the sticky bit on a shared writable directory?",
+    "options": [
+      "Restrict deletion or renaming so users cannot normally remove files owned by other users",
+      "Make every file executable",
+      "Give all users root privileges",
+      "Prevent users from reading their own files"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 18,
+    "question": "Which directory is a classic example of where the sticky bit is useful?",
+    "options": [
+      "/tmp",
+      "/boot",
+      "/proc",
+      "/etc"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 19,
+    "question": "Why is the sticky bit useful on /tmp?",
+    "options": [
+      "Many users can create files there, but they should not normally be able to delete files belonging to other users",
+      "Only root is allowed to create files in /tmp",
+      "It makes all temporary files executable",
+      "It prevents /tmp from using disk space"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 20,
+    "question": "How is the sticky bit commonly displayed when execute permission for others is also present?",
+    "options": [
+      "An s in the owner's execute position",
+      "An s in the group's execute position",
+      "A t in the others' execute position",
+      "A t in the owner's read position"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 21,
+    "question": "Which permission string indicates that the sticky bit is set?",
+    "options": [
+      "drwxrwxrwt",
+      "drwsrwxrwx",
+      "drwxrwsrwx",
+      "drwx------"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 22,
+    "question": "What numeric value represents the sticky bit?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 23,
+    "question": "What does 'chmod 1777 shared/' indicate?",
+    "options": [
+      "Sticky bit plus rwx permissions for owner, group, and others",
+      "SUID plus rwx permissions for everyone",
+      "SGID plus read-only permissions",
+      "Sticky bit with permissions only for the owner"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 24,
+    "question": "What does 'chmod 4755 program' indicate?",
+    "options": [
+      "SUID is set and the regular permissions are rwxr-xr-x",
+      "SGID is set and the regular permissions are rwxr-xr-x",
+      "Sticky bit is set and the regular permissions are rwxr-xr-x",
+      "All special permissions are set"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 25,
+    "question": "What does 'chmod 2755 shared/' indicate?",
+    "options": [
+      "SUID is set",
+      "SGID is set",
+      "Sticky bit is set",
+      "No special permission is set"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 26,
+    "question": "Which command can symbolically add the SUID permission to an executable?",
+    "options": [
+      "chmod u+s program",
+      "chmod g+s program",
+      "chmod o+t program",
+      "chown +s program"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "index": 27,
+    "question": "Which command can symbolically add SGID to a shared directory?",
+    "options": [
+      "chmod u+s shared/",
+      "chmod g+s shared/",
+      "chmod o+s shared/",
+      "chgrp +s shared/"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "index": 28,
+    "question": "Which command can symbolically add the sticky bit to a directory?",
+    "options": [
+      "chmod u+t shared/",
+      "chmod g+t shared/",
+      "chmod +t shared/",
+      "chown +t shared/"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 29,
+    "question": "An administrator wants a shared directory where users can create files but cannot normally delete files belonging to other users. Which special permission should be considered?",
+    "options": [
+      "SUID",
+      "SGID only",
+      "Sticky bit",
+      "Execute permission only"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "index": 30,
+    "question": "A team shares a project directory and wants newly created files to inherit the project's group ownership. Which special permission is most appropriate on the directory?",
+    "options": [
+      "SUID",
+      "SGID",
+      "Sticky bit",
+      "Read-only"
+    ],
+    "answerIndex": 1
+  }
+],
+
 }
   
   
