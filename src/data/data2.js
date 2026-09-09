@@ -12542,6 +12542,783 @@ const questions = {
     ],
     "answerIndex": 1
   }
+],"Fundamentals of Information Security - D430": [
+  {
+    id: 1,
+    question:
+      "An organization's acceptable use policy (AUP) for remote employees classifies connecting unapproved devices to the organization's network or other IT resources as unacceptable. Which area of security is directly mitigated by the organization's policy on unapproved devices?",
+    options: [
+      "Human element security",
+      "Physical security",
+      "Operating system security",
+      "Application security"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 2,
+    question:
+      "Existing company policies specify the use of individual user accounts, administrative accounts, and guest accounts, each with a different level of access to internal resources. Which information security principle justifies the company's use of accounts with various access levels?",
+    options: [
+      "Least privilege",
+      "Authenticity",
+      "Non-repudiation",
+      "Possession"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 3,
+    question:
+      "An organization's procedures document states that all electronic communications should be encrypted during transmission across networks using encryption standards specified in the data encryption policy. Which security principle is this policy addressing?",
+    options: [
+      "Confidentiality",
+      "Interruption",
+      "Control",
+      "Availability"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 4,
+    question:
+      "An organization sees an increase in recent operating system vulnerabilities. To address these vulnerabilities, the organization modifies its patching procedures to install critical security patches within 10 days of release. Which defense in depth layer does the new policy address?",
+    options: [
+      "Host",
+      "Data",
+      "Application",
+      "Network"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 5,
+    question:
+      "A new software development company has determined that one of its proprietary algorithms is at a high risk for unauthorized disclosure. The company's security up to this point has been fairly lax. Which procedure should the company implement to protect this asset?",
+    options: [
+      "Relocate the algorithm to encrypted storage.",
+      "Create multiple off-site backups of the algorithm.",
+      "Store the algorithm on highly available servers.",
+      "Transfer the algorithm onto servers in the demilitarized zone."
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 6,
+    question:
+      "An accounting firm stores financial data for many customers. The company policy requires that employees only access data for customers they are assigned to. The company implements a written policy indicating an employee can be fired for violating this requirement. Which type of control has the company implemented?",
+    options: [
+      "Deterrent",
+      "Detective",
+      "Preventive",
+      "Active"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 7,
+    question:
+      "A company's incident response team (IRT) is reviewing a potential malicious IP that was alerted through the SIEM tool. This is an example of which step of the incident response process?",
+    options: [
+      "Preparation",
+      "Detection and analysis",
+      "Containment and eradication",
+      "Post-incident activity"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 8,
+    question:
+      "An organization's IT infrastructure includes network switches, file servers, and database servers. What should the organization use to minimize false positives and protect the infrastructure from known attacks?",
+    options: [
+      "Signature-based intrusion detection",
+      "Anomaly-based intrusion detection",
+      "Stateful packet inspection",
+      "Deep packet inspection"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 9,
+    question:
+      "An organization wants to minimize the impact of user credential theft by ensuring that only HR staff can access employee personal information. Which security mechanism should it implement?",
+    options: [
+      "Turn on logging and auditing.",
+      "Remove all unnecessary services.",
+      "Apply the principle of least privilege.",
+      "Apply the latest software patches."
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 10,
+    question:
+      "An organization wants to prevent malware from infecting its workstations, mobile devices, and web applications. Which security tool should it implement?",
+    options: [
+      "Antivirus",
+      "Firewall",
+      "Fuzzer",
+      "Scanner"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 11,
+    question:
+      "Which approach hardens an operating system under the principle of least privilege?",
+    options: [
+      "Restrict user access to operating system files and functions.",
+      "Remove all unnecessary software from the operating system.",
+      "Disable the operating system's administrator account.",
+      "Remove all nonessential services from the operating system."
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 12,
+    question:
+      "Which access control model is concerned with confidentiality?",
+    options: [
+      "Biba",
+      "Brewer and Nash",
+      "Sutherland",
+      "Bell-LaPadula"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 13,
+    question:
+      "A corporation has discovered that some confidential personnel information has been used inappropriately. How can the principle of least privilege be applied to limit access to confidential personnel records?",
+    options: [
+      "Only allow access to those who work in the human resources department.",
+      "Only allow access to those who need access to perform their job.",
+      "Only allow access to department heads and executives.",
+      "Only allow access to those with elevated security permissions."
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 14,
+    question:
+      "The IT department is updating its policies and procedures to ensure that critical functions continue to operate during an expected hurricane. Which policies and procedures are being updated?",
+    options: [
+      "Disaster recovery plan",
+      "Business continuity plan",
+      "Physical security plan",
+      "Program management plan"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 15,
+    question:
+      "A health company must comply with HIPAA regulations. It decides to encrypt databases that contain HIPAA information. Which resource is the health company directly trying to protect?",
+    options: [
+      "Application",
+      "Server",
+      "Data",
+      "Operating system"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 16,
+    question:
+      "A small web development company has office space with an Internet connection. It uses cloud providers for all its IT needs, except for the laptops that are issued to its employees. The company always keeps its software up to date, uses strong passwords, and employees bring their laptops home with them when they leave, but recently the company has fallen prey to phishing attacks. Which type of resource should the company focus on securing?",
+    options: [
+      "Human element",
+      "Operating system",
+      "Network devices",
+      "Physical premise"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 17,
+    question:
+      "A user runs an application that has been infected with malware that is less than 24 hours old. The malware then infects the operating system. Which safeguard should be implemented to prevent this type of attack?",
+    options: [
+      "Limit user account privileges.",
+      "Modify the default user accounts.",
+      "Install the latest security updates.",
+      "Uninstall unnecessary software."
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 18,
+    question:
+      "A user runs an application that has been infected with malware. This malware then performs a brute force attack on the built-in administrator account on Windows systems. The malware successfully cracks the password, and is used to compromise other systems in the environment. Which safeguard should be implemented to prevent this type of attack?",
+    options: [
+      "Turn on logging and auditing.",
+      "Modify the default user accounts.",
+      "Disable remote desktop access.",
+      "Uninstall unnecessary software."
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 19,
+    question:
+      "A module in a security awareness course shows a user making use of two-factor authentication using a hardware token. Which security failure is being addressed by this training module?",
+    options: [
+      "Weak passwords",
+      "Tailgating",
+      "Malware infections",
+      "Pretexting"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 20,
+    question:
+      "Which security tool can evaluate web applications for cross-site scripting (XSS) vulnerabilities on a Linux web server?",
+    options: [
+      "Wireshark",
+      "Network IDS",
+      "Nikto",
+      "Packet filtering"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 21,
+    question:
+      "The network at a secure facility is entirely wired, and company policy bans the use of wireless connections. It is suspected that a rogue access point has been set up, providing unauthorized wireless access. Which cybersecurity tool should be used to detect whether the suspected rogue access point exists?",
+    options: [
+      "Kismet",
+      "Nmap",
+      "Wireshark",
+      "Scapy"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 22,
+    question:
+      "Which tool should an application developer use to help identify input validation vulnerabilities?",
+    options: [
+      "A fuzzer",
+      "A sniffer",
+      "A scanner",
+      "A filter"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 23,
+    question:
+      "A systems administrator enables operating system logging to capture unsuccessful log in attempts. Which attack can be uncovered by reviewing such logs?",
+    options: [
+      "Brute force",
+      "Denial of service",
+      "Stolen password",
+      "Spear phishing"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 24,
+    question:
+      "In addition to a username and corresponding password, a desktop application asks users to submit a special code. This code is produced by an application running on the users' mobile phone. Which authentication technique is the phone application providing?",
+    options: [
+      "Something you have",
+      "Something you know",
+      "Something you are",
+      "Something you do"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 25,
+    question:
+      "A restaurant needs to protect its customers' credit card information. Which security standard should the restaurant follow?",
+    options: [
+      "PCI DSS",
+      "SOX",
+      "FERPA",
+      "FISMA"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 26,
+    question:
+      "Which aspect of the CIA triad is violated by an unauthorized database roll back or undo?",
+    options: [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Identification"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 27,
+    question:
+      "Which principle is employed to protect data from being changed in an unauthorized or undesirable manner?",
+    options: [
+      "Availability",
+      "Confidentiality",
+      "Integrity",
+      "Authenticity"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 28,
+    question:
+      "Which aspect of the CIA triad refers to the ability to prevent data from being changed in an unauthorized manner?",
+    options: [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Identification"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 29,
+    question:
+      "A team of students is working remotely on content for a course. Some students experience an outage when the IP address is not satisfied. The course project manager provides a secondary method for accessing the course content. Which principle of security within the CIA triad has the project manager increased?",
+    options: [
+      "Utility",
+      "Confidentiality",
+      "Integrity",
+      "Availability"
+    ],
+    answerIndex: 3
+  }, {
+  id: 30,
+  question: "Which technology is considered private key cryptography?",
+  options: [
+    "Symmetric key",
+    "Asymmetric key",
+    "Hashing",
+    "Encryption"
+  ],
+  answerIndex: 0
+},
+{
+  id: 31,
+  question: "Which method increases security by breaking the network down into smaller subnets?",
+  options: [
+    "Segmentation",
+    "Segregation",
+    "Separation",
+    "Substitution"
+  ],
+  answerIndex: 0
+},
+{
+  id: 32,
+  question: "An organization employs a VPN to safeguard its information. Which security principle is protected by a VPN?",
+  options: [
+    "Data in motion",
+    "Data in storage",
+    "Data at rest",
+    "Data in use"
+  ],
+  answerIndex: 0
+},
+{
+  id: 33,
+  question: "A malicious hacker was successful in a denial of service (DoS) attack against an institution's mail server. Fortunately, no data was lost or altered while the server was offline. Which type of attack is this?",
+  options: [
+    "Interruption",
+    "Interception",
+    "Modification",
+    "Fabrication"
+  ],
+  answerIndex: 0
+},
+{
+  id: 34,
+  question: "A company has had several successful denial of service (DoS) attacks on its email server. Which security principle is being attacked?",
+  options: [
+    "Availability",
+    "Confidentiality",
+    "Integrity",
+    "Possession"
+  ],
+  answerIndex: 0
+},
+{
+  id: 35,
+  question: "What is permanence in the context of biometric-equipped devices?",
+  options: [
+    "The resistance of a biometric characteristic to change over time",
+    "The ease of collecting measurements for a biometric characteristic",
+    "The uniqueness of a measurement for a biometric characteristic",
+    "The existence of a biometric characteristic among the majority of people"
+  ],
+  answerIndex: 0
+},
+{
+  id: 36,
+  question: "Which security mechanism is typically placed at network borders to control the flow of traffic in and out of networks?",
+  options: [
+    "Firewall",
+    "Sniffer",
+    "Honeypot",
+    "Scanner"
+  ],
+  answerIndex: 0
+},
+{
+  id: 37,
+  question: "A company has an annual audit of installed software and data storage systems. During the audit, the auditor asks how the company's most critical data is used. This determination helps the auditor ensure that the proper defense mechanisms are in place to protect critical data. Which principle of the Parkerian hexad is the auditor addressing?",
+  options: [
+    "Utility",
+    "Possession",
+    "Authenticity",
+    "Integrity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 38,
+  question: "Users are required to insert a physical USB token and enter a password prior to accessing their workstation. Which security concept is illustrated by the workstation access scenario?",
+  options: [
+    "Authentication",
+    "Authorization",
+    "Identification",
+    "Encryption"
+  ],
+  answerIndex: 0
+},
+{
+  id: 39,
+  question: "Which web attack is possible due to a lack of input validation?",
+  options: [
+    "SQL injection",
+    "Cross-site request forgery",
+    "Clickjacking",
+    "Extraneous files"
+  ],
+  answerIndex: 0
+},
+{
+  id: 40,
+  question: "Which principle of the CIA triad is affected by interception attacks on data?",
+  options: [
+    "Confidentiality",
+    "Integrity",
+    "Availability",
+    "Authentication"
+  ],
+  answerIndex: 0
+},
+{
+  id: 41,
+  question: "Which principle of the CIA triad is protected by a debit card PIN?",
+  options: [
+    "Confidentiality",
+    "Information",
+    "Availability",
+    "Control"
+  ],
+  answerIndex: 0
+},
+{
+  id: 42,
+  question: "A company institutes a new policy that \"All office computer monitors must face toward employees and must face away from doorways. The monitor screens must not be visible to people visiting the office.\" Which principle of the CIA triad is this company applying?",
+  options: [
+    "Confidentiality",
+    "Utility",
+    "Integrity",
+    "Availability"
+  ],
+  answerIndex: 0
+},
+{
+  id: 43,
+  question: "A company's website has suffered several denial of service (DoS) attacks and wishes to thwart future attacks. Which security principle is the company addressing?",
+  options: [
+    "Availability",
+    "Confidentiality",
+    "Possession",
+    "Authenticity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 44,
+  question: "Some malware hides itself by replacing some system administrator commands on a server, but the server continues to function normally for its users. Which component of the CIA triad has been compromised?",
+  options: [
+    "Integrity",
+    "Availability",
+    "Authenticity",
+    "Confidentiality"
+  ],
+  answerIndex: 0
+},
+{
+  id: 45,
+  question: "A student throws out a printed copy of a computer program that she was working on. Another student picks the program out of the trash. Which leg of the CIA triad has been targeted?",
+  options: [
+    "Confidentiality",
+    "Availability",
+    "Control",
+    "Authenticity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 46,
+  question: "Which component of the CIA triad is impacted if an attacker runs a sniffer?",
+  options: [
+    "Confidentiality",
+    "Availability",
+    "Authenticity",
+    "Integrity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 47,
+  question: "Which leg of the CIA triad is directly targeted by a distributed denial-of-service (DDoS) attack that overwhelms servers?",
+  options: [
+    "Availability",
+    "Confidentiality",
+    "Integrity",
+    "Authorization"
+  ],
+  answerIndex: 0
+},
+{
+  id: 48,
+  question: "Which asymmetric cryptographic algorithm can provide confidentiality for data in motion?",
+  options: [
+    "RSA",
+    "3DES",
+    "AES",
+    "MD5"
+  ],
+  answerIndex: 0
+},
+{
+  id: 49,
+  question: "An IT department manager is concerned that data being sent across the internet from the homes of remote employees is viewable by unauthorized users. To address this, the IT department implements virtual private networks (VPNs) using Internet Security Protocol (IPSec). Which category of data is protected by the IT department's use of an IPSec VPN?",
+  options: [
+    "Data in motion",
+    "Data at rest",
+    "Data in use",
+    "Data in storage"
+  ],
+  answerIndex: 0
+},
+{
+  id: 50,
+  question: "A network administrator wants users to be able to send data confidentially from an untrusted network to internal network resources securely. Which security solution provides a complete solution to the administrator's goal?",
+  options: [
+    "SSL",
+    "VPN",
+    "AES",
+    "PKI"
+  ],
+  answerIndex: 1
+},
+{
+  id: 51,
+  question: "An organization stores its critical backups on optical media. What should this media be protected from to avoid damage or corruption?",
+  options: [
+    "Heat",
+    "Magnetic fields",
+    "Humidity",
+    "Electric fields"
+  ],
+  answerIndex: 0
+},
+{
+  id: 52,
+  question: "A company has just completed an audit of disaster protection strategies. The company has decided it must keep and be able to retrieve backup data for a period of 30 years. The company has implemented tape backups using 8mm digital audio tapes. Which factor could impact the company's ability to access information from the backup tapes?",
+  options: [
+    "Technical obsolescence",
+    "Tape access speed",
+    "Reading tape header",
+    "Network speed"
+  ],
+  answerIndex: 0
+},
+{
+  id: 53,
+  question: "A university research group wants to collect data on animals that are native to southern Arizona, which is a hot, dry region. They plan to camp in tents for the summer at the edge of a national park and to use optical media to backup photos and research notes. Which physical or environmental factor may damage their optical media?",
+  options: [
+    "Electric shocks",
+    "Temperature",
+    "Humidity",
+    "Magnetic fields"
+  ],
+  answerIndex: 1
+},
+{
+  id: 54,
+  question: "A company developing and distributing open source applications realizes that attackers are copying the publicly available, open source code and inserting malware into the code. Which type of cryptographic tool should the company use to protect the integrity of its open source applications?",
+  options: [
+    "Hash functions",
+    "Asymmetric cryptography",
+    "Symmetric cryptography",
+    "Block cipher"
+  ],
+  answerIndex: 0
+},
+{
+  id: 55,
+  question: "An organization suffers a data breach via an SQL injection attack on a web application. Which control prevents this type of attack?",
+  options: [
+    "Input validation",
+    "Internet security protocol",
+    "Security awareness training",
+    "Network segmentation"
+  ],
+  answerIndex: 0
+},
+{
+  id: 56,
+  question: "After considerable research, attackers directed a spear phishing attack at employees at a single bank. One employee opened a message, resulting in a breach that delivered ransomware. Which type of control should be implemented to prevent future spear phishing attacks?",
+  options: [
+    "Mutual authentication",
+    "Strong passwords",
+    "Input validation",
+    "Employee training"
+  ],
+  answerIndex: 3
+},
+{
+  id: 57,
+  question: "A company has instituted a policy to prevent data leakage. The policy requires that any data stored on USB storage devices must be encrypted with at least 256-bit encryption. Which principle that is part of the Parkerian hexad but not the CIA triad would be violated if one of these devices was stolen?",
+  options: [
+    "Possession",
+    "Confidentiality",
+    "Authenticity",
+    "Integrity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 58,
+  question: "An employee's laptop was stolen while traveling for business. Fortunately, the hard drive was encrypted with a strong password and the critical data was backed up on corporate servers. Which security principle found in the Parkerian hexad was violated in this scenario?",
+  options: [
+    "Control",
+    "Confidentiality",
+    "Utility",
+    "Integrity"
+  ],
+  answerIndex: 0
+},
+{
+  id: 59,
+  question: "Which category of attack violates integrity by corrupting a hard drive?",
+  options: [
+    "Interruption",
+    "Interception",
+    "Modification",
+    "Fabrication"
+  ],
+  answerIndex: 2
+},
+{
+  id: 60,
+  question: "An attacker has performed an SQL injection attack on an organization's database server and has gained read-only access to confidential information. Which type of attack is this?",
+  options: [
+    "Interception",
+    "Interruption",
+    "Fabrication",
+    "Modification"
+  ],
+  answerIndex: 0
+},
+{
+  id: 61,
+  question: "Which category of attack violates confidentiality if a classified email is viewed over an employee's shoulder?",
+  options: [
+    "Interception",
+    "Interruption",
+    "Modification",
+    "Fabrication"
+  ],
+  answerIndex: 0
+},
+{
+  id: 62,
+  question: "A bank website accepts online loan applications. It requires applicants to review and sign a disclosure document explaining the organization's information sharing practices. Which federal law protects consumer's financial information?",
+  options: [
+    "SOX",
+    "FERPA",
+    "HIPAA",
+    "GLBA"
+  ],
+  answerIndex: 3
+},
+{
+  id: 63,
+  question: "A retail store has hired a third party to audit its computer and network systems that process credit card payments. Which industry standard is the retail store addressing?",
+  options: [
+    "PCI DSS",
+    "FERPA",
+    "SOX",
+    "HIPAA"
+  ],
+  answerIndex: 0
+},
+{
+  id: 64,
+  question: "While visiting a country in the European Union, an American purchases an expensive bottle of perfume with a credit card. What does the European Union Directive 95/46/EC regulation safeguard for the purchaser?",
+  options: [
+    "Personally identifiable information",
+    "Right to return goods",
+    "Computer fraud and abuse",
+    "Unfair trade practices"
+  ],
+  answerIndex: 0
+},
+{
+  id: 65,
+  question: "In order to continue processing credit card payments, a retail store arranges for an external auditor to perform regular external and internal vulnerability scans. Which regulation are they addressing?",
+  options: [
+    "PCI DSS",
+    "HIPAA",
+    "GLBA",
+    "FCRA"
+  ],
+  answerIndex: 0
+},
+{
+  id: 66,
+  question: "A hospital allows its patients to pay by credit card. Which set of regulations apply to the hospital's operations?",
+  options: [
+    "HIPAA and PCI DSS",
+    "HIPAA and FCRA",
+    "FERPA and HITECH",
+    "FERPA and PCI DSS"
+  ],
+  answerIndex: 0
+},
+{
+  id: 67,
+  question: "Which U.S. law defines security standards exclusively for federal agencies?",
+  options: [
+    "FISMA",
+    "FERPA",
+    "HIPAA",
+    "GLBA"
+  ],
+  answerIndex: 0
+},
+{
+  id: 68,
+  question: "Which U.S. law regulates the confidentiality and accuracy of a publicly traded corporation's financial reports?",
+  options: [
+    "SOX",
+    "FERPA",
+    "FISMA",
+    "HIPAA"
+  ],
+  answerIndex: 0
+}
 ],
 
 }
