@@ -13320,6 +13320,449 @@ const questions = {
   answerIndex: 0
 }
 ],
+"ITIL 4 Foundation": [
+  {
+    id: 1,
+    question: "What is the effect of increased automation on the 'service desk' practice?",
+    options: [
+      "Greater ability to focus on customer experience when personal contact is needed",
+      "Decrease in self-service incident logging and resolution",
+      "Increased ability to focus on fixing technology instead of supporting people",
+      "Elimination of the need to escalate incidents to support teams"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 2,
+    question: "Which term describes the functionality offered by a service?",
+    options: [
+      "Cost",
+      "Utility",
+      "Warranty",
+      "Risk"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 3,
+    question: "Which is the purpose of the 'monitoring and event management' practice?",
+    options: [
+      "To ensure that accurate and reliable information about the configuration of services is available when and where it is needed",
+      "To systematically observe services and service components, and record and report selected changes of state",
+      "To protect the information needed by the organization to conduct its business",
+      "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 4,
+    question: "What should all 'continual improvement' decisions be based on?",
+    options: [
+      "Details of how services are measured",
+      "Accurate and carefully analyzed data",
+      "An up-to-date balanced scorecard",
+      "A recent maturity assessment"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 5,
+    question: "How do all value chain activities transform inputs to outputs?",
+    options: [
+      "By determining service demand",
+      "By using a combination of practices",
+      "By using a single functional team",
+      "By implementing process automation"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 6,
+    question: "How does customer engagement contribute to the 'service level management' practice?\n\n1. It captures information that metrics can be based on\n2. It ensures the organization meets defined service levels\n3. It defines the workflows for service requests\n4. It supports progress discussions",
+    options: [
+      "1 and 2",
+      "2 and 3",
+      "3 and 4",
+      "1 and 4"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 7,
+    question: "What is the starting point for optimization?",
+    options: [
+      "Securing stakeholder engagement",
+      "Understanding the vision and objectives of the organization",
+      "Determining where the most positive impact would be",
+      "Standardizing practices and services"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 8,
+    question: "Identify the missing words in the following sentence.\n\nThe purpose of the [?] is to ensure that the organization continually co-creates value with all stakeholders in line with the organization's objectives.",
+    options: [
+      "'focus on value' guiding principle",
+      "four dimensions of service management",
+      "'service value system'",
+      "'service request management' practice"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 9,
+    question: "Which practice provides support for managing feedback, compliments and complaints from users?",
+    options: [
+      "Change enablement",
+      "Service request management",
+      "Problem management",
+      "Incident management"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 10,
+    question: "Which joint activity performed by a service provider and service consumer ensures continual value co-creation?",
+    options: [
+      "Service provision",
+      "Service consumption",
+      "Service offering",
+      "Service relationship management"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 11,
+    question: "Which practice may involve the initiation of disaster recovery?",
+    options: [
+      "Incident management",
+      "Service request management",
+      "Service level management",
+      "IT asset management"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 12,
+    question: "What type of change is MOST likely to be managed by the 'service request management' practice?",
+    options: [
+      "A normal change",
+      "An emergency change",
+      "A standard change",
+      "An application change"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 13,
+    question: "Which guiding principle emphasizes the need to understand the flow of work in progress, identify bottlenecks, and uncover waste?",
+    options: [
+      "Focus on value",
+      "Collaborate and promote visibility",
+      "Think and work holistically",
+      "Keep it simple and practical"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 14,
+    question: "What is a means of enabling value co-creation by facilitating outcomes that customers want to achieve?",
+    options: [
+      "A service",
+      "An output",
+      "A practice",
+      "Continual improvement"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 15,
+    question: "Which statement about change authorization is CORRECT?",
+    options: [
+      "A change authority should be assigned to each type of change and change model",
+      "Centralizing change authorization to a single person is the most effective means of authorization",
+      "The authorization of normal changes should be expedited to ensure they can be implemented quickly",
+      "Standard changes are high risk and should be authorized by the highest level of change authority"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 16,
+    question: "Which dimension of service management considers governance, management, and communication?",
+    options: [
+      "Organizations and people",
+      "Information and technology",
+      "Partners and suppliers",
+      "Value streams and processes"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 17,
+    question: "Identify the missing word in the following sentence.\n\nA known error is a problem that has been [?] and has not been resolved.",
+    options: [
+      "logged",
+      "analyzed",
+      "escalated",
+      "closed"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 18,
+    question: "Which statement about known errors and problems is CORRECT?",
+    options: [
+      "Known error is the status assigned to a problem after it has been analyzed",
+      "A known error is the cause of one or more problems",
+      "Known errors cause vulnerabilities, problems cause incidents",
+      "Known errors are managed by technical staff, problems are managed by service management staff"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 19,
+    question: "What does the 'service request management' practice depend on for maximum efficiency?",
+    options: [
+      "Compliments and complaints",
+      "Self-service tools",
+      "Processes and procedures",
+      "Incident management"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 20,
+    question: "Which statement about the 'service desk' practice is CORRECT?",
+    options: [
+      "It provides a link with stakeholders at strategic and tactical levels",
+      "It carries out change assessment and authorization",
+      "It investigates the cause of incidents",
+      "It needs a practical understanding of the business processes"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 21,
+    question: "Which practice ensures that accurate and reliable information is available about configuration items and the relationships between them?",
+    options: [
+      "Service configuration management",
+      "Service desk",
+      "IT asset management",
+      "Monitoring and event management"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 22,
+    question: "Which practice has a purpose that includes restoring normal service operation as quickly as possible?",
+    options: [
+      "Supplier management",
+      "Deployment management",
+      "Problem management",
+      "Incident management"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 23,
+    question: "Identify the missing word in the following sentence.\n\nA customer is the role that defines the requirements for a service and takes responsibility for the [?] of service consumption.",
+    options: [
+      "outputs",
+      "outcomes",
+      "costs",
+      "risks"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 24,
+    question: "Which guiding principle describes the importance of doing something, instead of spending a long time analyzing different options?",
+    options: [
+      "Optimize and automate",
+      "Start where you are",
+      "Focus on value",
+      "Progress iteratively with feedback"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 25,
+    question: "What should be done for every problem?",
+    options: [
+      "It should be diagnosed to identify possible solutions",
+      "It should be prioritized based on its potential impact and probability",
+      "It should be resolved so that it can be closed",
+      "It should have a workaround to reduce the impact"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 26,
+    question: "How should an organization include third-party suppliers in the continual improvement of services?",
+    options: [
+      "Ensure suppliers include details of their approach to service improvement in contracts",
+      "Require evidence that the supplier uses agile development methods",
+      "Require evidence that the supplier implements all improvements using project management practices",
+      "Ensure that all supplier problem management activities result in improvements"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 27,
+    question: "What considerations influence the supplier strategy of an organization?",
+    options: [
+      "Contracts and agreements",
+      "Type of cooperation with suppliers",
+      "Corporate culture of the organization",
+      "Level of formality"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 28,
+    question: "What is a problem?",
+    options: [
+      "An addition or modification that could have an effect on services",
+      "Any change of state that has significance for the management of a configuration item",
+      "A cause or potential cause of one or more incidents",
+      "An unplanned reduction in the quality of a service"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 29,
+    question: "What is the purpose of the 'relationship management' practice?",
+    options: [
+      "To align the organization's practices and services with changing business needs",
+      "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+      "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors",
+      "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 30,
+    question: "Which is intended to help an organization adopt and adapt ITIL guidance?",
+    options: [
+      "The four dimensions of service management",
+      "The guiding principles",
+      "The service value chain",
+      "Practices"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 31,
+    question: "What is an output?",
+    options: [
+      "A change of state that has significance for the management of a configuration item",
+      "A possible event that could cause harm or loss",
+      "A result for a stakeholder",
+      "Something created by carrying out an activity"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 32,
+    question: "What is the reason for using a balanced bundle of service metrics?",
+    options: [
+      "It reduces the number of metrics that need to be collected",
+      "It reports each service element separately",
+      "It provides an outcome-based view of services",
+      "It facilitates the automatic collection of metrics"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 33,
+    question: "Why should incidents be prioritized?",
+    options: [
+      "To help automated matching of incidents to problems or known errors",
+      "To identify which support team the incident should be escalated to",
+      "To ensure that incidents with the highest business impact are resolved first",
+      "To encourage a high level of collaboration within and between teams"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 34,
+    question: "Which practice has a purpose that includes helping the organization to maximize value, control costs and manage risks?",
+    options: [
+      "Relationship management",
+      "IT asset management",
+      "Release management",
+      "Service desk"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 35,
+    question: "Why should service desk staff detect recurring issues?",
+    options: [
+      "To help identify problems",
+      "To escalate incidents to the correct support team",
+      "To ensure effective handling of service requests",
+      "To engage the correct change authority"
+    ],
+    answerIndex: 0
+  },
+  {
+    id: 36,
+    question: "Which value chain activity communicates the current status of all four dimensions of service management?",
+    options: [
+      "Improve",
+      "Engage",
+      "Obtain/build",
+      "Plan"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 37,
+    question: "Which guiding principle is PRIMARILY concerned with consumer's revenue and growth?",
+    options: [
+      "Keep it simple and practical",
+      "Optimize and automate",
+      "Progress iteratively with feedback",
+      "Focus on value"
+    ],
+    answerIndex: 3
+  },
+  {
+    id: 38,
+    question: "Which practice provides visibility of the organization's services by capturing and reporting on service performance?",
+    options: [
+      "Service desk",
+      "Service level management",
+      "Service request management",
+      "Service configuration management"
+    ],
+    answerIndex: 1
+  },
+  {
+    id: 39,
+    question: "Which is the BEST example of an emergency change?",
+    options: [
+      "The implementation of a planned new release of a software application",
+      "A low-risk computer upgrade implemented as a service request",
+      "The implementation of a security patch to a critical software application",
+      "A scheduled major hardware and software implementation"
+    ],
+    answerIndex: 2
+  },
+  {
+    id: 40,
+    question: "Which guiding principle recommends assessing the current state and deciding what can be reused?",
+    options: [
+      "Focus on value",
+      "Start where you are",
+      "Collaborate and promote visibility",
+      "Progress iteratively with feedback"
+    ],
+    answerIndex: 1
+  }
+],
+
 
 }
   
